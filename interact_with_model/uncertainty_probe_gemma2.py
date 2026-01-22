@@ -31,7 +31,7 @@ def parse_args():
     p.add_argument("--dtype", type=str, default="bfloat16", choices=["bfloat16", "float16", "float32"])
     p.add_argument("--quant", type=str, default="none", choices=["none", "8bit", "4bit"])
 
-    p.add_argument("--max_new_tokens", type=int, default=512)
+    p.add_argument("--max_new_tokens", type=int, default=256)
     p.add_argument("--temperature", type=float, default=0.2)
     p.add_argument("--top_p", type=float, default=0.9)
     p.add_argument("--seed", type=int, default=0)
@@ -40,8 +40,7 @@ def parse_args():
     p.add_argument("--hidden_dir", type=str, default="out_hidden")
     p.add_argument("--save_token_logprobs", action="store_true")
 
-    # Optional: naive split if qa_text not provided
-    p.add_argument("--qa_regex", type=str, default=r"\bQ&A\b|\bQuestions and Answers\b", help="regex marker for Q&A section")
+    p.add_argument("--qa_regex", type=str, default=r"\bQ&A\b|\bQuestions and Answers\b")
     return p.parse_args()
 
 def get_dtype(dtype_str: str):
@@ -59,7 +58,6 @@ def load_model_and_tokenizer(model_id: str, device_map: str, dtype: torch.dtype,
         quant_cfg = BitsAndBytesConfig(load_in_4bit=True)
 
     tokenizer = AutoTokenizer.from_pretrained(model_id)
-
     model = AutoModelForCausalLM.from_pretrained(
         model_id,
         device_map=device_map,
@@ -68,6 +66,14 @@ def load_model_and_tokenizer(model_id: str, device_map: str, dtype: torch.dtype,
     )
     model.eval()
     return model, tokenizer
+
+def iter_jsonl(path: str):
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            yield json.loads(line)
 
 def naive_split_prepared_vs_qa(text: str, qa_regex: str) -> Tuple[str, str]:
     m = re.search(qa_regex, text, flags=re.IGNORECASE)
@@ -78,56 +84,43 @@ def naive_split_prepared_vs_qa(text: str, qa_regex: str) -> Tuple[str, str]:
 
 def build_messages(transcript: str) -> List[Dict[str, str]]:
     """
-    Gemma chat template can be applied via tokenizer.apply_chat_template.
-    We'll put all instruction in a single user message for reliability.
+    Minimal JSON output:
+      - uncertainty_score in [0,1]
+      - summary (1-2 sentences)
+      - evidence: 1-3 short exact quotes (<= 25 words each)
     """
     instruction = f"""
-You are an economics research assistant analyzing corporate earnings call language.
+You are an economics research assistant analyzing uncertainty language in corporate earnings calls.
 
-Task:
-1) Define and separate:
-   - First-moment information (expected mean / sentiment / level effects)
-   - Second-moment information (uncertainty / volatility / dispersion / lack of visibility)
-2) Extract sources of uncertainty mentioned (e.g., inflation/costs, demand, supply chain, regulation, FX, geopolitics, monetary policy).
-3) Provide evidence spans: short exact quotes (<= 25 words each) from the transcript for each category.
-4) Output strictly valid JSON only (no markdown, no extra text).
-
-JSON schema:
+Return a JSON object ONLY (no markdown, no extra text) with this schema:
 {{
-  "first_moment": {{
-    "score_0_1": float,
-    "summary": string,
-    "evidence": [string, ...]
-  }},
-  "second_moment_uncertainty": {{
-    "score_0_1": float,
-    "summary": string,
-    "evidence": [string, ...],
-    "sources": [{{"source": string, "score_0_1": float, "evidence": [string, ...]}}, ...]
-  }},
-  "omission_or_brevity": {{
-    "is_brief": bool,
-    "why_brief": string
-  }}
+  "uncertainty_score": float, 
+  "summary": string,
+  "evidence": [string, ...]
 }}
+
+Definition:
+- uncertainty_score measures second-moment uncertainty (lack of visibility, conditionality, inability to estimate, wide range of outcomes).
+- Do NOT treat positive/negative sentiment or clear numeric guidance as uncertainty by itself.
+
+Rules:
+- uncertainty_score must be between 0 and 1.
+- summary must be 1-2 sentences.
+- evidence must contain 1-3 short exact quotes copied verbatim from the transcript (<= 25 words each).
 
 Transcript:
 {transcript}
 """.strip()
-
     return [{"role": "user", "content": instruction}]
 
 def extract_json_from_text(text: str) -> Optional[Dict[str, Any]]:
-    """
-    Best-effort JSON extraction if model emits extra tokens.
-    """
-    # Try direct load
+    # Try direct JSON parse
     try:
         return json.loads(text)
     except Exception:
         pass
 
-    # Try find first {...} block
+    # Best-effort: extract first {...} block
     m = re.search(r"\{.*\}", text, flags=re.DOTALL)
     if not m:
         return None
@@ -136,6 +129,32 @@ def extract_json_from_text(text: str) -> Optional[Dict[str, Any]]:
         return json.loads(blob)
     except Exception:
         return None
+
+def validate_min_schema(obj: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """
+    Ensure schema keys exist and types are reasonable.
+    If invalid, return None so caller can record parse failure.
+    """
+    if not isinstance(obj, dict):
+        return None
+    if "uncertainty_score" not in obj or "summary" not in obj or "evidence" not in obj:
+        return None
+    try:
+        score = float(obj["uncertainty_score"])
+    except Exception:
+        return None
+    if not (0.0 <= score <= 1.0):
+        return None
+    if not isinstance(obj["summary"], str):
+        return None
+    if not isinstance(obj["evidence"], list) or not all(isinstance(x, str) for x in obj["evidence"]):
+        return None
+
+    # Normalize (e.g., clamp score just in case)
+    obj["uncertainty_score"] = float(max(0.0, min(1.0, score)))
+    obj["summary"] = obj["summary"].strip()
+    obj["evidence"] = [e.strip() for e in obj["evidence"] if e.strip()]
+    return obj
 
 @torch.no_grad()
 def generate_one(
@@ -148,14 +167,6 @@ def generate_one(
     save_token_logprobs: bool = False,
     save_hidden: bool = False,
 ) -> Dict[str, Any]:
-    """
-    Returns:
-      - raw_text
-      - parsed_json (best-effort)
-      - stats: lengths, hedge markers
-      - optional: token_logprobs, hidden_states (last layer)
-    """
-    # Ensure chat template is applied as recommended by HF model card. :contentReference[oaicite:2]{index=2}
     inputs = tokenizer.apply_chat_template(
         messages,
         return_tensors="pt",
@@ -163,7 +174,6 @@ def generate_one(
         add_generation_prompt=True,
     )
     inputs = {k: v.to(model.device) for k, v in inputs.items()}
-
     prompt_len = inputs["input_ids"].shape[1]
 
     gen_kwargs = dict(
@@ -175,12 +185,10 @@ def generate_one(
         output_scores=save_token_logprobs,
     )
 
-    # Optional hidden states: we capture prompt forward pass hidden states
     hidden_pack = None
     if save_hidden:
         out_fwd = model(**inputs, output_hidden_states=True, use_cache=False)
-        # Save only last layer hidden states for prompt tokens
-        last_hidden = out_fwd.hidden_states[-1].detach().cpu()  # (1, seq, dim)
+        last_hidden = out_fwd.hidden_states[-1].detach().cpu()
         hidden_pack = {
             "prompt_last_hidden": last_hidden,
             "prompt_input_ids": inputs["input_ids"].detach().cpu(),
@@ -193,20 +201,20 @@ def generate_one(
     raw_text = tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
 
     parsed = extract_json_from_text(raw_text)
+    parsed_min = validate_min_schema(parsed) if parsed is not None else None
 
-    # Stats: brevity + hedge markers
-    out_tokens = len(gen_ids)
-    prompt_tokens = prompt_len
+    out_tokens = int(len(gen_ids))
+    prompt_tokens = int(prompt_len)
     text_lower = raw_text.lower()
     hedge_hits = {m: text_lower.count(m) for m in HEDGE_MARKERS if m in text_lower}
-    is_brief = (out_tokens < 120)  # heuristic threshold; tune in your study
+    is_brief = (out_tokens < 120)
 
     result: Dict[str, Any] = {
         "raw_text": raw_text,
-        "parsed_json": parsed,
+        "parsed_json": parsed_min,
         "stats": {
-            "prompt_tokens": int(prompt_tokens),
-            "output_tokens": int(out_tokens),
+            "prompt_tokens": prompt_tokens,
+            "output_tokens": out_tokens,
             "brevity_ratio": float(out_tokens / max(prompt_tokens, 1)),
             "hedge_hits": hedge_hits,
             "is_brief_heuristic": bool(is_brief),
@@ -214,33 +222,22 @@ def generate_one(
     }
 
     if save_token_logprobs and out.scores is not None:
-        # out.scores: list of (vocab,) logits per generated step
-        # Compute logprob of the actually chosen token at each step
         token_logprobs = []
         for step_logits, tok_id in zip(out.scores, gen_ids):
             logp = torch.log_softmax(step_logits[0], dim=-1)[tok_id].item()
             token_logprobs.append(float(logp))
         result["token_logprobs"] = {
             "mean_logprob": float(sum(token_logprobs) / max(len(token_logprobs), 1)),
-            "per_token_logprob": token_logprobs[:200],  # truncate to keep files manageable
+            "per_token_logprob": token_logprobs[:200],
         }
 
     if hidden_pack is not None:
         result["hidden_states"] = {
-            # Store shapes only in json; tensors should be saved separately by caller
             "prompt_last_hidden_shape": list(hidden_pack["prompt_last_hidden"].shape),
         }
-        result["_hidden_pack"] = hidden_pack  # internal use by caller for saving tensors
+        result["_hidden_pack"] = hidden_pack
 
     return result
-
-def iter_jsonl(path: str):
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            yield json.loads(line)
 
 def main():
     args = parse_args()
@@ -259,7 +256,6 @@ def main():
 
             prepared = ex.get("prepared_remarks", None)
             qa = ex.get("qa_text", None)
-
             if prepared is None and qa is None:
                 prepared, qa = naive_split_prepared_vs_qa(text_full, args.qa_regex)
 
@@ -290,7 +286,7 @@ def main():
                     "variant": variant_name,
                     "model_id": args.model_id,
                     "raw_text": pred["raw_text"],
-                    "parsed_json": pred["parsed_json"],
+                    "parsed_json": pred["parsed_json"],  # only the minimal schema or None
                     "stats": pred["stats"],
                 }
                 if args.save_token_logprobs and "token_logprobs" in pred:
@@ -299,11 +295,9 @@ def main():
                 out_f.write(json.dumps(record, ensure_ascii=False) + "\n")
                 out_f.flush()
 
-                # Save hidden tensors (optional)
                 if args.save_hidden and "_hidden_pack" in pred and ex_id is not None:
-                    pack = pred["_hidden_pack"]
                     save_path = os.path.join(args.hidden_dir, f"{ex_id}_{variant_name}.pt")
-                    torch.save(pack, save_path)
+                    torch.save(pred["_hidden_pack"], save_path)
 
 if __name__ == "__main__":
     main()
