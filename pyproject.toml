@@ -8,5 +8,6 @@ dependencies = [
     "bs4>=0.0.2",
     "neuronpedia>=1.2.0",
     "pandas>=2.3.3",
+    "polars>=1.37.1",
     "requests>=2.32.5",
 ]
