@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Can you provide guidance on next quarter's revenue?",
+    "answer": "We expect revenue to be between $2.1 billion and $2.3 billion, driven by strong demand in our cloud segment and continued growth in enterprise subscriptions.",
+    "label": "NO_UNCERTAINTY"
+  },
+  {
+    "id": 2,
+    "question": "What's your outlook on margins for the rest of the year?",
+    "answer": "It's really difficult to say at this point. There are so many moving pieces with supply chain costs, and we honestly don't have great visibility into how that's going to play out. It could go either way depending on factors largely outside our control.",
+    "label": "HIGH_UNCERTAINTY"
+  },
+  {
+    "id": 3,
+    "question": "How do you see the competitive landscape evolving?",
+    "answer": "We're monitoring the situation closely. While we feel good about our position, there's some uncertainty around new entrants and how pricing dynamics might shift. We're prepared for multiple scenarios but can't predict exactly how things will unfold.",
+    "label": "INTERMEDIATE_UNCERTAINTY"
+  },
+  {
+    "id": 4,
+    "question": "What was the driver of the revenue miss this quarter?",
+    "answer": "The miss was primarily due to delayed enterprise deals that pushed into Q1. We closed $450 million less than expected, specifically from three large contracts that required additional legal review.",
+    "label": "NO_UNCERTAINTY"
+  },
+  {
+    "id": 5,
+    "question": "How should we think about R&D spending going forward?",
+    "answer": "We're committed to maintaining R&D at approximately 15% of revenue. We've allocated $800 million for the next fiscal year, focused primarily on AI capabilities and platform modernization.",
+    "label": "NO_UNCERTAINTY"
+  },
+  {
+    "id": 6,
+    "question": "What's your expectation for customer churn rates?",
+    "answer": "That's a tough one to pin down right now. We're seeing mixed signals - some segments are stable, others are showing stress. Honestly, it could range anywhere from 5% to 12% depending on macro conditions we can't forecast.",
+    "label": "HIGH_UNCERTAINTY"
+  },
+  {
+    "id": 7,
+    "question": "Can you discuss the regulatory environment in Europe?",
+    "answer": "We're watching several pending regulations. While we believe we're well-positioned for compliance, the final rules aren't set and implementation timelines remain fluid. We've built some flexibility into our plans to adapt as needed.",
+    "label": "INTERMEDIATE_UNCERTAINTY"
+  },
+  {
+    "id": 8,
+    "question": "What drove the outperformance in the Asia-Pacific region?",
+    "answer": "Three factors: our Japan expansion delivered $120 million above plan, we gained two major enterprise accounts in Australia, and currency tailwinds added approximately 3 percentage points to growth.",
+    "label": "NO_UNCERTAINTY"
+  },
+  {
+    "id": 9,
+    "question": "How are you thinking about potential M&A activity?",
+    "answer": "We have a strong balance sheet and we're always evaluating opportunities. There are a few interesting targets, but valuations need to make sense. We might do something, we might not - it really depends on what comes to market and at what price.",
+    "label": "INTERMEDIATE_UNCERTAINTY"
+  },
+  {
+    "id": 10,
+    "question": "What's the impact of the recent tariff announcements?",
+    "answer": "We genuinely don't know yet. The situation is extremely fluid, and we've seen three different policy signals in the past month alone. Our supply chain team is modeling scenarios, but I'd be misleading you if I gave you a specific number right now.",
+    "label": "HIGH_UNCERTAINTY"
+  }
+]
