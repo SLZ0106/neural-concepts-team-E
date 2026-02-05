@@ -10,6 +10,7 @@ Supports two pooling modes:
 """
 
 import json
+import os
 import torch
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
@@ -17,18 +18,20 @@ from tqdm import trange
 from nnsight import LanguageModel
 
 # Configuration
-DATA_PATH = "/projects/frink/wang.xil/concepts_E/data/uncertainty_labeling_sample.json"
-OUTPUT_DIR = "/projects/frink/wang.xil/concepts_E"
+DATA_PATH = "../data/processed/uncertainty_labeling_sample.json"
+DATA_PATH = "./fake_data/fake_dailly_sample.json"
+
 
 # Pooling mode: "last" for last token, "mean" for mean pooling across answer tokens
-POOLING_MODE = "mean"  # Change to "last" for last token
+POOLING_MODE = "last"  # Change to "last" for last token
+OUTPUT_DIR = f"./fake_data/daily/{POOLING_MODE}"
 
 # Models to analyze: (display_name, huggingface_id, num_layers)
 MODELS = [
-    # ("llama3.1-8b", "meta-llama/Llama-3.1-8B", 32),
-    # ("qwen2.5-7b", "Qwen/Qwen2.5-7B", 28),
-    # ("gemma2-9b", "google/gemma-2-9b", 42),
-    ("llama3.1-70B", "meta-llama/Llama-3.1-70B", 80)   
+    ("llama3.1-8b", "meta-llama/Llama-3.1-8B", 32),
+    ("qwen2.5-7b", "Qwen/Qwen2.5-7B", 28),
+    ("gemma2-9b", "google/gemma-2-9b", 42),
+    # ("llama3.1-70B", "meta-llama/Llama-3.1-70B", 80)   
 ]
 
 def load_labeled_data(path):
@@ -249,6 +252,7 @@ def process_model(model_display_name, model_id, num_layers, data):
     torch.cuda.empty_cache()
 
 def main():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     print("Loading labeled data...")
     data = load_labeled_data(DATA_PATH)
     n_uncertain = sum(1 for d in data if d['label'] == 1)
