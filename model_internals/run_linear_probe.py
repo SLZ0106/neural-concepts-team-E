@@ -1,0 +1,237 @@
+"""
+Linear probe analysis for uncertainty detection.
+Trains logistic regression classifiers on layer activations to predict
+uncertainty labels. Reports accuracy, F1, and AUC per layer for each model.
+"""
+
+import json
+import torch
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
+from tqdm import trange
+from nnsight import LanguageModel
+import pandas as pd
+
+# Configuration
+DATA_PATH = "/projects/frink/wang.xil/concepts_E/data/uncertainty_labeling_sample.json"
+OUTPUT_DIR = "/projects/frink/wang.xil/concepts_E"
+RANDOM_SEED = 42
+TEST_SIZE = 0.2
+
+# Models to analyze: (display_name, huggingface_id, num_layers)
+MODELS = [
+    ("llama3.1-8b", "meta-llama/Llama-3.1-8B", 32),
+    ("qwen2.5-7b", "Qwen/Qwen2.5-7B", 28),
+    ("gemma2-9b", "google/gemma-2-9b", 42),
+]
+
+def load_labeled_data(path):
+    """Load data and filter to only labeled samples. Merge high/intermediate uncertainty."""
+    with open(path, 'r') as f:
+        data = json.load(f)
+
+    labeled_data = []
+    for item in data:
+        label = item.get('label', '')
+        if label == '':
+            continue  # Skip unlabeled
+
+        # Binary label: 1 = uncertain (high or intermediate), 0 = no uncertainty
+        if label in ['HIGH_UNCERTAINTY', 'INTERMEDIATE_UNCERTAINTY']:
+            binary_label = 1
+        elif label == 'NO_UNCERTAINTY':
+            binary_label = 0
+        else:
+            continue  # Skip unknown labels
+
+        labeled_data.append({
+            'id': item['id'],
+            'question': item['question'],
+            'answer': item['answer'],
+            'label': binary_label,
+            'original_label': label
+        })
+
+    return labeled_data
+
+def format_prompt(question, answer):
+    """Format question and answer into a single input."""
+    return f"Question: {question} Answer: {answer}"
+
+def extract_activations_all_layers(model, data, num_layers):
+    """Extract activations from all layers at the last token position."""
+    # Store activations per layer: {layer: list of (activation, label)}
+    layer_activations = {layer: [] for layer in range(num_layers)}
+    labels = []
+
+    for i in trange(len(data), desc="Extracting activations"):
+        item = data[i]
+        prompt = format_prompt(item['question'], item['answer'])
+
+        saved_activations = []
+        with torch.no_grad():
+            with model.trace(prompt) as trace:
+                for layer in range(num_layers):
+                    act = model.model.layers[layer].output[0][-1, :].save()
+                    saved_activations.append(act)
+
+        # Store activations for each layer
+        for layer in range(num_layers):
+            layer_activations[layer].append(saved_activations[layer].detach().cpu().float().numpy())
+
+        labels.append(item['label'])
+
+    # Convert to numpy arrays
+    for layer in range(num_layers):
+        layer_activations[layer] = np.stack(layer_activations[layer])  # (N, hidden_dim)
+
+    labels = np.array(labels)
+    return layer_activations, labels
+
+def train_and_evaluate_probe(X_train, X_test, y_train, y_test):
+    """Train a logistic regression probe and return metrics."""
+    # Handle class imbalance with balanced weights
+    clf = LogisticRegression(
+        max_iter=1000,
+        class_weight='balanced',
+        random_state=RANDOM_SEED,
+        solver='lbfgs'
+    )
+    clf.fit(X_train, y_train)
+
+    # Predictions
+    y_pred = clf.predict(X_test)
+    y_prob = clf.predict_proba(X_test)[:, 1]
+
+    # Metrics
+    accuracy = accuracy_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+
+    # AUC (handle case where only one class in test set)
+    try:
+        auc = roc_auc_score(y_test, y_prob)
+    except ValueError:
+        auc = np.nan
+
+    return {
+        'accuracy': accuracy,
+        'f1': f1,
+        'auc': auc
+    }
+
+def process_model(model_display_name, model_id, num_layers, data):
+    """Process a single model: extract activations, train probes, report results."""
+    print(f"\n{'='*60}")
+    print(f"Processing: {model_display_name} ({model_id})")
+    print(f"{'='*60}")
+
+    print("Loading model...")
+    model = LanguageModel(model_id, device_map="auto")
+
+    print(f"\nExtracting activations from all {num_layers} layers...")
+    layer_activations, labels = extract_activations_all_layers(model, data, num_layers)
+
+    # Free model memory
+    del model
+    torch.cuda.empty_cache()
+
+    # Split data
+    print(f"\nSplitting data: {100*(1-TEST_SIZE):.0f}% train, {100*TEST_SIZE:.0f}% test")
+    indices = np.arange(len(labels))
+    train_idx, test_idx = train_test_split(
+        indices, test_size=TEST_SIZE, random_state=RANDOM_SEED, stratify=labels
+    )
+
+    y_train, y_test = labels[train_idx], labels[test_idx]
+    print(f"Train: {len(train_idx)} samples ({sum(y_train)} uncertain, {len(y_train)-sum(y_train)} no uncertainty)")
+    print(f"Test: {len(test_idx)} samples ({sum(y_test)} uncertain, {len(y_test)-sum(y_test)} no uncertainty)")
+
+    # Train probes for each layer
+    print("\nTraining linear probes...")
+    results = []
+    for layer in trange(num_layers, desc="Training probes"):
+        X_train = layer_activations[layer][train_idx]
+        X_test = layer_activations[layer][test_idx]
+
+        metrics = train_and_evaluate_probe(X_train, X_test, y_train, y_test)
+        metrics['layer'] = layer
+        results.append(metrics)
+
+    # Create results table
+    df = pd.DataFrame(results)
+    df = df[['layer', 'accuracy', 'f1', 'auc']]
+
+    return df
+
+def print_results_table(df, model_name):
+    """Print formatted results table."""
+    print(f"\n{'='*60}")
+    print(f"Results for {model_name}")
+    print(f"{'='*60}")
+
+    # Format percentages
+    df_display = df.copy()
+    df_display['accuracy'] = df_display['accuracy'].apply(lambda x: f"{x*100:.1f}%")
+    df_display['f1'] = df_display['f1'].apply(lambda x: f"{x*100:.1f}%")
+    df_display['auc'] = df_display['auc'].apply(lambda x: f"{x*100:.1f}%" if not np.isnan(x) else "N/A")
+
+    print(df_display.to_string(index=False))
+
+    # Summary stats
+    print(f"\nBest layer by accuracy: {df.loc[df['accuracy'].idxmax(), 'layer']} ({df['accuracy'].max()*100:.1f}%)")
+    print(f"Best layer by F1: {df.loc[df['f1'].idxmax(), 'layer']} ({df['f1'].max()*100:.1f}%)")
+    if not df['auc'].isna().all():
+        print(f"Best layer by AUC: {df.loc[df['auc'].idxmax(), 'layer']} ({df['auc'].max()*100:.1f}%)")
+
+def main():
+    print("Loading labeled data...")
+    data = load_labeled_data(DATA_PATH)
+    n_uncertain = sum(1 for d in data if d['label'] == 1)
+    n_no_uncertain = sum(1 for d in data if d['label'] == 0)
+    print(f"Loaded {len(data)} labeled samples: {n_uncertain} uncertain, {n_no_uncertain} no uncertainty")
+
+    all_results = {}
+
+    for model_display_name, model_id, num_layers in MODELS:
+        df = process_model(model_display_name, model_id, num_layers, data)
+        all_results[model_display_name] = df
+
+        # Save individual model results
+        output_path = f"{OUTPUT_DIR}/probe_results_{model_display_name}.csv"
+        df.to_csv(output_path, index=False)
+        print(f"Results saved to: {output_path}")
+
+        # Print table
+        print_results_table(df, model_display_name)
+
+    # Summary comparison across models
+    print("\n" + "="*60)
+    print("SUMMARY: Best performing layers across models")
+    print("="*60)
+
+    summary_data = []
+    for model_name, df in all_results.items():
+        best_acc_layer = df.loc[df['accuracy'].idxmax(), 'layer']
+        best_acc = df['accuracy'].max()
+        best_f1_layer = df.loc[df['f1'].idxmax(), 'layer']
+        best_f1 = df['f1'].max()
+        best_auc = df['auc'].max() if not df['auc'].isna().all() else np.nan
+
+        summary_data.append({
+            'model': model_name,
+            'best_acc_layer': best_acc_layer,
+            'best_accuracy': f"{best_acc*100:.1f}%",
+            'best_f1_layer': best_f1_layer,
+            'best_f1': f"{best_f1*100:.1f}%",
+            'best_auc': f"{best_auc*100:.1f}%" if not np.isnan(best_auc) else "N/A"
+        })
+
+    summary_df = pd.DataFrame(summary_data)
+    print(summary_df.to_string(index=False))
+
+    print("\nDone!")
+
+if __name__ == "__main__":
+    main()
