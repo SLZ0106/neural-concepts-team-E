@@ -1,8 +1,12 @@
 """
 Activation analysis experiment using nnsight on multiple LLMs.
-Extracts activations from all layers at the last token position and visualizes
-uncertainty vs no-uncertainty clusters using PCA.
+Extracts activations from all layers and visualizes uncertainty vs
+no-uncertainty clusters using PCA.
 Generates 4 plots per model, each showing 8 layers.
+
+Supports two pooling modes:
+- "last": Use last token activation
+- "mean": Mean pooling across answer tokens
 """
 
 import json
@@ -16,11 +20,15 @@ from nnsight import LanguageModel
 DATA_PATH = "/projects/frink/wang.xil/concepts_E/data/uncertainty_labeling_sample.json"
 OUTPUT_DIR = "/projects/frink/wang.xil/concepts_E"
 
+# Pooling mode: "last" for last token, "mean" for mean pooling across answer tokens
+POOLING_MODE = "mean"  # Change to "last" for last token
+
 # Models to analyze: (display_name, huggingface_id, num_layers)
 MODELS = [
-    ("llama3.1-8b", "meta-llama/Llama-3.1-8B", 32),
-    ("qwen2.5-7b", "Qwen/Qwen2.5-7B", 28),
-    ("gemma2-9b", "google/gemma-2-9b", 42),
+    # ("llama3.1-8b", "meta-llama/Llama-3.1-8B", 32),
+    # ("qwen2.5-7b", "Qwen/Qwen2.5-7B", 28),
+    # ("gemma2-9b", "google/gemma-2-9b", 42),
+    ("llama3.1-70B", "meta-llama/Llama-3.1-70B", 80)   
 ]
 
 def load_labeled_data(path):
@@ -56,26 +64,46 @@ def format_prompt(question, answer):
     """Format question and answer into a single input."""
     return f"Question: {question} Answer: {answer}"
 
-def extract_activations_all_layers(model, data, num_layers):
-    """Extract activations from all layers at the last token position."""
-    # Initialize storage: {layer: {'uncertain': [], 'no_uncertain': []}}
+def get_answer_start_idx(model, question):
+    """Find the token index where the answer starts."""
+    question_prefix = f"Question: {question} Answer:"
+    prefix_tokens = model.tokenizer(question_prefix, return_tensors="pt").input_ids
+    return prefix_tokens.shape[1]
+
+def extract_activations_all_layers(model, data, num_layers, pooling_mode):
+    """Extract activations from all layers.
+
+    Args:
+        pooling_mode: "last" for last token, "mean" for mean pooling across answer tokens
+    """
     layer_activations = {layer: {'uncertain': [], 'no_uncertain': []} for layer in range(num_layers)}
 
     for i in trange(len(data), desc="Extracting activations"):
         item = data[i]
         prompt = format_prompt(item['question'], item['answer'])
-        if i == 0:
-            print(f"Sample prompt: {prompt[:]}...")
 
-        saved_activations = []
+        # For mean pooling, find where answer tokens start
+        if pooling_mode == "mean":
+            answer_start_idx = get_answer_start_idx(model, item['question'])
+
+        if i == 0:
+            print(f"Sample prompt: {prompt[:]}")
+            if pooling_mode == "mean":
+                print(f"Answer starts at token index: {answer_start_idx}")
+
         with torch.no_grad():
             with model.trace(prompt) as trace:
-                # Save activations from all layers
+                saved_activations = list().save()
                 for layer in range(num_layers):
-                    act = model.model.layers[layer].output[0][-1, :].unsqueeze(0).save()
+                    if pooling_mode == "last":
+                        # Last token only
+                        act = model.model.layers[layer].output[0][-1, :].unsqueeze(0).save()
+                    else:  # mean
+                        # Mean pooling over answer tokens on remote (saves only 1 vector per layer)
+                        act = model.model.layers[layer].output[0][answer_start_idx:, :].mean(dim=0).unsqueeze(0).save()
                     saved_activations.append(act)
 
-        # Store activations by label
+        # Activations are already pooled, just append
         key = 'uncertain' if item['label'] == 1 else 'no_uncertain'
         for layer in range(num_layers):
             layer_activations[layer][key].append(saved_activations[layer])
@@ -86,6 +114,13 @@ def extract_activations_all_layers(model, data, num_layers):
         layer_activations[layer]['no_uncertain'] = torch.cat(layer_activations[layer]['no_uncertain'])
 
     return layer_activations
+
+def get_pooling_label():
+    """Get display label for current pooling mode."""
+    if POOLING_MODE == "last":
+        return "Last Token"
+    else:
+        return "Answer Mean Pool"
 
 def visualize_pca_multi_layer(layer_activations, layers, output_path, model_display_name):
     """Create a 2x4 subplot figure for 8 layers."""
@@ -119,7 +154,7 @@ def visualize_pca_multi_layer(layer_activations, layers, output_path, model_disp
         ax.legend(fontsize=8)
         ax.grid(True, alpha=0.3)
 
-    plt.suptitle(f'PCA of Layer Activations (Last Token) - {model_display_name}', fontsize=14)
+    plt.suptitle(f'PCA of Layer Activations ({get_pooling_label()}) - {model_display_name}', fontsize=14)
     plt.tight_layout()
     plt.savefig(output_path, dpi=150, bbox_inches='tight')
     plt.close()
@@ -128,18 +163,16 @@ def visualize_pca_multi_layer(layer_activations, layers, output_path, model_disp
 def generate_plots_for_model(layer_activations, num_layers, model_display_name):
     """Generate 4 plots (8 layers each) for a model."""
     layers_per_plot = 8
-    num_plots = (num_layers + layers_per_plot - 1) // layers_per_plot  # Ceiling division
+    num_plots = (num_layers + layers_per_plot - 1) // layers_per_plot
 
     for plot_idx in range(num_plots):
         start_layer = plot_idx * layers_per_plot
         end_layer = min(start_layer + layers_per_plot, num_layers)
         layers = list(range(start_layer, end_layer))
 
-        # Pad with empty subplots if needed (for last plot with fewer than 8 layers)
-        output_path = f"{OUTPUT_DIR}/pca_{model_display_name}_layers_{start_layer:02d}_to_{end_layer-1:02d}.png"
+        output_path = f"{OUTPUT_DIR}/pca_{model_display_name}_{POOLING_MODE}_layers_{start_layer:02d}_to_{end_layer-1:02d}.png"
 
         if len(layers) < layers_per_plot:
-            # Create plot with fewer subplots for the last batch
             visualize_pca_partial(layer_activations, layers, output_path, model_display_name)
         else:
             visualize_pca_multi_layer(layer_activations, layers, output_path, model_display_name)
@@ -187,7 +220,7 @@ def visualize_pca_partial(layer_activations, layers, output_path, model_display_
     for idx in range(len(layers), len(axes)):
         axes[idx].set_visible(False)
 
-    plt.suptitle(f'PCA of Layer Activations (Last Token) - {model_display_name}', fontsize=14)
+    plt.suptitle(f'PCA of Layer Activations ({get_pooling_label()}) - {model_display_name}', fontsize=14)
     plt.tight_layout()
     plt.savefig(output_path, dpi=150, bbox_inches='tight')
     plt.close()
@@ -197,6 +230,7 @@ def process_model(model_display_name, model_id, num_layers, data):
     """Process a single model: load, extract activations, generate plots."""
     print(f"\n{'='*60}")
     print(f"Processing: {model_display_name} ({model_id})")
+    print(f"Pooling mode: {POOLING_MODE}")
     print(f"{'='*60}")
 
     print(f"Loading model...")
@@ -204,7 +238,7 @@ def process_model(model_display_name, model_id, num_layers, data):
     print(f"Model loaded: {model}")
 
     print(f"\nExtracting activations from all {num_layers} layers...")
-    layer_activations = extract_activations_all_layers(model, data, num_layers)
+    layer_activations = extract_activations_all_layers(model, data, num_layers, POOLING_MODE)
 
     print("\nGenerating PCA visualizations...")
     generate_plots_for_model(layer_activations, num_layers, model_display_name)
@@ -220,6 +254,7 @@ def main():
     n_uncertain = sum(1 for d in data if d['label'] == 1)
     n_no_uncertain = sum(1 for d in data if d['label'] == 0)
     print(f"Loaded {len(data)} labeled samples: {n_uncertain} uncertain, {n_no_uncertain} no uncertainty")
+    print(f"Pooling mode: {POOLING_MODE}")
 
     for model_display_name, model_id, num_layers in MODELS:
         process_model(model_display_name, model_id, num_layers, data)

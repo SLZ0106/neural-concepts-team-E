@@ -2,6 +2,10 @@
 Linear probe analysis for uncertainty detection.
 Trains logistic regression classifiers on layer activations to predict
 uncertainty labels. Reports accuracy, F1, and AUC per layer for each model.
+
+Supports two pooling modes:
+- "last": Use last token activation
+- "mean": Mean pooling across answer tokens
 """
 
 import json
@@ -19,6 +23,9 @@ DATA_PATH = "/projects/frink/wang.xil/concepts_E/data/uncertainty_labeling_sampl
 OUTPUT_DIR = "/projects/frink/wang.xil/concepts_E"
 RANDOM_SEED = 42
 TEST_SIZE = 0.2
+
+# Pooling mode: "last" for last token, "mean" for mean pooling across answer tokens
+POOLING_MODE = "mean"  # Change to "last" for last token
 
 # Models to analyze: (display_name, huggingface_id, num_layers)
 MODELS = [
@@ -60,9 +67,18 @@ def format_prompt(question, answer):
     """Format question and answer into a single input."""
     return f"Question: {question} Answer: {answer}"
 
-def extract_activations_all_layers(model, data, num_layers):
-    """Extract activations from all layers at the last token position."""
-    # Store activations per layer: {layer: list of (activation, label)}
+def get_answer_start_idx(model, question):
+    """Find the token index where the answer starts."""
+    question_prefix = f"Question: {question} Answer:"
+    prefix_tokens = model.tokenizer(question_prefix, return_tensors="pt").input_ids
+    return prefix_tokens.shape[1]
+
+def extract_activations_all_layers(model, data, num_layers, pooling_mode):
+    """Extract activations from all layers.
+
+    Args:
+        pooling_mode: "last" for last token, "mean" for mean pooling across answer tokens
+    """
     layer_activations = {layer: [] for layer in range(num_layers)}
     labels = []
 
@@ -70,16 +86,33 @@ def extract_activations_all_layers(model, data, num_layers):
         item = data[i]
         prompt = format_prompt(item['question'], item['answer'])
 
+        # For mean pooling, find where answer tokens start
+        if pooling_mode == "mean":
+            answer_start_idx = get_answer_start_idx(model, item['question'])
+
+        if i == 0:
+            print(f"Sample prompt: {prompt[:]}")
+            if pooling_mode == "mean":
+                print(f"Answer starts at token index: {answer_start_idx}")
+
         saved_activations = []
         with torch.no_grad():
             with model.trace(prompt) as trace:
                 for layer in range(num_layers):
-                    act = model.model.layers[layer].output[0][-1, :].save()
+                    if pooling_mode == "last":
+                        act = model.model.layers[layer].output[0][-1, :].save()
+                    else:  # mean
+                        act = model.model.layers[layer].output[0].save()
                     saved_activations.append(act)
 
-        # Store activations for each layer
+        # Process activations based on pooling mode
         for layer in range(num_layers):
-            layer_activations[layer].append(saved_activations[layer].detach().cpu().float().numpy())
+            if pooling_mode == "last":
+                activation = saved_activations[layer].detach().cpu().float().numpy()
+            else:  # mean
+                answer_activations = saved_activations[layer][answer_start_idx:, :]
+                activation = answer_activations.mean(dim=0).detach().cpu().float().numpy()
+            layer_activations[layer].append(activation)
 
         labels.append(item['label'])
 
@@ -91,7 +124,7 @@ def extract_activations_all_layers(model, data, num_layers):
     return layer_activations, labels
 
 def train_and_evaluate_probe(X_train, X_test, y_train, y_test):
-    """Train a logistic regression probe and return metrics."""
+    """Train a logistic regression probe and return metrics for both train and test."""
     # Handle class imbalance with balanced weights
     clf = LogisticRegression(
         max_iter=1000,
@@ -101,37 +134,51 @@ def train_and_evaluate_probe(X_train, X_test, y_train, y_test):
     )
     clf.fit(X_train, y_train)
 
-    # Predictions
-    y_pred = clf.predict(X_test)
-    y_prob = clf.predict_proba(X_test)[:, 1]
+    # Test predictions
+    y_pred_test = clf.predict(X_test)
+    y_prob_test = clf.predict_proba(X_test)[:, 1]
 
-    # Metrics
-    accuracy = accuracy_score(y_test, y_pred)
-    f1 = f1_score(y_test, y_pred)
+    # Train predictions
+    y_pred_train = clf.predict(X_train)
+    y_prob_train = clf.predict_proba(X_train)[:, 1]
 
-    # AUC (handle case where only one class in test set)
+    # Test metrics
+    test_accuracy = accuracy_score(y_test, y_pred_test)
+    test_f1 = f1_score(y_test, y_pred_test)
     try:
-        auc = roc_auc_score(y_test, y_prob)
+        test_auc = roc_auc_score(y_test, y_prob_test)
     except ValueError:
-        auc = np.nan
+        test_auc = np.nan
+
+    # Train metrics
+    train_accuracy = accuracy_score(y_train, y_pred_train)
+    train_f1 = f1_score(y_train, y_pred_train)
+    try:
+        train_auc = roc_auc_score(y_train, y_prob_train)
+    except ValueError:
+        train_auc = np.nan
 
     return {
-        'accuracy': accuracy,
-        'f1': f1,
-        'auc': auc
+        'train_accuracy': train_accuracy,
+        'train_f1': train_f1,
+        'train_auc': train_auc,
+        'test_accuracy': test_accuracy,
+        'test_f1': test_f1,
+        'test_auc': test_auc
     }
 
 def process_model(model_display_name, model_id, num_layers, data):
     """Process a single model: extract activations, train probes, report results."""
     print(f"\n{'='*60}")
     print(f"Processing: {model_display_name} ({model_id})")
+    print(f"Pooling mode: {POOLING_MODE}")
     print(f"{'='*60}")
 
     print("Loading model...")
     model = LanguageModel(model_id, device_map="auto")
 
     print(f"\nExtracting activations from all {num_layers} layers...")
-    layer_activations, labels = extract_activations_all_layers(model, data, num_layers)
+    layer_activations, labels = extract_activations_all_layers(model, data, num_layers, POOLING_MODE)
 
     # Free model memory
     del model
@@ -161,29 +208,30 @@ def process_model(model_display_name, model_id, num_layers, data):
 
     # Create results table
     df = pd.DataFrame(results)
-    df = df[['layer', 'accuracy', 'f1', 'auc']]
+    df = df[['layer', 'train_accuracy', 'train_f1', 'train_auc', 'test_accuracy', 'test_f1', 'test_auc']]
 
     return df
 
 def print_results_table(df, model_name):
     """Print formatted results table."""
-    print(f"\n{'='*60}")
+    print(f"\n{'='*80}")
     print(f"Results for {model_name}")
-    print(f"{'='*60}")
+    print(f"{'='*80}")
 
     # Format percentages
     df_display = df.copy()
-    df_display['accuracy'] = df_display['accuracy'].apply(lambda x: f"{x*100:.1f}%")
-    df_display['f1'] = df_display['f1'].apply(lambda x: f"{x*100:.1f}%")
-    df_display['auc'] = df_display['auc'].apply(lambda x: f"{x*100:.1f}%" if not np.isnan(x) else "N/A")
+    for col in ['train_accuracy', 'train_f1', 'test_accuracy', 'test_f1']:
+        df_display[col] = df_display[col].apply(lambda x: f"{x*100:.1f}%")
+    for col in ['train_auc', 'test_auc']:
+        df_display[col] = df_display[col].apply(lambda x: f"{x*100:.1f}%" if not np.isnan(x) else "N/A")
 
     print(df_display.to_string(index=False))
 
     # Summary stats
-    print(f"\nBest layer by accuracy: {df.loc[df['accuracy'].idxmax(), 'layer']} ({df['accuracy'].max()*100:.1f}%)")
-    print(f"Best layer by F1: {df.loc[df['f1'].idxmax(), 'layer']} ({df['f1'].max()*100:.1f}%)")
-    if not df['auc'].isna().all():
-        print(f"Best layer by AUC: {df.loc[df['auc'].idxmax(), 'layer']} ({df['auc'].max()*100:.1f}%)")
+    print(f"\nBest layer by test accuracy: {df.loc[df['test_accuracy'].idxmax(), 'layer']} ({df['test_accuracy'].max()*100:.1f}%)")
+    print(f"Best layer by test F1: {df.loc[df['test_f1'].idxmax(), 'layer']} ({df['test_f1'].max()*100:.1f}%)")
+    if not df['test_auc'].isna().all():
+        print(f"Best layer by test AUC: {df.loc[df['test_auc'].idxmax(), 'layer']} ({df['test_auc'].max()*100:.1f}%)")
 
 def main():
     print("Loading labeled data...")
@@ -191,6 +239,7 @@ def main():
     n_uncertain = sum(1 for d in data if d['label'] == 1)
     n_no_uncertain = sum(1 for d in data if d['label'] == 0)
     print(f"Loaded {len(data)} labeled samples: {n_uncertain} uncertain, {n_no_uncertain} no uncertainty")
+    print(f"Pooling mode: {POOLING_MODE}")
 
     all_results = {}
 
@@ -199,7 +248,7 @@ def main():
         all_results[model_display_name] = df
 
         # Save individual model results
-        output_path = f"{OUTPUT_DIR}/probe_results_{model_display_name}.csv"
+        output_path = f"{OUTPUT_DIR}/probe_results_{model_display_name}_{POOLING_MODE}.csv"
         df.to_csv(output_path, index=False)
         print(f"Results saved to: {output_path}")
 
@@ -213,19 +262,19 @@ def main():
 
     summary_data = []
     for model_name, df in all_results.items():
-        best_acc_layer = df.loc[df['accuracy'].idxmax(), 'layer']
-        best_acc = df['accuracy'].max()
-        best_f1_layer = df.loc[df['f1'].idxmax(), 'layer']
-        best_f1 = df['f1'].max()
-        best_auc = df['auc'].max() if not df['auc'].isna().all() else np.nan
+        best_acc_layer = df.loc[df['test_accuracy'].idxmax(), 'layer']
+        best_acc = df['test_accuracy'].max()
+        best_f1_layer = df.loc[df['test_f1'].idxmax(), 'layer']
+        best_f1 = df['test_f1'].max()
+        best_auc = df['test_auc'].max() if not df['test_auc'].isna().all() else np.nan
 
         summary_data.append({
             'model': model_name,
             'best_acc_layer': best_acc_layer,
-            'best_accuracy': f"{best_acc*100:.1f}%",
+            'best_test_accuracy': f"{best_acc*100:.1f}%",
             'best_f1_layer': best_f1_layer,
-            'best_f1': f"{best_f1*100:.1f}%",
-            'best_auc': f"{best_auc*100:.1f}%" if not np.isnan(best_auc) else "N/A"
+            'best_test_f1': f"{best_f1*100:.1f}%",
+            'best_test_auc': f"{best_auc*100:.1f}%" if not np.isnan(best_auc) else "N/A"
         })
 
     summary_df = pd.DataFrame(summary_data)
