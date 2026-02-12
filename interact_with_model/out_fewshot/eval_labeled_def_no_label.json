@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "experiment": "def_no_label",
+    "label_mode": "3way",
+    "seed": 21,
+    "n_per_class": 5,
+    "demo_ids": [
+      1,
+      50,
+      72,
+      218,
+      496,
+      20,
+      22,
+      48,
+      100,
+      404,
+      8,
+      11,
+      19,
+      37,
+      493
+    ],
+    "n_gold_total": 69,
+    "n_demos": 15,
+    "n_eval_expected_excluding_demos": 54,
+    "models": [
+      "google/gemma-2-9b-it",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "meta-llama/Llama-3.1-8B-Instruct"
+    ]
+  },
+  "per_model": {
+    "google/gemma-2-9b-it": {
+      "n_eval": 1,
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "NO_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 1,
+          "INTERMEDIATE_UNCERTAINTY": 0,
+          "HIGH_UNCERTAINTY": 0
+        },
+        "INTERMEDIATE_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 0,
+          "INTERMEDIATE_UNCERTAINTY": 0,
+          "HIGH_UNCERTAINTY": 0
+        },
+        "HIGH_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 0,
+          "INTERMEDIATE_UNCERTAINTY": 0,
+          "HIGH_UNCERTAINTY": 0
+        }
+      }
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "n_eval": 54,
+      "accuracy": 0.7037037037037037,
+      "confusion_matrix": {
+        "NO_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 27,
+          "INTERMEDIATE_UNCERTAINTY": 9,
+          "HIGH_UNCERTAINTY": 1
+        },
+        "INTERMEDIATE_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 5,
+          "INTERMEDIATE_UNCERTAINTY": 9,
+          "HIGH_UNCERTAINTY": 0
+        },
+        "HIGH_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 0,
+          "INTERMEDIATE_UNCERTAINTY": 1,
+          "HIGH_UNCERTAINTY": 2
+        }
+      }
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "n_eval": 54,
+      "accuracy": 0.6111111111111112,
+      "confusion_matrix": {
+        "NO_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 22,
+          "INTERMEDIATE_UNCERTAINTY": 9,
+          "HIGH_UNCERTAINTY": 6
+        },
+        "INTERMEDIATE_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 2,
+          "INTERMEDIATE_UNCERTAINTY": 10,
+          "HIGH_UNCERTAINTY": 2
+        },
+        "HIGH_UNCERTAINTY": {
+          "NO_UNCERTAINTY": 0,
+          "INTERMEDIATE_UNCERTAINTY": 2,
+          "HIGH_UNCERTAINTY": 1
+        }
+      }
+    }
+  }
+}
