@@ -13,9 +13,9 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, set_seed
 
 # ============================================================
-# Assumed to be defined ABOVE this section (you already have):
+# Assumed to be defined ABOVE this section :
 DEF_BLOCK = (
-    "DEFINITION OF UNCERTAINTY (Second-Moment):\n\n"
+    "DEFINITION OF UNCERTAINTY:\n\n"
     
     "Uncertainty measures the VARIANCE or SPREAD of possible outcomes, "
     "not the expected value of outcomes.\n\n"
@@ -165,34 +165,67 @@ def allowed_labels(label_mode: str) -> List[str]:
 def normalize_label(lbl: Any, label_mode: str) -> Optional[str]:
     if not isinstance(lbl, str):
         return None
-    lbl = lbl.strip().upper()
-    allowed = set(allowed_labels(label_mode))
-    return lbl if lbl in allowed else None
+    s = lbl.strip().upper()
+
+    if label_mode == "3way":
+        return s if s in set(LABELS_3WAY) else None
+
+    if label_mode == "binary":
+        # accept already-binary
+        if s in set(LABELS_BINARY):
+            return s
+        # map 3-way -> binary
+        if s == "NO_UNCERTAINTY":
+            return "CERTAIN"
+        if s in ("INTERMEDIATE_UNCERTAINTY", "HIGH_UNCERTAINTY"):
+            return "UNCERTAIN"
+        return None
+
+    raise ValueError(f"Unknown label_mode: {label_mode}")
+
 
 
 def extract_first_json_object(text: str) -> Optional[Dict[str, Any]]:
-    text = (text or "").strip()
+    t = (text or "").strip()
+    if not t:
+        return None
+
+    # Prefer fenced JSON if exists
+    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", t, flags=re.DOTALL | re.IGNORECASE)
+    if m:
+        blob = m.group(1).strip()
+        try:
+            obj = json.loads(blob)
+            return obj if isinstance(obj, dict) else None
+        except Exception:
+            pass
 
     # Direct parse
     try:
-        obj = json.loads(text)
-        if isinstance(obj, dict):
-            return obj
+        obj = json.loads(t)
+        return obj if isinstance(obj, dict) else None
     except Exception:
         pass
 
-    # Extract first {...}
-    m = re.search(r"\{.*\}", text, flags=re.DOTALL)
-    if not m:
+    # Brace scan for first balanced object
+    start = t.find("{")
+    if start == -1:
         return None
-    blob = m.group(0)
-    try:
-        obj = json.loads(blob)
-        if isinstance(obj, dict):
-            return obj
-    except Exception:
-        return None
+    depth = 0
+    for i in range(start, len(t)):
+        if t[i] == "{":
+            depth += 1
+        elif t[i] == "}":
+            depth -= 1
+            if depth == 0:
+                blob = t[start:i+1]
+                try:
+                    obj = json.loads(blob)
+                    return obj if isinstance(obj, dict) else None
+                except Exception:
+                    return None
     return None
+
 
 
 # ---------------- Few-shot block ----------------
@@ -267,6 +300,7 @@ def build_prompt(
         f"<question>\n{q}\n</question>\n\n"
         f"<answer>\n{a}\n</answer>\n\n"
         "JSON:\n"
+        
     )
     return header + fewshot_block + query
 
@@ -346,44 +380,120 @@ def generate_json_label(
 ) -> Tuple[str, Optional[Dict[str, Any]]]:
     use_chat = hasattr(tok, "apply_chat_template") and getattr(tok, "chat_template", None) is not None
 
-    if use_chat:
-        messages = [{"role": "user", "content": prompt}]
-        inputs = tok.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
-            return_tensors="pt",
-            return_dict=True,
-        )
-        inputs = {k: v.to(model.device) for k, v in inputs.items()}
-        prompt_len = inputs["input_ids"].shape[1]
-        out = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens,
-            do_sample=(temperature > 0),
-            temperature=temperature,
-            top_p=top_p,
-            return_dict_in_generate=True,
-        )
-        seq = out.sequences[0]
-        gen_ids = seq[prompt_len:]
-        raw = tok.decode(gen_ids, skip_special_tokens=True).strip()
-    else:
-        inputs = tok(prompt, return_tensors="pt").to(model.device)
-        prompt_len = inputs["input_ids"].shape[1]
-        out = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens,
-            do_sample=(temperature > 0),
-            temperature=temperature,
-            top_p=top_p,
-            return_dict_in_generate=True,
-        )
-        seq = out.sequences[0]
-        gen_ids = seq[prompt_len:]
-        raw = tok.decode(gen_ids, skip_special_tokens=True).strip()
+    prefix = (
+        "IMPORTANT OUTPUT CONSTRAINTS:\n"
+        "- Output ONLY one JSON object.\n"
+        "- No markdown, no code fences.\n"
+        "- No extra text before/after JSON.\n"
+        "- JSON must start with '{' and end with '}'.\n\n"
+    )
 
+    # ---- Hard fix for Gemma-style PAD spam ----
+    # Many tokenizers use pad_token_id=0. The model can still *generate* 0 unless we ban it.
+    bad_words_ids = []
+    if tok.pad_token_id is not None:
+        bad_words_ids.append([int(tok.pad_token_id)])
+    # Extra safety: also ban 0 if it's not already banned (common pad id)
+    if [0] not in bad_words_ids:
+        bad_words_ids.append([0])
+
+    def _gen_kwargs(force_greedy: bool = False):
+        eos_id = tok.eos_token_id
+        kw = dict(
+            max_new_tokens=max_new_tokens,
+            min_new_tokens=8,
+            do_sample=(False if force_greedy else (temperature > 0)),
+            eos_token_id=eos_id,
+            pad_token_id=eos_id,              # padding uses EOS (fine)
+            bad_words_ids=bad_words_ids,
+            return_dict_in_generate=True,
+        )
+        if (not force_greedy) and (temperature > 0):
+            kw["temperature"] = float(temperature)
+            kw["top_p"] = float(top_p)
+        return kw
+
+    def _clean_text(s: str) -> str:
+        s = (s or "").strip()
+        # strip any leading role artifacts some templates leak
+        s = re.sub(r"^\s*(user|assistant|model)\s*\n+", "", s, flags=re.IGNORECASE).strip()
+        return s
+
+    def _run_one(_prompt: str, force_greedy: bool = False) -> str:
+        full_prompt = prefix + _prompt
+
+        if use_chat:
+            messages = [{"role": "user", "content": full_prompt}]
+            inputs = tok.apply_chat_template(
+                messages,
+                add_generation_prompt=True,
+                return_tensors="pt",
+                return_dict=True,
+            )
+            inputs = {k: v.to(model.device) for k, v in inputs.items()}
+
+            out = model.generate(**inputs, **_gen_kwargs(force_greedy=force_greedy))
+
+            # Decode full sequence + prompt sequence WITHOUT skipping special tokens
+            full = tok.decode(out.sequences[0], skip_special_tokens=False)
+            prompt_text = tok.decode(inputs["input_ids"][0], skip_special_tokens=False)
+
+            if full.startswith(prompt_text):
+                raw = full[len(prompt_text):]
+            else:
+                tail = prompt_text[-200:] if len(prompt_text) > 200 else prompt_text
+                j = full.rfind(tail)
+                raw = full[j + len(tail):] if j != -1 else full
+
+            # IMPORTANT: do NOT re-tokenize. Just clean.
+            raw = _clean_text(raw)
+
+            # Debug
+            prompt_len = int(inputs["input_ids"].shape[1])
+            gen_ids = out.sequences[0][prompt_len:]
+            print(
+                "DEBUG pad_id=", tok.pad_token_id,
+                "eos_id=", tok.eos_token_id,
+                "DEBUG gen_len=", int(gen_ids.numel()),
+                "first_gen_id=", int(gen_ids[0]) if gen_ids.numel() > 0 else None,
+            )
+            return raw
+
+        # non-chat
+        inputs = tok(full_prompt, return_tensors="pt").to(model.device)
+        out = model.generate(**inputs, **_gen_kwargs(force_greedy=force_greedy))
+
+        full = tok.decode(out.sequences[0], skip_special_tokens=False)
+        prompt_text = tok.decode(inputs["input_ids"][0], skip_special_tokens=False)
+
+        if full.startswith(prompt_text):
+            raw = full[len(prompt_text):]
+        else:
+            tail = prompt_text[-200:] if len(prompt_text) > 200 else prompt_text
+            j = full.rfind(tail)
+            raw = full[j + len(tail):] if j != -1 else full
+
+        raw = _clean_text(raw)
+        return raw
+
+    raw = _run_one(prompt, force_greedy=False)
     parsed = extract_first_json_object(raw)
+
+    # Retry only if empty/unparsable. Force greedy.
+    if (not raw) or (parsed is None):
+        repair = (
+            "RETRY. Return ONLY one JSON object exactly like:\n"
+            '{"reasoning":"...","classification":"..."}\n'
+            "No other text.\n\n"
+        )
+        raw2 = _run_one(repair + prompt, force_greedy=True)
+        parsed2 = extract_first_json_object(raw2)
+        if raw2 and (parsed2 is not None):
+            return raw2, parsed2
+
     return raw, parsed
+
+
 
 
 # ---------------- Eval + disagreements ----------------

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "experiment": "no_def_label",
+    "label_mode": "binary",
+    "seed": 21,
+    "n_per_class": 2,
+    "demo_ids": [
+      8,
+      493,
+      100,
+      218
+    ],
+    "n_gold_total": 69,
+    "n_demos": 4,
+    "n_eval_expected_excluding_demos": 65,
+    "models": [
+      "google/gemma-2-9b-it",
+      "Qwen/Qwen2.5-7B-Instruct",
+      "meta-llama/Llama-3.1-8B-Instruct"
+    ]
+  },
+  "per_model": {
+    "google/gemma-2-9b-it": {
+      "n_eval": 65,
+      "accuracy": 0.6615384615384615,
+      "confusion_matrix": {
+        "CERTAIN": {
+          "CERTAIN": 25,
+          "UNCERTAIN": 15
+        },
+        "UNCERTAIN": {
+          "CERTAIN": 7,
+          "UNCERTAIN": 18
+        }
+      }
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "n_eval": 65,
+      "accuracy": 0.7076923076923077,
+      "confusion_matrix": {
+        "CERTAIN": {
+          "CERTAIN": 34,
+          "UNCERTAIN": 6
+        },
+        "UNCERTAIN": {
+          "CERTAIN": 13,
+          "UNCERTAIN": 12
+        }
+      }
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "n_eval": 65,
+      "accuracy": 0.7692307692307693,
+      "confusion_matrix": {
+        "CERTAIN": {
+          "CERTAIN": 34,
+          "UNCERTAIN": 6
+        },
+        "UNCERTAIN": {
+          "CERTAIN": 9,
+          "UNCERTAIN": 16
+        }
+      }
+    }
+  }
+}
