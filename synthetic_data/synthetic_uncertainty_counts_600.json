@@ -1,0 +1,7202 @@
+[
+  {
+    "id": 1,
+    "statement": "In 60 past quarters, returns were -10% (0 times), 10% (60 times), and 30% (0 times).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 0.0,
+    "domain": "finance"
+  },
+  {
+    "id": 2,
+    "statement": "In 60 observations, temperature changes were -10 (0), 10 (60), and 30 (0).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 0.66778,
+    "domain": "weather"
+  },
+  {
+    "id": 3,
+    "statement": "Across 60 patients, outcome scores were -10 (0), 10 (59), and 30 (1).",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 1.335559,
+    "domain": "health"
+  },
+  {
+    "id": 4,
+    "statement": "Over 60 games, point differentials were -10 (0), 10 (60), and 30 (0).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 2.003339,
+    "domain": "sports"
+  },
+  {
+    "id": 5,
+    "statement": "Across 60 quizzes, score changes were -10 (0), 10 (60), and 30 (0).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 2.671119,
+    "domain": "education"
+  },
+  {
+    "id": 6,
+    "statement": "In 60 past quarters, returns were -10% (0 times), 10% (60 times), and 30% (0 times).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 3.338898,
+    "domain": "finance"
+  },
+  {
+    "id": 7,
+    "statement": "In 60 observations, temperature changes were -10 (1), 10 (59), and 30 (0).",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 4.006678,
+    "domain": "weather"
+  },
+  {
+    "id": 8,
+    "statement": "Across 60 patients, outcome scores were -10 (0), 10 (60), and 30 (0).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 4.674457,
+    "domain": "health"
+  },
+  {
+    "id": 9,
+    "statement": "Over 60 games, point differentials were -10 (1), 10 (59), and 30 (0).",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 5.342237,
+    "domain": "sports"
+  },
+  {
+    "id": 10,
+    "statement": "Across 60 quizzes, score changes were -10 (0), 10 (58), and 30 (2).",
+    "counts": [
+      0,
+      58,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 6.010017,
+    "domain": "education"
+  },
+  {
+    "id": 11,
+    "statement": "In 60 past quarters, returns were -10% (0 times), 10% (60 times), and 30% (0 times).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 6.677796,
+    "domain": "finance"
+  },
+  {
+    "id": 12,
+    "statement": "In 60 observations, temperature changes were -10 (2), 10 (58), and 30 (0).",
+    "counts": [
+      2,
+      58,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 7.345576,
+    "domain": "weather"
+  },
+  {
+    "id": 13,
+    "statement": "Across 60 patients, outcome scores were -10 (1), 10 (57), and 30 (2).",
+    "counts": [
+      1,
+      57,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 8.013356,
+    "domain": "health"
+  },
+  {
+    "id": 14,
+    "statement": "Over 60 games, point differentials were -10 (0), 10 (59), and 30 (1).",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 8.681135,
+    "domain": "sports"
+  },
+  {
+    "id": 15,
+    "statement": "Across 60 quizzes, score changes were -10 (1), 10 (58), and 30 (1).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 9.348915,
+    "domain": "education"
+  },
+  {
+    "id": 16,
+    "statement": "In 60 past quarters, returns were -10% (0 times), 10% (60 times), and 30% (0 times).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 10.016694,
+    "domain": "finance"
+  },
+  {
+    "id": 17,
+    "statement": "In 60 observations, temperature changes were -10 (1), 10 (59), and 30 (0).",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 10.684474,
+    "domain": "weather"
+  },
+  {
+    "id": 18,
+    "statement": "Across 60 patients, outcome scores were -10 (1), 10 (59), and 30 (0).",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 11.352254,
+    "domain": "health"
+  },
+  {
+    "id": 19,
+    "statement": "Over 60 games, point differentials were -10 (2), 10 (57), and 30 (1).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 12.020033,
+    "domain": "sports"
+  },
+  {
+    "id": 20,
+    "statement": "Across 60 quizzes, score changes were -10 (0), 10 (59), and 30 (1).",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 12.687813,
+    "domain": "education"
+  },
+  {
+    "id": 21,
+    "statement": "In 60 past quarters, returns were -10% (0 times), 10% (59 times), and 30% (1 times).",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 13.355593,
+    "domain": "finance"
+  },
+  {
+    "id": 22,
+    "statement": "In 60 observations, temperature changes were -10 (1), 10 (58), and 30 (1).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 14.023372,
+    "domain": "weather"
+  },
+  {
+    "id": 23,
+    "statement": "Across 60 patients, outcome scores were -10 (1), 10 (58), and 30 (1).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 14.691152,
+    "domain": "health"
+  },
+  {
+    "id": 24,
+    "statement": "Over 60 games, point differentials were -10 (2), 10 (57), and 30 (1).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 15.358932,
+    "domain": "sports"
+  },
+  {
+    "id": 25,
+    "statement": "Across 60 quizzes, score changes were -10 (3), 10 (57), and 30 (0).",
+    "counts": [
+      3,
+      57,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 16.026711,
+    "domain": "education"
+  },
+  {
+    "id": 26,
+    "statement": "In 60 past quarters, returns were -10% (2 times), 10% (57 times), and 30% (1 times).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 16.694491,
+    "domain": "finance"
+  },
+  {
+    "id": 27,
+    "statement": "In 60 observations, temperature changes were -10 (1), 10 (57), and 30 (2).",
+    "counts": [
+      1,
+      57,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 17.36227,
+    "domain": "weather"
+  },
+  {
+    "id": 28,
+    "statement": "Across 60 patients, outcome scores were -10 (1), 10 (58), and 30 (1).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 18.03005,
+    "domain": "health"
+  },
+  {
+    "id": 29,
+    "statement": "Over 60 games, point differentials were -10 (0), 10 (60), and 30 (0).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 18.69783,
+    "domain": "sports"
+  },
+  {
+    "id": 30,
+    "statement": "Across 60 quizzes, score changes were -10 (2), 10 (57), and 30 (1).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 19.365609,
+    "domain": "education"
+  },
+  {
+    "id": 31,
+    "statement": "In 60 past quarters, returns were -10% (2 times), 10% (54 times), and 30% (4 times).",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 20.033389,
+    "domain": "finance"
+  },
+  {
+    "id": 32,
+    "statement": "In 60 observations, temperature changes were -10 (2), 10 (58), and 30 (0).",
+    "counts": [
+      2,
+      58,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 20.701169,
+    "domain": "weather"
+  },
+  {
+    "id": 33,
+    "statement": "Across 60 patients, outcome scores were -10 (1), 10 (57), and 30 (2).",
+    "counts": [
+      1,
+      57,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 21.368948,
+    "domain": "health"
+  },
+  {
+    "id": 34,
+    "statement": "Over 60 games, point differentials were -10 (1), 10 (55), and 30 (4).",
+    "counts": [
+      1,
+      55,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 22.036728,
+    "domain": "sports"
+  },
+  {
+    "id": 35,
+    "statement": "Across 60 quizzes, score changes were -10 (4), 10 (53), and 30 (3).",
+    "counts": [
+      4,
+      53,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 22.704508,
+    "domain": "education"
+  },
+  {
+    "id": 36,
+    "statement": "In 60 past quarters, returns were -10% (1 times), 10% (56 times), and 30% (3 times).",
+    "counts": [
+      1,
+      56,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 23.372287,
+    "domain": "finance"
+  },
+  {
+    "id": 37,
+    "statement": "In 60 observations, temperature changes were -10 (0), 10 (59), and 30 (1).",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 24.040067,
+    "domain": "weather"
+  },
+  {
+    "id": 38,
+    "statement": "Across 60 patients, outcome scores were -10 (2), 10 (55), and 30 (3).",
+    "counts": [
+      2,
+      55,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 24.707846,
+    "domain": "health"
+  },
+  {
+    "id": 39,
+    "statement": "Over 60 games, point differentials were -10 (2), 10 (58), and 30 (0).",
+    "counts": [
+      2,
+      58,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 25.375626,
+    "domain": "sports"
+  },
+  {
+    "id": 40,
+    "statement": "Across 60 quizzes, score changes were -10 (1), 10 (58), and 30 (1).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 26.043406,
+    "domain": "education"
+  },
+  {
+    "id": 41,
+    "statement": "In 60 past quarters, returns were -10% (1 times), 10% (58 times), and 30% (1 times).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 26.711185,
+    "domain": "finance"
+  },
+  {
+    "id": 42,
+    "statement": "In 60 observations, temperature changes were -10 (2), 10 (56), and 30 (2).",
+    "counts": [
+      2,
+      56,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 27.378965,
+    "domain": "weather"
+  },
+  {
+    "id": 43,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (54), and 30 (3).",
+    "counts": [
+      3,
+      54,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 28.046745,
+    "domain": "health"
+  },
+  {
+    "id": 44,
+    "statement": "Over 60 games, point differentials were -10 (2), 10 (56), and 30 (2).",
+    "counts": [
+      2,
+      56,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 28.714524,
+    "domain": "sports"
+  },
+  {
+    "id": 45,
+    "statement": "Across 60 quizzes, score changes were -10 (3), 10 (53), and 30 (4).",
+    "counts": [
+      3,
+      53,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 29.382304,
+    "domain": "education"
+  },
+  {
+    "id": 46,
+    "statement": "In 60 past quarters, returns were -10% (3 times), 10% (54 times), and 30% (3 times).",
+    "counts": [
+      3,
+      54,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 30.050083,
+    "domain": "finance"
+  },
+  {
+    "id": 47,
+    "statement": "In 60 observations, temperature changes were -10 (5), 10 (55), and 30 (0).",
+    "counts": [
+      5,
+      55,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 30.717863,
+    "domain": "weather"
+  },
+  {
+    "id": 48,
+    "statement": "Across 60 patients, outcome scores were -10 (4), 10 (55), and 30 (1).",
+    "counts": [
+      4,
+      55,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 31.385643,
+    "domain": "health"
+  },
+  {
+    "id": 49,
+    "statement": "Over 60 games, point differentials were -10 (2), 10 (54), and 30 (4).",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 32.053422,
+    "domain": "sports"
+  },
+  {
+    "id": 50,
+    "statement": "Across 60 quizzes, score changes were -10 (3), 10 (56), and 30 (1).",
+    "counts": [
+      3,
+      56,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 32.721202,
+    "domain": "education"
+  },
+  {
+    "id": 51,
+    "statement": "In 60 past quarters, returns were -10% (3 times), 10% (57 times), and 30% (0 times).",
+    "counts": [
+      3,
+      57,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 33.388982,
+    "domain": "finance"
+  },
+  {
+    "id": 52,
+    "statement": "In 60 observations, temperature changes were -10 (2), 10 (54), and 30 (4).",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 34.056761,
+    "domain": "weather"
+  },
+  {
+    "id": 53,
+    "statement": "Across 60 patients, outcome scores were -10 (2), 10 (55), and 30 (3).",
+    "counts": [
+      2,
+      55,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 34.724541,
+    "domain": "health"
+  },
+  {
+    "id": 54,
+    "statement": "Over 60 games, point differentials were -10 (4), 10 (52), and 30 (4).",
+    "counts": [
+      4,
+      52,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 35.392321,
+    "domain": "sports"
+  },
+  {
+    "id": 55,
+    "statement": "Across 60 quizzes, score changes were -10 (4), 10 (56), and 30 (0).",
+    "counts": [
+      4,
+      56,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 36.0601,
+    "domain": "education"
+  },
+  {
+    "id": 56,
+    "statement": "In 60 past quarters, returns were -10% (2 times), 10% (56 times), and 30% (2 times).",
+    "counts": [
+      2,
+      56,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 36.72788,
+    "domain": "finance"
+  },
+  {
+    "id": 57,
+    "statement": "In 60 observations, temperature changes were -10 (0), 10 (57), and 30 (3).",
+    "counts": [
+      0,
+      57,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 37.395659,
+    "domain": "weather"
+  },
+  {
+    "id": 58,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (53), and 30 (4).",
+    "counts": [
+      3,
+      53,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 38.063439,
+    "domain": "health"
+  },
+  {
+    "id": 59,
+    "statement": "Over 60 games, point differentials were -10 (6), 10 (53), and 30 (1).",
+    "counts": [
+      6,
+      53,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 38.731219,
+    "domain": "sports"
+  },
+  {
+    "id": 60,
+    "statement": "Across 60 quizzes, score changes were -10 (2), 10 (54), and 30 (4).",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 39.398998,
+    "domain": "education"
+  },
+  {
+    "id": 61,
+    "statement": "In 60 past quarters, returns were -10% (1 times), 10% (57 times), and 30% (2 times).",
+    "counts": [
+      1,
+      57,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 40.066778,
+    "domain": "finance"
+  },
+  {
+    "id": 62,
+    "statement": "In 60 observations, temperature changes were -10 (3), 10 (56), and 30 (1).",
+    "counts": [
+      3,
+      56,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 40.734558,
+    "domain": "weather"
+  },
+  {
+    "id": 63,
+    "statement": "Across 60 patients, outcome scores were -10 (4), 10 (51), and 30 (5).",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 41.402337,
+    "domain": "health"
+  },
+  {
+    "id": 64,
+    "statement": "Over 60 games, point differentials were -10 (0), 10 (57), and 30 (3).",
+    "counts": [
+      0,
+      57,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 42.070117,
+    "domain": "sports"
+  },
+  {
+    "id": 65,
+    "statement": "Across 60 quizzes, score changes were -10 (5), 10 (48), and 30 (7).",
+    "counts": [
+      5,
+      48,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 42.737896,
+    "domain": "education"
+  },
+  {
+    "id": 66,
+    "statement": "In 60 past quarters, returns were -10% (2 times), 10% (56 times), and 30% (2 times).",
+    "counts": [
+      2,
+      56,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 43.405676,
+    "domain": "finance"
+  },
+  {
+    "id": 67,
+    "statement": "In 60 observations, temperature changes were -10 (5), 10 (49), and 30 (6).",
+    "counts": [
+      5,
+      49,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 44.073456,
+    "domain": "weather"
+  },
+  {
+    "id": 68,
+    "statement": "Across 60 patients, outcome scores were -10 (2), 10 (55), and 30 (3).",
+    "counts": [
+      2,
+      55,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 44.741235,
+    "domain": "health"
+  },
+  {
+    "id": 69,
+    "statement": "Over 60 games, point differentials were -10 (4), 10 (51), and 30 (5).",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 45.409015,
+    "domain": "sports"
+  },
+  {
+    "id": 70,
+    "statement": "Across 60 quizzes, score changes were -10 (2), 10 (54), and 30 (4).",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 46.076795,
+    "domain": "education"
+  },
+  {
+    "id": 71,
+    "statement": "In 60 past quarters, returns were -10% (5 times), 10% (52 times), and 30% (3 times).",
+    "counts": [
+      5,
+      52,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 46.744574,
+    "domain": "finance"
+  },
+  {
+    "id": 72,
+    "statement": "In 60 observations, temperature changes were -10 (2), 10 (57), and 30 (1).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 47.412354,
+    "domain": "weather"
+  },
+  {
+    "id": 73,
+    "statement": "Across 60 patients, outcome scores were -10 (2), 10 (53), and 30 (5).",
+    "counts": [
+      2,
+      53,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 48.080134,
+    "domain": "health"
+  },
+  {
+    "id": 74,
+    "statement": "Over 60 games, point differentials were -10 (1), 10 (59), and 30 (0).",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 48.747913,
+    "domain": "sports"
+  },
+  {
+    "id": 75,
+    "statement": "Across 60 quizzes, score changes were -10 (3), 10 (56), and 30 (1).",
+    "counts": [
+      3,
+      56,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 49.415693,
+    "domain": "education"
+  },
+  {
+    "id": 76,
+    "statement": "In 60 past quarters, returns were -10% (2 times), 10% (57 times), and 30% (1 times).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 50.083472,
+    "domain": "finance"
+  },
+  {
+    "id": 77,
+    "statement": "In 60 observations, temperature changes were -10 (4), 10 (51), and 30 (5).",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 50.751252,
+    "domain": "weather"
+  },
+  {
+    "id": 78,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (55), and 30 (2).",
+    "counts": [
+      3,
+      55,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 51.419032,
+    "domain": "health"
+  },
+  {
+    "id": 79,
+    "statement": "Over 60 games, point differentials were -10 (3), 10 (53), and 30 (4).",
+    "counts": [
+      3,
+      53,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 52.086811,
+    "domain": "sports"
+  },
+  {
+    "id": 80,
+    "statement": "Across 60 quizzes, score changes were -10 (7), 10 (44), and 30 (9).",
+    "counts": [
+      7,
+      44,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 52.754591,
+    "domain": "education"
+  },
+  {
+    "id": 81,
+    "statement": "In 60 past quarters, returns were -10% (3 times), 10% (57 times), and 30% (0 times).",
+    "counts": [
+      3,
+      57,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 53.422371,
+    "domain": "finance"
+  },
+  {
+    "id": 82,
+    "statement": "In 60 observations, temperature changes were -10 (6), 10 (47), and 30 (7).",
+    "counts": [
+      6,
+      47,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 54.09015,
+    "domain": "weather"
+  },
+  {
+    "id": 83,
+    "statement": "Across 60 patients, outcome scores were -10 (4), 10 (51), and 30 (5).",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 54.75793,
+    "domain": "health"
+  },
+  {
+    "id": 84,
+    "statement": "Over 60 games, point differentials were -10 (6), 10 (50), and 30 (4).",
+    "counts": [
+      6,
+      50,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 55.42571,
+    "domain": "sports"
+  },
+  {
+    "id": 85,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (53), and 30 (1).",
+    "counts": [
+      6,
+      53,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 56.093489,
+    "domain": "education"
+  },
+  {
+    "id": 86,
+    "statement": "In 60 past quarters, returns were -10% (3 times), 10% (54 times), and 30% (3 times).",
+    "counts": [
+      3,
+      54,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 56.761269,
+    "domain": "finance"
+  },
+  {
+    "id": 87,
+    "statement": "In 60 observations, temperature changes were -10 (2), 10 (51), and 30 (7).",
+    "counts": [
+      2,
+      51,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 57.429048,
+    "domain": "weather"
+  },
+  {
+    "id": 88,
+    "statement": "Across 60 patients, outcome scores were -10 (1), 10 (54), and 30 (5).",
+    "counts": [
+      1,
+      54,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 58.096828,
+    "domain": "health"
+  },
+  {
+    "id": 89,
+    "statement": "Over 60 games, point differentials were -10 (2), 10 (54), and 30 (4).",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 58.764608,
+    "domain": "sports"
+  },
+  {
+    "id": 90,
+    "statement": "Across 60 quizzes, score changes were -10 (4), 10 (53), and 30 (3).",
+    "counts": [
+      4,
+      53,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 59.432387,
+    "domain": "education"
+  },
+  {
+    "id": 91,
+    "statement": "In 60 past quarters, returns were -10% (4 times), 10% (51 times), and 30% (5 times).",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 60.100167,
+    "domain": "finance"
+  },
+  {
+    "id": 92,
+    "statement": "In 60 observations, temperature changes were -10 (3), 10 (51), and 30 (6).",
+    "counts": [
+      3,
+      51,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 60.767947,
+    "domain": "weather"
+  },
+  {
+    "id": 93,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (54), and 30 (3).",
+    "counts": [
+      3,
+      54,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 61.435726,
+    "domain": "health"
+  },
+  {
+    "id": 94,
+    "statement": "Over 60 games, point differentials were -10 (4), 10 (52), and 30 (4).",
+    "counts": [
+      4,
+      52,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 62.103506,
+    "domain": "sports"
+  },
+  {
+    "id": 95,
+    "statement": "Across 60 quizzes, score changes were -10 (3), 10 (49), and 30 (8).",
+    "counts": [
+      3,
+      49,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 62.771285,
+    "domain": "education"
+  },
+  {
+    "id": 96,
+    "statement": "In 60 past quarters, returns were -10% (7 times), 10% (51 times), and 30% (2 times).",
+    "counts": [
+      7,
+      51,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 63.439065,
+    "domain": "finance"
+  },
+  {
+    "id": 97,
+    "statement": "In 60 observations, temperature changes were -10 (4), 10 (53), and 30 (3).",
+    "counts": [
+      4,
+      53,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 64.106845,
+    "domain": "weather"
+  },
+  {
+    "id": 98,
+    "statement": "Across 60 patients, outcome scores were -10 (4), 10 (52), and 30 (4).",
+    "counts": [
+      4,
+      52,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 64.774624,
+    "domain": "health"
+  },
+  {
+    "id": 99,
+    "statement": "Over 60 games, point differentials were -10 (5), 10 (47), and 30 (8).",
+    "counts": [
+      5,
+      47,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 65.442404,
+    "domain": "sports"
+  },
+  {
+    "id": 100,
+    "statement": "Across 60 quizzes, score changes were -10 (4), 10 (50), and 30 (6).",
+    "counts": [
+      4,
+      50,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 66.110184,
+    "domain": "education"
+  },
+  {
+    "id": 101,
+    "statement": "In 60 past quarters, returns were -10% (5 times), 10% (49 times), and 30% (6 times).",
+    "counts": [
+      5,
+      49,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 66.777963,
+    "domain": "finance"
+  },
+  {
+    "id": 102,
+    "statement": "In 60 observations, temperature changes were -10 (2), 10 (51), and 30 (7).",
+    "counts": [
+      2,
+      51,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 67.445743,
+    "domain": "weather"
+  },
+  {
+    "id": 103,
+    "statement": "Across 60 patients, outcome scores were -10 (9), 10 (46), and 30 (5).",
+    "counts": [
+      9,
+      46,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 68.113523,
+    "domain": "health"
+  },
+  {
+    "id": 104,
+    "statement": "Over 60 games, point differentials were -10 (4), 10 (50), and 30 (6).",
+    "counts": [
+      4,
+      50,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 68.781302,
+    "domain": "sports"
+  },
+  {
+    "id": 105,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (48), and 30 (6).",
+    "counts": [
+      6,
+      48,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 69.449082,
+    "domain": "education"
+  },
+  {
+    "id": 106,
+    "statement": "In 60 past quarters, returns were -10% (3 times), 10% (47 times), and 30% (10 times).",
+    "counts": [
+      3,
+      47,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 70.116861,
+    "domain": "finance"
+  },
+  {
+    "id": 107,
+    "statement": "In 60 observations, temperature changes were -10 (9), 10 (47), and 30 (4).",
+    "counts": [
+      9,
+      47,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 70.784641,
+    "domain": "weather"
+  },
+  {
+    "id": 108,
+    "statement": "Across 60 patients, outcome scores were -10 (6), 10 (52), and 30 (2).",
+    "counts": [
+      6,
+      52,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 71.452421,
+    "domain": "health"
+  },
+  {
+    "id": 109,
+    "statement": "Over 60 games, point differentials were -10 (11), 10 (42), and 30 (7).",
+    "counts": [
+      11,
+      42,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 72.1202,
+    "domain": "sports"
+  },
+  {
+    "id": 110,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (47), and 30 (7).",
+    "counts": [
+      6,
+      47,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 72.78798,
+    "domain": "education"
+  },
+  {
+    "id": 111,
+    "statement": "In 60 past quarters, returns were -10% (4 times), 10% (52 times), and 30% (4 times).",
+    "counts": [
+      4,
+      52,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 73.45576,
+    "domain": "finance"
+  },
+  {
+    "id": 112,
+    "statement": "In 60 observations, temperature changes were -10 (4), 10 (50), and 30 (6).",
+    "counts": [
+      4,
+      50,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 74.123539,
+    "domain": "weather"
+  },
+  {
+    "id": 113,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (48), and 30 (9).",
+    "counts": [
+      3,
+      48,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 74.791319,
+    "domain": "health"
+  },
+  {
+    "id": 114,
+    "statement": "Over 60 games, point differentials were -10 (5), 10 (50), and 30 (5).",
+    "counts": [
+      5,
+      50,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 75.459098,
+    "domain": "sports"
+  },
+  {
+    "id": 115,
+    "statement": "Across 60 quizzes, score changes were -10 (3), 10 (50), and 30 (7).",
+    "counts": [
+      3,
+      50,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 76.126878,
+    "domain": "education"
+  },
+  {
+    "id": 116,
+    "statement": "In 60 past quarters, returns were -10% (8 times), 10% (46 times), and 30% (6 times).",
+    "counts": [
+      8,
+      46,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 76.794658,
+    "domain": "finance"
+  },
+  {
+    "id": 117,
+    "statement": "In 60 observations, temperature changes were -10 (4), 10 (48), and 30 (8).",
+    "counts": [
+      4,
+      48,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 77.462437,
+    "domain": "weather"
+  },
+  {
+    "id": 118,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (49), and 30 (8).",
+    "counts": [
+      3,
+      49,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 78.130217,
+    "domain": "health"
+  },
+  {
+    "id": 119,
+    "statement": "Over 60 games, point differentials were -10 (6), 10 (49), and 30 (5).",
+    "counts": [
+      6,
+      49,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 78.797997,
+    "domain": "sports"
+  },
+  {
+    "id": 120,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (47), and 30 (7).",
+    "counts": [
+      6,
+      47,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 79.465776,
+    "domain": "education"
+  },
+  {
+    "id": 121,
+    "statement": "In 60 past quarters, returns were -10% (4 times), 10% (47 times), and 30% (9 times).",
+    "counts": [
+      4,
+      47,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 80.133556,
+    "domain": "finance"
+  },
+  {
+    "id": 122,
+    "statement": "In 60 observations, temperature changes were -10 (5), 10 (46), and 30 (9).",
+    "counts": [
+      5,
+      46,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 80.801336,
+    "domain": "weather"
+  },
+  {
+    "id": 123,
+    "statement": "Across 60 patients, outcome scores were -10 (8), 10 (49), and 30 (3).",
+    "counts": [
+      8,
+      49,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 81.469115,
+    "domain": "health"
+  },
+  {
+    "id": 124,
+    "statement": "Over 60 games, point differentials were -10 (7), 10 (48), and 30 (5).",
+    "counts": [
+      7,
+      48,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 82.136895,
+    "domain": "sports"
+  },
+  {
+    "id": 125,
+    "statement": "Across 60 quizzes, score changes were -10 (8), 10 (46), and 30 (6).",
+    "counts": [
+      8,
+      46,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 82.804674,
+    "domain": "education"
+  },
+  {
+    "id": 126,
+    "statement": "In 60 past quarters, returns were -10% (6 times), 10% (45 times), and 30% (9 times).",
+    "counts": [
+      6,
+      45,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 83.472454,
+    "domain": "finance"
+  },
+  {
+    "id": 127,
+    "statement": "In 60 observations, temperature changes were -10 (3), 10 (50), and 30 (7).",
+    "counts": [
+      3,
+      50,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 84.140234,
+    "domain": "weather"
+  },
+  {
+    "id": 128,
+    "statement": "Across 60 patients, outcome scores were -10 (5), 10 (52), and 30 (3).",
+    "counts": [
+      5,
+      52,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 84.808013,
+    "domain": "health"
+  },
+  {
+    "id": 129,
+    "statement": "Over 60 games, point differentials were -10 (8), 10 (46), and 30 (6).",
+    "counts": [
+      8,
+      46,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 85.475793,
+    "domain": "sports"
+  },
+  {
+    "id": 130,
+    "statement": "Across 60 quizzes, score changes were -10 (10), 10 (44), and 30 (6).",
+    "counts": [
+      10,
+      44,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 86.143573,
+    "domain": "education"
+  },
+  {
+    "id": 131,
+    "statement": "In 60 past quarters, returns were -10% (5 times), 10% (43 times), and 30% (12 times).",
+    "counts": [
+      5,
+      43,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 86.811352,
+    "domain": "finance"
+  },
+  {
+    "id": 132,
+    "statement": "In 60 observations, temperature changes were -10 (4), 10 (53), and 30 (3).",
+    "counts": [
+      4,
+      53,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 87.479132,
+    "domain": "weather"
+  },
+  {
+    "id": 133,
+    "statement": "Across 60 patients, outcome scores were -10 (8), 10 (46), and 30 (6).",
+    "counts": [
+      8,
+      46,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 88.146912,
+    "domain": "health"
+  },
+  {
+    "id": 134,
+    "statement": "Over 60 games, point differentials were -10 (6), 10 (44), and 30 (10).",
+    "counts": [
+      6,
+      44,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 88.814691,
+    "domain": "sports"
+  },
+  {
+    "id": 135,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (44), and 30 (10).",
+    "counts": [
+      6,
+      44,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 89.482471,
+    "domain": "education"
+  },
+  {
+    "id": 136,
+    "statement": "In 60 past quarters, returns were -10% (8 times), 10% (47 times), and 30% (5 times).",
+    "counts": [
+      8,
+      47,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 90.15025,
+    "domain": "finance"
+  },
+  {
+    "id": 137,
+    "statement": "In 60 observations, temperature changes were -10 (3), 10 (52), and 30 (5).",
+    "counts": [
+      3,
+      52,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 90.81803,
+    "domain": "weather"
+  },
+  {
+    "id": 138,
+    "statement": "Across 60 patients, outcome scores were -10 (12), 10 (42), and 30 (6).",
+    "counts": [
+      12,
+      42,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 91.48581,
+    "domain": "health"
+  },
+  {
+    "id": 139,
+    "statement": "Over 60 games, point differentials were -10 (4), 10 (50), and 30 (6).",
+    "counts": [
+      4,
+      50,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 92.153589,
+    "domain": "sports"
+  },
+  {
+    "id": 140,
+    "statement": "Across 60 quizzes, score changes were -10 (10), 10 (46), and 30 (4).",
+    "counts": [
+      10,
+      46,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 92.821369,
+    "domain": "education"
+  },
+  {
+    "id": 141,
+    "statement": "In 60 past quarters, returns were -10% (9 times), 10% (47 times), and 30% (4 times).",
+    "counts": [
+      9,
+      47,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 93.489149,
+    "domain": "finance"
+  },
+  {
+    "id": 142,
+    "statement": "In 60 observations, temperature changes were -10 (12), 10 (42), and 30 (6).",
+    "counts": [
+      12,
+      42,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 94.156928,
+    "domain": "weather"
+  },
+  {
+    "id": 143,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (45), and 30 (12).",
+    "counts": [
+      3,
+      45,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 94.824708,
+    "domain": "health"
+  },
+  {
+    "id": 144,
+    "statement": "Over 60 games, point differentials were -10 (6), 10 (45), and 30 (9).",
+    "counts": [
+      6,
+      45,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 95.492487,
+    "domain": "sports"
+  },
+  {
+    "id": 145,
+    "statement": "Across 60 quizzes, score changes were -10 (7), 10 (49), and 30 (4).",
+    "counts": [
+      7,
+      49,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 96.160267,
+    "domain": "education"
+  },
+  {
+    "id": 146,
+    "statement": "In 60 past quarters, returns were -10% (4 times), 10% (51 times), and 30% (5 times).",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 96.828047,
+    "domain": "finance"
+  },
+  {
+    "id": 147,
+    "statement": "In 60 observations, temperature changes were -10 (5), 10 (51), and 30 (4).",
+    "counts": [
+      5,
+      51,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 97.495826,
+    "domain": "weather"
+  },
+  {
+    "id": 148,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (45), and 30 (12).",
+    "counts": [
+      3,
+      45,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 98.163606,
+    "domain": "health"
+  },
+  {
+    "id": 149,
+    "statement": "Over 60 games, point differentials were -10 (4), 10 (48), and 30 (8).",
+    "counts": [
+      4,
+      48,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 98.831386,
+    "domain": "sports"
+  },
+  {
+    "id": 150,
+    "statement": "Across 60 quizzes, score changes were -10 (5), 10 (49), and 30 (6).",
+    "counts": [
+      5,
+      49,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 99.499165,
+    "domain": "education"
+  },
+  {
+    "id": 151,
+    "statement": "In 60 past quarters, returns were -10% (9 times), 10% (40 times), and 30% (11 times).",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 100.166945,
+    "domain": "finance"
+  },
+  {
+    "id": 152,
+    "statement": "In 60 observations, temperature changes were -10 (7), 10 (51), and 30 (2).",
+    "counts": [
+      7,
+      51,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 100.834725,
+    "domain": "weather"
+  },
+  {
+    "id": 153,
+    "statement": "Across 60 patients, outcome scores were -10 (17), 10 (40), and 30 (3).",
+    "counts": [
+      17,
+      40,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 101.502504,
+    "domain": "health"
+  },
+  {
+    "id": 154,
+    "statement": "Over 60 games, point differentials were -10 (7), 10 (45), and 30 (8).",
+    "counts": [
+      7,
+      45,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 102.170284,
+    "domain": "sports"
+  },
+  {
+    "id": 155,
+    "statement": "Across 60 quizzes, score changes were -10 (11), 10 (39), and 30 (10).",
+    "counts": [
+      11,
+      39,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 102.838063,
+    "domain": "education"
+  },
+  {
+    "id": 156,
+    "statement": "In 60 past quarters, returns were -10% (8 times), 10% (45 times), and 30% (7 times).",
+    "counts": [
+      8,
+      45,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 103.505843,
+    "domain": "finance"
+  },
+  {
+    "id": 157,
+    "statement": "In 60 observations, temperature changes were -10 (10), 10 (40), and 30 (10).",
+    "counts": [
+      10,
+      40,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 104.173623,
+    "domain": "weather"
+  },
+  {
+    "id": 158,
+    "statement": "Across 60 patients, outcome scores were -10 (11), 10 (40), and 30 (9).",
+    "counts": [
+      11,
+      40,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 104.841402,
+    "domain": "health"
+  },
+  {
+    "id": 159,
+    "statement": "Over 60 games, point differentials were -10 (5), 10 (48), and 30 (7).",
+    "counts": [
+      5,
+      48,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 105.509182,
+    "domain": "sports"
+  },
+  {
+    "id": 160,
+    "statement": "Across 60 quizzes, score changes were -10 (8), 10 (44), and 30 (8).",
+    "counts": [
+      8,
+      44,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 106.176962,
+    "domain": "education"
+  },
+  {
+    "id": 161,
+    "statement": "In 60 past quarters, returns were -10% (11 times), 10% (43 times), and 30% (6 times).",
+    "counts": [
+      11,
+      43,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 106.844741,
+    "domain": "finance"
+  },
+  {
+    "id": 162,
+    "statement": "In 60 observations, temperature changes were -10 (9), 10 (44), and 30 (7).",
+    "counts": [
+      9,
+      44,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 107.512521,
+    "domain": "weather"
+  },
+  {
+    "id": 163,
+    "statement": "Across 60 patients, outcome scores were -10 (10), 10 (44), and 30 (6).",
+    "counts": [
+      10,
+      44,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 108.180301,
+    "domain": "health"
+  },
+  {
+    "id": 164,
+    "statement": "Over 60 games, point differentials were -10 (8), 10 (47), and 30 (5).",
+    "counts": [
+      8,
+      47,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 108.84808,
+    "domain": "sports"
+  },
+  {
+    "id": 165,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (41), and 30 (13).",
+    "counts": [
+      6,
+      41,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 109.51586,
+    "domain": "education"
+  },
+  {
+    "id": 166,
+    "statement": "In 60 past quarters, returns were -10% (7 times), 10% (41 times), and 30% (12 times).",
+    "counts": [
+      7,
+      41,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 110.183639,
+    "domain": "finance"
+  },
+  {
+    "id": 167,
+    "statement": "In 60 observations, temperature changes were -10 (8), 10 (48), and 30 (4).",
+    "counts": [
+      8,
+      48,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 110.851419,
+    "domain": "weather"
+  },
+  {
+    "id": 168,
+    "statement": "Across 60 patients, outcome scores were -10 (11), 10 (45), and 30 (4).",
+    "counts": [
+      11,
+      45,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 111.519199,
+    "domain": "health"
+  },
+  {
+    "id": 169,
+    "statement": "Over 60 games, point differentials were -10 (11), 10 (47), and 30 (2).",
+    "counts": [
+      11,
+      47,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 112.186978,
+    "domain": "sports"
+  },
+  {
+    "id": 170,
+    "statement": "Across 60 quizzes, score changes were -10 (10), 10 (44), and 30 (6).",
+    "counts": [
+      10,
+      44,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 112.854758,
+    "domain": "education"
+  },
+  {
+    "id": 171,
+    "statement": "In 60 past quarters, returns were -10% (7 times), 10% (40 times), and 30% (13 times).",
+    "counts": [
+      7,
+      40,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 113.522538,
+    "domain": "finance"
+  },
+  {
+    "id": 172,
+    "statement": "In 60 observations, temperature changes were -10 (8), 10 (42), and 30 (10).",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 114.190317,
+    "domain": "weather"
+  },
+  {
+    "id": 173,
+    "statement": "Across 60 patients, outcome scores were -10 (10), 10 (45), and 30 (5).",
+    "counts": [
+      10,
+      45,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 114.858097,
+    "domain": "health"
+  },
+  {
+    "id": 174,
+    "statement": "Over 60 games, point differentials were -10 (11), 10 (37), and 30 (12).",
+    "counts": [
+      11,
+      37,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 115.525876,
+    "domain": "sports"
+  },
+  {
+    "id": 175,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (45), and 30 (9).",
+    "counts": [
+      6,
+      45,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 116.193656,
+    "domain": "education"
+  },
+  {
+    "id": 176,
+    "statement": "In 60 past quarters, returns were -10% (7 times), 10% (42 times), and 30% (11 times).",
+    "counts": [
+      7,
+      42,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 116.861436,
+    "domain": "finance"
+  },
+  {
+    "id": 177,
+    "statement": "In 60 observations, temperature changes were -10 (4), 10 (46), and 30 (10).",
+    "counts": [
+      4,
+      46,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 117.529215,
+    "domain": "weather"
+  },
+  {
+    "id": 178,
+    "statement": "Across 60 patients, outcome scores were -10 (11), 10 (39), and 30 (10).",
+    "counts": [
+      11,
+      39,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 118.196995,
+    "domain": "health"
+  },
+  {
+    "id": 179,
+    "statement": "Over 60 games, point differentials were -10 (6), 10 (42), and 30 (12).",
+    "counts": [
+      6,
+      42,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 118.864775,
+    "domain": "sports"
+  },
+  {
+    "id": 180,
+    "statement": "Across 60 quizzes, score changes were -10 (7), 10 (41), and 30 (12).",
+    "counts": [
+      7,
+      41,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 119.532554,
+    "domain": "education"
+  },
+  {
+    "id": 181,
+    "statement": "In 60 past quarters, returns were -10% (9 times), 10% (45 times), and 30% (6 times).",
+    "counts": [
+      9,
+      45,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 120.200334,
+    "domain": "finance"
+  },
+  {
+    "id": 182,
+    "statement": "In 60 observations, temperature changes were -10 (11), 10 (38), and 30 (11).",
+    "counts": [
+      11,
+      38,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 120.868114,
+    "domain": "weather"
+  },
+  {
+    "id": 183,
+    "statement": "Across 60 patients, outcome scores were -10 (10), 10 (36), and 30 (14).",
+    "counts": [
+      10,
+      36,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 121.535893,
+    "domain": "health"
+  },
+  {
+    "id": 184,
+    "statement": "Over 60 games, point differentials were -10 (7), 10 (46), and 30 (7).",
+    "counts": [
+      7,
+      46,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 122.203673,
+    "domain": "sports"
+  },
+  {
+    "id": 185,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (44), and 30 (10).",
+    "counts": [
+      6,
+      44,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 122.871452,
+    "domain": "education"
+  },
+  {
+    "id": 186,
+    "statement": "In 60 past quarters, returns were -10% (8 times), 10% (44 times), and 30% (8 times).",
+    "counts": [
+      8,
+      44,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 123.539232,
+    "domain": "finance"
+  },
+  {
+    "id": 187,
+    "statement": "In 60 observations, temperature changes were -10 (9), 10 (43), and 30 (8).",
+    "counts": [
+      9,
+      43,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 124.207012,
+    "domain": "weather"
+  },
+  {
+    "id": 188,
+    "statement": "Across 60 patients, outcome scores were -10 (3), 10 (47), and 30 (10).",
+    "counts": [
+      3,
+      47,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 124.874791,
+    "domain": "health"
+  },
+  {
+    "id": 189,
+    "statement": "Over 60 games, point differentials were -10 (8), 10 (43), and 30 (9).",
+    "counts": [
+      8,
+      43,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 125.542571,
+    "domain": "sports"
+  },
+  {
+    "id": 190,
+    "statement": "Across 60 quizzes, score changes were -10 (14), 10 (40), and 30 (6).",
+    "counts": [
+      14,
+      40,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 126.210351,
+    "domain": "education"
+  },
+  {
+    "id": 191,
+    "statement": "In 60 past quarters, returns were -10% (10 times), 10% (40 times), and 30% (10 times).",
+    "counts": [
+      10,
+      40,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 126.87813,
+    "domain": "finance"
+  },
+  {
+    "id": 192,
+    "statement": "In 60 observations, temperature changes were -10 (8), 10 (42), and 30 (10).",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 127.54591,
+    "domain": "weather"
+  },
+  {
+    "id": 193,
+    "statement": "Across 60 patients, outcome scores were -10 (15), 10 (38), and 30 (7).",
+    "counts": [
+      15,
+      38,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 128.213689,
+    "domain": "health"
+  },
+  {
+    "id": 194,
+    "statement": "Over 60 games, point differentials were -10 (11), 10 (37), and 30 (12).",
+    "counts": [
+      11,
+      37,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 128.881469,
+    "domain": "sports"
+  },
+  {
+    "id": 195,
+    "statement": "Across 60 quizzes, score changes were -10 (9), 10 (34), and 30 (17).",
+    "counts": [
+      9,
+      34,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 129.549249,
+    "domain": "education"
+  },
+  {
+    "id": 196,
+    "statement": "In 60 past quarters, returns were -10% (11 times), 10% (40 times), and 30% (9 times).",
+    "counts": [
+      11,
+      40,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 130.217028,
+    "domain": "finance"
+  },
+  {
+    "id": 197,
+    "statement": "In 60 observations, temperature changes were -10 (11), 10 (40), and 30 (9).",
+    "counts": [
+      11,
+      40,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 130.884808,
+    "domain": "weather"
+  },
+  {
+    "id": 198,
+    "statement": "Across 60 patients, outcome scores were -10 (11), 10 (41), and 30 (8).",
+    "counts": [
+      11,
+      41,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 131.552588,
+    "domain": "health"
+  },
+  {
+    "id": 199,
+    "statement": "Over 60 games, point differentials were -10 (14), 10 (37), and 30 (9).",
+    "counts": [
+      14,
+      37,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 132.220367,
+    "domain": "sports"
+  },
+  {
+    "id": 200,
+    "statement": "Across 60 quizzes, score changes were -10 (8), 10 (42), and 30 (10).",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 132.888147,
+    "domain": "education"
+  },
+  {
+    "id": 201,
+    "statement": "In 60 past quarters, returns were -10% (14 times), 10% (34 times), and 30% (12 times).",
+    "counts": [
+      14,
+      34,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 133.555927,
+    "domain": "finance"
+  },
+  {
+    "id": 202,
+    "statement": "In 60 observations, temperature changes were -10 (10), 10 (41), and 30 (9).",
+    "counts": [
+      10,
+      41,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 134.223706,
+    "domain": "weather"
+  },
+  {
+    "id": 203,
+    "statement": "Across 60 patients, outcome scores were -10 (9), 10 (34), and 30 (17).",
+    "counts": [
+      9,
+      34,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 134.891486,
+    "domain": "health"
+  },
+  {
+    "id": 204,
+    "statement": "Over 60 games, point differentials were -10 (7), 10 (39), and 30 (14).",
+    "counts": [
+      7,
+      39,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 135.559265,
+    "domain": "sports"
+  },
+  {
+    "id": 205,
+    "statement": "Across 60 quizzes, score changes were -10 (13), 10 (39), and 30 (8).",
+    "counts": [
+      13,
+      39,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 136.227045,
+    "domain": "education"
+  },
+  {
+    "id": 206,
+    "statement": "In 60 past quarters, returns were -10% (9 times), 10% (40 times), and 30% (11 times).",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 136.894825,
+    "domain": "finance"
+  },
+  {
+    "id": 207,
+    "statement": "In 60 observations, temperature changes were -10 (13), 10 (33), and 30 (14).",
+    "counts": [
+      13,
+      33,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 137.562604,
+    "domain": "weather"
+  },
+  {
+    "id": 208,
+    "statement": "Across 60 patients, outcome scores were -10 (18), 10 (35), and 30 (7).",
+    "counts": [
+      18,
+      35,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 138.230384,
+    "domain": "health"
+  },
+  {
+    "id": 209,
+    "statement": "Over 60 games, point differentials were -10 (8), 10 (41), and 30 (11).",
+    "counts": [
+      8,
+      41,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 138.898164,
+    "domain": "sports"
+  },
+  {
+    "id": 210,
+    "statement": "Across 60 quizzes, score changes were -10 (11), 10 (38), and 30 (11).",
+    "counts": [
+      11,
+      38,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 139.565943,
+    "domain": "education"
+  },
+  {
+    "id": 211,
+    "statement": "In 60 past quarters, returns were -10% (7 times), 10% (41 times), and 30% (12 times).",
+    "counts": [
+      7,
+      41,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 140.233723,
+    "domain": "finance"
+  },
+  {
+    "id": 212,
+    "statement": "In 60 observations, temperature changes were -10 (15), 10 (32), and 30 (13).",
+    "counts": [
+      15,
+      32,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 140.901503,
+    "domain": "weather"
+  },
+  {
+    "id": 213,
+    "statement": "Across 60 patients, outcome scores were -10 (15), 10 (31), and 30 (14).",
+    "counts": [
+      15,
+      31,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 141.569282,
+    "domain": "health"
+  },
+  {
+    "id": 214,
+    "statement": "Over 60 games, point differentials were -10 (16), 10 (39), and 30 (5).",
+    "counts": [
+      16,
+      39,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 142.237062,
+    "domain": "sports"
+  },
+  {
+    "id": 215,
+    "statement": "Across 60 quizzes, score changes were -10 (15), 10 (37), and 30 (8).",
+    "counts": [
+      15,
+      37,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 142.904841,
+    "domain": "education"
+  },
+  {
+    "id": 216,
+    "statement": "In 60 past quarters, returns were -10% (9 times), 10% (40 times), and 30% (11 times).",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 143.572621,
+    "domain": "finance"
+  },
+  {
+    "id": 217,
+    "statement": "In 60 observations, temperature changes were -10 (16), 10 (34), and 30 (10).",
+    "counts": [
+      16,
+      34,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 144.240401,
+    "domain": "weather"
+  },
+  {
+    "id": 218,
+    "statement": "Across 60 patients, outcome scores were -10 (10), 10 (40), and 30 (10).",
+    "counts": [
+      10,
+      40,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 144.90818,
+    "domain": "health"
+  },
+  {
+    "id": 219,
+    "statement": "Over 60 games, point differentials were -10 (15), 10 (32), and 30 (13).",
+    "counts": [
+      15,
+      32,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 145.57596,
+    "domain": "sports"
+  },
+  {
+    "id": 220,
+    "statement": "Across 60 quizzes, score changes were -10 (8), 10 (42), and 30 (10).",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 146.24374,
+    "domain": "education"
+  },
+  {
+    "id": 221,
+    "statement": "In 60 past quarters, returns were -10% (10 times), 10% (41 times), and 30% (9 times).",
+    "counts": [
+      10,
+      41,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 146.911519,
+    "domain": "finance"
+  },
+  {
+    "id": 222,
+    "statement": "In 60 observations, temperature changes were -10 (11), 10 (40), and 30 (9).",
+    "counts": [
+      11,
+      40,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 147.579299,
+    "domain": "weather"
+  },
+  {
+    "id": 223,
+    "statement": "Across 60 patients, outcome scores were -10 (12), 10 (33), and 30 (15).",
+    "counts": [
+      12,
+      33,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 148.247078,
+    "domain": "health"
+  },
+  {
+    "id": 224,
+    "statement": "Over 60 games, point differentials were -10 (14), 10 (39), and 30 (7).",
+    "counts": [
+      14,
+      39,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 148.914858,
+    "domain": "sports"
+  },
+  {
+    "id": 225,
+    "statement": "Across 60 quizzes, score changes were -10 (9), 10 (40), and 30 (11).",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 149.582638,
+    "domain": "education"
+  },
+  {
+    "id": 226,
+    "statement": "In 60 past quarters, returns were -10% (12 times), 10% (38 times), and 30% (10 times).",
+    "counts": [
+      12,
+      38,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 150.250417,
+    "domain": "finance"
+  },
+  {
+    "id": 227,
+    "statement": "In 60 observations, temperature changes were -10 (9), 10 (40), and 30 (11).",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 150.918197,
+    "domain": "weather"
+  },
+  {
+    "id": 228,
+    "statement": "Across 60 patients, outcome scores were -10 (9), 10 (36), and 30 (15).",
+    "counts": [
+      9,
+      36,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 151.585977,
+    "domain": "health"
+  },
+  {
+    "id": 229,
+    "statement": "Over 60 games, point differentials were -10 (13), 10 (37), and 30 (10).",
+    "counts": [
+      13,
+      37,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 152.253756,
+    "domain": "sports"
+  },
+  {
+    "id": 230,
+    "statement": "Across 60 quizzes, score changes were -10 (13), 10 (36), and 30 (11).",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 152.921536,
+    "domain": "education"
+  },
+  {
+    "id": 231,
+    "statement": "In 60 past quarters, returns were -10% (12 times), 10% (38 times), and 30% (10 times).",
+    "counts": [
+      12,
+      38,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 153.589316,
+    "domain": "finance"
+  },
+  {
+    "id": 232,
+    "statement": "In 60 observations, temperature changes were -10 (11), 10 (31), and 30 (18).",
+    "counts": [
+      11,
+      31,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 154.257095,
+    "domain": "weather"
+  },
+  {
+    "id": 233,
+    "statement": "Across 60 patients, outcome scores were -10 (14), 10 (32), and 30 (14).",
+    "counts": [
+      14,
+      32,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 154.924875,
+    "domain": "health"
+  },
+  {
+    "id": 234,
+    "statement": "Over 60 games, point differentials were -10 (8), 10 (39), and 30 (13).",
+    "counts": [
+      8,
+      39,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 155.592654,
+    "domain": "sports"
+  },
+  {
+    "id": 235,
+    "statement": "Across 60 quizzes, score changes were -10 (11), 10 (41), and 30 (8).",
+    "counts": [
+      11,
+      41,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 156.260434,
+    "domain": "education"
+  },
+  {
+    "id": 236,
+    "statement": "In 60 past quarters, returns were -10% (11 times), 10% (41 times), and 30% (8 times).",
+    "counts": [
+      11,
+      41,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 156.928214,
+    "domain": "finance"
+  },
+  {
+    "id": 237,
+    "statement": "In 60 observations, temperature changes were -10 (10), 10 (35), and 30 (15).",
+    "counts": [
+      10,
+      35,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 157.595993,
+    "domain": "weather"
+  },
+  {
+    "id": 238,
+    "statement": "Across 60 patients, outcome scores were -10 (13), 10 (34), and 30 (13).",
+    "counts": [
+      13,
+      34,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 158.263773,
+    "domain": "health"
+  },
+  {
+    "id": 239,
+    "statement": "Over 60 games, point differentials were -10 (8), 10 (42), and 30 (10).",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 158.931553,
+    "domain": "sports"
+  },
+  {
+    "id": 240,
+    "statement": "Across 60 quizzes, score changes were -10 (6), 10 (45), and 30 (9).",
+    "counts": [
+      6,
+      45,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 159.599332,
+    "domain": "education"
+  },
+  {
+    "id": 241,
+    "statement": "In 60 past quarters, returns were -10% (8 times), 10% (33 times), and 30% (19 times).",
+    "counts": [
+      8,
+      33,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 160.267112,
+    "domain": "finance"
+  },
+  {
+    "id": 242,
+    "statement": "In 60 observations, temperature changes were -10 (16), 10 (35), and 30 (9).",
+    "counts": [
+      16,
+      35,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 160.934891,
+    "domain": "weather"
+  },
+  {
+    "id": 243,
+    "statement": "Across 60 patients, outcome scores were -10 (10), 10 (32), and 30 (18).",
+    "counts": [
+      10,
+      32,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 161.602671,
+    "domain": "health"
+  },
+  {
+    "id": 244,
+    "statement": "Over 60 games, point differentials were -10 (13), 10 (36), and 30 (11).",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 162.270451,
+    "domain": "sports"
+  },
+  {
+    "id": 245,
+    "statement": "Across 60 quizzes, score changes were -10 (12), 10 (38), and 30 (10).",
+    "counts": [
+      12,
+      38,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 162.93823,
+    "domain": "education"
+  },
+  {
+    "id": 246,
+    "statement": "In 60 past quarters, returns were -10% (13 times), 10% (33 times), and 30% (14 times).",
+    "counts": [
+      13,
+      33,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 163.60601,
+    "domain": "finance"
+  },
+  {
+    "id": 247,
+    "statement": "In 60 observations, temperature changes were -10 (12), 10 (33), and 30 (15).",
+    "counts": [
+      12,
+      33,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 164.27379,
+    "domain": "weather"
+  },
+  {
+    "id": 248,
+    "statement": "Across 60 patients, outcome scores were -10 (9), 10 (37), and 30 (14).",
+    "counts": [
+      9,
+      37,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 164.941569,
+    "domain": "health"
+  },
+  {
+    "id": 249,
+    "statement": "Over 60 games, point differentials were -10 (20), 10 (32), and 30 (8).",
+    "counts": [
+      20,
+      32,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 165.609349,
+    "domain": "sports"
+  },
+  {
+    "id": 250,
+    "statement": "Across 60 quizzes, score changes were -10 (12), 10 (34), and 30 (14).",
+    "counts": [
+      12,
+      34,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 166.277129,
+    "domain": "education"
+  },
+  {
+    "id": 251,
+    "statement": "In 60 past quarters, returns were -10% (11 times), 10% (30 times), and 30% (19 times).",
+    "counts": [
+      11,
+      30,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 166.944908,
+    "domain": "finance"
+  },
+  {
+    "id": 252,
+    "statement": "In 60 observations, temperature changes were -10 (12), 10 (36), and 30 (12).",
+    "counts": [
+      12,
+      36,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 167.612688,
+    "domain": "weather"
+  },
+  {
+    "id": 253,
+    "statement": "Across 60 patients, outcome scores were -10 (17), 10 (37), and 30 (6).",
+    "counts": [
+      17,
+      37,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 168.280467,
+    "domain": "health"
+  },
+  {
+    "id": 254,
+    "statement": "Over 60 games, point differentials were -10 (16), 10 (36), and 30 (8).",
+    "counts": [
+      16,
+      36,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 168.948247,
+    "domain": "sports"
+  },
+  {
+    "id": 255,
+    "statement": "Across 60 quizzes, score changes were -10 (12), 10 (35), and 30 (13).",
+    "counts": [
+      12,
+      35,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 169.616027,
+    "domain": "education"
+  },
+  {
+    "id": 256,
+    "statement": "In 60 past quarters, returns were -10% (12 times), 10% (40 times), and 30% (8 times).",
+    "counts": [
+      12,
+      40,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 170.283806,
+    "domain": "finance"
+  },
+  {
+    "id": 257,
+    "statement": "In 60 observations, temperature changes were -10 (11), 10 (37), and 30 (12).",
+    "counts": [
+      11,
+      37,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 170.951586,
+    "domain": "weather"
+  },
+  {
+    "id": 258,
+    "statement": "Across 60 patients, outcome scores were -10 (18), 10 (26), and 30 (16).",
+    "counts": [
+      18,
+      26,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 171.619366,
+    "domain": "health"
+  },
+  {
+    "id": 259,
+    "statement": "Over 60 games, point differentials were -10 (14), 10 (29), and 30 (17).",
+    "counts": [
+      14,
+      29,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 172.287145,
+    "domain": "sports"
+  },
+  {
+    "id": 260,
+    "statement": "Across 60 quizzes, score changes were -10 (16), 10 (33), and 30 (11).",
+    "counts": [
+      16,
+      33,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 172.954925,
+    "domain": "education"
+  },
+  {
+    "id": 261,
+    "statement": "In 60 past quarters, returns were -10% (9 times), 10% (36 times), and 30% (15 times).",
+    "counts": [
+      9,
+      36,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 173.622705,
+    "domain": "finance"
+  },
+  {
+    "id": 262,
+    "statement": "In 60 observations, temperature changes were -10 (12), 10 (41), and 30 (7).",
+    "counts": [
+      12,
+      41,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 174.290484,
+    "domain": "weather"
+  },
+  {
+    "id": 263,
+    "statement": "Across 60 patients, outcome scores were -10 (20), 10 (23), and 30 (17).",
+    "counts": [
+      20,
+      23,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 174.958264,
+    "domain": "health"
+  },
+  {
+    "id": 264,
+    "statement": "Over 60 games, point differentials were -10 (13), 10 (33), and 30 (14).",
+    "counts": [
+      13,
+      33,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 175.626043,
+    "domain": "sports"
+  },
+  {
+    "id": 265,
+    "statement": "Across 60 quizzes, score changes were -10 (15), 10 (28), and 30 (17).",
+    "counts": [
+      15,
+      28,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 176.293823,
+    "domain": "education"
+  },
+  {
+    "id": 266,
+    "statement": "In 60 past quarters, returns were -10% (13 times), 10% (33 times), and 30% (14 times).",
+    "counts": [
+      13,
+      33,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 176.961603,
+    "domain": "finance"
+  },
+  {
+    "id": 267,
+    "statement": "In 60 observations, temperature changes were -10 (11), 10 (37), and 30 (12).",
+    "counts": [
+      11,
+      37,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 177.629382,
+    "domain": "weather"
+  },
+  {
+    "id": 268,
+    "statement": "Across 60 patients, outcome scores were -10 (13), 10 (36), and 30 (11).",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 178.297162,
+    "domain": "health"
+  },
+  {
+    "id": 269,
+    "statement": "Over 60 games, point differentials were -10 (8), 10 (38), and 30 (14).",
+    "counts": [
+      8,
+      38,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 178.964942,
+    "domain": "sports"
+  },
+  {
+    "id": 270,
+    "statement": "Across 60 quizzes, score changes were -10 (16), 10 (33), and 30 (11).",
+    "counts": [
+      16,
+      33,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 179.632721,
+    "domain": "education"
+  },
+  {
+    "id": 271,
+    "statement": "In 60 past quarters, returns were -10% (17 times), 10% (29 times), and 30% (14 times).",
+    "counts": [
+      17,
+      29,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 180.300501,
+    "domain": "finance"
+  },
+  {
+    "id": 272,
+    "statement": "In 60 observations, temperature changes were -10 (15), 10 (28), and 30 (17).",
+    "counts": [
+      15,
+      28,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 180.96828,
+    "domain": "weather"
+  },
+  {
+    "id": 273,
+    "statement": "Across 60 patients, outcome scores were -10 (9), 10 (39), and 30 (12).",
+    "counts": [
+      9,
+      39,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 181.63606,
+    "domain": "health"
+  },
+  {
+    "id": 274,
+    "statement": "Over 60 games, point differentials were -10 (18), 10 (26), and 30 (16).",
+    "counts": [
+      18,
+      26,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 182.30384,
+    "domain": "sports"
+  },
+  {
+    "id": 275,
+    "statement": "Across 60 quizzes, score changes were -10 (9), 10 (33), and 30 (18).",
+    "counts": [
+      9,
+      33,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 182.971619,
+    "domain": "education"
+  },
+  {
+    "id": 276,
+    "statement": "In 60 past quarters, returns were -10% (7 times), 10% (41 times), and 30% (12 times).",
+    "counts": [
+      7,
+      41,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 183.639399,
+    "domain": "finance"
+  },
+  {
+    "id": 277,
+    "statement": "In 60 observations, temperature changes were -10 (10), 10 (37), and 30 (13).",
+    "counts": [
+      10,
+      37,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 184.307179,
+    "domain": "weather"
+  },
+  {
+    "id": 278,
+    "statement": "Across 60 patients, outcome scores were -10 (13), 10 (29), and 30 (18).",
+    "counts": [
+      13,
+      29,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 184.974958,
+    "domain": "health"
+  },
+  {
+    "id": 279,
+    "statement": "Over 60 games, point differentials were -10 (13), 10 (36), and 30 (11).",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 185.642738,
+    "domain": "sports"
+  },
+  {
+    "id": 280,
+    "statement": "Across 60 quizzes, score changes were -10 (12), 10 (41), and 30 (7).",
+    "counts": [
+      12,
+      41,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 186.310518,
+    "domain": "education"
+  },
+  {
+    "id": 281,
+    "statement": "In 60 past quarters, returns were -10% (8 times), 10% (37 times), and 30% (15 times).",
+    "counts": [
+      8,
+      37,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 186.978297,
+    "domain": "finance"
+  },
+  {
+    "id": 282,
+    "statement": "In 60 observations, temperature changes were -10 (14), 10 (34), and 30 (12).",
+    "counts": [
+      14,
+      34,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 187.646077,
+    "domain": "weather"
+  },
+  {
+    "id": 283,
+    "statement": "Across 60 patients, outcome scores were -10 (13), 10 (36), and 30 (11).",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 188.313856,
+    "domain": "health"
+  },
+  {
+    "id": 284,
+    "statement": "Over 60 games, point differentials were -10 (15), 10 (32), and 30 (13).",
+    "counts": [
+      15,
+      32,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 188.981636,
+    "domain": "sports"
+  },
+  {
+    "id": 285,
+    "statement": "Across 60 quizzes, score changes were -10 (11), 10 (34), and 30 (15).",
+    "counts": [
+      11,
+      34,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 189.649416,
+    "domain": "education"
+  },
+  {
+    "id": 286,
+    "statement": "In 60 past quarters, returns were -10% (12 times), 10% (35 times), and 30% (13 times).",
+    "counts": [
+      12,
+      35,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 190.317195,
+    "domain": "finance"
+  },
+  {
+    "id": 287,
+    "statement": "In 60 observations, temperature changes were -10 (11), 10 (31), and 30 (18).",
+    "counts": [
+      11,
+      31,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 190.984975,
+    "domain": "weather"
+  },
+  {
+    "id": 288,
+    "statement": "Across 60 patients, outcome scores were -10 (12), 10 (27), and 30 (21).",
+    "counts": [
+      12,
+      27,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 191.652755,
+    "domain": "health"
+  },
+  {
+    "id": 289,
+    "statement": "Over 60 games, point differentials were -10 (14), 10 (35), and 30 (11).",
+    "counts": [
+      14,
+      35,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 192.320534,
+    "domain": "sports"
+  },
+  {
+    "id": 290,
+    "statement": "Across 60 quizzes, score changes were -10 (16), 10 (28), and 30 (16).",
+    "counts": [
+      16,
+      28,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 192.988314,
+    "domain": "education"
+  },
+  {
+    "id": 291,
+    "statement": "In 60 past quarters, returns were -10% (18 times), 10% (32 times), and 30% (10 times).",
+    "counts": [
+      18,
+      32,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 193.656093,
+    "domain": "finance"
+  },
+  {
+    "id": 292,
+    "statement": "In 60 observations, temperature changes were -10 (17), 10 (26), and 30 (17).",
+    "counts": [
+      17,
+      26,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 194.323873,
+    "domain": "weather"
+  },
+  {
+    "id": 293,
+    "statement": "Across 60 patients, outcome scores were -10 (13), 10 (32), and 30 (15).",
+    "counts": [
+      13,
+      32,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 194.991653,
+    "domain": "health"
+  },
+  {
+    "id": 294,
+    "statement": "Over 60 games, point differentials were -10 (16), 10 (32), and 30 (12).",
+    "counts": [
+      16,
+      32,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 195.659432,
+    "domain": "sports"
+  },
+  {
+    "id": 295,
+    "statement": "Across 60 quizzes, score changes were -10 (19), 10 (26), and 30 (15).",
+    "counts": [
+      19,
+      26,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 196.327212,
+    "domain": "education"
+  },
+  {
+    "id": 296,
+    "statement": "In 60 past quarters, returns were -10% (18 times), 10% (29 times), and 30% (13 times).",
+    "counts": [
+      18,
+      29,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 196.994992,
+    "domain": "finance"
+  },
+  {
+    "id": 297,
+    "statement": "In 60 observations, temperature changes were -10 (15), 10 (33), and 30 (12).",
+    "counts": [
+      15,
+      33,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 197.662771,
+    "domain": "weather"
+  },
+  {
+    "id": 298,
+    "statement": "Across 60 patients, outcome scores were -10 (13), 10 (30), and 30 (17).",
+    "counts": [
+      13,
+      30,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 198.330551,
+    "domain": "health"
+  },
+  {
+    "id": 299,
+    "statement": "Over 60 games, point differentials were -10 (21), 10 (29), and 30 (10).",
+    "counts": [
+      21,
+      29,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 198.998331,
+    "domain": "sports"
+  },
+  {
+    "id": 300,
+    "statement": "Across 60 quizzes, score changes were -10 (10), 10 (38), and 30 (12).",
+    "counts": [
+      10,
+      38,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 199.66611,
+    "domain": "education"
+  },
+  {
+    "id": 301,
+    "statement": "In 60 past quarters, returns were -10% (14 times), 10% (28 times), and 30% (18 times).",
+    "counts": [
+      14,
+      28,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 200.33389,
+    "domain": "finance"
+  },
+  {
+    "id": 302,
+    "statement": "In 60 observations, temperature changes were -10 (12), 10 (32), and 30 (16).",
+    "counts": [
+      12,
+      32,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 201.001669,
+    "domain": "weather"
+  },
+  {
+    "id": 303,
+    "statement": "Across 60 patients, outcome scores were -10 (15), 10 (27), and 30 (18).",
+    "counts": [
+      15,
+      27,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 201.669449,
+    "domain": "health"
+  },
+  {
+    "id": 304,
+    "statement": "Over 60 games, point differentials were -10 (12), 10 (39), and 30 (9).",
+    "counts": [
+      12,
+      39,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 202.337229,
+    "domain": "sports"
+  },
+  {
+    "id": 305,
+    "statement": "Across 60 quizzes, score changes were -10 (15), 10 (31), and 30 (14).",
+    "counts": [
+      15,
+      31,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 203.005008,
+    "domain": "education"
+  },
+  {
+    "id": 306,
+    "statement": "In 60 past quarters, returns were -10% (13 times), 10% (29 times), and 30% (18 times).",
+    "counts": [
+      13,
+      29,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 203.672788,
+    "domain": "finance"
+  },
+  {
+    "id": 307,
+    "statement": "In 60 observations, temperature changes were -10 (17), 10 (32), and 30 (11).",
+    "counts": [
+      17,
+      32,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 204.340568,
+    "domain": "weather"
+  },
+  {
+    "id": 308,
+    "statement": "Across 60 patients, outcome scores were -10 (16), 10 (26), and 30 (18).",
+    "counts": [
+      16,
+      26,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 205.008347,
+    "domain": "health"
+  },
+  {
+    "id": 309,
+    "statement": "Over 60 games, point differentials were -10 (20), 10 (36), and 30 (4).",
+    "counts": [
+      20,
+      36,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 205.676127,
+    "domain": "sports"
+  },
+  {
+    "id": 310,
+    "statement": "Across 60 quizzes, score changes were -10 (18), 10 (33), and 30 (9).",
+    "counts": [
+      18,
+      33,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 206.343907,
+    "domain": "education"
+  },
+  {
+    "id": 311,
+    "statement": "In 60 past quarters, returns were -10% (17 times), 10% (27 times), and 30% (16 times).",
+    "counts": [
+      17,
+      27,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 207.011686,
+    "domain": "finance"
+  },
+  {
+    "id": 312,
+    "statement": "In 60 observations, temperature changes were -10 (21), 10 (24), and 30 (15).",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 207.679466,
+    "domain": "weather"
+  },
+  {
+    "id": 313,
+    "statement": "Across 60 patients, outcome scores were -10 (11), 10 (30), and 30 (19).",
+    "counts": [
+      11,
+      30,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 208.347245,
+    "domain": "health"
+  },
+  {
+    "id": 314,
+    "statement": "Over 60 games, point differentials were -10 (13), 10 (27), and 30 (20).",
+    "counts": [
+      13,
+      27,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 209.015025,
+    "domain": "sports"
+  },
+  {
+    "id": 315,
+    "statement": "Across 60 quizzes, score changes were -10 (10), 10 (34), and 30 (16).",
+    "counts": [
+      10,
+      34,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 209.682805,
+    "domain": "education"
+  },
+  {
+    "id": 316,
+    "statement": "In 60 past quarters, returns were -10% (17 times), 10% (31 times), and 30% (12 times).",
+    "counts": [
+      17,
+      31,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 210.350584,
+    "domain": "finance"
+  },
+  {
+    "id": 317,
+    "statement": "In 60 observations, temperature changes were -10 (17), 10 (26), and 30 (17).",
+    "counts": [
+      17,
+      26,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 211.018364,
+    "domain": "weather"
+  },
+  {
+    "id": 318,
+    "statement": "Across 60 patients, outcome scores were -10 (18), 10 (23), and 30 (19).",
+    "counts": [
+      18,
+      23,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 211.686144,
+    "domain": "health"
+  },
+  {
+    "id": 319,
+    "statement": "Over 60 games, point differentials were -10 (15), 10 (32), and 30 (13).",
+    "counts": [
+      15,
+      32,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 212.353923,
+    "domain": "sports"
+  },
+  {
+    "id": 320,
+    "statement": "Across 60 quizzes, score changes were -10 (14), 10 (30), and 30 (16).",
+    "counts": [
+      14,
+      30,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 213.021703,
+    "domain": "education"
+  },
+  {
+    "id": 321,
+    "statement": "In 60 past quarters, returns were -10% (11 times), 10% (29 times), and 30% (20 times).",
+    "counts": [
+      11,
+      29,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 213.689482,
+    "domain": "finance"
+  },
+  {
+    "id": 322,
+    "statement": "In 60 observations, temperature changes were -10 (11), 10 (36), and 30 (13).",
+    "counts": [
+      11,
+      36,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 214.357262,
+    "domain": "weather"
+  },
+  {
+    "id": 323,
+    "statement": "Across 60 patients, outcome scores were -10 (21), 10 (22), and 30 (17).",
+    "counts": [
+      21,
+      22,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 215.025042,
+    "domain": "health"
+  },
+  {
+    "id": 324,
+    "statement": "Over 60 games, point differentials were -10 (14), 10 (30), and 30 (16).",
+    "counts": [
+      14,
+      30,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 215.692821,
+    "domain": "sports"
+  },
+  {
+    "id": 325,
+    "statement": "Across 60 quizzes, score changes were -10 (19), 10 (25), and 30 (16).",
+    "counts": [
+      19,
+      25,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 216.360601,
+    "domain": "education"
+  },
+  {
+    "id": 326,
+    "statement": "In 60 past quarters, returns were -10% (14 times), 10% (29 times), and 30% (17 times).",
+    "counts": [
+      14,
+      29,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 217.028381,
+    "domain": "finance"
+  },
+  {
+    "id": 327,
+    "statement": "In 60 observations, temperature changes were -10 (20), 10 (34), and 30 (6).",
+    "counts": [
+      20,
+      34,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 217.69616,
+    "domain": "weather"
+  },
+  {
+    "id": 328,
+    "statement": "Across 60 patients, outcome scores were -10 (25), 10 (21), and 30 (14).",
+    "counts": [
+      25,
+      21,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 218.36394,
+    "domain": "health"
+  },
+  {
+    "id": 329,
+    "statement": "Over 60 games, point differentials were -10 (13), 10 (26), and 30 (21).",
+    "counts": [
+      13,
+      26,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 219.03172,
+    "domain": "sports"
+  },
+  {
+    "id": 330,
+    "statement": "Across 60 quizzes, score changes were -10 (12), 10 (31), and 30 (17).",
+    "counts": [
+      12,
+      31,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 219.699499,
+    "domain": "education"
+  },
+  {
+    "id": 331,
+    "statement": "In 60 past quarters, returns were -10% (17 times), 10% (29 times), and 30% (14 times).",
+    "counts": [
+      17,
+      29,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 220.367279,
+    "domain": "finance"
+  },
+  {
+    "id": 332,
+    "statement": "In 60 observations, temperature changes were -10 (21), 10 (23), and 30 (16).",
+    "counts": [
+      21,
+      23,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 221.035058,
+    "domain": "weather"
+  },
+  {
+    "id": 333,
+    "statement": "Across 60 patients, outcome scores were -10 (13), 10 (32), and 30 (15).",
+    "counts": [
+      13,
+      32,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 221.702838,
+    "domain": "health"
+  },
+  {
+    "id": 334,
+    "statement": "Over 60 games, point differentials were -10 (11), 10 (30), and 30 (19).",
+    "counts": [
+      11,
+      30,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 222.370618,
+    "domain": "sports"
+  },
+  {
+    "id": 335,
+    "statement": "Across 60 quizzes, score changes were -10 (14), 10 (28), and 30 (18).",
+    "counts": [
+      14,
+      28,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 223.038397,
+    "domain": "education"
+  },
+  {
+    "id": 336,
+    "statement": "In 60 past quarters, returns were -10% (20 times), 10% (21 times), and 30% (19 times).",
+    "counts": [
+      20,
+      21,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 223.706177,
+    "domain": "finance"
+  },
+  {
+    "id": 337,
+    "statement": "In 60 observations, temperature changes were -10 (13), 10 (30), and 30 (17).",
+    "counts": [
+      13,
+      30,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 224.373957,
+    "domain": "weather"
+  },
+  {
+    "id": 338,
+    "statement": "Across 60 patients, outcome scores were -10 (16), 10 (28), and 30 (16).",
+    "counts": [
+      16,
+      28,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 225.041736,
+    "domain": "health"
+  },
+  {
+    "id": 339,
+    "statement": "Over 60 games, point differentials were -10 (16), 10 (27), and 30 (17).",
+    "counts": [
+      16,
+      27,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 225.709516,
+    "domain": "sports"
+  },
+  {
+    "id": 340,
+    "statement": "Across 60 quizzes, score changes were -10 (19), 10 (26), and 30 (15).",
+    "counts": [
+      19,
+      26,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 226.377295,
+    "domain": "education"
+  },
+  {
+    "id": 341,
+    "statement": "In 60 past quarters, returns were -10% (16 times), 10% (28 times), and 30% (16 times).",
+    "counts": [
+      16,
+      28,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 227.045075,
+    "domain": "finance"
+  },
+  {
+    "id": 342,
+    "statement": "In 60 observations, temperature changes were -10 (13), 10 (27), and 30 (20).",
+    "counts": [
+      13,
+      27,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 227.712855,
+    "domain": "weather"
+  },
+  {
+    "id": 343,
+    "statement": "Across 60 patients, outcome scores were -10 (16), 10 (22), and 30 (22).",
+    "counts": [
+      16,
+      22,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 228.380634,
+    "domain": "health"
+  },
+  {
+    "id": 344,
+    "statement": "Over 60 games, point differentials were -10 (20), 10 (26), and 30 (14).",
+    "counts": [
+      20,
+      26,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 229.048414,
+    "domain": "sports"
+  },
+  {
+    "id": 345,
+    "statement": "Across 60 quizzes, score changes were -10 (15), 10 (24), and 30 (21).",
+    "counts": [
+      15,
+      24,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 229.716194,
+    "domain": "education"
+  },
+  {
+    "id": 346,
+    "statement": "In 60 past quarters, returns were -10% (18 times), 10% (32 times), and 30% (10 times).",
+    "counts": [
+      18,
+      32,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 230.383973,
+    "domain": "finance"
+  },
+  {
+    "id": 347,
+    "statement": "In 60 observations, temperature changes were -10 (18), 10 (26), and 30 (16).",
+    "counts": [
+      18,
+      26,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 231.051753,
+    "domain": "weather"
+  },
+  {
+    "id": 348,
+    "statement": "Across 60 patients, outcome scores were -10 (20), 10 (22), and 30 (18).",
+    "counts": [
+      20,
+      22,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 231.719533,
+    "domain": "health"
+  },
+  {
+    "id": 349,
+    "statement": "Over 60 games, point differentials were -10 (22), 10 (21), and 30 (17).",
+    "counts": [
+      22,
+      21,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 232.387312,
+    "domain": "sports"
+  },
+  {
+    "id": 350,
+    "statement": "Across 60 quizzes, score changes were -10 (22), 10 (24), and 30 (14).",
+    "counts": [
+      22,
+      24,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 233.055092,
+    "domain": "education"
+  },
+  {
+    "id": 351,
+    "statement": "In 60 past quarters, returns were -10% (16 times), 10% (31 times), and 30% (13 times).",
+    "counts": [
+      16,
+      31,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 233.722871,
+    "domain": "finance"
+  },
+  {
+    "id": 352,
+    "statement": "In 60 observations, temperature changes were -10 (22), 10 (25), and 30 (13).",
+    "counts": [
+      22,
+      25,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 234.390651,
+    "domain": "weather"
+  },
+  {
+    "id": 353,
+    "statement": "Across 60 patients, outcome scores were -10 (18), 10 (24), and 30 (18).",
+    "counts": [
+      18,
+      24,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 235.058431,
+    "domain": "health"
+  },
+  {
+    "id": 354,
+    "statement": "Over 60 games, point differentials were -10 (21), 10 (24), and 30 (15).",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 235.72621,
+    "domain": "sports"
+  },
+  {
+    "id": 355,
+    "statement": "Across 60 quizzes, score changes were -10 (14), 10 (28), and 30 (18).",
+    "counts": [
+      14,
+      28,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 236.39399,
+    "domain": "education"
+  },
+  {
+    "id": 356,
+    "statement": "In 60 past quarters, returns were -10% (12 times), 10% (30 times), and 30% (18 times).",
+    "counts": [
+      12,
+      30,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 237.06177,
+    "domain": "finance"
+  },
+  {
+    "id": 357,
+    "statement": "In 60 observations, temperature changes were -10 (19), 10 (29), and 30 (12).",
+    "counts": [
+      19,
+      29,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 237.729549,
+    "domain": "weather"
+  },
+  {
+    "id": 358,
+    "statement": "Across 60 patients, outcome scores were -10 (26), 10 (19), and 30 (15).",
+    "counts": [
+      26,
+      19,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 238.397329,
+    "domain": "health"
+  },
+  {
+    "id": 359,
+    "statement": "Over 60 games, point differentials were -10 (16), 10 (22), and 30 (22).",
+    "counts": [
+      16,
+      22,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 239.065109,
+    "domain": "sports"
+  },
+  {
+    "id": 360,
+    "statement": "Across 60 quizzes, score changes were -10 (14), 10 (28), and 30 (18).",
+    "counts": [
+      14,
+      28,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 239.732888,
+    "domain": "education"
+  },
+  {
+    "id": 361,
+    "statement": "In 60 past quarters, returns were -10% (24 times), 10% (23 times), and 30% (13 times).",
+    "counts": [
+      24,
+      23,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 240.400668,
+    "domain": "finance"
+  },
+  {
+    "id": 362,
+    "statement": "In 60 observations, temperature changes were -10 (20), 10 (27), and 30 (13).",
+    "counts": [
+      20,
+      27,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 241.068447,
+    "domain": "weather"
+  },
+  {
+    "id": 363,
+    "statement": "Across 60 patients, outcome scores were -10 (18), 10 (23), and 30 (19).",
+    "counts": [
+      18,
+      23,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 241.736227,
+    "domain": "health"
+  },
+  {
+    "id": 364,
+    "statement": "Over 60 games, point differentials were -10 (15), 10 (27), and 30 (18).",
+    "counts": [
+      15,
+      27,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 242.404007,
+    "domain": "sports"
+  },
+  {
+    "id": 365,
+    "statement": "Across 60 quizzes, score changes were -10 (19), 10 (22), and 30 (19).",
+    "counts": [
+      19,
+      22,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 243.071786,
+    "domain": "education"
+  },
+  {
+    "id": 366,
+    "statement": "In 60 past quarters, returns were -10% (15 times), 10% (26 times), and 30% (19 times).",
+    "counts": [
+      15,
+      26,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 243.739566,
+    "domain": "finance"
+  },
+  {
+    "id": 367,
+    "statement": "In 60 observations, temperature changes were -10 (31), 10 (17), and 30 (12).",
+    "counts": [
+      31,
+      17,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 244.407346,
+    "domain": "weather"
+  },
+  {
+    "id": 368,
+    "statement": "Across 60 patients, outcome scores were -10 (21), 10 (24), and 30 (15).",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 245.075125,
+    "domain": "health"
+  },
+  {
+    "id": 369,
+    "statement": "Over 60 games, point differentials were -10 (18), 10 (23), and 30 (19).",
+    "counts": [
+      18,
+      23,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 245.742905,
+    "domain": "sports"
+  },
+  {
+    "id": 370,
+    "statement": "Across 60 quizzes, score changes were -10 (19), 10 (21), and 30 (20).",
+    "counts": [
+      19,
+      21,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 246.410684,
+    "domain": "education"
+  },
+  {
+    "id": 371,
+    "statement": "In 60 past quarters, returns were -10% (21 times), 10% (20 times), and 30% (19 times).",
+    "counts": [
+      21,
+      20,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 247.078464,
+    "domain": "finance"
+  },
+  {
+    "id": 372,
+    "statement": "In 60 observations, temperature changes were -10 (22), 10 (17), and 30 (21).",
+    "counts": [
+      22,
+      17,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 247.746244,
+    "domain": "weather"
+  },
+  {
+    "id": 373,
+    "statement": "Across 60 patients, outcome scores were -10 (17), 10 (21), and 30 (22).",
+    "counts": [
+      17,
+      21,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 248.414023,
+    "domain": "health"
+  },
+  {
+    "id": 374,
+    "statement": "Over 60 games, point differentials were -10 (19), 10 (25), and 30 (16).",
+    "counts": [
+      19,
+      25,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 249.081803,
+    "domain": "sports"
+  },
+  {
+    "id": 375,
+    "statement": "Across 60 quizzes, score changes were -10 (15), 10 (22), and 30 (23).",
+    "counts": [
+      15,
+      22,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 249.749583,
+    "domain": "education"
+  },
+  {
+    "id": 376,
+    "statement": "In 60 past quarters, returns were -10% (20 times), 10% (26 times), and 30% (14 times).",
+    "counts": [
+      20,
+      26,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 250.417362,
+    "domain": "finance"
+  },
+  {
+    "id": 377,
+    "statement": "In 60 observations, temperature changes were -10 (20), 10 (27), and 30 (13).",
+    "counts": [
+      20,
+      27,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 251.085142,
+    "domain": "weather"
+  },
+  {
+    "id": 378,
+    "statement": "Across 60 patients, outcome scores were -10 (18), 10 (22), and 30 (20).",
+    "counts": [
+      18,
+      22,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 251.752922,
+    "domain": "health"
+  },
+  {
+    "id": 379,
+    "statement": "Over 60 games, point differentials were -10 (20), 10 (25), and 30 (15).",
+    "counts": [
+      20,
+      25,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 252.420701,
+    "domain": "sports"
+  },
+  {
+    "id": 380,
+    "statement": "Across 60 quizzes, score changes were -10 (13), 10 (25), and 30 (22).",
+    "counts": [
+      13,
+      25,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 253.088481,
+    "domain": "education"
+  },
+  {
+    "id": 381,
+    "statement": "In 60 past quarters, returns were -10% (22 times), 10% (18 times), and 30% (20 times).",
+    "counts": [
+      22,
+      18,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 253.75626,
+    "domain": "finance"
+  },
+  {
+    "id": 382,
+    "statement": "In 60 observations, temperature changes were -10 (18), 10 (22), and 30 (20).",
+    "counts": [
+      18,
+      22,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 254.42404,
+    "domain": "weather"
+  },
+  {
+    "id": 383,
+    "statement": "Across 60 patients, outcome scores were -10 (21), 10 (17), and 30 (22).",
+    "counts": [
+      21,
+      17,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 255.09182,
+    "domain": "health"
+  },
+  {
+    "id": 384,
+    "statement": "Over 60 games, point differentials were -10 (19), 10 (18), and 30 (23).",
+    "counts": [
+      19,
+      18,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 255.759599,
+    "domain": "sports"
+  },
+  {
+    "id": 385,
+    "statement": "Across 60 quizzes, score changes were -10 (17), 10 (25), and 30 (18).",
+    "counts": [
+      17,
+      25,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 256.427379,
+    "domain": "education"
+  },
+  {
+    "id": 386,
+    "statement": "In 60 past quarters, returns were -10% (17 times), 10% (21 times), and 30% (22 times).",
+    "counts": [
+      17,
+      21,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 257.095159,
+    "domain": "finance"
+  },
+  {
+    "id": 387,
+    "statement": "In 60 observations, temperature changes were -10 (24), 10 (19), and 30 (17).",
+    "counts": [
+      24,
+      19,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 257.762938,
+    "domain": "weather"
+  },
+  {
+    "id": 388,
+    "statement": "Across 60 patients, outcome scores were -10 (21), 10 (24), and 30 (15).",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 258.430718,
+    "domain": "health"
+  },
+  {
+    "id": 389,
+    "statement": "Over 60 games, point differentials were -10 (19), 10 (22), and 30 (19).",
+    "counts": [
+      19,
+      22,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 259.098497,
+    "domain": "sports"
+  },
+  {
+    "id": 390,
+    "statement": "Across 60 quizzes, score changes were -10 (19), 10 (24), and 30 (17).",
+    "counts": [
+      19,
+      24,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 259.766277,
+    "domain": "education"
+  },
+  {
+    "id": 391,
+    "statement": "In 60 past quarters, returns were -10% (21 times), 10% (19 times), and 30% (20 times).",
+    "counts": [
+      21,
+      19,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 260.434057,
+    "domain": "finance"
+  },
+  {
+    "id": 392,
+    "statement": "In 60 observations, temperature changes were -10 (21), 10 (18), and 30 (21).",
+    "counts": [
+      21,
+      18,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 261.101836,
+    "domain": "weather"
+  },
+  {
+    "id": 393,
+    "statement": "Across 60 patients, outcome scores were -10 (19), 10 (18), and 30 (23).",
+    "counts": [
+      19,
+      18,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 261.769616,
+    "domain": "health"
+  },
+  {
+    "id": 394,
+    "statement": "Over 60 games, point differentials were -10 (20), 10 (17), and 30 (23).",
+    "counts": [
+      20,
+      17,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 262.437396,
+    "domain": "sports"
+  },
+  {
+    "id": 395,
+    "statement": "Across 60 quizzes, score changes were -10 (19), 10 (19), and 30 (22).",
+    "counts": [
+      19,
+      19,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 263.105175,
+    "domain": "education"
+  },
+  {
+    "id": 396,
+    "statement": "In 60 past quarters, returns were -10% (17 times), 10% (26 times), and 30% (17 times).",
+    "counts": [
+      17,
+      26,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 263.772955,
+    "domain": "finance"
+  },
+  {
+    "id": 397,
+    "statement": "In 60 observations, temperature changes were -10 (25), 10 (19), and 30 (16).",
+    "counts": [
+      25,
+      19,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 264.440735,
+    "domain": "weather"
+  },
+  {
+    "id": 398,
+    "statement": "Across 60 patients, outcome scores were -10 (14), 10 (22), and 30 (24).",
+    "counts": [
+      14,
+      22,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 265.108514,
+    "domain": "health"
+  },
+  {
+    "id": 399,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (15), and 30 (20).",
+    "counts": [
+      25,
+      15,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 265.776294,
+    "domain": "sports"
+  },
+  {
+    "id": 400,
+    "statement": "Across 60 quizzes, score changes were -10 (28), 10 (12), and 30 (20).",
+    "counts": [
+      28,
+      12,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 266.444073,
+    "domain": "education"
+  },
+  {
+    "id": 401,
+    "statement": "In 60 past quarters, returns were -10% (20 times), 10% (18 times), and 30% (22 times).",
+    "counts": [
+      20,
+      18,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 267.111853,
+    "domain": "finance"
+  },
+  {
+    "id": 402,
+    "statement": "In 60 observations, temperature changes were -10 (15), 10 (20), and 30 (25).",
+    "counts": [
+      15,
+      20,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 267.779633,
+    "domain": "weather"
+  },
+  {
+    "id": 403,
+    "statement": "Across 60 patients, outcome scores were -10 (21), 10 (24), and 30 (15).",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 268.447412,
+    "domain": "health"
+  },
+  {
+    "id": 404,
+    "statement": "Over 60 games, point differentials were -10 (10), 10 (28), and 30 (22).",
+    "counts": [
+      10,
+      28,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 269.115192,
+    "domain": "sports"
+  },
+  {
+    "id": 405,
+    "statement": "Across 60 quizzes, score changes were -10 (23), 10 (20), and 30 (17).",
+    "counts": [
+      23,
+      20,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 269.782972,
+    "domain": "education"
+  },
+  {
+    "id": 406,
+    "statement": "In 60 past quarters, returns were -10% (16 times), 10% (16 times), and 30% (28 times).",
+    "counts": [
+      16,
+      16,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 270.450751,
+    "domain": "finance"
+  },
+  {
+    "id": 407,
+    "statement": "In 60 observations, temperature changes were -10 (23), 10 (19), and 30 (18).",
+    "counts": [
+      23,
+      19,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 271.118531,
+    "domain": "weather"
+  },
+  {
+    "id": 408,
+    "statement": "Across 60 patients, outcome scores were -10 (19), 10 (19), and 30 (22).",
+    "counts": [
+      19,
+      19,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 271.786311,
+    "domain": "health"
+  },
+  {
+    "id": 409,
+    "statement": "Over 60 games, point differentials were -10 (14), 10 (31), and 30 (15).",
+    "counts": [
+      14,
+      31,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 272.45409,
+    "domain": "sports"
+  },
+  {
+    "id": 410,
+    "statement": "Across 60 quizzes, score changes were -10 (24), 10 (23), and 30 (13).",
+    "counts": [
+      24,
+      23,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 273.12187,
+    "domain": "education"
+  },
+  {
+    "id": 411,
+    "statement": "In 60 past quarters, returns were -10% (24 times), 10% (17 times), and 30% (19 times).",
+    "counts": [
+      24,
+      17,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 273.789649,
+    "domain": "finance"
+  },
+  {
+    "id": 412,
+    "statement": "In 60 observations, temperature changes were -10 (24), 10 (15), and 30 (21).",
+    "counts": [
+      24,
+      15,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 274.457429,
+    "domain": "weather"
+  },
+  {
+    "id": 413,
+    "statement": "Across 60 patients, outcome scores were -10 (22), 10 (16), and 30 (22).",
+    "counts": [
+      22,
+      16,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 275.125209,
+    "domain": "health"
+  },
+  {
+    "id": 414,
+    "statement": "Over 60 games, point differentials were -10 (20), 10 (23), and 30 (17).",
+    "counts": [
+      20,
+      23,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 275.792988,
+    "domain": "sports"
+  },
+  {
+    "id": 415,
+    "statement": "Across 60 quizzes, score changes were -10 (20), 10 (23), and 30 (17).",
+    "counts": [
+      20,
+      23,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 276.460768,
+    "domain": "education"
+  },
+  {
+    "id": 416,
+    "statement": "In 60 past quarters, returns were -10% (22 times), 10% (16 times), and 30% (22 times).",
+    "counts": [
+      22,
+      16,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 277.128548,
+    "domain": "finance"
+  },
+  {
+    "id": 417,
+    "statement": "In 60 observations, temperature changes were -10 (18), 10 (11), and 30 (31).",
+    "counts": [
+      18,
+      11,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 277.796327,
+    "domain": "weather"
+  },
+  {
+    "id": 418,
+    "statement": "Across 60 patients, outcome scores were -10 (22), 10 (21), and 30 (17).",
+    "counts": [
+      22,
+      21,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 278.464107,
+    "domain": "health"
+  },
+  {
+    "id": 419,
+    "statement": "Over 60 games, point differentials were -10 (18), 10 (19), and 30 (23).",
+    "counts": [
+      18,
+      19,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 279.131886,
+    "domain": "sports"
+  },
+  {
+    "id": 420,
+    "statement": "Across 60 quizzes, score changes were -10 (29), 10 (14), and 30 (17).",
+    "counts": [
+      29,
+      14,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 279.799666,
+    "domain": "education"
+  },
+  {
+    "id": 421,
+    "statement": "In 60 past quarters, returns were -10% (27 times), 10% (18 times), and 30% (15 times).",
+    "counts": [
+      27,
+      18,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 280.467446,
+    "domain": "finance"
+  },
+  {
+    "id": 422,
+    "statement": "In 60 observations, temperature changes were -10 (21), 10 (19), and 30 (20).",
+    "counts": [
+      21,
+      19,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 281.135225,
+    "domain": "weather"
+  },
+  {
+    "id": 423,
+    "statement": "Across 60 patients, outcome scores were -10 (16), 10 (20), and 30 (24).",
+    "counts": [
+      16,
+      20,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 281.803005,
+    "domain": "health"
+  },
+  {
+    "id": 424,
+    "statement": "Over 60 games, point differentials were -10 (24), 10 (14), and 30 (22).",
+    "counts": [
+      24,
+      14,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 282.470785,
+    "domain": "sports"
+  },
+  {
+    "id": 425,
+    "statement": "Across 60 quizzes, score changes were -10 (15), 10 (14), and 30 (31).",
+    "counts": [
+      15,
+      14,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 283.138564,
+    "domain": "education"
+  },
+  {
+    "id": 426,
+    "statement": "In 60 past quarters, returns were -10% (18 times), 10% (17 times), and 30% (25 times).",
+    "counts": [
+      18,
+      17,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 283.806344,
+    "domain": "finance"
+  },
+  {
+    "id": 427,
+    "statement": "In 60 observations, temperature changes were -10 (25), 10 (15), and 30 (20).",
+    "counts": [
+      25,
+      15,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 284.474124,
+    "domain": "weather"
+  },
+  {
+    "id": 428,
+    "statement": "Across 60 patients, outcome scores were -10 (22), 10 (15), and 30 (23).",
+    "counts": [
+      22,
+      15,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 285.141903,
+    "domain": "health"
+  },
+  {
+    "id": 429,
+    "statement": "Over 60 games, point differentials were -10 (19), 10 (19), and 30 (22).",
+    "counts": [
+      19,
+      19,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 285.809683,
+    "domain": "sports"
+  },
+  {
+    "id": 430,
+    "statement": "Across 60 quizzes, score changes were -10 (24), 10 (13), and 30 (23).",
+    "counts": [
+      24,
+      13,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 286.477462,
+    "domain": "education"
+  },
+  {
+    "id": 431,
+    "statement": "In 60 past quarters, returns were -10% (21 times), 10% (18 times), and 30% (21 times).",
+    "counts": [
+      21,
+      18,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 287.145242,
+    "domain": "finance"
+  },
+  {
+    "id": 432,
+    "statement": "In 60 observations, temperature changes were -10 (28), 10 (12), and 30 (20).",
+    "counts": [
+      28,
+      12,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 287.813022,
+    "domain": "weather"
+  },
+  {
+    "id": 433,
+    "statement": "Across 60 patients, outcome scores were -10 (21), 10 (18), and 30 (21).",
+    "counts": [
+      21,
+      18,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 288.480801,
+    "domain": "health"
+  },
+  {
+    "id": 434,
+    "statement": "Over 60 games, point differentials were -10 (18), 10 (19), and 30 (23).",
+    "counts": [
+      18,
+      19,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 289.148581,
+    "domain": "sports"
+  },
+  {
+    "id": 435,
+    "statement": "Across 60 quizzes, score changes were -10 (29), 10 (12), and 30 (19).",
+    "counts": [
+      29,
+      12,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 289.816361,
+    "domain": "education"
+  },
+  {
+    "id": 436,
+    "statement": "In 60 past quarters, returns were -10% (22 times), 10% (13 times), and 30% (25 times).",
+    "counts": [
+      22,
+      13,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 290.48414,
+    "domain": "finance"
+  },
+  {
+    "id": 437,
+    "statement": "In 60 observations, temperature changes were -10 (22), 10 (22), and 30 (16).",
+    "counts": [
+      22,
+      22,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 291.15192,
+    "domain": "weather"
+  },
+  {
+    "id": 438,
+    "statement": "Across 60 patients, outcome scores were -10 (22), 10 (14), and 30 (24).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 291.819699,
+    "domain": "health"
+  },
+  {
+    "id": 439,
+    "statement": "Over 60 games, point differentials were -10 (20), 10 (18), and 30 (22).",
+    "counts": [
+      20,
+      18,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 292.487479,
+    "domain": "sports"
+  },
+  {
+    "id": 440,
+    "statement": "Across 60 quizzes, score changes were -10 (26), 10 (14), and 30 (20).",
+    "counts": [
+      26,
+      14,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 293.155259,
+    "domain": "education"
+  },
+  {
+    "id": 441,
+    "statement": "In 60 past quarters, returns were -10% (22 times), 10% (19 times), and 30% (19 times).",
+    "counts": [
+      22,
+      19,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 293.823038,
+    "domain": "finance"
+  },
+  {
+    "id": 442,
+    "statement": "In 60 observations, temperature changes were -10 (17), 10 (23), and 30 (20).",
+    "counts": [
+      17,
+      23,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 294.490818,
+    "domain": "weather"
+  },
+  {
+    "id": 443,
+    "statement": "Across 60 patients, outcome scores were -10 (22), 10 (14), and 30 (24).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 295.158598,
+    "domain": "health"
+  },
+  {
+    "id": 444,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (13), and 30 (22).",
+    "counts": [
+      25,
+      13,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 295.826377,
+    "domain": "sports"
+  },
+  {
+    "id": 445,
+    "statement": "Across 60 quizzes, score changes were -10 (18), 10 (15), and 30 (27).",
+    "counts": [
+      18,
+      15,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 296.494157,
+    "domain": "education"
+  },
+  {
+    "id": 446,
+    "statement": "In 60 past quarters, returns were -10% (24 times), 10% (11 times), and 30% (25 times).",
+    "counts": [
+      24,
+      11,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 297.161937,
+    "domain": "finance"
+  },
+  {
+    "id": 447,
+    "statement": "In 60 observations, temperature changes were -10 (22), 10 (13), and 30 (25).",
+    "counts": [
+      22,
+      13,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 297.829716,
+    "domain": "weather"
+  },
+  {
+    "id": 448,
+    "statement": "Across 60 patients, outcome scores were -10 (23), 10 (12), and 30 (25).",
+    "counts": [
+      23,
+      12,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 298.497496,
+    "domain": "health"
+  },
+  {
+    "id": 449,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (18), and 30 (17).",
+    "counts": [
+      25,
+      18,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 299.165275,
+    "domain": "sports"
+  },
+  {
+    "id": 450,
+    "statement": "Across 60 quizzes, score changes were -10 (21), 10 (14), and 30 (25).",
+    "counts": [
+      21,
+      14,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 299.833055,
+    "domain": "education"
+  },
+  {
+    "id": 451,
+    "statement": "In 60 past quarters, returns were -10% (23 times), 10% (17 times), and 30% (20 times).",
+    "counts": [
+      23,
+      17,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 300.500835,
+    "domain": "finance"
+  },
+  {
+    "id": 452,
+    "statement": "In 60 observations, temperature changes were -10 (17), 10 (18), and 30 (25).",
+    "counts": [
+      17,
+      18,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 301.168614,
+    "domain": "weather"
+  },
+  {
+    "id": 453,
+    "statement": "Across 60 patients, outcome scores were -10 (26), 10 (16), and 30 (18).",
+    "counts": [
+      26,
+      16,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 301.836394,
+    "domain": "health"
+  },
+  {
+    "id": 454,
+    "statement": "Over 60 games, point differentials were -10 (22), 10 (18), and 30 (20).",
+    "counts": [
+      22,
+      18,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 302.504174,
+    "domain": "sports"
+  },
+  {
+    "id": 455,
+    "statement": "Across 60 quizzes, score changes were -10 (23), 10 (12), and 30 (25).",
+    "counts": [
+      23,
+      12,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 303.171953,
+    "domain": "education"
+  },
+  {
+    "id": 456,
+    "statement": "In 60 past quarters, returns were -10% (21 times), 10% (16 times), and 30% (23 times).",
+    "counts": [
+      21,
+      16,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 303.839733,
+    "domain": "finance"
+  },
+  {
+    "id": 457,
+    "statement": "In 60 observations, temperature changes were -10 (23), 10 (17), and 30 (20).",
+    "counts": [
+      23,
+      17,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 304.507513,
+    "domain": "weather"
+  },
+  {
+    "id": 458,
+    "statement": "Across 60 patients, outcome scores were -10 (25), 10 (11), and 30 (24).",
+    "counts": [
+      25,
+      11,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 305.175292,
+    "domain": "health"
+  },
+  {
+    "id": 459,
+    "statement": "Over 60 games, point differentials were -10 (22), 10 (17), and 30 (21).",
+    "counts": [
+      22,
+      17,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 305.843072,
+    "domain": "sports"
+  },
+  {
+    "id": 460,
+    "statement": "Across 60 quizzes, score changes were -10 (23), 10 (12), and 30 (25).",
+    "counts": [
+      23,
+      12,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 306.510851,
+    "domain": "education"
+  },
+  {
+    "id": 461,
+    "statement": "In 60 past quarters, returns were -10% (29 times), 10% (11 times), and 30% (20 times).",
+    "counts": [
+      29,
+      11,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 307.178631,
+    "domain": "finance"
+  },
+  {
+    "id": 462,
+    "statement": "In 60 observations, temperature changes were -10 (21), 10 (15), and 30 (24).",
+    "counts": [
+      21,
+      15,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 307.846411,
+    "domain": "weather"
+  },
+  {
+    "id": 463,
+    "statement": "Across 60 patients, outcome scores were -10 (21), 10 (13), and 30 (26).",
+    "counts": [
+      21,
+      13,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 308.51419,
+    "domain": "health"
+  },
+  {
+    "id": 464,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (15), and 30 (20).",
+    "counts": [
+      25,
+      15,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 309.18197,
+    "domain": "sports"
+  },
+  {
+    "id": 465,
+    "statement": "Across 60 quizzes, score changes were -10 (22), 10 (11), and 30 (27).",
+    "counts": [
+      22,
+      11,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 309.84975,
+    "domain": "education"
+  },
+  {
+    "id": 466,
+    "statement": "In 60 past quarters, returns were -10% (23 times), 10% (13 times), and 30% (24 times).",
+    "counts": [
+      23,
+      13,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 310.517529,
+    "domain": "finance"
+  },
+  {
+    "id": 467,
+    "statement": "In 60 observations, temperature changes were -10 (23), 10 (11), and 30 (26).",
+    "counts": [
+      23,
+      11,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 311.185309,
+    "domain": "weather"
+  },
+  {
+    "id": 468,
+    "statement": "Across 60 patients, outcome scores were -10 (26), 10 (10), and 30 (24).",
+    "counts": [
+      26,
+      10,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 311.853088,
+    "domain": "health"
+  },
+  {
+    "id": 469,
+    "statement": "Over 60 games, point differentials were -10 (17), 10 (17), and 30 (26).",
+    "counts": [
+      17,
+      17,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 312.520868,
+    "domain": "sports"
+  },
+  {
+    "id": 470,
+    "statement": "Across 60 quizzes, score changes were -10 (26), 10 (10), and 30 (24).",
+    "counts": [
+      26,
+      10,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 313.188648,
+    "domain": "education"
+  },
+  {
+    "id": 471,
+    "statement": "In 60 past quarters, returns were -10% (20 times), 10% (15 times), and 30% (25 times).",
+    "counts": [
+      20,
+      15,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 313.856427,
+    "domain": "finance"
+  },
+  {
+    "id": 472,
+    "statement": "In 60 observations, temperature changes were -10 (29), 10 (9), and 30 (22).",
+    "counts": [
+      29,
+      9,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 314.524207,
+    "domain": "weather"
+  },
+  {
+    "id": 473,
+    "statement": "Across 60 patients, outcome scores were -10 (24), 10 (11), and 30 (25).",
+    "counts": [
+      24,
+      11,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 315.191987,
+    "domain": "health"
+  },
+  {
+    "id": 474,
+    "statement": "Over 60 games, point differentials were -10 (26), 10 (12), and 30 (22).",
+    "counts": [
+      26,
+      12,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 315.859766,
+    "domain": "sports"
+  },
+  {
+    "id": 475,
+    "statement": "Across 60 quizzes, score changes were -10 (23), 10 (14), and 30 (23).",
+    "counts": [
+      23,
+      14,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 316.527546,
+    "domain": "education"
+  },
+  {
+    "id": 476,
+    "statement": "In 60 past quarters, returns were -10% (24 times), 10% (10 times), and 30% (26 times).",
+    "counts": [
+      24,
+      10,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 317.195326,
+    "domain": "finance"
+  },
+  {
+    "id": 477,
+    "statement": "In 60 observations, temperature changes were -10 (23), 10 (18), and 30 (19).",
+    "counts": [
+      23,
+      18,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 317.863105,
+    "domain": "weather"
+  },
+  {
+    "id": 478,
+    "statement": "Across 60 patients, outcome scores were -10 (27), 10 (11), and 30 (22).",
+    "counts": [
+      27,
+      11,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 318.530885,
+    "domain": "health"
+  },
+  {
+    "id": 479,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (9), and 30 (26).",
+    "counts": [
+      25,
+      9,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 319.198664,
+    "domain": "sports"
+  },
+  {
+    "id": 480,
+    "statement": "Across 60 quizzes, score changes were -10 (23), 10 (16), and 30 (21).",
+    "counts": [
+      23,
+      16,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 319.866444,
+    "domain": "education"
+  },
+  {
+    "id": 481,
+    "statement": "In 60 past quarters, returns were -10% (21 times), 10% (19 times), and 30% (20 times).",
+    "counts": [
+      21,
+      19,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 320.534224,
+    "domain": "finance"
+  },
+  {
+    "id": 482,
+    "statement": "In 60 observations, temperature changes were -10 (28), 10 (12), and 30 (20).",
+    "counts": [
+      28,
+      12,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 321.202003,
+    "domain": "weather"
+  },
+  {
+    "id": 483,
+    "statement": "Across 60 patients, outcome scores were -10 (23), 10 (8), and 30 (29).",
+    "counts": [
+      23,
+      8,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 321.869783,
+    "domain": "health"
+  },
+  {
+    "id": 484,
+    "statement": "Over 60 games, point differentials were -10 (22), 10 (14), and 30 (24).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 322.537563,
+    "domain": "sports"
+  },
+  {
+    "id": 485,
+    "statement": "Across 60 quizzes, score changes were -10 (23), 10 (14), and 30 (23).",
+    "counts": [
+      23,
+      14,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 323.205342,
+    "domain": "education"
+  },
+  {
+    "id": 486,
+    "statement": "In 60 past quarters, returns were -10% (21 times), 10% (15 times), and 30% (24 times).",
+    "counts": [
+      21,
+      15,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 323.873122,
+    "domain": "finance"
+  },
+  {
+    "id": 487,
+    "statement": "In 60 observations, temperature changes were -10 (28), 10 (12), and 30 (20).",
+    "counts": [
+      28,
+      12,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 324.540902,
+    "domain": "weather"
+  },
+  {
+    "id": 488,
+    "statement": "Across 60 patients, outcome scores were -10 (21), 10 (10), and 30 (29).",
+    "counts": [
+      21,
+      10,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 325.208681,
+    "domain": "health"
+  },
+  {
+    "id": 489,
+    "statement": "Over 60 games, point differentials were -10 (19), 10 (8), and 30 (33).",
+    "counts": [
+      19,
+      8,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 325.876461,
+    "domain": "sports"
+  },
+  {
+    "id": 490,
+    "statement": "Across 60 quizzes, score changes were -10 (27), 10 (10), and 30 (23).",
+    "counts": [
+      27,
+      10,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 326.54424,
+    "domain": "education"
+  },
+  {
+    "id": 491,
+    "statement": "In 60 past quarters, returns were -10% (27 times), 10% (9 times), and 30% (24 times).",
+    "counts": [
+      27,
+      9,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 327.21202,
+    "domain": "finance"
+  },
+  {
+    "id": 492,
+    "statement": "In 60 observations, temperature changes were -10 (23), 10 (15), and 30 (22).",
+    "counts": [
+      23,
+      15,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 327.8798,
+    "domain": "weather"
+  },
+  {
+    "id": 493,
+    "statement": "Across 60 patients, outcome scores were -10 (35), 10 (5), and 30 (20).",
+    "counts": [
+      35,
+      5,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 328.547579,
+    "domain": "health"
+  },
+  {
+    "id": 494,
+    "statement": "Over 60 games, point differentials were -10 (28), 10 (10), and 30 (22).",
+    "counts": [
+      28,
+      10,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 329.215359,
+    "domain": "sports"
+  },
+  {
+    "id": 495,
+    "statement": "Across 60 quizzes, score changes were -10 (15), 10 (14), and 30 (31).",
+    "counts": [
+      15,
+      14,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 329.883139,
+    "domain": "education"
+  },
+  {
+    "id": 496,
+    "statement": "In 60 past quarters, returns were -10% (23 times), 10% (10 times), and 30% (27 times).",
+    "counts": [
+      23,
+      10,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 330.550918,
+    "domain": "finance"
+  },
+  {
+    "id": 497,
+    "statement": "In 60 observations, temperature changes were -10 (32), 10 (10), and 30 (18).",
+    "counts": [
+      32,
+      10,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 331.218698,
+    "domain": "weather"
+  },
+  {
+    "id": 498,
+    "statement": "Across 60 patients, outcome scores were -10 (19), 10 (13), and 30 (28).",
+    "counts": [
+      19,
+      13,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 331.886477,
+    "domain": "health"
+  },
+  {
+    "id": 499,
+    "statement": "Over 60 games, point differentials were -10 (17), 10 (16), and 30 (27).",
+    "counts": [
+      17,
+      16,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 332.554257,
+    "domain": "sports"
+  },
+  {
+    "id": 500,
+    "statement": "Across 60 quizzes, score changes were -10 (26), 10 (11), and 30 (23).",
+    "counts": [
+      26,
+      11,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 333.222037,
+    "domain": "education"
+  },
+  {
+    "id": 501,
+    "statement": "In 60 past quarters, returns were -10% (17 times), 10% (8 times), and 30% (35 times).",
+    "counts": [
+      17,
+      8,
+      35
+    ],
+    "mean": 10.0,
+    "variance": 333.889816,
+    "domain": "finance"
+  },
+  {
+    "id": 502,
+    "statement": "In 60 observations, temperature changes were -10 (25), 10 (9), and 30 (26).",
+    "counts": [
+      25,
+      9,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 334.557596,
+    "domain": "weather"
+  },
+  {
+    "id": 503,
+    "statement": "Across 60 patients, outcome scores were -10 (29), 10 (7), and 30 (24).",
+    "counts": [
+      29,
+      7,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 335.225376,
+    "domain": "health"
+  },
+  {
+    "id": 504,
+    "statement": "Over 60 games, point differentials were -10 (24), 10 (7), and 30 (29).",
+    "counts": [
+      24,
+      7,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 335.893155,
+    "domain": "sports"
+  },
+  {
+    "id": 505,
+    "statement": "Across 60 quizzes, score changes were -10 (25), 10 (14), and 30 (21).",
+    "counts": [
+      25,
+      14,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 336.560935,
+    "domain": "education"
+  },
+  {
+    "id": 506,
+    "statement": "In 60 past quarters, returns were -10% (23 times), 10% (12 times), and 30% (25 times).",
+    "counts": [
+      23,
+      12,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 337.228715,
+    "domain": "finance"
+  },
+  {
+    "id": 507,
+    "statement": "In 60 observations, temperature changes were -10 (22), 10 (14), and 30 (24).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 337.896494,
+    "domain": "weather"
+  },
+  {
+    "id": 508,
+    "statement": "Across 60 patients, outcome scores were -10 (25), 10 (6), and 30 (29).",
+    "counts": [
+      25,
+      6,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 338.564274,
+    "domain": "health"
+  },
+  {
+    "id": 509,
+    "statement": "Over 60 games, point differentials were -10 (28), 10 (11), and 30 (21).",
+    "counts": [
+      28,
+      11,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 339.232053,
+    "domain": "sports"
+  },
+  {
+    "id": 510,
+    "statement": "Across 60 quizzes, score changes were -10 (21), 10 (7), and 30 (32).",
+    "counts": [
+      21,
+      7,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 339.899833,
+    "domain": "education"
+  },
+  {
+    "id": 511,
+    "statement": "In 60 past quarters, returns were -10% (23 times), 10% (10 times), and 30% (27 times).",
+    "counts": [
+      23,
+      10,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 340.567613,
+    "domain": "finance"
+  },
+  {
+    "id": 512,
+    "statement": "In 60 observations, temperature changes were -10 (32), 10 (10), and 30 (18).",
+    "counts": [
+      32,
+      10,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 341.235392,
+    "domain": "weather"
+  },
+  {
+    "id": 513,
+    "statement": "Across 60 patients, outcome scores were -10 (24), 10 (5), and 30 (31).",
+    "counts": [
+      24,
+      5,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 341.903172,
+    "domain": "health"
+  },
+  {
+    "id": 514,
+    "statement": "Over 60 games, point differentials were -10 (27), 10 (9), and 30 (24).",
+    "counts": [
+      27,
+      9,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 342.570952,
+    "domain": "sports"
+  },
+  {
+    "id": 515,
+    "statement": "Across 60 quizzes, score changes were -10 (23), 10 (10), and 30 (27).",
+    "counts": [
+      23,
+      10,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 343.238731,
+    "domain": "education"
+  },
+  {
+    "id": 516,
+    "statement": "In 60 past quarters, returns were -10% (34 times), 10% (4 times), and 30% (22 times).",
+    "counts": [
+      34,
+      4,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 343.906511,
+    "domain": "finance"
+  },
+  {
+    "id": 517,
+    "statement": "In 60 observations, temperature changes were -10 (24), 10 (11), and 30 (25).",
+    "counts": [
+      24,
+      11,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 344.57429,
+    "domain": "weather"
+  },
+  {
+    "id": 518,
+    "statement": "Across 60 patients, outcome scores were -10 (22), 10 (6), and 30 (32).",
+    "counts": [
+      22,
+      6,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 345.24207,
+    "domain": "health"
+  },
+  {
+    "id": 519,
+    "statement": "Over 60 games, point differentials were -10 (22), 10 (11), and 30 (27).",
+    "counts": [
+      22,
+      11,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 345.90985,
+    "domain": "sports"
+  },
+  {
+    "id": 520,
+    "statement": "Across 60 quizzes, score changes were -10 (22), 10 (6), and 30 (32).",
+    "counts": [
+      22,
+      6,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 346.577629,
+    "domain": "education"
+  },
+  {
+    "id": 521,
+    "statement": "In 60 past quarters, returns were -10% (27 times), 10% (9 times), and 30% (24 times).",
+    "counts": [
+      27,
+      9,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 347.245409,
+    "domain": "finance"
+  },
+  {
+    "id": 522,
+    "statement": "In 60 observations, temperature changes were -10 (29), 10 (7), and 30 (24).",
+    "counts": [
+      29,
+      7,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 347.913189,
+    "domain": "weather"
+  },
+  {
+    "id": 523,
+    "statement": "Across 60 patients, outcome scores were -10 (31), 10 (4), and 30 (25).",
+    "counts": [
+      31,
+      4,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 348.580968,
+    "domain": "health"
+  },
+  {
+    "id": 524,
+    "statement": "Over 60 games, point differentials were -10 (26), 10 (7), and 30 (27).",
+    "counts": [
+      26,
+      7,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 349.248748,
+    "domain": "sports"
+  },
+  {
+    "id": 525,
+    "statement": "Across 60 quizzes, score changes were -10 (27), 10 (5), and 30 (28).",
+    "counts": [
+      27,
+      5,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 349.916528,
+    "domain": "education"
+  },
+  {
+    "id": 526,
+    "statement": "In 60 past quarters, returns were -10% (22 times), 10% (14 times), and 30% (24 times).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 350.584307,
+    "domain": "finance"
+  },
+  {
+    "id": 527,
+    "statement": "In 60 observations, temperature changes were -10 (24), 10 (8), and 30 (28).",
+    "counts": [
+      24,
+      8,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 351.252087,
+    "domain": "weather"
+  },
+  {
+    "id": 528,
+    "statement": "Across 60 patients, outcome scores were -10 (32), 10 (5), and 30 (23).",
+    "counts": [
+      32,
+      5,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 351.919866,
+    "domain": "health"
+  },
+  {
+    "id": 529,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (8), and 30 (27).",
+    "counts": [
+      25,
+      8,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 352.587646,
+    "domain": "sports"
+  },
+  {
+    "id": 530,
+    "statement": "Across 60 quizzes, score changes were -10 (21), 10 (3), and 30 (36).",
+    "counts": [
+      21,
+      3,
+      36
+    ],
+    "mean": 10.0,
+    "variance": 353.255426,
+    "domain": "education"
+  },
+  {
+    "id": 531,
+    "statement": "In 60 past quarters, returns were -10% (28 times), 10% (6 times), and 30% (26 times).",
+    "counts": [
+      28,
+      6,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 353.923205,
+    "domain": "finance"
+  },
+  {
+    "id": 532,
+    "statement": "In 60 observations, temperature changes were -10 (21), 10 (6), and 30 (33).",
+    "counts": [
+      21,
+      6,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 354.590985,
+    "domain": "weather"
+  },
+  {
+    "id": 533,
+    "statement": "Across 60 patients, outcome scores were -10 (29), 10 (8), and 30 (23).",
+    "counts": [
+      29,
+      8,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 355.258765,
+    "domain": "health"
+  },
+  {
+    "id": 534,
+    "statement": "Over 60 games, point differentials were -10 (27), 10 (5), and 30 (28).",
+    "counts": [
+      27,
+      5,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 355.926544,
+    "domain": "sports"
+  },
+  {
+    "id": 535,
+    "statement": "Across 60 quizzes, score changes were -10 (31), 10 (4), and 30 (25).",
+    "counts": [
+      31,
+      4,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 356.594324,
+    "domain": "education"
+  },
+  {
+    "id": 536,
+    "statement": "In 60 past quarters, returns were -10% (29 times), 10% (4 times), and 30% (27 times).",
+    "counts": [
+      29,
+      4,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 357.262104,
+    "domain": "finance"
+  },
+  {
+    "id": 537,
+    "statement": "In 60 observations, temperature changes were -10 (33), 10 (7), and 30 (20).",
+    "counts": [
+      33,
+      7,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 357.929883,
+    "domain": "weather"
+  },
+  {
+    "id": 538,
+    "statement": "Across 60 patients, outcome scores were -10 (27), 10 (6), and 30 (27).",
+    "counts": [
+      27,
+      6,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 358.597663,
+    "domain": "health"
+  },
+  {
+    "id": 539,
+    "statement": "Over 60 games, point differentials were -10 (28), 10 (7), and 30 (25).",
+    "counts": [
+      28,
+      7,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 359.265442,
+    "domain": "sports"
+  },
+  {
+    "id": 540,
+    "statement": "Across 60 quizzes, score changes were -10 (28), 10 (7), and 30 (25).",
+    "counts": [
+      28,
+      7,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 359.933222,
+    "domain": "education"
+  },
+  {
+    "id": 541,
+    "statement": "In 60 past quarters, returns were -10% (22 times), 10% (6 times), and 30% (32 times).",
+    "counts": [
+      22,
+      6,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 360.601002,
+    "domain": "finance"
+  },
+  {
+    "id": 542,
+    "statement": "In 60 observations, temperature changes were -10 (30), 10 (5), and 30 (25).",
+    "counts": [
+      30,
+      5,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 361.268781,
+    "domain": "weather"
+  },
+  {
+    "id": 543,
+    "statement": "Across 60 patients, outcome scores were -10 (34), 10 (5), and 30 (21).",
+    "counts": [
+      34,
+      5,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 361.936561,
+    "domain": "health"
+  },
+  {
+    "id": 544,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (9), and 30 (26).",
+    "counts": [
+      25,
+      9,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 362.604341,
+    "domain": "sports"
+  },
+  {
+    "id": 545,
+    "statement": "Across 60 quizzes, score changes were -10 (26), 10 (6), and 30 (28).",
+    "counts": [
+      26,
+      6,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 363.27212,
+    "domain": "education"
+  },
+  {
+    "id": 546,
+    "statement": "In 60 past quarters, returns were -10% (29 times), 10% (7 times), and 30% (24 times).",
+    "counts": [
+      29,
+      7,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 363.9399,
+    "domain": "finance"
+  },
+  {
+    "id": 547,
+    "statement": "In 60 observations, temperature changes were -10 (24), 10 (8), and 30 (28).",
+    "counts": [
+      24,
+      8,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 364.607679,
+    "domain": "weather"
+  },
+  {
+    "id": 548,
+    "statement": "Across 60 patients, outcome scores were -10 (28), 10 (4), and 30 (28).",
+    "counts": [
+      28,
+      4,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 365.275459,
+    "domain": "health"
+  },
+  {
+    "id": 549,
+    "statement": "Over 60 games, point differentials were -10 (26), 10 (10), and 30 (24).",
+    "counts": [
+      26,
+      10,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 365.943239,
+    "domain": "sports"
+  },
+  {
+    "id": 550,
+    "statement": "Across 60 quizzes, score changes were -10 (34), 10 (4), and 30 (22).",
+    "counts": [
+      34,
+      4,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 366.611018,
+    "domain": "education"
+  },
+  {
+    "id": 551,
+    "statement": "In 60 past quarters, returns were -10% (26 times), 10% (9 times), and 30% (25 times).",
+    "counts": [
+      26,
+      9,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 367.278798,
+    "domain": "finance"
+  },
+  {
+    "id": 552,
+    "statement": "In 60 observations, temperature changes were -10 (19), 10 (3), and 30 (38).",
+    "counts": [
+      19,
+      3,
+      38
+    ],
+    "mean": 10.0,
+    "variance": 367.946578,
+    "domain": "weather"
+  },
+  {
+    "id": 553,
+    "statement": "Across 60 patients, outcome scores were -10 (28), 10 (5), and 30 (27).",
+    "counts": [
+      28,
+      5,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 368.614357,
+    "domain": "health"
+  },
+  {
+    "id": 554,
+    "statement": "Over 60 games, point differentials were -10 (18), 10 (4), and 30 (38).",
+    "counts": [
+      18,
+      4,
+      38
+    ],
+    "mean": 10.0,
+    "variance": 369.282137,
+    "domain": "sports"
+  },
+  {
+    "id": 555,
+    "statement": "Across 60 quizzes, score changes were -10 (22), 10 (4), and 30 (34).",
+    "counts": [
+      22,
+      4,
+      34
+    ],
+    "mean": 10.0,
+    "variance": 369.949917,
+    "domain": "education"
+  },
+  {
+    "id": 556,
+    "statement": "In 60 past quarters, returns were -10% (24 times), 10% (3 times), and 30% (33 times).",
+    "counts": [
+      24,
+      3,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 370.617696,
+    "domain": "finance"
+  },
+  {
+    "id": 557,
+    "statement": "In 60 observations, temperature changes were -10 (23), 10 (4), and 30 (33).",
+    "counts": [
+      23,
+      4,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 371.285476,
+    "domain": "weather"
+  },
+  {
+    "id": 558,
+    "statement": "Across 60 patients, outcome scores were -10 (24), 10 (6), and 30 (30).",
+    "counts": [
+      24,
+      6,
+      30
+    ],
+    "mean": 10.0,
+    "variance": 371.953255,
+    "domain": "health"
+  },
+  {
+    "id": 559,
+    "statement": "Over 60 games, point differentials were -10 (27), 10 (2), and 30 (31).",
+    "counts": [
+      27,
+      2,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 372.621035,
+    "domain": "sports"
+  },
+  {
+    "id": 560,
+    "statement": "Across 60 quizzes, score changes were -10 (29), 10 (5), and 30 (26).",
+    "counts": [
+      29,
+      5,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 373.288815,
+    "domain": "education"
+  },
+  {
+    "id": 561,
+    "statement": "In 60 past quarters, returns were -10% (27 times), 10% (0 times), and 30% (33 times).",
+    "counts": [
+      27,
+      0,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 373.956594,
+    "domain": "finance"
+  },
+  {
+    "id": 562,
+    "statement": "In 60 observations, temperature changes were -10 (30), 10 (5), and 30 (25).",
+    "counts": [
+      30,
+      5,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 374.624374,
+    "domain": "weather"
+  },
+  {
+    "id": 563,
+    "statement": "Across 60 patients, outcome scores were -10 (33), 10 (4), and 30 (23).",
+    "counts": [
+      33,
+      4,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 375.292154,
+    "domain": "health"
+  },
+  {
+    "id": 564,
+    "statement": "Over 60 games, point differentials were -10 (29), 10 (3), and 30 (28).",
+    "counts": [
+      29,
+      3,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 375.959933,
+    "domain": "sports"
+  },
+  {
+    "id": 565,
+    "statement": "Across 60 quizzes, score changes were -10 (26), 10 (1), and 30 (33).",
+    "counts": [
+      26,
+      1,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 376.627713,
+    "domain": "education"
+  },
+  {
+    "id": 566,
+    "statement": "In 60 past quarters, returns were -10% (32 times), 10% (3 times), and 30% (25 times).",
+    "counts": [
+      32,
+      3,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 377.295492,
+    "domain": "finance"
+  },
+  {
+    "id": 567,
+    "statement": "In 60 observations, temperature changes were -10 (26), 10 (2), and 30 (32).",
+    "counts": [
+      26,
+      2,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 377.963272,
+    "domain": "weather"
+  },
+  {
+    "id": 568,
+    "statement": "Across 60 patients, outcome scores were -10 (26), 10 (5), and 30 (29).",
+    "counts": [
+      26,
+      5,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 378.631052,
+    "domain": "health"
+  },
+  {
+    "id": 569,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (1), and 30 (34).",
+    "counts": [
+      25,
+      1,
+      34
+    ],
+    "mean": 10.0,
+    "variance": 379.298831,
+    "domain": "sports"
+  },
+  {
+    "id": 570,
+    "statement": "Across 60 quizzes, score changes were -10 (27), 10 (2), and 30 (31).",
+    "counts": [
+      27,
+      2,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 379.966611,
+    "domain": "education"
+  },
+  {
+    "id": 571,
+    "statement": "In 60 past quarters, returns were -10% (31 times), 10% (3 times), and 30% (26 times).",
+    "counts": [
+      31,
+      3,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 380.634391,
+    "domain": "finance"
+  },
+  {
+    "id": 572,
+    "statement": "In 60 observations, temperature changes were -10 (28), 10 (6), and 30 (26).",
+    "counts": [
+      28,
+      6,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 381.30217,
+    "domain": "weather"
+  },
+  {
+    "id": 573,
+    "statement": "Across 60 patients, outcome scores were -10 (33), 10 (1), and 30 (26).",
+    "counts": [
+      33,
+      1,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 381.96995,
+    "domain": "health"
+  },
+  {
+    "id": 574,
+    "statement": "Over 60 games, point differentials were -10 (26), 10 (2), and 30 (32).",
+    "counts": [
+      26,
+      2,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 382.63773,
+    "domain": "sports"
+  },
+  {
+    "id": 575,
+    "statement": "Across 60 quizzes, score changes were -10 (23), 10 (4), and 30 (33).",
+    "counts": [
+      23,
+      4,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 383.305509,
+    "domain": "education"
+  },
+  {
+    "id": 576,
+    "statement": "In 60 past quarters, returns were -10% (32 times), 10% (1 times), and 30% (27 times).",
+    "counts": [
+      32,
+      1,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 383.973289,
+    "domain": "finance"
+  },
+  {
+    "id": 577,
+    "statement": "In 60 observations, temperature changes were -10 (34), 10 (2), and 30 (24).",
+    "counts": [
+      34,
+      2,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 384.641068,
+    "domain": "weather"
+  },
+  {
+    "id": 578,
+    "statement": "Across 60 patients, outcome scores were -10 (26), 10 (3), and 30 (31).",
+    "counts": [
+      26,
+      3,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 385.308848,
+    "domain": "health"
+  },
+  {
+    "id": 579,
+    "statement": "Over 60 games, point differentials were -10 (31), 10 (3), and 30 (26).",
+    "counts": [
+      31,
+      3,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 385.976628,
+    "domain": "sports"
+  },
+  {
+    "id": 580,
+    "statement": "Across 60 quizzes, score changes were -10 (36), 10 (3), and 30 (21).",
+    "counts": [
+      36,
+      3,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 386.644407,
+    "domain": "education"
+  },
+  {
+    "id": 581,
+    "statement": "In 60 past quarters, returns were -10% (28 times), 10% (2 times), and 30% (30 times).",
+    "counts": [
+      28,
+      2,
+      30
+    ],
+    "mean": 10.0,
+    "variance": 387.312187,
+    "domain": "finance"
+  },
+  {
+    "id": 582,
+    "statement": "In 60 observations, temperature changes were -10 (21), 10 (2), and 30 (37).",
+    "counts": [
+      21,
+      2,
+      37
+    ],
+    "mean": 10.0,
+    "variance": 387.979967,
+    "domain": "weather"
+  },
+  {
+    "id": 583,
+    "statement": "Across 60 patients, outcome scores were -10 (26), 10 (0), and 30 (34).",
+    "counts": [
+      26,
+      0,
+      34
+    ],
+    "mean": 10.0,
+    "variance": 388.647746,
+    "domain": "health"
+  },
+  {
+    "id": 584,
+    "statement": "Over 60 games, point differentials were -10 (33), 10 (0), and 30 (27).",
+    "counts": [
+      33,
+      0,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 389.315526,
+    "domain": "sports"
+  },
+  {
+    "id": 585,
+    "statement": "Across 60 quizzes, score changes were -10 (25), 10 (2), and 30 (33).",
+    "counts": [
+      25,
+      2,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 389.983306,
+    "domain": "education"
+  },
+  {
+    "id": 586,
+    "statement": "In 60 past quarters, returns were -10% (30 times), 10% (1 times), and 30% (29 times).",
+    "counts": [
+      30,
+      1,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 390.651085,
+    "domain": "finance"
+  },
+  {
+    "id": 587,
+    "statement": "In 60 observations, temperature changes were -10 (33), 10 (0), and 30 (27).",
+    "counts": [
+      33,
+      0,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 391.318865,
+    "domain": "weather"
+  },
+  {
+    "id": 588,
+    "statement": "Across 60 patients, outcome scores were -10 (26), 10 (1), and 30 (33).",
+    "counts": [
+      26,
+      1,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 391.986644,
+    "domain": "health"
+  },
+  {
+    "id": 589,
+    "statement": "Over 60 games, point differentials were -10 (25), 10 (2), and 30 (33).",
+    "counts": [
+      25,
+      2,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 392.654424,
+    "domain": "sports"
+  },
+  {
+    "id": 590,
+    "statement": "Across 60 quizzes, score changes were -10 (35), 10 (2), and 30 (23).",
+    "counts": [
+      35,
+      2,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 393.322204,
+    "domain": "education"
+  },
+  {
+    "id": 591,
+    "statement": "In 60 past quarters, returns were -10% (34 times), 10% (0 times), and 30% (26 times).",
+    "counts": [
+      34,
+      0,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 393.989983,
+    "domain": "finance"
+  },
+  {
+    "id": 592,
+    "statement": "In 60 observations, temperature changes were -10 (29), 10 (2), and 30 (29).",
+    "counts": [
+      29,
+      2,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 394.657763,
+    "domain": "weather"
+  },
+  {
+    "id": 593,
+    "statement": "Across 60 patients, outcome scores were -10 (34), 10 (1), and 30 (25).",
+    "counts": [
+      34,
+      1,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 395.325543,
+    "domain": "health"
+  },
+  {
+    "id": 594,
+    "statement": "Over 60 games, point differentials were -10 (31), 10 (0), and 30 (29).",
+    "counts": [
+      31,
+      0,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 395.993322,
+    "domain": "sports"
+  },
+  {
+    "id": 595,
+    "statement": "Across 60 quizzes, score changes were -10 (27), 10 (0), and 30 (33).",
+    "counts": [
+      27,
+      0,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 396.661102,
+    "domain": "education"
+  },
+  {
+    "id": 596,
+    "statement": "In 60 past quarters, returns were -10% (35 times), 10% (0 times), and 30% (25 times).",
+    "counts": [
+      35,
+      0,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 397.328881,
+    "domain": "finance"
+  },
+  {
+    "id": 597,
+    "statement": "In 60 observations, temperature changes were -10 (39), 10 (0), and 30 (21).",
+    "counts": [
+      39,
+      0,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 397.996661,
+    "domain": "weather"
+  },
+  {
+    "id": 598,
+    "statement": "Across 60 patients, outcome scores were -10 (33), 10 (0), and 30 (27).",
+    "counts": [
+      33,
+      0,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 398.664441,
+    "domain": "health"
+  },
+  {
+    "id": 599,
+    "statement": "Over 60 games, point differentials were -10 (23), 10 (0), and 30 (37).",
+    "counts": [
+      23,
+      0,
+      37
+    ],
+    "mean": 10.0,
+    "variance": 399.33222,
+    "domain": "sports"
+  },
+  {
+    "id": 600,
+    "statement": "Across 60 quizzes, score changes were -10 (32), 10 (0), and 30 (28).",
+    "counts": [
+      32,
+      0,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 400.0,
+    "domain": "education"
+  }
+]

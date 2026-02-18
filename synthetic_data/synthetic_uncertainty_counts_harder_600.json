@@ -1,0 +1,7202 @@
+[
+  {
+    "id": 1,
+    "statement": "FY2021 Dept-766 budget 12.5M. In 60 observations, outcomes were 30 (0 times), -10 (0 times), 10 (60 times).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 0.0,
+    "domain": "finance"
+  },
+  {
+    "id": 2,
+    "statement": "FY2020 code 696. Counts across 60 cases -> 10=60, -10=0, 30=0. Budget=12.5M.",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 0.66778,
+    "domain": "weather"
+  },
+  {
+    "id": 3,
+    "statement": "FY2018 Dept-544 budget 18.0M. In 60 observations, outcomes were 10 (59 times), 30 (1 times), -10 (0 times).",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 1.335559,
+    "domain": "health"
+  },
+  {
+    "id": 4,
+    "statement": "FY2022 code 534. Counts across 60 cases -> 10=60, 30=0, -10=0. Budget=12.5M.",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 2.003339,
+    "domain": "sports"
+  },
+  {
+    "id": 5,
+    "statement": "FY2023 Dept-742 budget 25.0M. In 60 observations, outcomes were 10 (60 times), 30 (0 times), -10 (0 times).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 2.671119,
+    "domain": "education"
+  },
+  {
+    "id": 6,
+    "statement": "FY2018 code 326. Counts across 60 cases -> -10=0, 10=60, 30=0. Budget=12.5M.",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 3.338898,
+    "domain": "finance"
+  },
+  {
+    "id": 7,
+    "statement": "FY2021 Dept-247 budget 25.0M. In 60 observations, outcomes were 30 (0 times), 10 (59 times), -10 (1 times).",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 4.006678,
+    "domain": "weather"
+  },
+  {
+    "id": 8,
+    "statement": "FY2022 Dept-935 budget 25.0M. In 60 observations, outcomes were -10 (0 times), 10 (60 times), 30 (0 times).",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 4.674457,
+    "domain": "health"
+  },
+  {
+    "id": 9,
+    "statement": "FY2020 code 199. Counts across 60 cases -> 10=59, 30=0, -10=1. Budget=25.0M.",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 5.342237,
+    "domain": "sports"
+  },
+  {
+    "id": 10,
+    "statement": "FY2022 code 310. Counts across 60 cases -> 10=58, 30=2, -10=0. Budget=18.0M.",
+    "counts": [
+      0,
+      58,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 6.010017,
+    "domain": "education"
+  },
+  {
+    "id": 11,
+    "statement": "Reference FY2020-576. Over 60 trials we saw: -10:0, 10:60, 30:0. (Budget 25.0M)",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 6.677796,
+    "domain": "finance"
+  },
+  {
+    "id": 12,
+    "statement": "FY2019 code 913. Counts across 60 cases -> -10=2, 30=0, 10=58. Budget=12.5M.",
+    "counts": [
+      2,
+      58,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 7.345576,
+    "domain": "weather"
+  },
+  {
+    "id": 13,
+    "statement": "Reference FY2022-407. Over 60 trials we saw: 10:57, 30:2, -10:1. (Budget 25.0M)",
+    "counts": [
+      1,
+      57,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 8.013356,
+    "domain": "health"
+  },
+  {
+    "id": 14,
+    "statement": "FY2020 Dept-723 budget 12.5M. In 60 observations, outcomes were -10 (0 times), 30 (1 times), 10 (59 times).",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 8.681135,
+    "domain": "sports"
+  },
+  {
+    "id": 15,
+    "statement": "FY2019 Dept-875 budget 18.0M. In 60 observations, outcomes were -10 (1 times), 10 (58 times), 30 (1 times).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 9.348915,
+    "domain": "education"
+  },
+  {
+    "id": 16,
+    "statement": "FY2018 code 784. Counts across 60 cases -> -10=0, 30=0, 10=60. Budget=12.5M.",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 10.016694,
+    "domain": "finance"
+  },
+  {
+    "id": 17,
+    "statement": "FY2020 code 811. Counts across 60 cases -> -10=1, 10=59, 30=0. Budget=18.0M.",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 10.684474,
+    "domain": "weather"
+  },
+  {
+    "id": 18,
+    "statement": "Reference FY2018-960. Over 60 trials we saw: -10:1, 30:0, 10:59. (Budget 12.5M)",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 11.352254,
+    "domain": "health"
+  },
+  {
+    "id": 19,
+    "statement": "Reference FY2018-848. Over 60 trials we saw: 30:1, -10:2, 10:57. (Budget 25.0M)",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 12.020033,
+    "domain": "sports"
+  },
+  {
+    "id": 20,
+    "statement": "FY2020 code 833. Counts across 60 cases -> -10=0, 10=59, 30=1. Budget=18.0M.",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 12.687813,
+    "domain": "education"
+  },
+  {
+    "id": 21,
+    "statement": "FY2021 code 463. Counts across 60 cases -> 30=1, -10=0, 10=59. Budget=12.5M.",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 13.355593,
+    "domain": "finance"
+  },
+  {
+    "id": 22,
+    "statement": "FY2018 Dept-323 budget 18.0M. In 60 observations, outcomes were 30 (1 times), 10 (58 times), -10 (1 times).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 14.023372,
+    "domain": "weather"
+  },
+  {
+    "id": 23,
+    "statement": "FY2021 Dept-500 budget 18.0M. In 60 observations, outcomes were 10 (58 times), -10 (1 times), 30 (1 times).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 14.691152,
+    "domain": "health"
+  },
+  {
+    "id": 24,
+    "statement": "FY2021 Dept-662 budget 18.0M. In 60 observations, outcomes were 30 (1 times), 10 (57 times), -10 (2 times).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 15.358932,
+    "domain": "sports"
+  },
+  {
+    "id": 25,
+    "statement": "FY2023 code 525. Counts across 60 cases -> -10=3, 30=0, 10=57. Budget=18.0M.",
+    "counts": [
+      3,
+      57,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 16.026711,
+    "domain": "education"
+  },
+  {
+    "id": 26,
+    "statement": "FY2019 Dept-184 budget 12.5M. In 60 observations, outcomes were 30 (1 times), -10 (2 times), 10 (57 times).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 16.694491,
+    "domain": "finance"
+  },
+  {
+    "id": 27,
+    "statement": "FY2018 Dept-596 budget 25.0M. In 60 observations, outcomes were 10 (57 times), 30 (2 times), -10 (1 times).",
+    "counts": [
+      1,
+      57,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 17.36227,
+    "domain": "weather"
+  },
+  {
+    "id": 28,
+    "statement": "FY2018 code 249. Counts across 60 cases -> -10=1, 30=1, 10=58. Budget=18.0M.",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 18.03005,
+    "domain": "health"
+  },
+  {
+    "id": 29,
+    "statement": "FY2019 code 807. Counts across 60 cases -> -10=0, 30=0, 10=60. Budget=25.0M.",
+    "counts": [
+      0,
+      60,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 18.69783,
+    "domain": "sports"
+  },
+  {
+    "id": 30,
+    "statement": "FY2021 code 991. Counts across 60 cases -> 10=57, -10=2, 30=1. Budget=25.0M.",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 19.365609,
+    "domain": "education"
+  },
+  {
+    "id": 31,
+    "statement": "Reference FY2021-503. Over 60 trials we saw: -10:2, 30:4, 10:54. (Budget 12.5M)",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 20.033389,
+    "domain": "finance"
+  },
+  {
+    "id": 32,
+    "statement": "FY2018 Dept-295 budget 12.5M. In 60 observations, outcomes were -10 (2 times), 10 (58 times), 30 (0 times).",
+    "counts": [
+      2,
+      58,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 20.701169,
+    "domain": "weather"
+  },
+  {
+    "id": 33,
+    "statement": "FY2018 Dept-448 budget 25.0M. In 60 observations, outcomes were 30 (2 times), -10 (1 times), 10 (57 times).",
+    "counts": [
+      1,
+      57,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 21.368948,
+    "domain": "health"
+  },
+  {
+    "id": 34,
+    "statement": "FY2022 Dept-254 budget 25.0M. In 60 observations, outcomes were 10 (55 times), 30 (4 times), -10 (1 times).",
+    "counts": [
+      1,
+      55,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 22.036728,
+    "domain": "sports"
+  },
+  {
+    "id": 35,
+    "statement": "FY2018 code 995. Counts across 60 cases -> 30=3, -10=4, 10=53. Budget=12.5M.",
+    "counts": [
+      4,
+      53,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 22.704508,
+    "domain": "education"
+  },
+  {
+    "id": 36,
+    "statement": "FY2023 code 358. Counts across 60 cases -> 30=3, -10=1, 10=56. Budget=18.0M.",
+    "counts": [
+      1,
+      56,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 23.372287,
+    "domain": "finance"
+  },
+  {
+    "id": 37,
+    "statement": "Reference FY2018-218. Over 60 trials we saw: -10:0, 30:1, 10:59. (Budget 18.0M)",
+    "counts": [
+      0,
+      59,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 24.040067,
+    "domain": "weather"
+  },
+  {
+    "id": 38,
+    "statement": "FY2020 Dept-187 budget 12.5M. In 60 observations, outcomes were -10 (2 times), 30 (3 times), 10 (55 times).",
+    "counts": [
+      2,
+      55,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 24.707846,
+    "domain": "health"
+  },
+  {
+    "id": 39,
+    "statement": "FY2023 code 371. Counts across 60 cases -> -10=2, 10=58, 30=0. Budget=18.0M.",
+    "counts": [
+      2,
+      58,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 25.375626,
+    "domain": "sports"
+  },
+  {
+    "id": 40,
+    "statement": "FY2019 Dept-640 budget 18.0M. In 60 observations, outcomes were 10 (58 times), 30 (1 times), -10 (1 times).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 26.043406,
+    "domain": "education"
+  },
+  {
+    "id": 41,
+    "statement": "FY2022 Dept-405 budget 25.0M. In 60 observations, outcomes were 10 (58 times), -10 (1 times), 30 (1 times).",
+    "counts": [
+      1,
+      58,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 26.711185,
+    "domain": "finance"
+  },
+  {
+    "id": 42,
+    "statement": "Reference FY2022-475. Over 60 trials we saw: -10:2, 10:56, 30:2. (Budget 12.5M)",
+    "counts": [
+      2,
+      56,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 27.378965,
+    "domain": "weather"
+  },
+  {
+    "id": 43,
+    "statement": "FY2023 Dept-328 budget 25.0M. In 60 observations, outcomes were 30 (3 times), 10 (54 times), -10 (3 times).",
+    "counts": [
+      3,
+      54,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 28.046745,
+    "domain": "health"
+  },
+  {
+    "id": 44,
+    "statement": "FY2023 Dept-922 budget 12.5M. In 60 observations, outcomes were 30 (2 times), 10 (56 times), -10 (2 times).",
+    "counts": [
+      2,
+      56,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 28.714524,
+    "domain": "sports"
+  },
+  {
+    "id": 45,
+    "statement": "FY2020 Dept-848 budget 12.5M. In 60 observations, outcomes were -10 (3 times), 10 (53 times), 30 (4 times).",
+    "counts": [
+      3,
+      53,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 29.382304,
+    "domain": "education"
+  },
+  {
+    "id": 46,
+    "statement": "FY2020 code 298. Counts across 60 cases -> -10=3, 30=3, 10=54. Budget=25.0M.",
+    "counts": [
+      3,
+      54,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 30.050083,
+    "domain": "finance"
+  },
+  {
+    "id": 47,
+    "statement": "FY2023 Dept-457 budget 18.0M. In 60 observations, outcomes were -10 (5 times), 30 (0 times), 10 (55 times).",
+    "counts": [
+      5,
+      55,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 30.717863,
+    "domain": "weather"
+  },
+  {
+    "id": 48,
+    "statement": "Reference FY2019-581. Over 60 trials we saw: 10:55, 30:1, -10:4. (Budget 12.5M)",
+    "counts": [
+      4,
+      55,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 31.385643,
+    "domain": "health"
+  },
+  {
+    "id": 49,
+    "statement": "Reference FY2022-724. Over 60 trials we saw: 30:4, 10:54, -10:2. (Budget 12.5M)",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 32.053422,
+    "domain": "sports"
+  },
+  {
+    "id": 50,
+    "statement": "FY2023 Dept-186 budget 25.0M. In 60 observations, outcomes were -10 (3 times), 10 (56 times), 30 (1 times).",
+    "counts": [
+      3,
+      56,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 32.721202,
+    "domain": "education"
+  },
+  {
+    "id": 51,
+    "statement": "FY2021 code 282. Counts across 60 cases -> 30=0, -10=3, 10=57. Budget=18.0M.",
+    "counts": [
+      3,
+      57,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 33.388982,
+    "domain": "finance"
+  },
+  {
+    "id": 52,
+    "statement": "Reference FY2023-505. Over 60 trials we saw: 30:4, -10:2, 10:54. (Budget 18.0M)",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 34.056761,
+    "domain": "weather"
+  },
+  {
+    "id": 53,
+    "statement": "FY2023 Dept-262 budget 12.5M. In 60 observations, outcomes were 10 (55 times), -10 (2 times), 30 (3 times).",
+    "counts": [
+      2,
+      55,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 34.724541,
+    "domain": "health"
+  },
+  {
+    "id": 54,
+    "statement": "FY2022 Dept-576 budget 25.0M. In 60 observations, outcomes were 10 (52 times), 30 (4 times), -10 (4 times).",
+    "counts": [
+      4,
+      52,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 35.392321,
+    "domain": "sports"
+  },
+  {
+    "id": 55,
+    "statement": "FY2023 code 458. Counts across 60 cases -> -10=4, 10=56, 30=0. Budget=12.5M.",
+    "counts": [
+      4,
+      56,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 36.0601,
+    "domain": "education"
+  },
+  {
+    "id": 56,
+    "statement": "FY2018 code 114. Counts across 60 cases -> 10=56, -10=2, 30=2. Budget=25.0M.",
+    "counts": [
+      2,
+      56,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 36.72788,
+    "domain": "finance"
+  },
+  {
+    "id": 57,
+    "statement": "FY2021 Dept-992 budget 12.5M. In 60 observations, outcomes were 10 (57 times), 30 (3 times), -10 (0 times).",
+    "counts": [
+      0,
+      57,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 37.395659,
+    "domain": "weather"
+  },
+  {
+    "id": 58,
+    "statement": "FY2019 Dept-399 budget 25.0M. In 60 observations, outcomes were 30 (4 times), 10 (53 times), -10 (3 times).",
+    "counts": [
+      3,
+      53,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 38.063439,
+    "domain": "health"
+  },
+  {
+    "id": 59,
+    "statement": "FY2020 Dept-657 budget 18.0M. In 60 observations, outcomes were -10 (6 times), 10 (53 times), 30 (1 times).",
+    "counts": [
+      6,
+      53,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 38.731219,
+    "domain": "sports"
+  },
+  {
+    "id": 60,
+    "statement": "FY2021 code 778. Counts across 60 cases -> 30=4, 10=54, -10=2. Budget=25.0M.",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 39.398998,
+    "domain": "education"
+  },
+  {
+    "id": 61,
+    "statement": "FY2022 code 255. Counts across 60 cases -> 30=2, -10=1, 10=57. Budget=25.0M.",
+    "counts": [
+      1,
+      57,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 40.066778,
+    "domain": "finance"
+  },
+  {
+    "id": 62,
+    "statement": "FY2019 Dept-723 budget 12.5M. In 60 observations, outcomes were 30 (1 times), 10 (56 times), -10 (3 times).",
+    "counts": [
+      3,
+      56,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 40.734558,
+    "domain": "weather"
+  },
+  {
+    "id": 63,
+    "statement": "FY2021 Dept-733 budget 25.0M. In 60 observations, outcomes were 10 (51 times), 30 (5 times), -10 (4 times).",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 41.402337,
+    "domain": "health"
+  },
+  {
+    "id": 64,
+    "statement": "FY2020 code 798. Counts across 60 cases -> 10=57, -10=0, 30=3. Budget=25.0M.",
+    "counts": [
+      0,
+      57,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 42.070117,
+    "domain": "sports"
+  },
+  {
+    "id": 65,
+    "statement": "FY2018 Dept-673 budget 12.5M. In 60 observations, outcomes were -10 (5 times), 10 (48 times), 30 (7 times).",
+    "counts": [
+      5,
+      48,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 42.737896,
+    "domain": "education"
+  },
+  {
+    "id": 66,
+    "statement": "FY2018 code 890. Counts across 60 cases -> 30=2, 10=56, -10=2. Budget=12.5M.",
+    "counts": [
+      2,
+      56,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 43.405676,
+    "domain": "finance"
+  },
+  {
+    "id": 67,
+    "statement": "FY2018 code 553. Counts across 60 cases -> 30=6, -10=5, 10=49. Budget=18.0M.",
+    "counts": [
+      5,
+      49,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 44.073456,
+    "domain": "weather"
+  },
+  {
+    "id": 68,
+    "statement": "FY2023 code 383. Counts across 60 cases -> 10=55, -10=2, 30=3. Budget=18.0M.",
+    "counts": [
+      2,
+      55,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 44.741235,
+    "domain": "health"
+  },
+  {
+    "id": 69,
+    "statement": "FY2022 code 353. Counts across 60 cases -> -10=4, 10=51, 30=5. Budget=25.0M.",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 45.409015,
+    "domain": "sports"
+  },
+  {
+    "id": 70,
+    "statement": "FY2021 Dept-240 budget 18.0M. In 60 observations, outcomes were 30 (4 times), -10 (2 times), 10 (54 times).",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 46.076795,
+    "domain": "education"
+  },
+  {
+    "id": 71,
+    "statement": "FY2020 Dept-174 budget 25.0M. In 60 observations, outcomes were -10 (5 times), 30 (3 times), 10 (52 times).",
+    "counts": [
+      5,
+      52,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 46.744574,
+    "domain": "finance"
+  },
+  {
+    "id": 72,
+    "statement": "FY2019 Dept-785 budget 18.0M. In 60 observations, outcomes were 30 (1 times), -10 (2 times), 10 (57 times).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 47.412354,
+    "domain": "weather"
+  },
+  {
+    "id": 73,
+    "statement": "Reference FY2019-359. Over 60 trials we saw: 30:5, 10:53, -10:2. (Budget 12.5M)",
+    "counts": [
+      2,
+      53,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 48.080134,
+    "domain": "health"
+  },
+  {
+    "id": 74,
+    "statement": "FY2021 code 598. Counts across 60 cases -> 10=59, 30=0, -10=1. Budget=12.5M.",
+    "counts": [
+      1,
+      59,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 48.747913,
+    "domain": "sports"
+  },
+  {
+    "id": 75,
+    "statement": "Reference FY2023-541. Over 60 trials we saw: 10:56, 30:1, -10:3. (Budget 25.0M)",
+    "counts": [
+      3,
+      56,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 49.415693,
+    "domain": "education"
+  },
+  {
+    "id": 76,
+    "statement": "FY2019 Dept-465 budget 18.0M. In 60 observations, outcomes were -10 (2 times), 30 (1 times), 10 (57 times).",
+    "counts": [
+      2,
+      57,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 50.083472,
+    "domain": "finance"
+  },
+  {
+    "id": 77,
+    "statement": "Reference FY2018-446. Over 60 trials we saw: -10:4, 10:51, 30:5. (Budget 25.0M)",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 50.751252,
+    "domain": "weather"
+  },
+  {
+    "id": 78,
+    "statement": "FY2021 code 439. Counts across 60 cases -> 30=2, -10=3, 10=55. Budget=25.0M.",
+    "counts": [
+      3,
+      55,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 51.419032,
+    "domain": "health"
+  },
+  {
+    "id": 79,
+    "statement": "FY2018 Dept-907 budget 12.5M. In 60 observations, outcomes were 30 (4 times), -10 (3 times), 10 (53 times).",
+    "counts": [
+      3,
+      53,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 52.086811,
+    "domain": "sports"
+  },
+  {
+    "id": 80,
+    "statement": "Reference FY2020-140. Over 60 trials we saw: 30:9, 10:44, -10:7. (Budget 12.5M)",
+    "counts": [
+      7,
+      44,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 52.754591,
+    "domain": "education"
+  },
+  {
+    "id": 81,
+    "statement": "Reference FY2023-938. Over 60 trials we saw: 30:0, 10:57, -10:3. (Budget 18.0M)",
+    "counts": [
+      3,
+      57,
+      0
+    ],
+    "mean": 10.0,
+    "variance": 53.422371,
+    "domain": "finance"
+  },
+  {
+    "id": 82,
+    "statement": "Reference FY2023-434. Over 60 trials we saw: 30:7, 10:47, -10:6. (Budget 12.5M)",
+    "counts": [
+      6,
+      47,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 54.09015,
+    "domain": "weather"
+  },
+  {
+    "id": 83,
+    "statement": "FY2021 Dept-174 budget 18.0M. In 60 observations, outcomes were 10 (51 times), 30 (5 times), -10 (4 times).",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 54.75793,
+    "domain": "health"
+  },
+  {
+    "id": 84,
+    "statement": "FY2020 Dept-185 budget 25.0M. In 60 observations, outcomes were 10 (50 times), -10 (6 times), 30 (4 times).",
+    "counts": [
+      6,
+      50,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 55.42571,
+    "domain": "sports"
+  },
+  {
+    "id": 85,
+    "statement": "Reference FY2018-564. Over 60 trials we saw: 30:1, 10:53, -10:6. (Budget 12.5M)",
+    "counts": [
+      6,
+      53,
+      1
+    ],
+    "mean": 10.0,
+    "variance": 56.093489,
+    "domain": "education"
+  },
+  {
+    "id": 86,
+    "statement": "FY2020 Dept-736 budget 12.5M. In 60 observations, outcomes were -10 (3 times), 10 (54 times), 30 (3 times).",
+    "counts": [
+      3,
+      54,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 56.761269,
+    "domain": "finance"
+  },
+  {
+    "id": 87,
+    "statement": "FY2018 Dept-265 budget 18.0M. In 60 observations, outcomes were 10 (51 times), -10 (2 times), 30 (7 times).",
+    "counts": [
+      2,
+      51,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 57.429048,
+    "domain": "weather"
+  },
+  {
+    "id": 88,
+    "statement": "FY2020 code 743. Counts across 60 cases -> 10=54, 30=5, -10=1. Budget=18.0M.",
+    "counts": [
+      1,
+      54,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 58.096828,
+    "domain": "health"
+  },
+  {
+    "id": 89,
+    "statement": "FY2021 Dept-612 budget 25.0M. In 60 observations, outcomes were 30 (4 times), 10 (54 times), -10 (2 times).",
+    "counts": [
+      2,
+      54,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 58.764608,
+    "domain": "sports"
+  },
+  {
+    "id": 90,
+    "statement": "FY2018 Dept-356 budget 12.5M. In 60 observations, outcomes were -10 (4 times), 30 (3 times), 10 (53 times).",
+    "counts": [
+      4,
+      53,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 59.432387,
+    "domain": "education"
+  },
+  {
+    "id": 91,
+    "statement": "Reference FY2022-586. Over 60 trials we saw: 10:51, 30:5, -10:4. (Budget 12.5M)",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 60.100167,
+    "domain": "finance"
+  },
+  {
+    "id": 92,
+    "statement": "Reference FY2023-606. Over 60 trials we saw: 30:6, 10:51, -10:3. (Budget 25.0M)",
+    "counts": [
+      3,
+      51,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 60.767947,
+    "domain": "weather"
+  },
+  {
+    "id": 93,
+    "statement": "Reference FY2023-320. Over 60 trials we saw: -10:3, 10:54, 30:3. (Budget 12.5M)",
+    "counts": [
+      3,
+      54,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 61.435726,
+    "domain": "health"
+  },
+  {
+    "id": 94,
+    "statement": "FY2021 Dept-455 budget 12.5M. In 60 observations, outcomes were 10 (52 times), 30 (4 times), -10 (4 times).",
+    "counts": [
+      4,
+      52,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 62.103506,
+    "domain": "sports"
+  },
+  {
+    "id": 95,
+    "statement": "Reference FY2023-858. Over 60 trials we saw: 10:49, 30:8, -10:3. (Budget 18.0M)",
+    "counts": [
+      3,
+      49,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 62.771285,
+    "domain": "education"
+  },
+  {
+    "id": 96,
+    "statement": "FY2018 code 781. Counts across 60 cases -> 10=51, 30=2, -10=7. Budget=18.0M.",
+    "counts": [
+      7,
+      51,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 63.439065,
+    "domain": "finance"
+  },
+  {
+    "id": 97,
+    "statement": "Reference FY2022-348. Over 60 trials we saw: -10:4, 10:53, 30:3. (Budget 25.0M)",
+    "counts": [
+      4,
+      53,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 64.106845,
+    "domain": "weather"
+  },
+  {
+    "id": 98,
+    "statement": "Reference FY2019-261. Over 60 trials we saw: 30:4, 10:52, -10:4. (Budget 18.0M)",
+    "counts": [
+      4,
+      52,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 64.774624,
+    "domain": "health"
+  },
+  {
+    "id": 99,
+    "statement": "Reference FY2020-436. Over 60 trials we saw: 30:8, 10:47, -10:5. (Budget 25.0M)",
+    "counts": [
+      5,
+      47,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 65.442404,
+    "domain": "sports"
+  },
+  {
+    "id": 100,
+    "statement": "FY2020 Dept-323 budget 18.0M. In 60 observations, outcomes were 10 (50 times), 30 (6 times), -10 (4 times).",
+    "counts": [
+      4,
+      50,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 66.110184,
+    "domain": "education"
+  },
+  {
+    "id": 101,
+    "statement": "Reference FY2021-185. Over 60 trials we saw: 30:6, 10:49, -10:5. (Budget 18.0M)",
+    "counts": [
+      5,
+      49,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 66.777963,
+    "domain": "finance"
+  },
+  {
+    "id": 102,
+    "statement": "FY2019 Dept-616 budget 12.5M. In 60 observations, outcomes were 10 (51 times), -10 (2 times), 30 (7 times).",
+    "counts": [
+      2,
+      51,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 67.445743,
+    "domain": "weather"
+  },
+  {
+    "id": 103,
+    "statement": "FY2019 Dept-509 budget 25.0M. In 60 observations, outcomes were 30 (5 times), -10 (9 times), 10 (46 times).",
+    "counts": [
+      9,
+      46,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 68.113523,
+    "domain": "health"
+  },
+  {
+    "id": 104,
+    "statement": "FY2020 Dept-411 budget 25.0M. In 60 observations, outcomes were 30 (6 times), -10 (4 times), 10 (50 times).",
+    "counts": [
+      4,
+      50,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 68.781302,
+    "domain": "sports"
+  },
+  {
+    "id": 105,
+    "statement": "Reference FY2023-833. Over 60 trials we saw: 10:48, 30:6, -10:6. (Budget 25.0M)",
+    "counts": [
+      6,
+      48,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 69.449082,
+    "domain": "education"
+  },
+  {
+    "id": 106,
+    "statement": "FY2019 code 390. Counts across 60 cases -> -10=3, 30=10, 10=47. Budget=25.0M.",
+    "counts": [
+      3,
+      47,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 70.116861,
+    "domain": "finance"
+  },
+  {
+    "id": 107,
+    "statement": "FY2018 code 944. Counts across 60 cases -> 10=47, -10=9, 30=4. Budget=25.0M.",
+    "counts": [
+      9,
+      47,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 70.784641,
+    "domain": "weather"
+  },
+  {
+    "id": 108,
+    "statement": "FY2023 Dept-817 budget 25.0M. In 60 observations, outcomes were -10 (6 times), 10 (52 times), 30 (2 times).",
+    "counts": [
+      6,
+      52,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 71.452421,
+    "domain": "health"
+  },
+  {
+    "id": 109,
+    "statement": "FY2023 code 698. Counts across 60 cases -> 10=42, -10=11, 30=7. Budget=25.0M.",
+    "counts": [
+      11,
+      42,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 72.1202,
+    "domain": "sports"
+  },
+  {
+    "id": 110,
+    "statement": "FY2018 Dept-131 budget 12.5M. In 60 observations, outcomes were 10 (47 times), -10 (6 times), 30 (7 times).",
+    "counts": [
+      6,
+      47,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 72.78798,
+    "domain": "education"
+  },
+  {
+    "id": 111,
+    "statement": "FY2018 code 485. Counts across 60 cases -> -10=4, 10=52, 30=4. Budget=18.0M.",
+    "counts": [
+      4,
+      52,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 73.45576,
+    "domain": "finance"
+  },
+  {
+    "id": 112,
+    "statement": "FY2023 Dept-644 budget 25.0M. In 60 observations, outcomes were 10 (50 times), 30 (6 times), -10 (4 times).",
+    "counts": [
+      4,
+      50,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 74.123539,
+    "domain": "weather"
+  },
+  {
+    "id": 113,
+    "statement": "FY2018 code 567. Counts across 60 cases -> -10=3, 30=9, 10=48. Budget=12.5M.",
+    "counts": [
+      3,
+      48,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 74.791319,
+    "domain": "health"
+  },
+  {
+    "id": 114,
+    "statement": "FY2023 code 638. Counts across 60 cases -> 10=50, -10=5, 30=5. Budget=12.5M.",
+    "counts": [
+      5,
+      50,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 75.459098,
+    "domain": "sports"
+  },
+  {
+    "id": 115,
+    "statement": "Reference FY2020-928. Over 60 trials we saw: -10:3, 10:50, 30:7. (Budget 12.5M)",
+    "counts": [
+      3,
+      50,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 76.126878,
+    "domain": "education"
+  },
+  {
+    "id": 116,
+    "statement": "Reference FY2019-857. Over 60 trials we saw: 10:46, 30:6, -10:8. (Budget 25.0M)",
+    "counts": [
+      8,
+      46,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 76.794658,
+    "domain": "finance"
+  },
+  {
+    "id": 117,
+    "statement": "Reference FY2018-590. Over 60 trials we saw: -10:4, 30:8, 10:48. (Budget 25.0M)",
+    "counts": [
+      4,
+      48,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 77.462437,
+    "domain": "weather"
+  },
+  {
+    "id": 118,
+    "statement": "Reference FY2018-714. Over 60 trials we saw: 10:49, 30:8, -10:3. (Budget 12.5M)",
+    "counts": [
+      3,
+      49,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 78.130217,
+    "domain": "health"
+  },
+  {
+    "id": 119,
+    "statement": "FY2022 Dept-681 budget 12.5M. In 60 observations, outcomes were -10 (6 times), 30 (5 times), 10 (49 times).",
+    "counts": [
+      6,
+      49,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 78.797997,
+    "domain": "sports"
+  },
+  {
+    "id": 120,
+    "statement": "FY2021 Dept-375 budget 25.0M. In 60 observations, outcomes were 30 (7 times), -10 (6 times), 10 (47 times).",
+    "counts": [
+      6,
+      47,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 79.465776,
+    "domain": "education"
+  },
+  {
+    "id": 121,
+    "statement": "FY2023 code 601. Counts across 60 cases -> 10=47, -10=4, 30=9. Budget=18.0M.",
+    "counts": [
+      4,
+      47,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 80.133556,
+    "domain": "finance"
+  },
+  {
+    "id": 122,
+    "statement": "FY2021 Dept-577 budget 18.0M. In 60 observations, outcomes were -10 (5 times), 10 (46 times), 30 (9 times).",
+    "counts": [
+      5,
+      46,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 80.801336,
+    "domain": "weather"
+  },
+  {
+    "id": 123,
+    "statement": "FY2020 Dept-187 budget 18.0M. In 60 observations, outcomes were 10 (49 times), -10 (8 times), 30 (3 times).",
+    "counts": [
+      8,
+      49,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 81.469115,
+    "domain": "health"
+  },
+  {
+    "id": 124,
+    "statement": "Reference FY2018-939. Over 60 trials we saw: -10:7, 30:5, 10:48. (Budget 25.0M)",
+    "counts": [
+      7,
+      48,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 82.136895,
+    "domain": "sports"
+  },
+  {
+    "id": 125,
+    "statement": "FY2019 code 315. Counts across 60 cases -> -10=8, 30=6, 10=46. Budget=12.5M.",
+    "counts": [
+      8,
+      46,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 82.804674,
+    "domain": "education"
+  },
+  {
+    "id": 126,
+    "statement": "Reference FY2023-636. Over 60 trials we saw: 10:45, 30:9, -10:6. (Budget 18.0M)",
+    "counts": [
+      6,
+      45,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 83.472454,
+    "domain": "finance"
+  },
+  {
+    "id": 127,
+    "statement": "FY2018 Dept-820 budget 18.0M. In 60 observations, outcomes were 30 (7 times), 10 (50 times), -10 (3 times).",
+    "counts": [
+      3,
+      50,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 84.140234,
+    "domain": "weather"
+  },
+  {
+    "id": 128,
+    "statement": "FY2021 Dept-125 budget 12.5M. In 60 observations, outcomes were -10 (5 times), 30 (3 times), 10 (52 times).",
+    "counts": [
+      5,
+      52,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 84.808013,
+    "domain": "health"
+  },
+  {
+    "id": 129,
+    "statement": "FY2021 Dept-409 budget 25.0M. In 60 observations, outcomes were -10 (8 times), 30 (6 times), 10 (46 times).",
+    "counts": [
+      8,
+      46,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 85.475793,
+    "domain": "sports"
+  },
+  {
+    "id": 130,
+    "statement": "Reference FY2021-423. Over 60 trials we saw: -10:10, 30:6, 10:44. (Budget 12.5M)",
+    "counts": [
+      10,
+      44,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 86.143573,
+    "domain": "education"
+  },
+  {
+    "id": 131,
+    "statement": "FY2020 Dept-959 budget 18.0M. In 60 observations, outcomes were 30 (12 times), 10 (43 times), -10 (5 times).",
+    "counts": [
+      5,
+      43,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 86.811352,
+    "domain": "finance"
+  },
+  {
+    "id": 132,
+    "statement": "Reference FY2023-396. Over 60 trials we saw: 10:53, 30:3, -10:4. (Budget 18.0M)",
+    "counts": [
+      4,
+      53,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 87.479132,
+    "domain": "weather"
+  },
+  {
+    "id": 133,
+    "statement": "FY2021 Dept-990 budget 25.0M. In 60 observations, outcomes were 30 (6 times), 10 (46 times), -10 (8 times).",
+    "counts": [
+      8,
+      46,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 88.146912,
+    "domain": "health"
+  },
+  {
+    "id": 134,
+    "statement": "Reference FY2020-974. Over 60 trials we saw: -10:6, 30:10, 10:44. (Budget 12.5M)",
+    "counts": [
+      6,
+      44,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 88.814691,
+    "domain": "sports"
+  },
+  {
+    "id": 135,
+    "statement": "FY2023 Dept-392 budget 25.0M. In 60 observations, outcomes were 10 (44 times), 30 (10 times), -10 (6 times).",
+    "counts": [
+      6,
+      44,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 89.482471,
+    "domain": "education"
+  },
+  {
+    "id": 136,
+    "statement": "FY2021 Dept-623 budget 18.0M. In 60 observations, outcomes were 30 (5 times), 10 (47 times), -10 (8 times).",
+    "counts": [
+      8,
+      47,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 90.15025,
+    "domain": "finance"
+  },
+  {
+    "id": 137,
+    "statement": "Reference FY2018-931. Over 60 trials we saw: -10:3, 30:5, 10:52. (Budget 25.0M)",
+    "counts": [
+      3,
+      52,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 90.81803,
+    "domain": "weather"
+  },
+  {
+    "id": 138,
+    "statement": "FY2023 code 182. Counts across 60 cases -> 10=42, -10=12, 30=6. Budget=12.5M.",
+    "counts": [
+      12,
+      42,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 91.48581,
+    "domain": "health"
+  },
+  {
+    "id": 139,
+    "statement": "FY2022 code 870. Counts across 60 cases -> -10=4, 30=6, 10=50. Budget=12.5M.",
+    "counts": [
+      4,
+      50,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 92.153589,
+    "domain": "sports"
+  },
+  {
+    "id": 140,
+    "statement": "FY2018 Dept-663 budget 12.5M. In 60 observations, outcomes were -10 (10 times), 30 (4 times), 10 (46 times).",
+    "counts": [
+      10,
+      46,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 92.821369,
+    "domain": "education"
+  },
+  {
+    "id": 141,
+    "statement": "Reference FY2020-388. Over 60 trials we saw: -10:9, 30:4, 10:47. (Budget 18.0M)",
+    "counts": [
+      9,
+      47,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 93.489149,
+    "domain": "finance"
+  },
+  {
+    "id": 142,
+    "statement": "Reference FY2021-771. Over 60 trials we saw: -10:12, 10:42, 30:6. (Budget 12.5M)",
+    "counts": [
+      12,
+      42,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 94.156928,
+    "domain": "weather"
+  },
+  {
+    "id": 143,
+    "statement": "FY2018 Dept-271 budget 25.0M. In 60 observations, outcomes were -10 (3 times), 30 (12 times), 10 (45 times).",
+    "counts": [
+      3,
+      45,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 94.824708,
+    "domain": "health"
+  },
+  {
+    "id": 144,
+    "statement": "FY2022 code 931. Counts across 60 cases -> 10=45, 30=9, -10=6. Budget=18.0M.",
+    "counts": [
+      6,
+      45,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 95.492487,
+    "domain": "sports"
+  },
+  {
+    "id": 145,
+    "statement": "Reference FY2020-877. Over 60 trials we saw: 30:4, 10:49, -10:7. (Budget 18.0M)",
+    "counts": [
+      7,
+      49,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 96.160267,
+    "domain": "education"
+  },
+  {
+    "id": 146,
+    "statement": "Reference FY2019-192. Over 60 trials we saw: 10:51, 30:5, -10:4. (Budget 12.5M)",
+    "counts": [
+      4,
+      51,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 96.828047,
+    "domain": "finance"
+  },
+  {
+    "id": 147,
+    "statement": "Reference FY2020-344. Over 60 trials we saw: 10:51, -10:5, 30:4. (Budget 18.0M)",
+    "counts": [
+      5,
+      51,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 97.495826,
+    "domain": "weather"
+  },
+  {
+    "id": 148,
+    "statement": "Reference FY2018-867. Over 60 trials we saw: 10:45, -10:3, 30:12. (Budget 18.0M)",
+    "counts": [
+      3,
+      45,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 98.163606,
+    "domain": "health"
+  },
+  {
+    "id": 149,
+    "statement": "FY2021 Dept-376 budget 18.0M. In 60 observations, outcomes were 30 (8 times), -10 (4 times), 10 (48 times).",
+    "counts": [
+      4,
+      48,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 98.831386,
+    "domain": "sports"
+  },
+  {
+    "id": 150,
+    "statement": "FY2022 code 468. Counts across 60 cases -> -10=5, 30=6, 10=49. Budget=12.5M.",
+    "counts": [
+      5,
+      49,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 99.499165,
+    "domain": "education"
+  },
+  {
+    "id": 151,
+    "statement": "Reference FY2018-377. Over 60 trials we saw: 10:40, -10:9, 30:11. (Budget 12.5M)",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 100.166945,
+    "domain": "finance"
+  },
+  {
+    "id": 152,
+    "statement": "FY2021 Dept-419 budget 12.5M. In 60 observations, outcomes were -10 (7 times), 30 (2 times), 10 (51 times).",
+    "counts": [
+      7,
+      51,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 100.834725,
+    "domain": "weather"
+  },
+  {
+    "id": 153,
+    "statement": "FY2023 code 882. Counts across 60 cases -> 30=3, 10=40, -10=17. Budget=18.0M.",
+    "counts": [
+      17,
+      40,
+      3
+    ],
+    "mean": 10.0,
+    "variance": 101.502504,
+    "domain": "health"
+  },
+  {
+    "id": 154,
+    "statement": "Reference FY2018-500. Over 60 trials we saw: 30:8, -10:7, 10:45. (Budget 25.0M)",
+    "counts": [
+      7,
+      45,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 102.170284,
+    "domain": "sports"
+  },
+  {
+    "id": 155,
+    "statement": "FY2018 Dept-329 budget 12.5M. In 60 observations, outcomes were 30 (10 times), -10 (11 times), 10 (39 times).",
+    "counts": [
+      11,
+      39,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 102.838063,
+    "domain": "education"
+  },
+  {
+    "id": 156,
+    "statement": "Reference FY2023-817. Over 60 trials we saw: 10:45, -10:8, 30:7. (Budget 25.0M)",
+    "counts": [
+      8,
+      45,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 103.505843,
+    "domain": "finance"
+  },
+  {
+    "id": 157,
+    "statement": "FY2018 Dept-901 budget 12.5M. In 60 observations, outcomes were 10 (40 times), 30 (10 times), -10 (10 times).",
+    "counts": [
+      10,
+      40,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 104.173623,
+    "domain": "weather"
+  },
+  {
+    "id": 158,
+    "statement": "FY2023 Dept-832 budget 18.0M. In 60 observations, outcomes were 10 (40 times), -10 (11 times), 30 (9 times).",
+    "counts": [
+      11,
+      40,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 104.841402,
+    "domain": "health"
+  },
+  {
+    "id": 159,
+    "statement": "FY2022 code 751. Counts across 60 cases -> -10=5, 10=48, 30=7. Budget=18.0M.",
+    "counts": [
+      5,
+      48,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 105.509182,
+    "domain": "sports"
+  },
+  {
+    "id": 160,
+    "statement": "FY2018 code 407. Counts across 60 cases -> 10=44, 30=8, -10=8. Budget=25.0M.",
+    "counts": [
+      8,
+      44,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 106.176962,
+    "domain": "education"
+  },
+  {
+    "id": 161,
+    "statement": "FY2020 Dept-328 budget 25.0M. In 60 observations, outcomes were 30 (6 times), 10 (43 times), -10 (11 times).",
+    "counts": [
+      11,
+      43,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 106.844741,
+    "domain": "finance"
+  },
+  {
+    "id": 162,
+    "statement": "FY2021 code 385. Counts across 60 cases -> 30=7, 10=44, -10=9. Budget=18.0M.",
+    "counts": [
+      9,
+      44,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 107.512521,
+    "domain": "weather"
+  },
+  {
+    "id": 163,
+    "statement": "FY2022 Dept-340 budget 25.0M. In 60 observations, outcomes were 30 (6 times), 10 (44 times), -10 (10 times).",
+    "counts": [
+      10,
+      44,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 108.180301,
+    "domain": "health"
+  },
+  {
+    "id": 164,
+    "statement": "FY2023 Dept-765 budget 18.0M. In 60 observations, outcomes were 30 (5 times), 10 (47 times), -10 (8 times).",
+    "counts": [
+      8,
+      47,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 108.84808,
+    "domain": "sports"
+  },
+  {
+    "id": 165,
+    "statement": "Reference FY2021-790. Over 60 trials we saw: 10:41, 30:13, -10:6. (Budget 25.0M)",
+    "counts": [
+      6,
+      41,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 109.51586,
+    "domain": "education"
+  },
+  {
+    "id": 166,
+    "statement": "Reference FY2019-783. Over 60 trials we saw: 30:12, 10:41, -10:7. (Budget 18.0M)",
+    "counts": [
+      7,
+      41,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 110.183639,
+    "domain": "finance"
+  },
+  {
+    "id": 167,
+    "statement": "FY2018 code 812. Counts across 60 cases -> 30=4, 10=48, -10=8. Budget=18.0M.",
+    "counts": [
+      8,
+      48,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 110.851419,
+    "domain": "weather"
+  },
+  {
+    "id": 168,
+    "statement": "FY2023 Dept-505 budget 12.5M. In 60 observations, outcomes were -10 (11 times), 30 (4 times), 10 (45 times).",
+    "counts": [
+      11,
+      45,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 111.519199,
+    "domain": "health"
+  },
+  {
+    "id": 169,
+    "statement": "Reference FY2019-607. Over 60 trials we saw: 30:2, -10:11, 10:47. (Budget 12.5M)",
+    "counts": [
+      11,
+      47,
+      2
+    ],
+    "mean": 10.0,
+    "variance": 112.186978,
+    "domain": "sports"
+  },
+  {
+    "id": 170,
+    "statement": "Reference FY2021-326. Over 60 trials we saw: 10:44, 30:6, -10:10. (Budget 18.0M)",
+    "counts": [
+      10,
+      44,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 112.854758,
+    "domain": "education"
+  },
+  {
+    "id": 171,
+    "statement": "Reference FY2022-291. Over 60 trials we saw: 30:13, 10:40, -10:7. (Budget 12.5M)",
+    "counts": [
+      7,
+      40,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 113.522538,
+    "domain": "finance"
+  },
+  {
+    "id": 172,
+    "statement": "FY2022 Dept-249 budget 18.0M. In 60 observations, outcomes were 30 (10 times), -10 (8 times), 10 (42 times).",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 114.190317,
+    "domain": "weather"
+  },
+  {
+    "id": 173,
+    "statement": "FY2022 Dept-245 budget 18.0M. In 60 observations, outcomes were 10 (45 times), 30 (5 times), -10 (10 times).",
+    "counts": [
+      10,
+      45,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 114.858097,
+    "domain": "health"
+  },
+  {
+    "id": 174,
+    "statement": "FY2019 code 502. Counts across 60 cases -> 10=37, -10=11, 30=12. Budget=18.0M.",
+    "counts": [
+      11,
+      37,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 115.525876,
+    "domain": "sports"
+  },
+  {
+    "id": 175,
+    "statement": "FY2018 Dept-269 budget 18.0M. In 60 observations, outcomes were 30 (9 times), -10 (6 times), 10 (45 times).",
+    "counts": [
+      6,
+      45,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 116.193656,
+    "domain": "education"
+  },
+  {
+    "id": 176,
+    "statement": "FY2018 code 419. Counts across 60 cases -> 30=11, 10=42, -10=7. Budget=25.0M.",
+    "counts": [
+      7,
+      42,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 116.861436,
+    "domain": "finance"
+  },
+  {
+    "id": 177,
+    "statement": "FY2020 Dept-553 budget 12.5M. In 60 observations, outcomes were -10 (4 times), 30 (10 times), 10 (46 times).",
+    "counts": [
+      4,
+      46,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 117.529215,
+    "domain": "weather"
+  },
+  {
+    "id": 178,
+    "statement": "Reference FY2020-182. Over 60 trials we saw: 10:39, 30:10, -10:11. (Budget 18.0M)",
+    "counts": [
+      11,
+      39,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 118.196995,
+    "domain": "health"
+  },
+  {
+    "id": 179,
+    "statement": "Reference FY2021-465. Over 60 trials we saw: 10:42, 30:12, -10:6. (Budget 18.0M)",
+    "counts": [
+      6,
+      42,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 118.864775,
+    "domain": "sports"
+  },
+  {
+    "id": 180,
+    "statement": "Reference FY2023-584. Over 60 trials we saw: 10:41, 30:12, -10:7. (Budget 12.5M)",
+    "counts": [
+      7,
+      41,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 119.532554,
+    "domain": "education"
+  },
+  {
+    "id": 181,
+    "statement": "FY2019 code 431. Counts across 60 cases -> -10=9, 10=45, 30=6. Budget=18.0M.",
+    "counts": [
+      9,
+      45,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 120.200334,
+    "domain": "finance"
+  },
+  {
+    "id": 182,
+    "statement": "FY2023 code 520. Counts across 60 cases -> 30=11, -10=11, 10=38. Budget=12.5M.",
+    "counts": [
+      11,
+      38,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 120.868114,
+    "domain": "weather"
+  },
+  {
+    "id": 183,
+    "statement": "FY2021 Dept-135 budget 18.0M. In 60 observations, outcomes were 30 (14 times), -10 (10 times), 10 (36 times).",
+    "counts": [
+      10,
+      36,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 121.535893,
+    "domain": "health"
+  },
+  {
+    "id": 184,
+    "statement": "FY2019 code 865. Counts across 60 cases -> 30=7, 10=46, -10=7. Budget=12.5M.",
+    "counts": [
+      7,
+      46,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 122.203673,
+    "domain": "sports"
+  },
+  {
+    "id": 185,
+    "statement": "FY2020 Dept-443 budget 25.0M. In 60 observations, outcomes were -10 (6 times), 30 (10 times), 10 (44 times).",
+    "counts": [
+      6,
+      44,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 122.871452,
+    "domain": "education"
+  },
+  {
+    "id": 186,
+    "statement": "FY2020 code 404. Counts across 60 cases -> -10=8, 30=8, 10=44. Budget=12.5M.",
+    "counts": [
+      8,
+      44,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 123.539232,
+    "domain": "finance"
+  },
+  {
+    "id": 187,
+    "statement": "FY2018 Dept-945 budget 12.5M. In 60 observations, outcomes were 10 (43 times), -10 (9 times), 30 (8 times).",
+    "counts": [
+      9,
+      43,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 124.207012,
+    "domain": "weather"
+  },
+  {
+    "id": 188,
+    "statement": "Reference FY2021-908. Over 60 trials we saw: -10:3, 30:10, 10:47. (Budget 18.0M)",
+    "counts": [
+      3,
+      47,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 124.874791,
+    "domain": "health"
+  },
+  {
+    "id": 189,
+    "statement": "FY2021 code 287. Counts across 60 cases -> 30=9, -10=8, 10=43. Budget=12.5M.",
+    "counts": [
+      8,
+      43,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 125.542571,
+    "domain": "sports"
+  },
+  {
+    "id": 190,
+    "statement": "Reference FY2022-341. Over 60 trials we saw: 30:6, -10:14, 10:40. (Budget 18.0M)",
+    "counts": [
+      14,
+      40,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 126.210351,
+    "domain": "education"
+  },
+  {
+    "id": 191,
+    "statement": "FY2022 Dept-180 budget 25.0M. In 60 observations, outcomes were -10 (10 times), 30 (10 times), 10 (40 times).",
+    "counts": [
+      10,
+      40,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 126.87813,
+    "domain": "finance"
+  },
+  {
+    "id": 192,
+    "statement": "FY2019 code 517. Counts across 60 cases -> 30=10, -10=8, 10=42. Budget=12.5M.",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 127.54591,
+    "domain": "weather"
+  },
+  {
+    "id": 193,
+    "statement": "FY2022 Dept-657 budget 18.0M. In 60 observations, outcomes were 30 (7 times), 10 (38 times), -10 (15 times).",
+    "counts": [
+      15,
+      38,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 128.213689,
+    "domain": "health"
+  },
+  {
+    "id": 194,
+    "statement": "FY2018 Dept-371 budget 25.0M. In 60 observations, outcomes were 30 (12 times), -10 (11 times), 10 (37 times).",
+    "counts": [
+      11,
+      37,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 128.881469,
+    "domain": "sports"
+  },
+  {
+    "id": 195,
+    "statement": "Reference FY2021-610. Over 60 trials we saw: 10:34, 30:17, -10:9. (Budget 25.0M)",
+    "counts": [
+      9,
+      34,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 129.549249,
+    "domain": "education"
+  },
+  {
+    "id": 196,
+    "statement": "FY2019 code 526. Counts across 60 cases -> 10=40, 30=9, -10=11. Budget=18.0M.",
+    "counts": [
+      11,
+      40,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 130.217028,
+    "domain": "finance"
+  },
+  {
+    "id": 197,
+    "statement": "FY2023 Dept-651 budget 25.0M. In 60 observations, outcomes were 10 (40 times), -10 (11 times), 30 (9 times).",
+    "counts": [
+      11,
+      40,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 130.884808,
+    "domain": "weather"
+  },
+  {
+    "id": 198,
+    "statement": "Reference FY2020-680. Over 60 trials we saw: -10:11, 30:8, 10:41. (Budget 18.0M)",
+    "counts": [
+      11,
+      41,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 131.552588,
+    "domain": "health"
+  },
+  {
+    "id": 199,
+    "statement": "FY2019 Dept-549 budget 12.5M. In 60 observations, outcomes were -10 (14 times), 30 (9 times), 10 (37 times).",
+    "counts": [
+      14,
+      37,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 132.220367,
+    "domain": "sports"
+  },
+  {
+    "id": 200,
+    "statement": "FY2019 Dept-388 budget 25.0M. In 60 observations, outcomes were 10 (42 times), 30 (10 times), -10 (8 times).",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 132.888147,
+    "domain": "education"
+  },
+  {
+    "id": 201,
+    "statement": "FY2021 code 357. Counts across 60 cases -> 30=12, -10=14, 10=34. Budget=12.5M.",
+    "counts": [
+      14,
+      34,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 133.555927,
+    "domain": "finance"
+  },
+  {
+    "id": 202,
+    "statement": "FY2023 code 927. Counts across 60 cases -> 10=41, -10=10, 30=9. Budget=12.5M.",
+    "counts": [
+      10,
+      41,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 134.223706,
+    "domain": "weather"
+  },
+  {
+    "id": 203,
+    "statement": "FY2018 Dept-104 budget 18.0M. In 60 observations, outcomes were 30 (17 times), -10 (9 times), 10 (34 times).",
+    "counts": [
+      9,
+      34,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 134.891486,
+    "domain": "health"
+  },
+  {
+    "id": 204,
+    "statement": "FY2018 Dept-997 budget 18.0M. In 60 observations, outcomes were -10 (7 times), 30 (14 times), 10 (39 times).",
+    "counts": [
+      7,
+      39,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 135.559265,
+    "domain": "sports"
+  },
+  {
+    "id": 205,
+    "statement": "FY2019 Dept-714 budget 25.0M. In 60 observations, outcomes were 10 (39 times), 30 (8 times), -10 (13 times).",
+    "counts": [
+      13,
+      39,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 136.227045,
+    "domain": "education"
+  },
+  {
+    "id": 206,
+    "statement": "Reference FY2022-986. Over 60 trials we saw: 30:11, 10:40, -10:9. (Budget 12.5M)",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 136.894825,
+    "domain": "finance"
+  },
+  {
+    "id": 207,
+    "statement": "FY2023 code 106. Counts across 60 cases -> -10=13, 10=33, 30=14. Budget=12.5M.",
+    "counts": [
+      13,
+      33,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 137.562604,
+    "domain": "weather"
+  },
+  {
+    "id": 208,
+    "statement": "Reference FY2019-138. Over 60 trials we saw: -10:18, 10:35, 30:7. (Budget 18.0M)",
+    "counts": [
+      18,
+      35,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 138.230384,
+    "domain": "health"
+  },
+  {
+    "id": 209,
+    "statement": "FY2019 code 361. Counts across 60 cases -> 10=41, 30=11, -10=8. Budget=12.5M.",
+    "counts": [
+      8,
+      41,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 138.898164,
+    "domain": "sports"
+  },
+  {
+    "id": 210,
+    "statement": "Reference FY2018-938. Over 60 trials we saw: 10:38, -10:11, 30:11. (Budget 18.0M)",
+    "counts": [
+      11,
+      38,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 139.565943,
+    "domain": "education"
+  },
+  {
+    "id": 211,
+    "statement": "FY2019 Dept-735 budget 18.0M. In 60 observations, outcomes were -10 (7 times), 10 (41 times), 30 (12 times).",
+    "counts": [
+      7,
+      41,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 140.233723,
+    "domain": "finance"
+  },
+  {
+    "id": 212,
+    "statement": "FY2021 Dept-661 budget 18.0M. In 60 observations, outcomes were 10 (32 times), 30 (13 times), -10 (15 times).",
+    "counts": [
+      15,
+      32,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 140.901503,
+    "domain": "weather"
+  },
+  {
+    "id": 213,
+    "statement": "FY2021 Dept-779 budget 25.0M. In 60 observations, outcomes were 30 (14 times), -10 (15 times), 10 (31 times).",
+    "counts": [
+      15,
+      31,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 141.569282,
+    "domain": "health"
+  },
+  {
+    "id": 214,
+    "statement": "FY2023 code 267. Counts across 60 cases -> 10=39, -10=16, 30=5. Budget=18.0M.",
+    "counts": [
+      16,
+      39,
+      5
+    ],
+    "mean": 10.0,
+    "variance": 142.237062,
+    "domain": "sports"
+  },
+  {
+    "id": 215,
+    "statement": "Reference FY2020-783. Over 60 trials we saw: -10:15, 30:8, 10:37. (Budget 18.0M)",
+    "counts": [
+      15,
+      37,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 142.904841,
+    "domain": "education"
+  },
+  {
+    "id": 216,
+    "statement": "Reference FY2023-680. Over 60 trials we saw: 30:11, 10:40, -10:9. (Budget 18.0M)",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 143.572621,
+    "domain": "finance"
+  },
+  {
+    "id": 217,
+    "statement": "Reference FY2020-759. Over 60 trials we saw: 30:10, -10:16, 10:34. (Budget 12.5M)",
+    "counts": [
+      16,
+      34,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 144.240401,
+    "domain": "weather"
+  },
+  {
+    "id": 218,
+    "statement": "FY2019 Dept-106 budget 18.0M. In 60 observations, outcomes were -10 (10 times), 10 (40 times), 30 (10 times).",
+    "counts": [
+      10,
+      40,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 144.90818,
+    "domain": "health"
+  },
+  {
+    "id": 219,
+    "statement": "Reference FY2018-515. Over 60 trials we saw: 30:13, -10:15, 10:32. (Budget 25.0M)",
+    "counts": [
+      15,
+      32,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 145.57596,
+    "domain": "sports"
+  },
+  {
+    "id": 220,
+    "statement": "FY2019 code 115. Counts across 60 cases -> 30=10, -10=8, 10=42. Budget=12.5M.",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 146.24374,
+    "domain": "education"
+  },
+  {
+    "id": 221,
+    "statement": "Reference FY2018-686. Over 60 trials we saw: 30:9, 10:41, -10:10. (Budget 25.0M)",
+    "counts": [
+      10,
+      41,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 146.911519,
+    "domain": "finance"
+  },
+  {
+    "id": 222,
+    "statement": "FY2019 Dept-456 budget 18.0M. In 60 observations, outcomes were 10 (40 times), -10 (11 times), 30 (9 times).",
+    "counts": [
+      11,
+      40,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 147.579299,
+    "domain": "weather"
+  },
+  {
+    "id": 223,
+    "statement": "Reference FY2018-211. Over 60 trials we saw: 10:33, -10:12, 30:15. (Budget 18.0M)",
+    "counts": [
+      12,
+      33,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 148.247078,
+    "domain": "health"
+  },
+  {
+    "id": 224,
+    "statement": "Reference FY2019-957. Over 60 trials we saw: 30:7, 10:39, -10:14. (Budget 12.5M)",
+    "counts": [
+      14,
+      39,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 148.914858,
+    "domain": "sports"
+  },
+  {
+    "id": 225,
+    "statement": "FY2022 Dept-751 budget 18.0M. In 60 observations, outcomes were 30 (11 times), -10 (9 times), 10 (40 times).",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 149.582638,
+    "domain": "education"
+  },
+  {
+    "id": 226,
+    "statement": "FY2023 code 904. Counts across 60 cases -> 10=38, -10=12, 30=10. Budget=12.5M.",
+    "counts": [
+      12,
+      38,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 150.250417,
+    "domain": "finance"
+  },
+  {
+    "id": 227,
+    "statement": "FY2021 Dept-287 budget 25.0M. In 60 observations, outcomes were 30 (11 times), -10 (9 times), 10 (40 times).",
+    "counts": [
+      9,
+      40,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 150.918197,
+    "domain": "weather"
+  },
+  {
+    "id": 228,
+    "statement": "Reference FY2022-260. Over 60 trials we saw: 30:15, 10:36, -10:9. (Budget 18.0M)",
+    "counts": [
+      9,
+      36,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 151.585977,
+    "domain": "health"
+  },
+  {
+    "id": 229,
+    "statement": "FY2019 Dept-842 budget 12.5M. In 60 observations, outcomes were 10 (37 times), 30 (10 times), -10 (13 times).",
+    "counts": [
+      13,
+      37,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 152.253756,
+    "domain": "sports"
+  },
+  {
+    "id": 230,
+    "statement": "FY2023 Dept-958 budget 18.0M. In 60 observations, outcomes were 10 (36 times), -10 (13 times), 30 (11 times).",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 152.921536,
+    "domain": "education"
+  },
+  {
+    "id": 231,
+    "statement": "Reference FY2022-969. Over 60 trials we saw: -10:12, 30:10, 10:38. (Budget 25.0M)",
+    "counts": [
+      12,
+      38,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 153.589316,
+    "domain": "finance"
+  },
+  {
+    "id": 232,
+    "statement": "Reference FY2020-696. Over 60 trials we saw: -10:11, 10:31, 30:18. (Budget 12.5M)",
+    "counts": [
+      11,
+      31,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 154.257095,
+    "domain": "weather"
+  },
+  {
+    "id": 233,
+    "statement": "FY2021 Dept-615 budget 18.0M. In 60 observations, outcomes were -10 (14 times), 30 (14 times), 10 (32 times).",
+    "counts": [
+      14,
+      32,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 154.924875,
+    "domain": "health"
+  },
+  {
+    "id": 234,
+    "statement": "FY2022 Dept-601 budget 18.0M. In 60 observations, outcomes were 10 (39 times), 30 (13 times), -10 (8 times).",
+    "counts": [
+      8,
+      39,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 155.592654,
+    "domain": "sports"
+  },
+  {
+    "id": 235,
+    "statement": "Reference FY2019-929. Over 60 trials we saw: -10:11, 30:8, 10:41. (Budget 18.0M)",
+    "counts": [
+      11,
+      41,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 156.260434,
+    "domain": "education"
+  },
+  {
+    "id": 236,
+    "statement": "Reference FY2019-467. Over 60 trials we saw: 10:41, 30:8, -10:11. (Budget 18.0M)",
+    "counts": [
+      11,
+      41,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 156.928214,
+    "domain": "finance"
+  },
+  {
+    "id": 237,
+    "statement": "FY2022 Dept-622 budget 25.0M. In 60 observations, outcomes were 30 (15 times), 10 (35 times), -10 (10 times).",
+    "counts": [
+      10,
+      35,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 157.595993,
+    "domain": "weather"
+  },
+  {
+    "id": 238,
+    "statement": "FY2018 code 851. Counts across 60 cases -> 10=34, 30=13, -10=13. Budget=18.0M.",
+    "counts": [
+      13,
+      34,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 158.263773,
+    "domain": "health"
+  },
+  {
+    "id": 239,
+    "statement": "Reference FY2018-870. Over 60 trials we saw: 10:42, -10:8, 30:10. (Budget 25.0M)",
+    "counts": [
+      8,
+      42,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 158.931553,
+    "domain": "sports"
+  },
+  {
+    "id": 240,
+    "statement": "FY2018 code 977. Counts across 60 cases -> 10=45, -10=6, 30=9. Budget=12.5M.",
+    "counts": [
+      6,
+      45,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 159.599332,
+    "domain": "education"
+  },
+  {
+    "id": 241,
+    "statement": "Reference FY2019-234. Over 60 trials we saw: 10:33, -10:8, 30:19. (Budget 18.0M)",
+    "counts": [
+      8,
+      33,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 160.267112,
+    "domain": "finance"
+  },
+  {
+    "id": 242,
+    "statement": "FY2018 code 953. Counts across 60 cases -> 10=35, 30=9, -10=16. Budget=18.0M.",
+    "counts": [
+      16,
+      35,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 160.934891,
+    "domain": "weather"
+  },
+  {
+    "id": 243,
+    "statement": "Reference FY2020-728. Over 60 trials we saw: 30:18, -10:10, 10:32. (Budget 18.0M)",
+    "counts": [
+      10,
+      32,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 161.602671,
+    "domain": "health"
+  },
+  {
+    "id": 244,
+    "statement": "FY2022 code 591. Counts across 60 cases -> 30=11, 10=36, -10=13. Budget=12.5M.",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 162.270451,
+    "domain": "sports"
+  },
+  {
+    "id": 245,
+    "statement": "FY2020 Dept-481 budget 12.5M. In 60 observations, outcomes were 30 (10 times), -10 (12 times), 10 (38 times).",
+    "counts": [
+      12,
+      38,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 162.93823,
+    "domain": "education"
+  },
+  {
+    "id": 246,
+    "statement": "FY2019 code 751. Counts across 60 cases -> 30=14, 10=33, -10=13. Budget=18.0M.",
+    "counts": [
+      13,
+      33,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 163.60601,
+    "domain": "finance"
+  },
+  {
+    "id": 247,
+    "statement": "FY2019 Dept-911 budget 18.0M. In 60 observations, outcomes were -10 (12 times), 30 (15 times), 10 (33 times).",
+    "counts": [
+      12,
+      33,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 164.27379,
+    "domain": "weather"
+  },
+  {
+    "id": 248,
+    "statement": "Reference FY2023-978. Over 60 trials we saw: 10:37, -10:9, 30:14. (Budget 18.0M)",
+    "counts": [
+      9,
+      37,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 164.941569,
+    "domain": "health"
+  },
+  {
+    "id": 249,
+    "statement": "Reference FY2020-648. Over 60 trials we saw: 10:32, -10:20, 30:8. (Budget 25.0M)",
+    "counts": [
+      20,
+      32,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 165.609349,
+    "domain": "sports"
+  },
+  {
+    "id": 250,
+    "statement": "FY2020 code 484. Counts across 60 cases -> -10=12, 10=34, 30=14. Budget=18.0M.",
+    "counts": [
+      12,
+      34,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 166.277129,
+    "domain": "education"
+  },
+  {
+    "id": 251,
+    "statement": "Reference FY2020-882. Over 60 trials we saw: 30:19, 10:30, -10:11. (Budget 12.5M)",
+    "counts": [
+      11,
+      30,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 166.944908,
+    "domain": "finance"
+  },
+  {
+    "id": 252,
+    "statement": "Reference FY2022-861. Over 60 trials we saw: 10:36, 30:12, -10:12. (Budget 12.5M)",
+    "counts": [
+      12,
+      36,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 167.612688,
+    "domain": "weather"
+  },
+  {
+    "id": 253,
+    "statement": "FY2020 code 754. Counts across 60 cases -> -10=17, 10=37, 30=6. Budget=25.0M.",
+    "counts": [
+      17,
+      37,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 168.280467,
+    "domain": "health"
+  },
+  {
+    "id": 254,
+    "statement": "FY2023 Dept-134 budget 12.5M. In 60 observations, outcomes were 30 (8 times), -10 (16 times), 10 (36 times).",
+    "counts": [
+      16,
+      36,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 168.948247,
+    "domain": "sports"
+  },
+  {
+    "id": 255,
+    "statement": "FY2021 Dept-624 budget 18.0M. In 60 observations, outcomes were -10 (12 times), 30 (13 times), 10 (35 times).",
+    "counts": [
+      12,
+      35,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 169.616027,
+    "domain": "education"
+  },
+  {
+    "id": 256,
+    "statement": "FY2019 Dept-727 budget 25.0M. In 60 observations, outcomes were 30 (8 times), 10 (40 times), -10 (12 times).",
+    "counts": [
+      12,
+      40,
+      8
+    ],
+    "mean": 10.0,
+    "variance": 170.283806,
+    "domain": "finance"
+  },
+  {
+    "id": 257,
+    "statement": "Reference FY2018-680. Over 60 trials we saw: 10:37, 30:12, -10:11. (Budget 18.0M)",
+    "counts": [
+      11,
+      37,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 170.951586,
+    "domain": "weather"
+  },
+  {
+    "id": 258,
+    "statement": "FY2022 code 329. Counts across 60 cases -> 30=16, 10=26, -10=18. Budget=18.0M.",
+    "counts": [
+      18,
+      26,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 171.619366,
+    "domain": "health"
+  },
+  {
+    "id": 259,
+    "statement": "Reference FY2019-475. Over 60 trials we saw: 30:17, -10:14, 10:29. (Budget 25.0M)",
+    "counts": [
+      14,
+      29,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 172.287145,
+    "domain": "sports"
+  },
+  {
+    "id": 260,
+    "statement": "FY2018 code 920. Counts across 60 cases -> 10=33, 30=11, -10=16. Budget=12.5M.",
+    "counts": [
+      16,
+      33,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 172.954925,
+    "domain": "education"
+  },
+  {
+    "id": 261,
+    "statement": "FY2018 Dept-165 budget 25.0M. In 60 observations, outcomes were 30 (15 times), 10 (36 times), -10 (9 times).",
+    "counts": [
+      9,
+      36,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 173.622705,
+    "domain": "finance"
+  },
+  {
+    "id": 262,
+    "statement": "FY2021 Dept-931 budget 18.0M. In 60 observations, outcomes were -10 (12 times), 10 (41 times), 30 (7 times).",
+    "counts": [
+      12,
+      41,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 174.290484,
+    "domain": "weather"
+  },
+  {
+    "id": 263,
+    "statement": "Reference FY2022-761. Over 60 trials we saw: 30:17, 10:23, -10:20. (Budget 25.0M)",
+    "counts": [
+      20,
+      23,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 174.958264,
+    "domain": "health"
+  },
+  {
+    "id": 264,
+    "statement": "FY2019 Dept-269 budget 12.5M. In 60 observations, outcomes were -10 (13 times), 10 (33 times), 30 (14 times).",
+    "counts": [
+      13,
+      33,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 175.626043,
+    "domain": "sports"
+  },
+  {
+    "id": 265,
+    "statement": "FY2021 Dept-290 budget 12.5M. In 60 observations, outcomes were 10 (28 times), 30 (17 times), -10 (15 times).",
+    "counts": [
+      15,
+      28,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 176.293823,
+    "domain": "education"
+  },
+  {
+    "id": 266,
+    "statement": "FY2018 code 727. Counts across 60 cases -> 10=33, 30=14, -10=13. Budget=25.0M.",
+    "counts": [
+      13,
+      33,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 176.961603,
+    "domain": "finance"
+  },
+  {
+    "id": 267,
+    "statement": "FY2021 code 304. Counts across 60 cases -> 10=37, 30=12, -10=11. Budget=25.0M.",
+    "counts": [
+      11,
+      37,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 177.629382,
+    "domain": "weather"
+  },
+  {
+    "id": 268,
+    "statement": "Reference FY2022-278. Over 60 trials we saw: -10:13, 10:36, 30:11. (Budget 25.0M)",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 178.297162,
+    "domain": "health"
+  },
+  {
+    "id": 269,
+    "statement": "Reference FY2023-149. Over 60 trials we saw: 30:14, 10:38, -10:8. (Budget 25.0M)",
+    "counts": [
+      8,
+      38,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 178.964942,
+    "domain": "sports"
+  },
+  {
+    "id": 270,
+    "statement": "FY2021 code 964. Counts across 60 cases -> 10=33, -10=16, 30=11. Budget=18.0M.",
+    "counts": [
+      16,
+      33,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 179.632721,
+    "domain": "education"
+  },
+  {
+    "id": 271,
+    "statement": "FY2023 Dept-771 budget 18.0M. In 60 observations, outcomes were 30 (14 times), -10 (17 times), 10 (29 times).",
+    "counts": [
+      17,
+      29,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 180.300501,
+    "domain": "finance"
+  },
+  {
+    "id": 272,
+    "statement": "FY2020 Dept-337 budget 25.0M. In 60 observations, outcomes were 10 (28 times), 30 (17 times), -10 (15 times).",
+    "counts": [
+      15,
+      28,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 180.96828,
+    "domain": "weather"
+  },
+  {
+    "id": 273,
+    "statement": "FY2023 code 811. Counts across 60 cases -> 30=12, 10=39, -10=9. Budget=18.0M.",
+    "counts": [
+      9,
+      39,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 181.63606,
+    "domain": "health"
+  },
+  {
+    "id": 274,
+    "statement": "Reference FY2023-667. Over 60 trials we saw: 30:16, 10:26, -10:18. (Budget 25.0M)",
+    "counts": [
+      18,
+      26,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 182.30384,
+    "domain": "sports"
+  },
+  {
+    "id": 275,
+    "statement": "FY2020 Dept-757 budget 12.5M. In 60 observations, outcomes were -10 (9 times), 10 (33 times), 30 (18 times).",
+    "counts": [
+      9,
+      33,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 182.971619,
+    "domain": "education"
+  },
+  {
+    "id": 276,
+    "statement": "FY2019 code 366. Counts across 60 cases -> 10=41, -10=7, 30=12. Budget=12.5M.",
+    "counts": [
+      7,
+      41,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 183.639399,
+    "domain": "finance"
+  },
+  {
+    "id": 277,
+    "statement": "Reference FY2023-434. Over 60 trials we saw: 10:37, 30:13, -10:10. (Budget 12.5M)",
+    "counts": [
+      10,
+      37,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 184.307179,
+    "domain": "weather"
+  },
+  {
+    "id": 278,
+    "statement": "FY2021 code 972. Counts across 60 cases -> 30=18, -10=13, 10=29. Budget=25.0M.",
+    "counts": [
+      13,
+      29,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 184.974958,
+    "domain": "health"
+  },
+  {
+    "id": 279,
+    "statement": "FY2021 code 959. Counts across 60 cases -> -10=13, 10=36, 30=11. Budget=25.0M.",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 185.642738,
+    "domain": "sports"
+  },
+  {
+    "id": 280,
+    "statement": "FY2021 code 842. Counts across 60 cases -> 10=41, 30=7, -10=12. Budget=12.5M.",
+    "counts": [
+      12,
+      41,
+      7
+    ],
+    "mean": 10.0,
+    "variance": 186.310518,
+    "domain": "education"
+  },
+  {
+    "id": 281,
+    "statement": "FY2021 Dept-737 budget 25.0M. In 60 observations, outcomes were 30 (15 times), -10 (8 times), 10 (37 times).",
+    "counts": [
+      8,
+      37,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 186.978297,
+    "domain": "finance"
+  },
+  {
+    "id": 282,
+    "statement": "FY2019 Dept-133 budget 12.5M. In 60 observations, outcomes were 10 (34 times), -10 (14 times), 30 (12 times).",
+    "counts": [
+      14,
+      34,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 187.646077,
+    "domain": "weather"
+  },
+  {
+    "id": 283,
+    "statement": "FY2020 Dept-245 budget 25.0M. In 60 observations, outcomes were 10 (36 times), 30 (11 times), -10 (13 times).",
+    "counts": [
+      13,
+      36,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 188.313856,
+    "domain": "health"
+  },
+  {
+    "id": 284,
+    "statement": "FY2019 code 809. Counts across 60 cases -> 10=32, 30=13, -10=15. Budget=25.0M.",
+    "counts": [
+      15,
+      32,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 188.981636,
+    "domain": "sports"
+  },
+  {
+    "id": 285,
+    "statement": "FY2023 code 147. Counts across 60 cases -> 10=34, 30=15, -10=11. Budget=12.5M.",
+    "counts": [
+      11,
+      34,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 189.649416,
+    "domain": "education"
+  },
+  {
+    "id": 286,
+    "statement": "FY2022 code 780. Counts across 60 cases -> 30=13, -10=12, 10=35. Budget=12.5M.",
+    "counts": [
+      12,
+      35,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 190.317195,
+    "domain": "finance"
+  },
+  {
+    "id": 287,
+    "statement": "FY2019 Dept-310 budget 12.5M. In 60 observations, outcomes were 30 (18 times), -10 (11 times), 10 (31 times).",
+    "counts": [
+      11,
+      31,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 190.984975,
+    "domain": "weather"
+  },
+  {
+    "id": 288,
+    "statement": "FY2023 code 189. Counts across 60 cases -> 10=27, 30=21, -10=12. Budget=25.0M.",
+    "counts": [
+      12,
+      27,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 191.652755,
+    "domain": "health"
+  },
+  {
+    "id": 289,
+    "statement": "FY2018 code 235. Counts across 60 cases -> -10=14, 30=11, 10=35. Budget=12.5M.",
+    "counts": [
+      14,
+      35,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 192.320534,
+    "domain": "sports"
+  },
+  {
+    "id": 290,
+    "statement": "Reference FY2020-444. Over 60 trials we saw: 30:16, 10:28, -10:16. (Budget 18.0M)",
+    "counts": [
+      16,
+      28,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 192.988314,
+    "domain": "education"
+  },
+  {
+    "id": 291,
+    "statement": "FY2020 code 389. Counts across 60 cases -> 30=10, 10=32, -10=18. Budget=12.5M.",
+    "counts": [
+      18,
+      32,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 193.656093,
+    "domain": "finance"
+  },
+  {
+    "id": 292,
+    "statement": "Reference FY2022-615. Over 60 trials we saw: -10:17, 30:17, 10:26. (Budget 18.0M)",
+    "counts": [
+      17,
+      26,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 194.323873,
+    "domain": "weather"
+  },
+  {
+    "id": 293,
+    "statement": "FY2021 code 131. Counts across 60 cases -> 10=32, -10=13, 30=15. Budget=18.0M.",
+    "counts": [
+      13,
+      32,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 194.991653,
+    "domain": "health"
+  },
+  {
+    "id": 294,
+    "statement": "FY2021 code 821. Counts across 60 cases -> 30=12, 10=32, -10=16. Budget=12.5M.",
+    "counts": [
+      16,
+      32,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 195.659432,
+    "domain": "sports"
+  },
+  {
+    "id": 295,
+    "statement": "FY2023 code 982. Counts across 60 cases -> 10=26, -10=19, 30=15. Budget=12.5M.",
+    "counts": [
+      19,
+      26,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 196.327212,
+    "domain": "education"
+  },
+  {
+    "id": 296,
+    "statement": "FY2021 Dept-101 budget 25.0M. In 60 observations, outcomes were 30 (13 times), -10 (18 times), 10 (29 times).",
+    "counts": [
+      18,
+      29,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 196.994992,
+    "domain": "finance"
+  },
+  {
+    "id": 297,
+    "statement": "FY2018 Dept-456 budget 18.0M. In 60 observations, outcomes were 30 (12 times), -10 (15 times), 10 (33 times).",
+    "counts": [
+      15,
+      33,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 197.662771,
+    "domain": "weather"
+  },
+  {
+    "id": 298,
+    "statement": "FY2021 code 706. Counts across 60 cases -> 30=17, -10=13, 10=30. Budget=18.0M.",
+    "counts": [
+      13,
+      30,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 198.330551,
+    "domain": "health"
+  },
+  {
+    "id": 299,
+    "statement": "FY2020 code 934. Counts across 60 cases -> 30=10, -10=21, 10=29. Budget=12.5M.",
+    "counts": [
+      21,
+      29,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 198.998331,
+    "domain": "sports"
+  },
+  {
+    "id": 300,
+    "statement": "FY2019 Dept-212 budget 25.0M. In 60 observations, outcomes were 30 (12 times), 10 (38 times), -10 (10 times).",
+    "counts": [
+      10,
+      38,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 199.66611,
+    "domain": "education"
+  },
+  {
+    "id": 301,
+    "statement": "FY2023 Dept-434 budget 18.0M. In 60 observations, outcomes were 30 (18 times), -10 (14 times), 10 (28 times).",
+    "counts": [
+      14,
+      28,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 200.33389,
+    "domain": "finance"
+  },
+  {
+    "id": 302,
+    "statement": "FY2023 code 188. Counts across 60 cases -> -10=12, 30=16, 10=32. Budget=18.0M.",
+    "counts": [
+      12,
+      32,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 201.001669,
+    "domain": "weather"
+  },
+  {
+    "id": 303,
+    "statement": "Reference FY2019-410. Over 60 trials we saw: 30:18, 10:27, -10:15. (Budget 18.0M)",
+    "counts": [
+      15,
+      27,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 201.669449,
+    "domain": "health"
+  },
+  {
+    "id": 304,
+    "statement": "Reference FY2021-745. Over 60 trials we saw: 10:39, -10:12, 30:9. (Budget 12.5M)",
+    "counts": [
+      12,
+      39,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 202.337229,
+    "domain": "sports"
+  },
+  {
+    "id": 305,
+    "statement": "FY2020 code 695. Counts across 60 cases -> 10=31, 30=14, -10=15. Budget=18.0M.",
+    "counts": [
+      15,
+      31,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 203.005008,
+    "domain": "education"
+  },
+  {
+    "id": 306,
+    "statement": "Reference FY2023-667. Over 60 trials we saw: 30:18, 10:29, -10:13. (Budget 25.0M)",
+    "counts": [
+      13,
+      29,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 203.672788,
+    "domain": "finance"
+  },
+  {
+    "id": 307,
+    "statement": "FY2021 code 805. Counts across 60 cases -> 30=11, 10=32, -10=17. Budget=18.0M.",
+    "counts": [
+      17,
+      32,
+      11
+    ],
+    "mean": 10.0,
+    "variance": 204.340568,
+    "domain": "weather"
+  },
+  {
+    "id": 308,
+    "statement": "FY2020 code 573. Counts across 60 cases -> 10=26, 30=18, -10=16. Budget=25.0M.",
+    "counts": [
+      16,
+      26,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 205.008347,
+    "domain": "health"
+  },
+  {
+    "id": 309,
+    "statement": "FY2020 code 408. Counts across 60 cases -> 10=36, 30=4, -10=20. Budget=25.0M.",
+    "counts": [
+      20,
+      36,
+      4
+    ],
+    "mean": 10.0,
+    "variance": 205.676127,
+    "domain": "sports"
+  },
+  {
+    "id": 310,
+    "statement": "FY2019 code 840. Counts across 60 cases -> 10=33, 30=9, -10=18. Budget=18.0M.",
+    "counts": [
+      18,
+      33,
+      9
+    ],
+    "mean": 10.0,
+    "variance": 206.343907,
+    "domain": "education"
+  },
+  {
+    "id": 311,
+    "statement": "FY2019 Dept-341 budget 18.0M. In 60 observations, outcomes were -10 (17 times), 10 (27 times), 30 (16 times).",
+    "counts": [
+      17,
+      27,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 207.011686,
+    "domain": "finance"
+  },
+  {
+    "id": 312,
+    "statement": "FY2019 Dept-773 budget 12.5M. In 60 observations, outcomes were 30 (15 times), -10 (21 times), 10 (24 times).",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 207.679466,
+    "domain": "weather"
+  },
+  {
+    "id": 313,
+    "statement": "FY2019 code 913. Counts across 60 cases -> 30=19, -10=11, 10=30. Budget=18.0M.",
+    "counts": [
+      11,
+      30,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 208.347245,
+    "domain": "health"
+  },
+  {
+    "id": 314,
+    "statement": "FY2020 code 300. Counts across 60 cases -> -10=13, 30=20, 10=27. Budget=12.5M.",
+    "counts": [
+      13,
+      27,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 209.015025,
+    "domain": "sports"
+  },
+  {
+    "id": 315,
+    "statement": "FY2019 Dept-497 budget 18.0M. In 60 observations, outcomes were 30 (16 times), 10 (34 times), -10 (10 times).",
+    "counts": [
+      10,
+      34,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 209.682805,
+    "domain": "education"
+  },
+  {
+    "id": 316,
+    "statement": "FY2021 code 810. Counts across 60 cases -> 30=12, 10=31, -10=17. Budget=12.5M.",
+    "counts": [
+      17,
+      31,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 210.350584,
+    "domain": "finance"
+  },
+  {
+    "id": 317,
+    "statement": "Reference FY2021-122. Over 60 trials we saw: -10:17, 10:26, 30:17. (Budget 12.5M)",
+    "counts": [
+      17,
+      26,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 211.018364,
+    "domain": "weather"
+  },
+  {
+    "id": 318,
+    "statement": "Reference FY2018-858. Over 60 trials we saw: -10:18, 10:23, 30:19. (Budget 12.5M)",
+    "counts": [
+      18,
+      23,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 211.686144,
+    "domain": "health"
+  },
+  {
+    "id": 319,
+    "statement": "FY2019 code 783. Counts across 60 cases -> -10=15, 10=32, 30=13. Budget=25.0M.",
+    "counts": [
+      15,
+      32,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 212.353923,
+    "domain": "sports"
+  },
+  {
+    "id": 320,
+    "statement": "FY2023 Dept-285 budget 25.0M. In 60 observations, outcomes were 10 (30 times), -10 (14 times), 30 (16 times).",
+    "counts": [
+      14,
+      30,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 213.021703,
+    "domain": "education"
+  },
+  {
+    "id": 321,
+    "statement": "FY2020 code 366. Counts across 60 cases -> -10=11, 30=20, 10=29. Budget=25.0M.",
+    "counts": [
+      11,
+      29,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 213.689482,
+    "domain": "finance"
+  },
+  {
+    "id": 322,
+    "statement": "FY2019 code 901. Counts across 60 cases -> 30=13, 10=36, -10=11. Budget=18.0M.",
+    "counts": [
+      11,
+      36,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 214.357262,
+    "domain": "weather"
+  },
+  {
+    "id": 323,
+    "statement": "Reference FY2020-969. Over 60 trials we saw: 10:22, -10:21, 30:17. (Budget 18.0M)",
+    "counts": [
+      21,
+      22,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 215.025042,
+    "domain": "health"
+  },
+  {
+    "id": 324,
+    "statement": "FY2022 code 979. Counts across 60 cases -> 30=16, -10=14, 10=30. Budget=18.0M.",
+    "counts": [
+      14,
+      30,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 215.692821,
+    "domain": "sports"
+  },
+  {
+    "id": 325,
+    "statement": "Reference FY2023-435. Over 60 trials we saw: 10:25, -10:19, 30:16. (Budget 12.5M)",
+    "counts": [
+      19,
+      25,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 216.360601,
+    "domain": "education"
+  },
+  {
+    "id": 326,
+    "statement": "FY2018 Dept-357 budget 25.0M. In 60 observations, outcomes were 30 (17 times), -10 (14 times), 10 (29 times).",
+    "counts": [
+      14,
+      29,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 217.028381,
+    "domain": "finance"
+  },
+  {
+    "id": 327,
+    "statement": "FY2022 code 456. Counts across 60 cases -> 10=34, 30=6, -10=20. Budget=12.5M.",
+    "counts": [
+      20,
+      34,
+      6
+    ],
+    "mean": 10.0,
+    "variance": 217.69616,
+    "domain": "weather"
+  },
+  {
+    "id": 328,
+    "statement": "FY2023 Dept-587 budget 25.0M. In 60 observations, outcomes were 30 (14 times), -10 (25 times), 10 (21 times).",
+    "counts": [
+      25,
+      21,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 218.36394,
+    "domain": "health"
+  },
+  {
+    "id": 329,
+    "statement": "FY2022 code 451. Counts across 60 cases -> -10=13, 10=26, 30=21. Budget=18.0M.",
+    "counts": [
+      13,
+      26,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 219.03172,
+    "domain": "sports"
+  },
+  {
+    "id": 330,
+    "statement": "FY2023 code 288. Counts across 60 cases -> 30=17, -10=12, 10=31. Budget=18.0M.",
+    "counts": [
+      12,
+      31,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 219.699499,
+    "domain": "education"
+  },
+  {
+    "id": 331,
+    "statement": "Reference FY2023-157. Over 60 trials we saw: 30:14, 10:29, -10:17. (Budget 18.0M)",
+    "counts": [
+      17,
+      29,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 220.367279,
+    "domain": "finance"
+  },
+  {
+    "id": 332,
+    "statement": "Reference FY2018-113. Over 60 trials we saw: -10:21, 30:16, 10:23. (Budget 12.5M)",
+    "counts": [
+      21,
+      23,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 221.035058,
+    "domain": "weather"
+  },
+  {
+    "id": 333,
+    "statement": "FY2022 Dept-371 budget 12.5M. In 60 observations, outcomes were -10 (13 times), 30 (15 times), 10 (32 times).",
+    "counts": [
+      13,
+      32,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 221.702838,
+    "domain": "health"
+  },
+  {
+    "id": 334,
+    "statement": "Reference FY2022-324. Over 60 trials we saw: -10:11, 30:19, 10:30. (Budget 18.0M)",
+    "counts": [
+      11,
+      30,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 222.370618,
+    "domain": "sports"
+  },
+  {
+    "id": 335,
+    "statement": "FY2019 code 895. Counts across 60 cases -> 10=28, 30=18, -10=14. Budget=12.5M.",
+    "counts": [
+      14,
+      28,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 223.038397,
+    "domain": "education"
+  },
+  {
+    "id": 336,
+    "statement": "FY2023 Dept-675 budget 25.0M. In 60 observations, outcomes were 30 (19 times), 10 (21 times), -10 (20 times).",
+    "counts": [
+      20,
+      21,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 223.706177,
+    "domain": "finance"
+  },
+  {
+    "id": 337,
+    "statement": "Reference FY2023-754. Over 60 trials we saw: 30:17, 10:30, -10:13. (Budget 18.0M)",
+    "counts": [
+      13,
+      30,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 224.373957,
+    "domain": "weather"
+  },
+  {
+    "id": 338,
+    "statement": "Reference FY2021-463. Over 60 trials we saw: 30:16, -10:16, 10:28. (Budget 12.5M)",
+    "counts": [
+      16,
+      28,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 225.041736,
+    "domain": "health"
+  },
+  {
+    "id": 339,
+    "statement": "FY2023 code 359. Counts across 60 cases -> -10=16, 10=27, 30=17. Budget=18.0M.",
+    "counts": [
+      16,
+      27,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 225.709516,
+    "domain": "sports"
+  },
+  {
+    "id": 340,
+    "statement": "Reference FY2018-924. Over 60 trials we saw: 30:15, 10:26, -10:19. (Budget 25.0M)",
+    "counts": [
+      19,
+      26,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 226.377295,
+    "domain": "education"
+  },
+  {
+    "id": 341,
+    "statement": "Reference FY2023-409. Over 60 trials we saw: 30:16, -10:16, 10:28. (Budget 18.0M)",
+    "counts": [
+      16,
+      28,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 227.045075,
+    "domain": "finance"
+  },
+  {
+    "id": 342,
+    "statement": "FY2022 code 752. Counts across 60 cases -> -10=13, 30=20, 10=27. Budget=12.5M.",
+    "counts": [
+      13,
+      27,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 227.712855,
+    "domain": "weather"
+  },
+  {
+    "id": 343,
+    "statement": "FY2020 Dept-974 budget 18.0M. In 60 observations, outcomes were 30 (22 times), -10 (16 times), 10 (22 times).",
+    "counts": [
+      16,
+      22,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 228.380634,
+    "domain": "health"
+  },
+  {
+    "id": 344,
+    "statement": "FY2019 code 643. Counts across 60 cases -> 30=14, 10=26, -10=20. Budget=18.0M.",
+    "counts": [
+      20,
+      26,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 229.048414,
+    "domain": "sports"
+  },
+  {
+    "id": 345,
+    "statement": "FY2023 Dept-111 budget 12.5M. In 60 observations, outcomes were 10 (24 times), -10 (15 times), 30 (21 times).",
+    "counts": [
+      15,
+      24,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 229.716194,
+    "domain": "education"
+  },
+  {
+    "id": 346,
+    "statement": "FY2020 code 722. Counts across 60 cases -> -10=18, 10=32, 30=10. Budget=12.5M.",
+    "counts": [
+      18,
+      32,
+      10
+    ],
+    "mean": 10.0,
+    "variance": 230.383973,
+    "domain": "finance"
+  },
+  {
+    "id": 347,
+    "statement": "Reference FY2019-894. Over 60 trials we saw: 10:26, 30:16, -10:18. (Budget 18.0M)",
+    "counts": [
+      18,
+      26,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 231.051753,
+    "domain": "weather"
+  },
+  {
+    "id": 348,
+    "statement": "FY2021 Dept-910 budget 25.0M. In 60 observations, outcomes were 10 (22 times), 30 (18 times), -10 (20 times).",
+    "counts": [
+      20,
+      22,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 231.719533,
+    "domain": "health"
+  },
+  {
+    "id": 349,
+    "statement": "Reference FY2023-661. Over 60 trials we saw: 10:21, -10:22, 30:17. (Budget 25.0M)",
+    "counts": [
+      22,
+      21,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 232.387312,
+    "domain": "sports"
+  },
+  {
+    "id": 350,
+    "statement": "FY2023 Dept-318 budget 25.0M. In 60 observations, outcomes were 30 (14 times), 10 (24 times), -10 (22 times).",
+    "counts": [
+      22,
+      24,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 233.055092,
+    "domain": "education"
+  },
+  {
+    "id": 351,
+    "statement": "FY2023 Dept-219 budget 25.0M. In 60 observations, outcomes were -10 (16 times), 10 (31 times), 30 (13 times).",
+    "counts": [
+      16,
+      31,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 233.722871,
+    "domain": "finance"
+  },
+  {
+    "id": 352,
+    "statement": "Reference FY2019-946. Over 60 trials we saw: -10:22, 30:13, 10:25. (Budget 12.5M)",
+    "counts": [
+      22,
+      25,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 234.390651,
+    "domain": "weather"
+  },
+  {
+    "id": 353,
+    "statement": "FY2021 code 578. Counts across 60 cases -> 30=18, -10=18, 10=24. Budget=12.5M.",
+    "counts": [
+      18,
+      24,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 235.058431,
+    "domain": "health"
+  },
+  {
+    "id": 354,
+    "statement": "FY2021 code 268. Counts across 60 cases -> 30=15, -10=21, 10=24. Budget=25.0M.",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 235.72621,
+    "domain": "sports"
+  },
+  {
+    "id": 355,
+    "statement": "Reference FY2019-960. Over 60 trials we saw: 10:28, -10:14, 30:18. (Budget 18.0M)",
+    "counts": [
+      14,
+      28,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 236.39399,
+    "domain": "education"
+  },
+  {
+    "id": 356,
+    "statement": "Reference FY2023-403. Over 60 trials we saw: -10:12, 10:30, 30:18. (Budget 18.0M)",
+    "counts": [
+      12,
+      30,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 237.06177,
+    "domain": "finance"
+  },
+  {
+    "id": 357,
+    "statement": "FY2023 code 177. Counts across 60 cases -> -10=19, 30=12, 10=29. Budget=12.5M.",
+    "counts": [
+      19,
+      29,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 237.729549,
+    "domain": "weather"
+  },
+  {
+    "id": 358,
+    "statement": "FY2018 code 724. Counts across 60 cases -> 30=15, -10=26, 10=19. Budget=12.5M.",
+    "counts": [
+      26,
+      19,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 238.397329,
+    "domain": "health"
+  },
+  {
+    "id": 359,
+    "statement": "Reference FY2018-622. Over 60 trials we saw: -10:16, 10:22, 30:22. (Budget 18.0M)",
+    "counts": [
+      16,
+      22,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 239.065109,
+    "domain": "sports"
+  },
+  {
+    "id": 360,
+    "statement": "FY2019 code 835. Counts across 60 cases -> 10=28, 30=18, -10=14. Budget=18.0M.",
+    "counts": [
+      14,
+      28,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 239.732888,
+    "domain": "education"
+  },
+  {
+    "id": 361,
+    "statement": "Reference FY2018-982. Over 60 trials we saw: 30:13, 10:23, -10:24. (Budget 25.0M)",
+    "counts": [
+      24,
+      23,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 240.400668,
+    "domain": "finance"
+  },
+  {
+    "id": 362,
+    "statement": "Reference FY2022-667. Over 60 trials we saw: -10:20, 30:13, 10:27. (Budget 12.5M)",
+    "counts": [
+      20,
+      27,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 241.068447,
+    "domain": "weather"
+  },
+  {
+    "id": 363,
+    "statement": "FY2021 Dept-357 budget 25.0M. In 60 observations, outcomes were -10 (18 times), 30 (19 times), 10 (23 times).",
+    "counts": [
+      18,
+      23,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 241.736227,
+    "domain": "health"
+  },
+  {
+    "id": 364,
+    "statement": "Reference FY2020-947. Over 60 trials we saw: -10:15, 30:18, 10:27. (Budget 18.0M)",
+    "counts": [
+      15,
+      27,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 242.404007,
+    "domain": "sports"
+  },
+  {
+    "id": 365,
+    "statement": "FY2022 code 453. Counts across 60 cases -> -10=19, 30=19, 10=22. Budget=12.5M.",
+    "counts": [
+      19,
+      22,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 243.071786,
+    "domain": "education"
+  },
+  {
+    "id": 366,
+    "statement": "FY2020 code 296. Counts across 60 cases -> 30=19, -10=15, 10=26. Budget=18.0M.",
+    "counts": [
+      15,
+      26,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 243.739566,
+    "domain": "finance"
+  },
+  {
+    "id": 367,
+    "statement": "FY2022 Dept-750 budget 12.5M. In 60 observations, outcomes were 30 (12 times), -10 (31 times), 10 (17 times).",
+    "counts": [
+      31,
+      17,
+      12
+    ],
+    "mean": 10.0,
+    "variance": 244.407346,
+    "domain": "weather"
+  },
+  {
+    "id": 368,
+    "statement": "Reference FY2022-687. Over 60 trials we saw: -10:21, 30:15, 10:24. (Budget 12.5M)",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 245.075125,
+    "domain": "health"
+  },
+  {
+    "id": 369,
+    "statement": "Reference FY2018-147. Over 60 trials we saw: 30:19, -10:18, 10:23. (Budget 12.5M)",
+    "counts": [
+      18,
+      23,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 245.742905,
+    "domain": "sports"
+  },
+  {
+    "id": 370,
+    "statement": "Reference FY2022-656. Over 60 trials we saw: 10:21, -10:19, 30:20. (Budget 25.0M)",
+    "counts": [
+      19,
+      21,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 246.410684,
+    "domain": "education"
+  },
+  {
+    "id": 371,
+    "statement": "FY2023 code 789. Counts across 60 cases -> 10=20, -10=21, 30=19. Budget=25.0M.",
+    "counts": [
+      21,
+      20,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 247.078464,
+    "domain": "finance"
+  },
+  {
+    "id": 372,
+    "statement": "FY2019 code 140. Counts across 60 cases -> 10=17, -10=22, 30=21. Budget=25.0M.",
+    "counts": [
+      22,
+      17,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 247.746244,
+    "domain": "weather"
+  },
+  {
+    "id": 373,
+    "statement": "FY2018 Dept-779 budget 12.5M. In 60 observations, outcomes were 30 (22 times), -10 (17 times), 10 (21 times).",
+    "counts": [
+      17,
+      21,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 248.414023,
+    "domain": "health"
+  },
+  {
+    "id": 374,
+    "statement": "FY2023 Dept-113 budget 18.0M. In 60 observations, outcomes were 30 (16 times), -10 (19 times), 10 (25 times).",
+    "counts": [
+      19,
+      25,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 249.081803,
+    "domain": "sports"
+  },
+  {
+    "id": 375,
+    "statement": "FY2020 Dept-289 budget 18.0M. In 60 observations, outcomes were -10 (15 times), 30 (23 times), 10 (22 times).",
+    "counts": [
+      15,
+      22,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 249.749583,
+    "domain": "education"
+  },
+  {
+    "id": 376,
+    "statement": "FY2021 code 679. Counts across 60 cases -> 30=14, -10=20, 10=26. Budget=25.0M.",
+    "counts": [
+      20,
+      26,
+      14
+    ],
+    "mean": 10.0,
+    "variance": 250.417362,
+    "domain": "finance"
+  },
+  {
+    "id": 377,
+    "statement": "FY2022 Dept-634 budget 12.5M. In 60 observations, outcomes were 30 (13 times), 10 (27 times), -10 (20 times).",
+    "counts": [
+      20,
+      27,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 251.085142,
+    "domain": "weather"
+  },
+  {
+    "id": 378,
+    "statement": "FY2021 code 168. Counts across 60 cases -> -10=18, 30=20, 10=22. Budget=12.5M.",
+    "counts": [
+      18,
+      22,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 251.752922,
+    "domain": "health"
+  },
+  {
+    "id": 379,
+    "statement": "FY2021 code 888. Counts across 60 cases -> 30=15, -10=20, 10=25. Budget=18.0M.",
+    "counts": [
+      20,
+      25,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 252.420701,
+    "domain": "sports"
+  },
+  {
+    "id": 380,
+    "statement": "FY2023 Dept-583 budget 12.5M. In 60 observations, outcomes were 10 (25 times), 30 (22 times), -10 (13 times).",
+    "counts": [
+      13,
+      25,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 253.088481,
+    "domain": "education"
+  },
+  {
+    "id": 381,
+    "statement": "FY2021 code 104. Counts across 60 cases -> 10=18, -10=22, 30=20. Budget=12.5M.",
+    "counts": [
+      22,
+      18,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 253.75626,
+    "domain": "finance"
+  },
+  {
+    "id": 382,
+    "statement": "FY2018 Dept-323 budget 12.5M. In 60 observations, outcomes were 10 (22 times), -10 (18 times), 30 (20 times).",
+    "counts": [
+      18,
+      22,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 254.42404,
+    "domain": "weather"
+  },
+  {
+    "id": 383,
+    "statement": "FY2020 Dept-836 budget 25.0M. In 60 observations, outcomes were 30 (22 times), -10 (21 times), 10 (17 times).",
+    "counts": [
+      21,
+      17,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 255.09182,
+    "domain": "health"
+  },
+  {
+    "id": 384,
+    "statement": "FY2018 code 474. Counts across 60 cases -> 30=23, -10=19, 10=18. Budget=25.0M.",
+    "counts": [
+      19,
+      18,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 255.759599,
+    "domain": "sports"
+  },
+  {
+    "id": 385,
+    "statement": "Reference FY2023-877. Over 60 trials we saw: 10:25, -10:17, 30:18. (Budget 12.5M)",
+    "counts": [
+      17,
+      25,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 256.427379,
+    "domain": "education"
+  },
+  {
+    "id": 386,
+    "statement": "FY2021 Dept-785 budget 18.0M. In 60 observations, outcomes were -10 (17 times), 10 (21 times), 30 (22 times).",
+    "counts": [
+      17,
+      21,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 257.095159,
+    "domain": "finance"
+  },
+  {
+    "id": 387,
+    "statement": "FY2018 code 162. Counts across 60 cases -> 10=19, -10=24, 30=17. Budget=12.5M.",
+    "counts": [
+      24,
+      19,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 257.762938,
+    "domain": "weather"
+  },
+  {
+    "id": 388,
+    "statement": "FY2021 code 418. Counts across 60 cases -> 10=24, -10=21, 30=15. Budget=18.0M.",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 258.430718,
+    "domain": "health"
+  },
+  {
+    "id": 389,
+    "statement": "Reference FY2021-723. Over 60 trials we saw: 10:22, -10:19, 30:19. (Budget 12.5M)",
+    "counts": [
+      19,
+      22,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 259.098497,
+    "domain": "sports"
+  },
+  {
+    "id": 390,
+    "statement": "FY2021 Dept-793 budget 12.5M. In 60 observations, outcomes were -10 (19 times), 30 (17 times), 10 (24 times).",
+    "counts": [
+      19,
+      24,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 259.766277,
+    "domain": "education"
+  },
+  {
+    "id": 391,
+    "statement": "Reference FY2023-267. Over 60 trials we saw: 30:20, 10:19, -10:21. (Budget 25.0M)",
+    "counts": [
+      21,
+      19,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 260.434057,
+    "domain": "finance"
+  },
+  {
+    "id": 392,
+    "statement": "Reference FY2021-378. Over 60 trials we saw: -10:21, 30:21, 10:18. (Budget 25.0M)",
+    "counts": [
+      21,
+      18,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 261.101836,
+    "domain": "weather"
+  },
+  {
+    "id": 393,
+    "statement": "FY2018 code 736. Counts across 60 cases -> -10=19, 30=23, 10=18. Budget=25.0M.",
+    "counts": [
+      19,
+      18,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 261.769616,
+    "domain": "health"
+  },
+  {
+    "id": 394,
+    "statement": "FY2022 Dept-843 budget 12.5M. In 60 observations, outcomes were -10 (20 times), 10 (17 times), 30 (23 times).",
+    "counts": [
+      20,
+      17,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 262.437396,
+    "domain": "sports"
+  },
+  {
+    "id": 395,
+    "statement": "Reference FY2022-538. Over 60 trials we saw: -10:19, 10:19, 30:22. (Budget 12.5M)",
+    "counts": [
+      19,
+      19,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 263.105175,
+    "domain": "education"
+  },
+  {
+    "id": 396,
+    "statement": "Reference FY2022-889. Over 60 trials we saw: -10:17, 30:17, 10:26. (Budget 12.5M)",
+    "counts": [
+      17,
+      26,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 263.772955,
+    "domain": "finance"
+  },
+  {
+    "id": 397,
+    "statement": "Reference FY2020-369. Over 60 trials we saw: 30:16, -10:25, 10:19. (Budget 18.0M)",
+    "counts": [
+      25,
+      19,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 264.440735,
+    "domain": "weather"
+  },
+  {
+    "id": 398,
+    "statement": "FY2020 code 953. Counts across 60 cases -> 10=22, 30=24, -10=14. Budget=12.5M.",
+    "counts": [
+      14,
+      22,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 265.108514,
+    "domain": "health"
+  },
+  {
+    "id": 399,
+    "statement": "Reference FY2022-801. Over 60 trials we saw: 30:20, 10:15, -10:25. (Budget 18.0M)",
+    "counts": [
+      25,
+      15,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 265.776294,
+    "domain": "sports"
+  },
+  {
+    "id": 400,
+    "statement": "Reference FY2022-666. Over 60 trials we saw: 10:12, -10:28, 30:20. (Budget 18.0M)",
+    "counts": [
+      28,
+      12,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 266.444073,
+    "domain": "education"
+  },
+  {
+    "id": 401,
+    "statement": "FY2020 code 721. Counts across 60 cases -> 10=18, 30=22, -10=20. Budget=12.5M.",
+    "counts": [
+      20,
+      18,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 267.111853,
+    "domain": "finance"
+  },
+  {
+    "id": 402,
+    "statement": "FY2023 code 311. Counts across 60 cases -> -10=15, 30=25, 10=20. Budget=18.0M.",
+    "counts": [
+      15,
+      20,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 267.779633,
+    "domain": "weather"
+  },
+  {
+    "id": 403,
+    "statement": "FY2021 code 653. Counts across 60 cases -> 30=15, 10=24, -10=21. Budget=12.5M.",
+    "counts": [
+      21,
+      24,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 268.447412,
+    "domain": "health"
+  },
+  {
+    "id": 404,
+    "statement": "FY2019 code 507. Counts across 60 cases -> 30=22, -10=10, 10=28. Budget=25.0M.",
+    "counts": [
+      10,
+      28,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 269.115192,
+    "domain": "sports"
+  },
+  {
+    "id": 405,
+    "statement": "FY2021 Dept-618 budget 25.0M. In 60 observations, outcomes were -10 (23 times), 30 (17 times), 10 (20 times).",
+    "counts": [
+      23,
+      20,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 269.782972,
+    "domain": "education"
+  },
+  {
+    "id": 406,
+    "statement": "FY2019 code 194. Counts across 60 cases -> 10=16, 30=28, -10=16. Budget=12.5M.",
+    "counts": [
+      16,
+      16,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 270.450751,
+    "domain": "finance"
+  },
+  {
+    "id": 407,
+    "statement": "Reference FY2022-677. Over 60 trials we saw: -10:23, 30:18, 10:19. (Budget 18.0M)",
+    "counts": [
+      23,
+      19,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 271.118531,
+    "domain": "weather"
+  },
+  {
+    "id": 408,
+    "statement": "Reference FY2019-145. Over 60 trials we saw: 10:19, -10:19, 30:22. (Budget 18.0M)",
+    "counts": [
+      19,
+      19,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 271.786311,
+    "domain": "health"
+  },
+  {
+    "id": 409,
+    "statement": "FY2023 Dept-574 budget 12.5M. In 60 observations, outcomes were 30 (15 times), 10 (31 times), -10 (14 times).",
+    "counts": [
+      14,
+      31,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 272.45409,
+    "domain": "sports"
+  },
+  {
+    "id": 410,
+    "statement": "FY2020 code 387. Counts across 60 cases -> 30=13, -10=24, 10=23. Budget=25.0M.",
+    "counts": [
+      24,
+      23,
+      13
+    ],
+    "mean": 10.0,
+    "variance": 273.12187,
+    "domain": "education"
+  },
+  {
+    "id": 411,
+    "statement": "Reference FY2018-309. Over 60 trials we saw: 10:17, 30:19, -10:24. (Budget 25.0M)",
+    "counts": [
+      24,
+      17,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 273.789649,
+    "domain": "finance"
+  },
+  {
+    "id": 412,
+    "statement": "Reference FY2020-897. Over 60 trials we saw: 10:15, -10:24, 30:21. (Budget 18.0M)",
+    "counts": [
+      24,
+      15,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 274.457429,
+    "domain": "weather"
+  },
+  {
+    "id": 413,
+    "statement": "FY2022 Dept-938 budget 25.0M. In 60 observations, outcomes were 30 (22 times), 10 (16 times), -10 (22 times).",
+    "counts": [
+      22,
+      16,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 275.125209,
+    "domain": "health"
+  },
+  {
+    "id": 414,
+    "statement": "Reference FY2020-305. Over 60 trials we saw: 30:17, -10:20, 10:23. (Budget 12.5M)",
+    "counts": [
+      20,
+      23,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 275.792988,
+    "domain": "sports"
+  },
+  {
+    "id": 415,
+    "statement": "Reference FY2018-135. Over 60 trials we saw: 10:23, 30:17, -10:20. (Budget 25.0M)",
+    "counts": [
+      20,
+      23,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 276.460768,
+    "domain": "education"
+  },
+  {
+    "id": 416,
+    "statement": "FY2021 code 965. Counts across 60 cases -> -10=22, 10=16, 30=22. Budget=12.5M.",
+    "counts": [
+      22,
+      16,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 277.128548,
+    "domain": "finance"
+  },
+  {
+    "id": 417,
+    "statement": "Reference FY2018-823. Over 60 trials we saw: -10:18, 10:11, 30:31. (Budget 12.5M)",
+    "counts": [
+      18,
+      11,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 277.796327,
+    "domain": "weather"
+  },
+  {
+    "id": 418,
+    "statement": "FY2023 code 191. Counts across 60 cases -> 30=17, -10=22, 10=21. Budget=25.0M.",
+    "counts": [
+      22,
+      21,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 278.464107,
+    "domain": "health"
+  },
+  {
+    "id": 419,
+    "statement": "Reference FY2021-970. Over 60 trials we saw: 30:23, -10:18, 10:19. (Budget 12.5M)",
+    "counts": [
+      18,
+      19,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 279.131886,
+    "domain": "sports"
+  },
+  {
+    "id": 420,
+    "statement": "Reference FY2019-139. Over 60 trials we saw: 10:14, 30:17, -10:29. (Budget 18.0M)",
+    "counts": [
+      29,
+      14,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 279.799666,
+    "domain": "education"
+  },
+  {
+    "id": 421,
+    "statement": "FY2018 code 364. Counts across 60 cases -> 10=18, 30=15, -10=27. Budget=25.0M.",
+    "counts": [
+      27,
+      18,
+      15
+    ],
+    "mean": 10.0,
+    "variance": 280.467446,
+    "domain": "finance"
+  },
+  {
+    "id": 422,
+    "statement": "Reference FY2018-203. Over 60 trials we saw: -10:21, 10:19, 30:20. (Budget 12.5M)",
+    "counts": [
+      21,
+      19,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 281.135225,
+    "domain": "weather"
+  },
+  {
+    "id": 423,
+    "statement": "FY2023 code 866. Counts across 60 cases -> 10=20, 30=24, -10=16. Budget=18.0M.",
+    "counts": [
+      16,
+      20,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 281.803005,
+    "domain": "health"
+  },
+  {
+    "id": 424,
+    "statement": "Reference FY2023-207. Over 60 trials we saw: -10:24, 10:14, 30:22. (Budget 18.0M)",
+    "counts": [
+      24,
+      14,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 282.470785,
+    "domain": "sports"
+  },
+  {
+    "id": 425,
+    "statement": "Reference FY2021-227. Over 60 trials we saw: -10:15, 30:31, 10:14. (Budget 18.0M)",
+    "counts": [
+      15,
+      14,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 283.138564,
+    "domain": "education"
+  },
+  {
+    "id": 426,
+    "statement": "FY2021 code 344. Counts across 60 cases -> 30=25, -10=18, 10=17. Budget=12.5M.",
+    "counts": [
+      18,
+      17,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 283.806344,
+    "domain": "finance"
+  },
+  {
+    "id": 427,
+    "statement": "FY2023 Dept-299 budget 12.5M. In 60 observations, outcomes were 30 (20 times), 10 (15 times), -10 (25 times).",
+    "counts": [
+      25,
+      15,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 284.474124,
+    "domain": "weather"
+  },
+  {
+    "id": 428,
+    "statement": "FY2022 code 987. Counts across 60 cases -> 10=15, 30=23, -10=22. Budget=18.0M.",
+    "counts": [
+      22,
+      15,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 285.141903,
+    "domain": "health"
+  },
+  {
+    "id": 429,
+    "statement": "FY2018 code 494. Counts across 60 cases -> 30=22, 10=19, -10=19. Budget=12.5M.",
+    "counts": [
+      19,
+      19,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 285.809683,
+    "domain": "sports"
+  },
+  {
+    "id": 430,
+    "statement": "Reference FY2020-430. Over 60 trials we saw: 30:23, 10:13, -10:24. (Budget 12.5M)",
+    "counts": [
+      24,
+      13,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 286.477462,
+    "domain": "education"
+  },
+  {
+    "id": 431,
+    "statement": "FY2019 code 439. Counts across 60 cases -> 30=21, 10=18, -10=21. Budget=12.5M.",
+    "counts": [
+      21,
+      18,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 287.145242,
+    "domain": "finance"
+  },
+  {
+    "id": 432,
+    "statement": "FY2023 Dept-562 budget 25.0M. In 60 observations, outcomes were 10 (12 times), 30 (20 times), -10 (28 times).",
+    "counts": [
+      28,
+      12,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 287.813022,
+    "domain": "weather"
+  },
+  {
+    "id": 433,
+    "statement": "FY2020 Dept-528 budget 18.0M. In 60 observations, outcomes were 30 (21 times), -10 (21 times), 10 (18 times).",
+    "counts": [
+      21,
+      18,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 288.480801,
+    "domain": "health"
+  },
+  {
+    "id": 434,
+    "statement": "Reference FY2020-684. Over 60 trials we saw: 10:19, 30:23, -10:18. (Budget 18.0M)",
+    "counts": [
+      18,
+      19,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 289.148581,
+    "domain": "sports"
+  },
+  {
+    "id": 435,
+    "statement": "Reference FY2021-211. Over 60 trials we saw: 30:19, 10:12, -10:29. (Budget 18.0M)",
+    "counts": [
+      29,
+      12,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 289.816361,
+    "domain": "education"
+  },
+  {
+    "id": 436,
+    "statement": "FY2019 code 625. Counts across 60 cases -> 30=25, -10=22, 10=13. Budget=12.5M.",
+    "counts": [
+      22,
+      13,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 290.48414,
+    "domain": "finance"
+  },
+  {
+    "id": 437,
+    "statement": "FY2022 Dept-588 budget 18.0M. In 60 observations, outcomes were 10 (22 times), -10 (22 times), 30 (16 times).",
+    "counts": [
+      22,
+      22,
+      16
+    ],
+    "mean": 10.0,
+    "variance": 291.15192,
+    "domain": "weather"
+  },
+  {
+    "id": 438,
+    "statement": "FY2020 Dept-542 budget 18.0M. In 60 observations, outcomes were 30 (24 times), -10 (22 times), 10 (14 times).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 291.819699,
+    "domain": "health"
+  },
+  {
+    "id": 439,
+    "statement": "FY2021 Dept-396 budget 18.0M. In 60 observations, outcomes were 10 (18 times), 30 (22 times), -10 (20 times).",
+    "counts": [
+      20,
+      18,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 292.487479,
+    "domain": "sports"
+  },
+  {
+    "id": 440,
+    "statement": "Reference FY2019-755. Over 60 trials we saw: 30:20, 10:14, -10:26. (Budget 12.5M)",
+    "counts": [
+      26,
+      14,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 293.155259,
+    "domain": "education"
+  },
+  {
+    "id": 441,
+    "statement": "FY2022 Dept-243 budget 18.0M. In 60 observations, outcomes were -10 (22 times), 10 (19 times), 30 (19 times).",
+    "counts": [
+      22,
+      19,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 293.823038,
+    "domain": "finance"
+  },
+  {
+    "id": 442,
+    "statement": "FY2019 Dept-468 budget 18.0M. In 60 observations, outcomes were -10 (17 times), 10 (23 times), 30 (20 times).",
+    "counts": [
+      17,
+      23,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 294.490818,
+    "domain": "weather"
+  },
+  {
+    "id": 443,
+    "statement": "FY2020 Dept-685 budget 12.5M. In 60 observations, outcomes were 30 (24 times), -10 (22 times), 10 (14 times).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 295.158598,
+    "domain": "health"
+  },
+  {
+    "id": 444,
+    "statement": "FY2023 code 279. Counts across 60 cases -> 10=13, 30=22, -10=25. Budget=12.5M.",
+    "counts": [
+      25,
+      13,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 295.826377,
+    "domain": "sports"
+  },
+  {
+    "id": 445,
+    "statement": "Reference FY2022-848. Over 60 trials we saw: 10:15, 30:27, -10:18. (Budget 18.0M)",
+    "counts": [
+      18,
+      15,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 296.494157,
+    "domain": "education"
+  },
+  {
+    "id": 446,
+    "statement": "FY2019 code 727. Counts across 60 cases -> 10=11, 30=25, -10=24. Budget=25.0M.",
+    "counts": [
+      24,
+      11,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 297.161937,
+    "domain": "finance"
+  },
+  {
+    "id": 447,
+    "statement": "FY2022 Dept-415 budget 12.5M. In 60 observations, outcomes were 10 (13 times), -10 (22 times), 30 (25 times).",
+    "counts": [
+      22,
+      13,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 297.829716,
+    "domain": "weather"
+  },
+  {
+    "id": 448,
+    "statement": "Reference FY2023-156. Over 60 trials we saw: 30:25, 10:12, -10:23. (Budget 25.0M)",
+    "counts": [
+      23,
+      12,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 298.497496,
+    "domain": "health"
+  },
+  {
+    "id": 449,
+    "statement": "FY2023 Dept-985 budget 18.0M. In 60 observations, outcomes were -10 (25 times), 30 (17 times), 10 (18 times).",
+    "counts": [
+      25,
+      18,
+      17
+    ],
+    "mean": 10.0,
+    "variance": 299.165275,
+    "domain": "sports"
+  },
+  {
+    "id": 450,
+    "statement": "Reference FY2021-236. Over 60 trials we saw: 30:25, 10:14, -10:21. (Budget 25.0M)",
+    "counts": [
+      21,
+      14,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 299.833055,
+    "domain": "education"
+  },
+  {
+    "id": 451,
+    "statement": "FY2022 Dept-951 budget 18.0M. In 60 observations, outcomes were 10 (17 times), 30 (20 times), -10 (23 times).",
+    "counts": [
+      23,
+      17,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 300.500835,
+    "domain": "finance"
+  },
+  {
+    "id": 452,
+    "statement": "Reference FY2022-709. Over 60 trials we saw: 30:25, 10:18, -10:17. (Budget 12.5M)",
+    "counts": [
+      17,
+      18,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 301.168614,
+    "domain": "weather"
+  },
+  {
+    "id": 453,
+    "statement": "Reference FY2022-173. Over 60 trials we saw: -10:26, 10:16, 30:18. (Budget 12.5M)",
+    "counts": [
+      26,
+      16,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 301.836394,
+    "domain": "health"
+  },
+  {
+    "id": 454,
+    "statement": "Reference FY2020-897. Over 60 trials we saw: 10:18, -10:22, 30:20. (Budget 25.0M)",
+    "counts": [
+      22,
+      18,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 302.504174,
+    "domain": "sports"
+  },
+  {
+    "id": 455,
+    "statement": "FY2020 code 993. Counts across 60 cases -> 10=12, -10=23, 30=25. Budget=12.5M.",
+    "counts": [
+      23,
+      12,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 303.171953,
+    "domain": "education"
+  },
+  {
+    "id": 456,
+    "statement": "FY2022 code 126. Counts across 60 cases -> -10=21, 30=23, 10=16. Budget=25.0M.",
+    "counts": [
+      21,
+      16,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 303.839733,
+    "domain": "finance"
+  },
+  {
+    "id": 457,
+    "statement": "FY2019 code 190. Counts across 60 cases -> 10=17, 30=20, -10=23. Budget=12.5M.",
+    "counts": [
+      23,
+      17,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 304.507513,
+    "domain": "weather"
+  },
+  {
+    "id": 458,
+    "statement": "FY2018 code 419. Counts across 60 cases -> 10=11, 30=24, -10=25. Budget=18.0M.",
+    "counts": [
+      25,
+      11,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 305.175292,
+    "domain": "health"
+  },
+  {
+    "id": 459,
+    "statement": "FY2018 Dept-815 budget 25.0M. In 60 observations, outcomes were 10 (17 times), 30 (21 times), -10 (22 times).",
+    "counts": [
+      22,
+      17,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 305.843072,
+    "domain": "sports"
+  },
+  {
+    "id": 460,
+    "statement": "Reference FY2022-752. Over 60 trials we saw: 30:25, -10:23, 10:12. (Budget 25.0M)",
+    "counts": [
+      23,
+      12,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 306.510851,
+    "domain": "education"
+  },
+  {
+    "id": 461,
+    "statement": "Reference FY2023-554. Over 60 trials we saw: 10:11, -10:29, 30:20. (Budget 12.5M)",
+    "counts": [
+      29,
+      11,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 307.178631,
+    "domain": "finance"
+  },
+  {
+    "id": 462,
+    "statement": "Reference FY2018-379. Over 60 trials we saw: 10:15, 30:24, -10:21. (Budget 12.5M)",
+    "counts": [
+      21,
+      15,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 307.846411,
+    "domain": "weather"
+  },
+  {
+    "id": 463,
+    "statement": "Reference FY2018-224. Over 60 trials we saw: -10:21, 30:26, 10:13. (Budget 12.5M)",
+    "counts": [
+      21,
+      13,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 308.51419,
+    "domain": "health"
+  },
+  {
+    "id": 464,
+    "statement": "FY2019 code 250. Counts across 60 cases -> 10=15, 30=20, -10=25. Budget=25.0M.",
+    "counts": [
+      25,
+      15,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 309.18197,
+    "domain": "sports"
+  },
+  {
+    "id": 465,
+    "statement": "FY2019 code 945. Counts across 60 cases -> -10=22, 30=27, 10=11. Budget=12.5M.",
+    "counts": [
+      22,
+      11,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 309.84975,
+    "domain": "education"
+  },
+  {
+    "id": 466,
+    "statement": "FY2022 code 959. Counts across 60 cases -> -10=23, 30=24, 10=13. Budget=25.0M.",
+    "counts": [
+      23,
+      13,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 310.517529,
+    "domain": "finance"
+  },
+  {
+    "id": 467,
+    "statement": "Reference FY2018-895. Over 60 trials we saw: 30:26, 10:11, -10:23. (Budget 18.0M)",
+    "counts": [
+      23,
+      11,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 311.185309,
+    "domain": "weather"
+  },
+  {
+    "id": 468,
+    "statement": "FY2020 code 832. Counts across 60 cases -> 30=24, -10=26, 10=10. Budget=18.0M.",
+    "counts": [
+      26,
+      10,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 311.853088,
+    "domain": "health"
+  },
+  {
+    "id": 469,
+    "statement": "FY2022 code 154. Counts across 60 cases -> -10=17, 30=26, 10=17. Budget=18.0M.",
+    "counts": [
+      17,
+      17,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 312.520868,
+    "domain": "sports"
+  },
+  {
+    "id": 470,
+    "statement": "FY2019 code 991. Counts across 60 cases -> 30=24, 10=10, -10=26. Budget=18.0M.",
+    "counts": [
+      26,
+      10,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 313.188648,
+    "domain": "education"
+  },
+  {
+    "id": 471,
+    "statement": "FY2020 Dept-211 budget 25.0M. In 60 observations, outcomes were 10 (15 times), -10 (20 times), 30 (25 times).",
+    "counts": [
+      20,
+      15,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 313.856427,
+    "domain": "finance"
+  },
+  {
+    "id": 472,
+    "statement": "FY2021 code 305. Counts across 60 cases -> 30=22, 10=9, -10=29. Budget=25.0M.",
+    "counts": [
+      29,
+      9,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 314.524207,
+    "domain": "weather"
+  },
+  {
+    "id": 473,
+    "statement": "Reference FY2019-530. Over 60 trials we saw: 10:11, 30:25, -10:24. (Budget 18.0M)",
+    "counts": [
+      24,
+      11,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 315.191987,
+    "domain": "health"
+  },
+  {
+    "id": 474,
+    "statement": "FY2018 code 135. Counts across 60 cases -> 10=12, -10=26, 30=22. Budget=25.0M.",
+    "counts": [
+      26,
+      12,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 315.859766,
+    "domain": "sports"
+  },
+  {
+    "id": 475,
+    "statement": "FY2023 code 655. Counts across 60 cases -> -10=23, 30=23, 10=14. Budget=12.5M.",
+    "counts": [
+      23,
+      14,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 316.527546,
+    "domain": "education"
+  },
+  {
+    "id": 476,
+    "statement": "Reference FY2018-632. Over 60 trials we saw: 30:26, 10:10, -10:24. (Budget 12.5M)",
+    "counts": [
+      24,
+      10,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 317.195326,
+    "domain": "finance"
+  },
+  {
+    "id": 477,
+    "statement": "Reference FY2020-215. Over 60 trials we saw: 10:18, 30:19, -10:23. (Budget 18.0M)",
+    "counts": [
+      23,
+      18,
+      19
+    ],
+    "mean": 10.0,
+    "variance": 317.863105,
+    "domain": "weather"
+  },
+  {
+    "id": 478,
+    "statement": "FY2018 code 161. Counts across 60 cases -> 10=11, -10=27, 30=22. Budget=25.0M.",
+    "counts": [
+      27,
+      11,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 318.530885,
+    "domain": "health"
+  },
+  {
+    "id": 479,
+    "statement": "FY2021 Dept-704 budget 25.0M. In 60 observations, outcomes were 30 (26 times), -10 (25 times), 10 (9 times).",
+    "counts": [
+      25,
+      9,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 319.198664,
+    "domain": "sports"
+  },
+  {
+    "id": 480,
+    "statement": "Reference FY2022-234. Over 60 trials we saw: 30:21, -10:23, 10:16. (Budget 18.0M)",
+    "counts": [
+      23,
+      16,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 319.866444,
+    "domain": "education"
+  },
+  {
+    "id": 481,
+    "statement": "FY2020 Dept-349 budget 25.0M. In 60 observations, outcomes were -10 (21 times), 10 (19 times), 30 (20 times).",
+    "counts": [
+      21,
+      19,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 320.534224,
+    "domain": "finance"
+  },
+  {
+    "id": 482,
+    "statement": "FY2021 code 724. Counts across 60 cases -> -10=28, 10=12, 30=20. Budget=25.0M.",
+    "counts": [
+      28,
+      12,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 321.202003,
+    "domain": "weather"
+  },
+  {
+    "id": 483,
+    "statement": "Reference FY2019-661. Over 60 trials we saw: 30:29, 10:8, -10:23. (Budget 25.0M)",
+    "counts": [
+      23,
+      8,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 321.869783,
+    "domain": "health"
+  },
+  {
+    "id": 484,
+    "statement": "Reference FY2022-589. Over 60 trials we saw: -10:22, 30:24, 10:14. (Budget 18.0M)",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 322.537563,
+    "domain": "sports"
+  },
+  {
+    "id": 485,
+    "statement": "FY2020 code 326. Counts across 60 cases -> 10=14, 30=23, -10=23. Budget=12.5M.",
+    "counts": [
+      23,
+      14,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 323.205342,
+    "domain": "education"
+  },
+  {
+    "id": 486,
+    "statement": "Reference FY2022-505. Over 60 trials we saw: -10:21, 10:15, 30:24. (Budget 12.5M)",
+    "counts": [
+      21,
+      15,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 323.873122,
+    "domain": "finance"
+  },
+  {
+    "id": 487,
+    "statement": "Reference FY2020-670. Over 60 trials we saw: 10:12, 30:20, -10:28. (Budget 18.0M)",
+    "counts": [
+      28,
+      12,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 324.540902,
+    "domain": "weather"
+  },
+  {
+    "id": 488,
+    "statement": "FY2019 Dept-402 budget 12.5M. In 60 observations, outcomes were -10 (21 times), 30 (29 times), 10 (10 times).",
+    "counts": [
+      21,
+      10,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 325.208681,
+    "domain": "health"
+  },
+  {
+    "id": 489,
+    "statement": "Reference FY2022-992. Over 60 trials we saw: 10:8, 30:33, -10:19. (Budget 18.0M)",
+    "counts": [
+      19,
+      8,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 325.876461,
+    "domain": "sports"
+  },
+  {
+    "id": 490,
+    "statement": "Reference FY2022-497. Over 60 trials we saw: 10:10, -10:27, 30:23. (Budget 18.0M)",
+    "counts": [
+      27,
+      10,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 326.54424,
+    "domain": "education"
+  },
+  {
+    "id": 491,
+    "statement": "FY2022 code 330. Counts across 60 cases -> 10=9, -10=27, 30=24. Budget=25.0M.",
+    "counts": [
+      27,
+      9,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 327.21202,
+    "domain": "finance"
+  },
+  {
+    "id": 492,
+    "statement": "FY2020 Dept-784 budget 18.0M. In 60 observations, outcomes were 30 (22 times), 10 (15 times), -10 (23 times).",
+    "counts": [
+      23,
+      15,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 327.8798,
+    "domain": "weather"
+  },
+  {
+    "id": 493,
+    "statement": "FY2022 code 725. Counts across 60 cases -> 10=5, -10=35, 30=20. Budget=18.0M.",
+    "counts": [
+      35,
+      5,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 328.547579,
+    "domain": "health"
+  },
+  {
+    "id": 494,
+    "statement": "FY2020 code 903. Counts across 60 cases -> 30=22, 10=10, -10=28. Budget=25.0M.",
+    "counts": [
+      28,
+      10,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 329.215359,
+    "domain": "sports"
+  },
+  {
+    "id": 495,
+    "statement": "FY2021 Dept-991 budget 12.5M. In 60 observations, outcomes were 10 (14 times), -10 (15 times), 30 (31 times).",
+    "counts": [
+      15,
+      14,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 329.883139,
+    "domain": "education"
+  },
+  {
+    "id": 496,
+    "statement": "FY2021 Dept-507 budget 25.0M. In 60 observations, outcomes were 30 (27 times), -10 (23 times), 10 (10 times).",
+    "counts": [
+      23,
+      10,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 330.550918,
+    "domain": "finance"
+  },
+  {
+    "id": 497,
+    "statement": "Reference FY2022-721. Over 60 trials we saw: -10:32, 30:18, 10:10. (Budget 12.5M)",
+    "counts": [
+      32,
+      10,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 331.218698,
+    "domain": "weather"
+  },
+  {
+    "id": 498,
+    "statement": "Reference FY2020-840. Over 60 trials we saw: -10:19, 30:28, 10:13. (Budget 18.0M)",
+    "counts": [
+      19,
+      13,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 331.886477,
+    "domain": "health"
+  },
+  {
+    "id": 499,
+    "statement": "Reference FY2022-668. Over 60 trials we saw: -10:17, 30:27, 10:16. (Budget 25.0M)",
+    "counts": [
+      17,
+      16,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 332.554257,
+    "domain": "sports"
+  },
+  {
+    "id": 500,
+    "statement": "Reference FY2018-905. Over 60 trials we saw: -10:26, 10:11, 30:23. (Budget 25.0M)",
+    "counts": [
+      26,
+      11,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 333.222037,
+    "domain": "education"
+  },
+  {
+    "id": 501,
+    "statement": "Reference FY2020-288. Over 60 trials we saw: -10:17, 30:35, 10:8. (Budget 25.0M)",
+    "counts": [
+      17,
+      8,
+      35
+    ],
+    "mean": 10.0,
+    "variance": 333.889816,
+    "domain": "finance"
+  },
+  {
+    "id": 502,
+    "statement": "FY2022 Dept-486 budget 25.0M. In 60 observations, outcomes were 30 (26 times), 10 (9 times), -10 (25 times).",
+    "counts": [
+      25,
+      9,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 334.557596,
+    "domain": "weather"
+  },
+  {
+    "id": 503,
+    "statement": "FY2020 Dept-963 budget 25.0M. In 60 observations, outcomes were 30 (24 times), 10 (7 times), -10 (29 times).",
+    "counts": [
+      29,
+      7,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 335.225376,
+    "domain": "health"
+  },
+  {
+    "id": 504,
+    "statement": "FY2021 Dept-110 budget 12.5M. In 60 observations, outcomes were 30 (29 times), -10 (24 times), 10 (7 times).",
+    "counts": [
+      24,
+      7,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 335.893155,
+    "domain": "sports"
+  },
+  {
+    "id": 505,
+    "statement": "FY2020 code 649. Counts across 60 cases -> -10=25, 30=21, 10=14. Budget=18.0M.",
+    "counts": [
+      25,
+      14,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 336.560935,
+    "domain": "education"
+  },
+  {
+    "id": 506,
+    "statement": "FY2022 code 945. Counts across 60 cases -> -10=23, 10=12, 30=25. Budget=25.0M.",
+    "counts": [
+      23,
+      12,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 337.228715,
+    "domain": "finance"
+  },
+  {
+    "id": 507,
+    "statement": "FY2021 Dept-575 budget 18.0M. In 60 observations, outcomes were -10 (22 times), 10 (14 times), 30 (24 times).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 337.896494,
+    "domain": "weather"
+  },
+  {
+    "id": 508,
+    "statement": "FY2021 Dept-110 budget 25.0M. In 60 observations, outcomes were -10 (25 times), 10 (6 times), 30 (29 times).",
+    "counts": [
+      25,
+      6,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 338.564274,
+    "domain": "health"
+  },
+  {
+    "id": 509,
+    "statement": "FY2018 code 519. Counts across 60 cases -> 10=11, -10=28, 30=21. Budget=18.0M.",
+    "counts": [
+      28,
+      11,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 339.232053,
+    "domain": "sports"
+  },
+  {
+    "id": 510,
+    "statement": "Reference FY2019-531. Over 60 trials we saw: 30:32, -10:21, 10:7. (Budget 18.0M)",
+    "counts": [
+      21,
+      7,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 339.899833,
+    "domain": "education"
+  },
+  {
+    "id": 511,
+    "statement": "FY2023 Dept-642 budget 25.0M. In 60 observations, outcomes were -10 (23 times), 30 (27 times), 10 (10 times).",
+    "counts": [
+      23,
+      10,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 340.567613,
+    "domain": "finance"
+  },
+  {
+    "id": 512,
+    "statement": "Reference FY2020-475. Over 60 trials we saw: 30:18, 10:10, -10:32. (Budget 12.5M)",
+    "counts": [
+      32,
+      10,
+      18
+    ],
+    "mean": 10.0,
+    "variance": 341.235392,
+    "domain": "weather"
+  },
+  {
+    "id": 513,
+    "statement": "FY2018 code 771. Counts across 60 cases -> 10=5, -10=24, 30=31. Budget=18.0M.",
+    "counts": [
+      24,
+      5,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 341.903172,
+    "domain": "health"
+  },
+  {
+    "id": 514,
+    "statement": "Reference FY2023-260. Over 60 trials we saw: -10:27, 30:24, 10:9. (Budget 25.0M)",
+    "counts": [
+      27,
+      9,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 342.570952,
+    "domain": "sports"
+  },
+  {
+    "id": 515,
+    "statement": "FY2022 Dept-292 budget 18.0M. In 60 observations, outcomes were 10 (10 times), -10 (23 times), 30 (27 times).",
+    "counts": [
+      23,
+      10,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 343.238731,
+    "domain": "education"
+  },
+  {
+    "id": 516,
+    "statement": "FY2020 code 683. Counts across 60 cases -> 10=4, 30=22, -10=34. Budget=25.0M.",
+    "counts": [
+      34,
+      4,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 343.906511,
+    "domain": "finance"
+  },
+  {
+    "id": 517,
+    "statement": "FY2023 Dept-521 budget 12.5M. In 60 observations, outcomes were 10 (11 times), -10 (24 times), 30 (25 times).",
+    "counts": [
+      24,
+      11,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 344.57429,
+    "domain": "weather"
+  },
+  {
+    "id": 518,
+    "statement": "FY2020 code 507. Counts across 60 cases -> 30=32, -10=22, 10=6. Budget=12.5M.",
+    "counts": [
+      22,
+      6,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 345.24207,
+    "domain": "health"
+  },
+  {
+    "id": 519,
+    "statement": "FY2019 code 279. Counts across 60 cases -> 10=11, 30=27, -10=22. Budget=18.0M.",
+    "counts": [
+      22,
+      11,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 345.90985,
+    "domain": "sports"
+  },
+  {
+    "id": 520,
+    "statement": "FY2023 Dept-644 budget 25.0M. In 60 observations, outcomes were -10 (22 times), 10 (6 times), 30 (32 times).",
+    "counts": [
+      22,
+      6,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 346.577629,
+    "domain": "education"
+  },
+  {
+    "id": 521,
+    "statement": "FY2021 Dept-716 budget 12.5M. In 60 observations, outcomes were 10 (9 times), -10 (27 times), 30 (24 times).",
+    "counts": [
+      27,
+      9,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 347.245409,
+    "domain": "finance"
+  },
+  {
+    "id": 522,
+    "statement": "FY2018 Dept-202 budget 12.5M. In 60 observations, outcomes were 10 (7 times), 30 (24 times), -10 (29 times).",
+    "counts": [
+      29,
+      7,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 347.913189,
+    "domain": "weather"
+  },
+  {
+    "id": 523,
+    "statement": "FY2021 Dept-727 budget 18.0M. In 60 observations, outcomes were -10 (31 times), 10 (4 times), 30 (25 times).",
+    "counts": [
+      31,
+      4,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 348.580968,
+    "domain": "health"
+  },
+  {
+    "id": 524,
+    "statement": "Reference FY2023-889. Over 60 trials we saw: 10:7, -10:26, 30:27. (Budget 25.0M)",
+    "counts": [
+      26,
+      7,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 349.248748,
+    "domain": "sports"
+  },
+  {
+    "id": 525,
+    "statement": "FY2020 Dept-382 budget 12.5M. In 60 observations, outcomes were 10 (5 times), 30 (28 times), -10 (27 times).",
+    "counts": [
+      27,
+      5,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 349.916528,
+    "domain": "education"
+  },
+  {
+    "id": 526,
+    "statement": "FY2022 Dept-164 budget 18.0M. In 60 observations, outcomes were 30 (24 times), -10 (22 times), 10 (14 times).",
+    "counts": [
+      22,
+      14,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 350.584307,
+    "domain": "finance"
+  },
+  {
+    "id": 527,
+    "statement": "Reference FY2018-155. Over 60 trials we saw: -10:24, 30:28, 10:8. (Budget 12.5M)",
+    "counts": [
+      24,
+      8,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 351.252087,
+    "domain": "weather"
+  },
+  {
+    "id": 528,
+    "statement": "FY2021 Dept-155 budget 25.0M. In 60 observations, outcomes were 10 (5 times), -10 (32 times), 30 (23 times).",
+    "counts": [
+      32,
+      5,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 351.919866,
+    "domain": "health"
+  },
+  {
+    "id": 529,
+    "statement": "FY2018 Dept-263 budget 25.0M. In 60 observations, outcomes were 10 (8 times), 30 (27 times), -10 (25 times).",
+    "counts": [
+      25,
+      8,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 352.587646,
+    "domain": "sports"
+  },
+  {
+    "id": 530,
+    "statement": "FY2021 code 410. Counts across 60 cases -> 30=36, -10=21, 10=3. Budget=18.0M.",
+    "counts": [
+      21,
+      3,
+      36
+    ],
+    "mean": 10.0,
+    "variance": 353.255426,
+    "domain": "education"
+  },
+  {
+    "id": 531,
+    "statement": "Reference FY2018-348. Over 60 trials we saw: -10:28, 30:26, 10:6. (Budget 25.0M)",
+    "counts": [
+      28,
+      6,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 353.923205,
+    "domain": "finance"
+  },
+  {
+    "id": 532,
+    "statement": "FY2021 code 416. Counts across 60 cases -> 10=6, -10=21, 30=33. Budget=18.0M.",
+    "counts": [
+      21,
+      6,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 354.590985,
+    "domain": "weather"
+  },
+  {
+    "id": 533,
+    "statement": "FY2019 Dept-189 budget 12.5M. In 60 observations, outcomes were 30 (23 times), -10 (29 times), 10 (8 times).",
+    "counts": [
+      29,
+      8,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 355.258765,
+    "domain": "health"
+  },
+  {
+    "id": 534,
+    "statement": "Reference FY2019-107. Over 60 trials we saw: -10:27, 30:28, 10:5. (Budget 18.0M)",
+    "counts": [
+      27,
+      5,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 355.926544,
+    "domain": "sports"
+  },
+  {
+    "id": 535,
+    "statement": "Reference FY2018-443. Over 60 trials we saw: -10:31, 10:4, 30:25. (Budget 25.0M)",
+    "counts": [
+      31,
+      4,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 356.594324,
+    "domain": "education"
+  },
+  {
+    "id": 536,
+    "statement": "Reference FY2023-167. Over 60 trials we saw: -10:29, 30:27, 10:4. (Budget 12.5M)",
+    "counts": [
+      29,
+      4,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 357.262104,
+    "domain": "finance"
+  },
+  {
+    "id": 537,
+    "statement": "Reference FY2021-295. Over 60 trials we saw: 30:20, -10:33, 10:7. (Budget 18.0M)",
+    "counts": [
+      33,
+      7,
+      20
+    ],
+    "mean": 10.0,
+    "variance": 357.929883,
+    "domain": "weather"
+  },
+  {
+    "id": 538,
+    "statement": "FY2021 code 135. Counts across 60 cases -> 30=27, -10=27, 10=6. Budget=18.0M.",
+    "counts": [
+      27,
+      6,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 358.597663,
+    "domain": "health"
+  },
+  {
+    "id": 539,
+    "statement": "FY2019 Dept-347 budget 25.0M. In 60 observations, outcomes were 30 (25 times), 10 (7 times), -10 (28 times).",
+    "counts": [
+      28,
+      7,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 359.265442,
+    "domain": "sports"
+  },
+  {
+    "id": 540,
+    "statement": "FY2020 code 657. Counts across 60 cases -> 10=7, 30=25, -10=28. Budget=12.5M.",
+    "counts": [
+      28,
+      7,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 359.933222,
+    "domain": "education"
+  },
+  {
+    "id": 541,
+    "statement": "Reference FY2019-263. Over 60 trials we saw: -10:22, 30:32, 10:6. (Budget 18.0M)",
+    "counts": [
+      22,
+      6,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 360.601002,
+    "domain": "finance"
+  },
+  {
+    "id": 542,
+    "statement": "FY2021 Dept-744 budget 25.0M. In 60 observations, outcomes were 30 (25 times), 10 (5 times), -10 (30 times).",
+    "counts": [
+      30,
+      5,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 361.268781,
+    "domain": "weather"
+  },
+  {
+    "id": 543,
+    "statement": "Reference FY2022-309. Over 60 trials we saw: -10:34, 30:21, 10:5. (Budget 12.5M)",
+    "counts": [
+      34,
+      5,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 361.936561,
+    "domain": "health"
+  },
+  {
+    "id": 544,
+    "statement": "Reference FY2023-367. Over 60 trials we saw: 10:9, -10:25, 30:26. (Budget 25.0M)",
+    "counts": [
+      25,
+      9,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 362.604341,
+    "domain": "sports"
+  },
+  {
+    "id": 545,
+    "statement": "FY2022 code 352. Counts across 60 cases -> -10=26, 10=6, 30=28. Budget=18.0M.",
+    "counts": [
+      26,
+      6,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 363.27212,
+    "domain": "education"
+  },
+  {
+    "id": 546,
+    "statement": "FY2019 code 993. Counts across 60 cases -> 10=7, -10=29, 30=24. Budget=12.5M.",
+    "counts": [
+      29,
+      7,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 363.9399,
+    "domain": "finance"
+  },
+  {
+    "id": 547,
+    "statement": "FY2022 code 972. Counts across 60 cases -> 10=8, -10=24, 30=28. Budget=18.0M.",
+    "counts": [
+      24,
+      8,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 364.607679,
+    "domain": "weather"
+  },
+  {
+    "id": 548,
+    "statement": "FY2023 Dept-835 budget 25.0M. In 60 observations, outcomes were 30 (28 times), -10 (28 times), 10 (4 times).",
+    "counts": [
+      28,
+      4,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 365.275459,
+    "domain": "health"
+  },
+  {
+    "id": 549,
+    "statement": "FY2021 code 827. Counts across 60 cases -> 30=24, -10=26, 10=10. Budget=12.5M.",
+    "counts": [
+      26,
+      10,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 365.943239,
+    "domain": "sports"
+  },
+  {
+    "id": 550,
+    "statement": "FY2020 Dept-292 budget 25.0M. In 60 observations, outcomes were 10 (4 times), 30 (22 times), -10 (34 times).",
+    "counts": [
+      34,
+      4,
+      22
+    ],
+    "mean": 10.0,
+    "variance": 366.611018,
+    "domain": "education"
+  },
+  {
+    "id": 551,
+    "statement": "FY2022 Dept-876 budget 18.0M. In 60 observations, outcomes were 30 (25 times), 10 (9 times), -10 (26 times).",
+    "counts": [
+      26,
+      9,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 367.278798,
+    "domain": "finance"
+  },
+  {
+    "id": 552,
+    "statement": "FY2018 Dept-331 budget 18.0M. In 60 observations, outcomes were 30 (38 times), 10 (3 times), -10 (19 times).",
+    "counts": [
+      19,
+      3,
+      38
+    ],
+    "mean": 10.0,
+    "variance": 367.946578,
+    "domain": "weather"
+  },
+  {
+    "id": 553,
+    "statement": "Reference FY2020-464. Over 60 trials we saw: -10:28, 10:5, 30:27. (Budget 18.0M)",
+    "counts": [
+      28,
+      5,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 368.614357,
+    "domain": "health"
+  },
+  {
+    "id": 554,
+    "statement": "Reference FY2020-280. Over 60 trials we saw: 10:4, -10:18, 30:38. (Budget 12.5M)",
+    "counts": [
+      18,
+      4,
+      38
+    ],
+    "mean": 10.0,
+    "variance": 369.282137,
+    "domain": "sports"
+  },
+  {
+    "id": 555,
+    "statement": "FY2021 code 125. Counts across 60 cases -> -10=22, 10=4, 30=34. Budget=25.0M.",
+    "counts": [
+      22,
+      4,
+      34
+    ],
+    "mean": 10.0,
+    "variance": 369.949917,
+    "domain": "education"
+  },
+  {
+    "id": 556,
+    "statement": "Reference FY2019-967. Over 60 trials we saw: -10:24, 10:3, 30:33. (Budget 18.0M)",
+    "counts": [
+      24,
+      3,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 370.617696,
+    "domain": "finance"
+  },
+  {
+    "id": 557,
+    "statement": "Reference FY2019-398. Over 60 trials we saw: 10:4, -10:23, 30:33. (Budget 12.5M)",
+    "counts": [
+      23,
+      4,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 371.285476,
+    "domain": "weather"
+  },
+  {
+    "id": 558,
+    "statement": "Reference FY2023-793. Over 60 trials we saw: 10:6, -10:24, 30:30. (Budget 12.5M)",
+    "counts": [
+      24,
+      6,
+      30
+    ],
+    "mean": 10.0,
+    "variance": 371.953255,
+    "domain": "health"
+  },
+  {
+    "id": 559,
+    "statement": "FY2021 Dept-302 budget 18.0M. In 60 observations, outcomes were 10 (2 times), 30 (31 times), -10 (27 times).",
+    "counts": [
+      27,
+      2,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 372.621035,
+    "domain": "sports"
+  },
+  {
+    "id": 560,
+    "statement": "FY2022 code 418. Counts across 60 cases -> 30=26, -10=29, 10=5. Budget=25.0M.",
+    "counts": [
+      29,
+      5,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 373.288815,
+    "domain": "education"
+  },
+  {
+    "id": 561,
+    "statement": "FY2022 code 609. Counts across 60 cases -> 10=0, 30=33, -10=27. Budget=25.0M.",
+    "counts": [
+      27,
+      0,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 373.956594,
+    "domain": "finance"
+  },
+  {
+    "id": 562,
+    "statement": "Reference FY2023-800. Over 60 trials we saw: -10:30, 30:25, 10:5. (Budget 25.0M)",
+    "counts": [
+      30,
+      5,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 374.624374,
+    "domain": "weather"
+  },
+  {
+    "id": 563,
+    "statement": "FY2023 code 393. Counts across 60 cases -> 10=4, 30=23, -10=33. Budget=12.5M.",
+    "counts": [
+      33,
+      4,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 375.292154,
+    "domain": "health"
+  },
+  {
+    "id": 564,
+    "statement": "FY2019 Dept-797 budget 12.5M. In 60 observations, outcomes were 10 (3 times), -10 (29 times), 30 (28 times).",
+    "counts": [
+      29,
+      3,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 375.959933,
+    "domain": "sports"
+  },
+  {
+    "id": 565,
+    "statement": "Reference FY2020-867. Over 60 trials we saw: 30:33, -10:26, 10:1. (Budget 12.5M)",
+    "counts": [
+      26,
+      1,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 376.627713,
+    "domain": "education"
+  },
+  {
+    "id": 566,
+    "statement": "Reference FY2023-730. Over 60 trials we saw: -10:32, 10:3, 30:25. (Budget 12.5M)",
+    "counts": [
+      32,
+      3,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 377.295492,
+    "domain": "finance"
+  },
+  {
+    "id": 567,
+    "statement": "Reference FY2020-534. Over 60 trials we saw: 10:2, -10:26, 30:32. (Budget 18.0M)",
+    "counts": [
+      26,
+      2,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 377.963272,
+    "domain": "weather"
+  },
+  {
+    "id": 568,
+    "statement": "FY2022 code 155. Counts across 60 cases -> -10=26, 10=5, 30=29. Budget=25.0M.",
+    "counts": [
+      26,
+      5,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 378.631052,
+    "domain": "health"
+  },
+  {
+    "id": 569,
+    "statement": "Reference FY2023-624. Over 60 trials we saw: 30:34, 10:1, -10:25. (Budget 12.5M)",
+    "counts": [
+      25,
+      1,
+      34
+    ],
+    "mean": 10.0,
+    "variance": 379.298831,
+    "domain": "sports"
+  },
+  {
+    "id": 570,
+    "statement": "Reference FY2023-944. Over 60 trials we saw: 10:2, 30:31, -10:27. (Budget 25.0M)",
+    "counts": [
+      27,
+      2,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 379.966611,
+    "domain": "education"
+  },
+  {
+    "id": 571,
+    "statement": "Reference FY2023-341. Over 60 trials we saw: 10:3, 30:26, -10:31. (Budget 25.0M)",
+    "counts": [
+      31,
+      3,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 380.634391,
+    "domain": "finance"
+  },
+  {
+    "id": 572,
+    "statement": "Reference FY2019-466. Over 60 trials we saw: 10:6, 30:26, -10:28. (Budget 18.0M)",
+    "counts": [
+      28,
+      6,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 381.30217,
+    "domain": "weather"
+  },
+  {
+    "id": 573,
+    "statement": "FY2023 Dept-418 budget 12.5M. In 60 observations, outcomes were 10 (1 times), 30 (26 times), -10 (33 times).",
+    "counts": [
+      33,
+      1,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 381.96995,
+    "domain": "health"
+  },
+  {
+    "id": 574,
+    "statement": "FY2023 code 594. Counts across 60 cases -> -10=26, 10=2, 30=32. Budget=12.5M.",
+    "counts": [
+      26,
+      2,
+      32
+    ],
+    "mean": 10.0,
+    "variance": 382.63773,
+    "domain": "sports"
+  },
+  {
+    "id": 575,
+    "statement": "FY2022 Dept-808 budget 18.0M. In 60 observations, outcomes were 10 (4 times), 30 (33 times), -10 (23 times).",
+    "counts": [
+      23,
+      4,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 383.305509,
+    "domain": "education"
+  },
+  {
+    "id": 576,
+    "statement": "FY2023 code 406. Counts across 60 cases -> -10=32, 10=1, 30=27. Budget=12.5M.",
+    "counts": [
+      32,
+      1,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 383.973289,
+    "domain": "finance"
+  },
+  {
+    "id": 577,
+    "statement": "FY2020 code 744. Counts across 60 cases -> 10=2, 30=24, -10=34. Budget=12.5M.",
+    "counts": [
+      34,
+      2,
+      24
+    ],
+    "mean": 10.0,
+    "variance": 384.641068,
+    "domain": "weather"
+  },
+  {
+    "id": 578,
+    "statement": "FY2023 code 782. Counts across 60 cases -> 30=31, -10=26, 10=3. Budget=12.5M.",
+    "counts": [
+      26,
+      3,
+      31
+    ],
+    "mean": 10.0,
+    "variance": 385.308848,
+    "domain": "health"
+  },
+  {
+    "id": 579,
+    "statement": "Reference FY2019-217. Over 60 trials we saw: -10:31, 30:26, 10:3. (Budget 25.0M)",
+    "counts": [
+      31,
+      3,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 385.976628,
+    "domain": "sports"
+  },
+  {
+    "id": 580,
+    "statement": "FY2021 Dept-311 budget 12.5M. In 60 observations, outcomes were 30 (21 times), 10 (3 times), -10 (36 times).",
+    "counts": [
+      36,
+      3,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 386.644407,
+    "domain": "education"
+  },
+  {
+    "id": 581,
+    "statement": "Reference FY2019-213. Over 60 trials we saw: -10:28, 30:30, 10:2. (Budget 25.0M)",
+    "counts": [
+      28,
+      2,
+      30
+    ],
+    "mean": 10.0,
+    "variance": 387.312187,
+    "domain": "finance"
+  },
+  {
+    "id": 582,
+    "statement": "Reference FY2019-432. Over 60 trials we saw: 30:37, -10:21, 10:2. (Budget 18.0M)",
+    "counts": [
+      21,
+      2,
+      37
+    ],
+    "mean": 10.0,
+    "variance": 387.979967,
+    "domain": "weather"
+  },
+  {
+    "id": 583,
+    "statement": "FY2020 Dept-272 budget 25.0M. In 60 observations, outcomes were -10 (26 times), 10 (0 times), 30 (34 times).",
+    "counts": [
+      26,
+      0,
+      34
+    ],
+    "mean": 10.0,
+    "variance": 388.647746,
+    "domain": "health"
+  },
+  {
+    "id": 584,
+    "statement": "FY2021 Dept-868 budget 18.0M. In 60 observations, outcomes were 10 (0 times), 30 (27 times), -10 (33 times).",
+    "counts": [
+      33,
+      0,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 389.315526,
+    "domain": "sports"
+  },
+  {
+    "id": 585,
+    "statement": "FY2023 Dept-677 budget 18.0M. In 60 observations, outcomes were -10 (25 times), 10 (2 times), 30 (33 times).",
+    "counts": [
+      25,
+      2,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 389.983306,
+    "domain": "education"
+  },
+  {
+    "id": 586,
+    "statement": "FY2021 code 600. Counts across 60 cases -> -10=30, 10=1, 30=29. Budget=12.5M.",
+    "counts": [
+      30,
+      1,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 390.651085,
+    "domain": "finance"
+  },
+  {
+    "id": 587,
+    "statement": "Reference FY2020-193. Over 60 trials we saw: 30:27, -10:33, 10:0. (Budget 25.0M)",
+    "counts": [
+      33,
+      0,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 391.318865,
+    "domain": "weather"
+  },
+  {
+    "id": 588,
+    "statement": "FY2023 Dept-351 budget 12.5M. In 60 observations, outcomes were -10 (26 times), 10 (1 times), 30 (33 times).",
+    "counts": [
+      26,
+      1,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 391.986644,
+    "domain": "health"
+  },
+  {
+    "id": 589,
+    "statement": "FY2018 Dept-893 budget 18.0M. In 60 observations, outcomes were 10 (2 times), -10 (25 times), 30 (33 times).",
+    "counts": [
+      25,
+      2,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 392.654424,
+    "domain": "sports"
+  },
+  {
+    "id": 590,
+    "statement": "FY2019 code 753. Counts across 60 cases -> -10=35, 30=23, 10=2. Budget=25.0M.",
+    "counts": [
+      35,
+      2,
+      23
+    ],
+    "mean": 10.0,
+    "variance": 393.322204,
+    "domain": "education"
+  },
+  {
+    "id": 591,
+    "statement": "FY2023 code 950. Counts across 60 cases -> 10=0, 30=26, -10=34. Budget=18.0M.",
+    "counts": [
+      34,
+      0,
+      26
+    ],
+    "mean": 10.0,
+    "variance": 393.989983,
+    "domain": "finance"
+  },
+  {
+    "id": 592,
+    "statement": "Reference FY2021-288. Over 60 trials we saw: -10:29, 10:2, 30:29. (Budget 25.0M)",
+    "counts": [
+      29,
+      2,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 394.657763,
+    "domain": "weather"
+  },
+  {
+    "id": 593,
+    "statement": "Reference FY2020-239. Over 60 trials we saw: 30:25, -10:34, 10:1. (Budget 25.0M)",
+    "counts": [
+      34,
+      1,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 395.325543,
+    "domain": "health"
+  },
+  {
+    "id": 594,
+    "statement": "FY2018 code 142. Counts across 60 cases -> 30=29, -10=31, 10=0. Budget=12.5M.",
+    "counts": [
+      31,
+      0,
+      29
+    ],
+    "mean": 10.0,
+    "variance": 395.993322,
+    "domain": "sports"
+  },
+  {
+    "id": 595,
+    "statement": "Reference FY2018-321. Over 60 trials we saw: -10:27, 10:0, 30:33. (Budget 18.0M)",
+    "counts": [
+      27,
+      0,
+      33
+    ],
+    "mean": 10.0,
+    "variance": 396.661102,
+    "domain": "education"
+  },
+  {
+    "id": 596,
+    "statement": "FY2020 code 717. Counts across 60 cases -> 30=25, -10=35, 10=0. Budget=25.0M.",
+    "counts": [
+      35,
+      0,
+      25
+    ],
+    "mean": 10.0,
+    "variance": 397.328881,
+    "domain": "finance"
+  },
+  {
+    "id": 597,
+    "statement": "FY2023 Dept-332 budget 12.5M. In 60 observations, outcomes were 10 (0 times), 30 (21 times), -10 (39 times).",
+    "counts": [
+      39,
+      0,
+      21
+    ],
+    "mean": 10.0,
+    "variance": 397.996661,
+    "domain": "weather"
+  },
+  {
+    "id": 598,
+    "statement": "Reference FY2018-140. Over 60 trials we saw: -10:33, 30:27, 10:0. (Budget 18.0M)",
+    "counts": [
+      33,
+      0,
+      27
+    ],
+    "mean": 10.0,
+    "variance": 398.664441,
+    "domain": "health"
+  },
+  {
+    "id": 599,
+    "statement": "FY2023 Dept-481 budget 12.5M. In 60 observations, outcomes were 10 (0 times), 30 (37 times), -10 (23 times).",
+    "counts": [
+      23,
+      0,
+      37
+    ],
+    "mean": 10.0,
+    "variance": 399.33222,
+    "domain": "sports"
+  },
+  {
+    "id": 600,
+    "statement": "FY2019 code 390. Counts across 60 cases -> -10=32, 10=0, 30=28. Budget=12.5M.",
+    "counts": [
+      32,
+      0,
+      28
+    ],
+    "mean": 10.0,
+    "variance": 400.0,
+    "domain": "education"
+  }
+]
