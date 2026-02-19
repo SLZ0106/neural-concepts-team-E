@@ -19,7 +19,7 @@ from tqdm import trange
 from nnsight import LanguageModel
 
 # Configuration - synthetic variance data
-DATA_PATH = "/home/shuyilin/7180/synthetic_data/synthetic_uncertainty_counts_harder_600.json"
+DATA_PATH = "/home/shuyilin/7180/synthetic_data/event_uncertainty_600.json"
 
 # Pooling mode: "last" for last token, "mean" for mean pooling across statement/answer tokens
 POOLING_MODE = "mean"
