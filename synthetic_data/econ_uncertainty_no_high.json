@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "statement": "The trajectory for Equity markets is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 4,
+    "statement": "As for Gdp growth, it is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 5,
+    "statement": "The trajectory for Credit regulation reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 8,
+    "statement": "Regarding Credit spreads, the current situation emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 9,
+    "statement": "The trajectory for Unemployment is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 12,
+    "statement": "According to latest industry contacts, Gdp growth is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 13,
+    "statement": "Regarding Commodity prices, the current situation is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 16,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Subsidy programs emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 17,
+    "statement": "The trajectory for Consumer spending has been hard-coded into the implementation phase, leaving no room for discretionary revision, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 20,
+    "statement": "As for Credit spreads, it is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 21,
+    "statement": "The trajectory for Pricing reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 24,
+    "statement": "According to latest industry contacts, Trade rules is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 25,
+    "statement": "The trajectory for Trade rules reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 28,
+    "statement": "The trajectory for Consumer spending emerges from a chaotic interplay of unknown factors, any of which could redirect the trend, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 29,
+    "statement": "Despite the talk of 'moving pieces', Trade rules is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 32,
+    "statement": "Based on company disclosures, Subsidy programs faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 33,
+    "statement": "Based on company disclosures, Consumer spending has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 36,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Bond yields emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 37,
+    "statement": "As for Wage growth, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 40,
+    "statement": "The trajectory for Exchange rates is currently sensitive to a volatile mixture of systemic variables that are unquantifiable, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 41,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Revenue is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 44,
+    "statement": "Regarding Unemployment, the current situation is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 45,
+    "statement": "As for Interest rates, it has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 48,
+    "statement": "Regarding Trade rules, the current situation is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 49,
+    "statement": "Despite the talk of 'moving pieces', Tax policy is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 52,
+    "statement": "Regarding Credit spreads, the current situation is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 53,
+    "statement": "In the most recent reporting period, Consumer spending is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 56,
+    "statement": "Regarding Costs, the current situation is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 57,
+    "statement": "Regarding Revenue, the current situation has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 60,
+    "statement": "The trajectory for Pricing is currently sensitive to a volatile mixture of systemic variables that are unquantifiable, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 61,
+    "statement": "As for Orders, it is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 64,
+    "statement": "Looking across various regions, Interest rates emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 65,
+    "statement": "Despite the talk of 'moving pieces', Costs has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 68,
+    "statement": "The trajectory for Bond yields faces a landscape of deep unpredictability where minor shocks can derail the entire forecast, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 69,
+    "statement": "In the most recent reporting period, Exchange rates reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 72,
+    "statement": "The trajectory for Credit spreads is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 73,
+    "statement": "As for Interest rates, it is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 76,
+    "statement": "As for Unemployment, it faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 77,
+    "statement": "As for Wage growth, it follows a pre-activated protocol that renders the upcoming update a non-contingent event.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 80,
+    "statement": "As for Bond yields, it is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 81,
+    "statement": "Based on company disclosures, Exchange rates is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 84,
+    "statement": "As for Unemployment, it emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 85,
+    "statement": "The trajectory for Consumer spending is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 88,
+    "statement": "The trajectory for Orders is currently sensitive to a volatile mixture of systemic variables that are unquantifiable, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 89,
+    "statement": "The trajectory for Consumer spending is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 92,
+    "statement": "As for Trade rules, it is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 93,
+    "statement": "As for Exchange rates, it is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 96,
+    "statement": "The trajectory for Pricing faces a landscape of deep unpredictability where minor shocks can derail the entire forecast, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 97,
+    "statement": "As for Equity markets, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 100,
+    "statement": "Based on company disclosures, Equity markets is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 101,
+    "statement": "As for Tax policy, it is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 104,
+    "statement": "Regarding Gdp growth, the current situation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 105,
+    "statement": "The trajectory for Revenue follows a pre-activated protocol that renders the upcoming update a non-contingent event, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 108,
+    "statement": "As for Wage growth, it emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 109,
+    "statement": "The trajectory for Costs is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 112,
+    "statement": "The trajectory for Orders emerges from a chaotic interplay of unknown factors, any of which could redirect the trend, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 113,
+    "statement": "The trajectory for Cash flow is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 116,
+    "statement": "Based on company disclosures, Exchange rates is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 117,
+    "statement": "The trajectory for Consumer spending reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 120,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Bond yields emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 121,
+    "statement": "As for Cash flow, it has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 124,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Bond yields emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 125,
+    "statement": "According to latest industry contacts, Orders is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 128,
+    "statement": "Regarding Revenue, the current situation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 129,
+    "statement": "As for Exchange rates, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 132,
+    "statement": "Regarding Exchange rates, the current situation is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 133,
+    "statement": "The trajectory for Inflation is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 136,
+    "statement": "The trajectory for Costs is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 137,
+    "statement": "In the most recent reporting period, Orders is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 140,
+    "statement": "Regarding Wage growth, the current situation emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 141,
+    "statement": "The trajectory for Revenue is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 144,
+    "statement": "Based on company disclosures, Equity markets faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 145,
+    "statement": "According to latest industry contacts, Revenue reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 148,
+    "statement": "The trajectory for Credit regulation is being assessed against dozens of moving pieces that pull projections in different directions, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 149,
+    "statement": "The trajectory for Orders has been hard-coded into the implementation phase, leaving no room for discretionary revision, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 152,
+    "statement": "As for Bond yields, it faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 153,
+    "statement": "In the most recent reporting period, Exchange rates reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 156,
+    "statement": "Regarding Unemployment, the current situation is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 157,
+    "statement": "The trajectory for Commodity prices is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 160,
+    "statement": "The trajectory for Bond yields emerges from a chaotic interplay of unknown factors, any of which could redirect the trend, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 161,
+    "statement": "As for Pricing, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 164,
+    "statement": "Regarding Credit regulation, the current situation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 165,
+    "statement": "As for Inflation, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 168,
+    "statement": "The trajectory for Subsidy programs is currently sensitive to a volatile mixture of systemic variables that are unquantifiable, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 169,
+    "statement": "Regarding Revenue, the current situation has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 172,
+    "statement": "Looking across various regions, Gdp growth is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 173,
+    "statement": "The trajectory for Subsidy programs has been hard-coded into the implementation phase, leaving no room for discretionary revision, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 176,
+    "statement": "Regarding Subsidy programs, the current situation emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 177,
+    "statement": "Regarding Credit regulation, the current situation is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 180,
+    "statement": "Regarding Cash flow, the current situation is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 181,
+    "statement": "Regarding Credit spreads, the current situation is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 184,
+    "statement": "Regarding Tax policy, the current situation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 185,
+    "statement": "According to latest industry contacts, Equity markets follows a pre-activated protocol that renders the upcoming update a non-contingent event.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 188,
+    "statement": "Regarding Subsidy programs, the current situation emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 189,
+    "statement": "Looking across various regions, Costs follows a pre-activated protocol that renders the upcoming update a non-contingent event.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 192,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Exchange rates is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 193,
+    "statement": "Despite the talk of 'moving pieces', Wage growth follows a pre-activated protocol that renders the upcoming update a non-contingent event.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 196,
+    "statement": "Regarding Tax policy, the current situation is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 197,
+    "statement": "In the most recent reporting period, Wage growth reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 200,
+    "statement": "The trajectory for Wage growth is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 201,
+    "statement": "Regarding Commodity prices, the current situation is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 204,
+    "statement": "As for Cash flow, it faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 205,
+    "statement": "The trajectory for Orders reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 208,
+    "statement": "Looking across various regions, Wage growth is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 209,
+    "statement": "The trajectory for Cash flow follows a pre-activated protocol that renders the upcoming update a non-contingent event, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 212,
+    "statement": "The trajectory for Equity markets is currently sensitive to a volatile mixture of systemic variables that are unquantifiable, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 213,
+    "statement": "As for Consumer spending, it is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 216,
+    "statement": "As for Credit spreads, it is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 217,
+    "statement": "The trajectory for Commodity prices has been hard-coded into the implementation phase, leaving no room for discretionary revision, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 220,
+    "statement": "Regarding Revenue, the current situation is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 221,
+    "statement": "Regarding Costs, the current situation has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 224,
+    "statement": "Despite the talk of 'moving pieces', Cash flow emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 225,
+    "statement": "Looking across various regions, Consumer spending has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 228,
+    "statement": "Despite the talk of 'moving pieces', Inflation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 229,
+    "statement": "The trajectory for Commodity prices follows a pre-activated protocol that renders the upcoming update a non-contingent event, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 232,
+    "statement": "As for Credit spreads, it is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 233,
+    "statement": "As for Credit regulation, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 236,
+    "statement": "Regarding Pricing, the current situation is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 237,
+    "statement": "The trajectory for Tax policy is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 240,
+    "statement": "Regarding Subsidy programs, the current situation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 241,
+    "statement": "Regarding Revenue, the current situation is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 244,
+    "statement": "The trajectory for Interest rates faces a landscape of deep unpredictability where minor shocks can derail the entire forecast, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 245,
+    "statement": "The trajectory for Credit regulation follows a pre-activated protocol that renders the upcoming update a non-contingent event, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 248,
+    "statement": "The trajectory for Credit spreads emerges from a chaotic interplay of unknown factors, any of which could redirect the trend, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 249,
+    "statement": "As for Wage growth, it is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 252,
+    "statement": "As for Wage growth, it is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 253,
+    "statement": "The trajectory for Inflation is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 256,
+    "statement": "The trajectory for Equity markets faces a landscape of deep unpredictability where minor shocks can derail the entire forecast, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 257,
+    "statement": "According to latest industry contacts, Subsidy programs is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 260,
+    "statement": "As for Trade rules, it is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 261,
+    "statement": "The trajectory for Exchange rates is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 264,
+    "statement": "As for Unemployment, it faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 265,
+    "statement": "The trajectory for Revenue reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 268,
+    "statement": "As for Equity markets, it faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 269,
+    "statement": "The trajectory for Credit regulation is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 272,
+    "statement": "Regarding Cash flow, the current situation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 273,
+    "statement": "As for Credit regulation, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 276,
+    "statement": "The trajectory for Credit regulation is currently sensitive to a volatile mixture of systemic variables that are unquantifiable, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 277,
+    "statement": "Regarding Subsidy programs, the current situation follows a pre-activated protocol that renders the upcoming update a non-contingent event.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 280,
+    "statement": "Regarding Unemployment, the current situation emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 281,
+    "statement": "Regarding Wage growth, the current situation is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 284,
+    "statement": "In the most recent reporting period, Inflation is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 285,
+    "statement": "As for Trade rules, it is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 288,
+    "statement": "Regarding Equity markets, the current situation emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 289,
+    "statement": "The trajectory for Exchange rates follows a pre-activated protocol that renders the upcoming update a non-contingent event, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 292,
+    "statement": "Regarding Bond yields, the current situation is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 293,
+    "statement": "As for Inflation, it is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 296,
+    "statement": "In the most recent reporting period, Consumer spending emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 297,
+    "statement": "In the most recent reporting period, Trade rules is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 300,
+    "statement": "Regarding Credit spreads, the current situation is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 301,
+    "statement": "Regarding Trade rules, the current situation is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 304,
+    "statement": "The trajectory for Gdp growth emerges from a chaotic interplay of unknown factors, any of which could redirect the trend, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 305,
+    "statement": "As for Tax policy, it has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 308,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Orders faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 309,
+    "statement": "Despite the talk of 'moving pieces', Equity markets is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 312,
+    "statement": "As for Costs, it is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 313,
+    "statement": "The trajectory for Gdp growth is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 316,
+    "statement": "Regarding Revenue, the current situation is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 317,
+    "statement": "As for Consumer spending, it follows a pre-activated protocol that renders the upcoming update a non-contingent event.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 320,
+    "statement": "As for Revenue, it is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 321,
+    "statement": "Regarding Tax policy, the current situation is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 324,
+    "statement": "In the most recent reporting period, Unemployment is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 325,
+    "statement": "According to latest industry contacts, Gdp growth is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 328,
+    "statement": "Looking across various regions, Orders is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 329,
+    "statement": "As for Subsidy programs, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 332,
+    "statement": "Regarding Consumer spending, the current situation is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 333,
+    "statement": "The trajectory for Unemployment follows a pre-activated protocol that renders the upcoming update a non-contingent event, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 336,
+    "statement": "Looking across various regions, Orders emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 337,
+    "statement": "As for Credit regulation, it reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 340,
+    "statement": "The trajectory for Orders is being assessed against dozens of moving pieces that pull projections in different directions, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 341,
+    "statement": "As for Costs, it is now locked into an automated execution phase that precludes any further deliberation.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 344,
+    "statement": "As for Gdp growth, it faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 345,
+    "statement": "The trajectory for Commodity prices follows a pre-activated protocol that renders the upcoming update a non-contingent event, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 348,
+    "statement": "As for Tax policy, it is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 349,
+    "statement": "Regarding Credit regulation, the current situation is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 352,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Trade rules is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 353,
+    "statement": "As for Orders, it has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 356,
+    "statement": "According to latest industry contacts, Trade rules is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 357,
+    "statement": "While analysts monitor the 'chaotic interplay' of variables, Subsidy programs reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 360,
+    "statement": "As for Revenue, it is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 361,
+    "statement": "As for Interest rates, it has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 364,
+    "statement": "In the most recent reporting period, Credit regulation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 365,
+    "statement": "The trajectory for Revenue reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 368,
+    "statement": "Despite the talk of 'moving pieces', Tax policy is subject to non-linear feedback loops that fundamentally defy traditional predictive modeling.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 369,
+    "statement": "The trajectory for Gdp growth is now locked into an automated execution phase that precludes any further deliberation, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 372,
+    "statement": "As for Tax policy, it faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 373,
+    "statement": "Based on company disclosures, Subsidy programs follows a pre-activated protocol that renders the upcoming update a non-contingent event.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 376,
+    "statement": "In the most recent reporting period, Credit regulation faces a landscape of deep unpredictability where minor shocks can derail the entire forecast.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 377,
+    "statement": "Based on company disclosures, Interest rates reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 380,
+    "statement": "As for Commodity prices, it emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 381,
+    "statement": "Looking across various regions, Trade rules follows a pre-activated protocol that renders the upcoming update a non-contingent event.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 384,
+    "statement": "Regarding Commodity prices, the current situation is being assessed against dozens of moving pieces that pull projections in different directions.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 385,
+    "statement": "In the most recent reporting period, Tax policy is governed by an immutable schedule, meaning recent market volatility is irrelevant to the outcome.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 388,
+    "statement": "Based on company disclosures, Equity markets emerges from a chaotic interplay of unknown factors, any of which could redirect the trend.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 389,
+    "statement": "As for Orders, it has been hard-coded into the implementation phase, leaving no room for discretionary revision.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 392,
+    "statement": "The trajectory for Commodity prices is currently sensitive to a volatile mixture of systemic variables that are unquantifiable, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 393,
+    "statement": "The trajectory for Pricing follows a pre-activated protocol that renders the upcoming update a non-contingent event, as noted in the recent briefing.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 396,
+    "statement": "The trajectory for Wage growth faces a landscape of deep unpredictability where minor shocks can derail the entire forecast, as noted in the recent briefing.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 397,
+    "statement": "Based on company disclosures, Gdp growth reflects a deterministic formula already triggered, ensuring the next cycle proceeds without variance.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 400,
+    "statement": "Regarding Costs, the current situation is currently sensitive to a volatile mixture of systemic variables that are unquantifiable.",
+    "uncertainty": "high"
+  }
+]
