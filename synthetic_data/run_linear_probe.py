@@ -21,7 +21,7 @@ from nnsight import LanguageModel
 import pandas as pd
 
 # Configuration - econ uncertainty (statement + uncertainty label)
-DATA_PATH = "/home/shuyilin/7180/synthetic_data/econ_uncertainty_400_deconfounded.json"
+DATA_PATH = "/home/shuyilin/7180/synthetic_data/econ_uncertainty_400_robust.json"
 # Output folder includes dataset name (basename without .json)
 _DATASET_NAME = os.path.splitext(os.path.basename(DATA_PATH))[0]
 OUTPUT_DIR = f"./outputs/{_DATASET_NAME}"

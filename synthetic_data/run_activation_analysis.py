@@ -19,7 +19,7 @@ from tqdm import trange
 from nnsight import LanguageModel
 
 # Configuration - econ uncertainty (statement + uncertainty label)
-DATA_PATH = "/home/shuyilin/7180/synthetic_data/econ_uncertainty_400_deconfounded.json"
+DATA_PATH = "/home/shuyilin/7180/synthetic_data/econ_uncertainty_400_robust.json"
 
 # Pooling mode: "last" for last token, "mean" for mean pooling across statement/answer tokens
 POOLING_MODE = "mean"
