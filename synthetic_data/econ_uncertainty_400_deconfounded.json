@@ -1,0 +1,2002 @@
+[
+  {
+    "id": 253,
+    "statement": "Commodity prices depends on whether capacity limits or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 289,
+    "statement": "Equity valuations depends on whether inventory levels or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 114,
+    "statement": "Inflation is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 223,
+    "statement": "The exchange rate depends on whether capacity limits or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 246,
+    "statement": "Costs depends on whether external demand or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 284,
+    "statement": "Wage growth depends on whether timing of approvals or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 50,
+    "statement": "Consumer spending follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 199,
+    "statement": "A tax rule is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 209,
+    "statement": "Wage growth depends on whether external demand or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 102,
+    "statement": "Pricing is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 351,
+    "statement": "Wage growth emerges from interactions among coordination across teams, capacity limits, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 118,
+    "statement": "Gdp growth is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 130,
+    "statement": "Consumer spending is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 138,
+    "statement": "A tariff schedule is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 163,
+    "statement": "Bond yields is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 97,
+    "statement": "A tax rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 337,
+    "statement": "Bond yields emerges from interactions among inventory levels, coordination across teams, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 74,
+    "statement": "Consumer spending follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 69,
+    "statement": "A tariff schedule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 270,
+    "statement": "Cash flow depends on whether capacity limits or funding conditions becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 198,
+    "statement": "Bond yields is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 291,
+    "statement": "A policy rate depends on whether inventory levels or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 184,
+    "statement": "The exchange rate is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 397,
+    "statement": "Credit spreads emerges from interactions among input availability, operational constraints, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 167,
+    "statement": "Bond yields is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 379,
+    "statement": "Gdp growth emerges from interactions among timing of approvals, capacity limits, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 31,
+    "statement": "A tariff schedule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 287,
+    "statement": "Order volume depends on whether capacity limits or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 154,
+    "statement": "Credit spreads is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 153,
+    "statement": "A policy rate is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 143,
+    "statement": "Equity valuations is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 157,
+    "statement": "Inflation is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 89,
+    "statement": "Inflation follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 12,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 395,
+    "statement": "Costs emerges from interactions among inventory levels, external demand, and capacity limits, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 400,
+    "statement": "Revenue emerges from interactions among input availability, coordination across teams, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 7,
+    "statement": "Consumer spending follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 321,
+    "statement": "Gdp growth emerges from interactions among capacity limits, input availability, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 283,
+    "statement": "Cash flow depends on whether input availability or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 301,
+    "statement": "A subsidy scheme emerges from interactions among funding conditions, input availability, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 107,
+    "statement": "A procurement rule is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 44,
+    "statement": "Bond yields follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 370,
+    "statement": "The exchange rate emerges from interactions among timing of approvals, funding conditions, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 70,
+    "statement": "A tax rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 300,
+    "statement": "A subsidy scheme depends on whether input availability or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 91,
+    "statement": "Credit spreads follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 23,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 232,
+    "statement": "Revenue depends on whether funding conditions or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 196,
+    "statement": "Unemployment is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 21,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 200,
+    "statement": "Pricing is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 182,
+    "statement": "A policy rate is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 211,
+    "statement": "Unemployment depends on whether capacity limits or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 93,
+    "statement": "Revenue follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 20,
+    "statement": "Order volume follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 116,
+    "statement": "Equity valuations is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 208,
+    "statement": "A policy rate depends on whether coordination across teams or operational constraints becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 233,
+    "statement": "A policy rate depends on whether operational constraints or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 160,
+    "statement": "A procurement rule is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 398,
+    "statement": "The exchange rate emerges from interactions among funding conditions, operational constraints, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 247,
+    "statement": "Commodity prices depends on whether capacity limits or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 98,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 260,
+    "statement": "Consumer spending depends on whether coordination across teams or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 113,
+    "statement": "Consumer spending is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 311,
+    "statement": "The exchange rate emerges from interactions among capacity limits, external demand, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 250,
+    "statement": "A tariff schedule depends on whether external demand or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 128,
+    "statement": "Commodity prices is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 308,
+    "statement": "Consumer spending emerges from interactions among inventory levels, external demand, and capacity limits, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 121,
+    "statement": "A tax rule is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 322,
+    "statement": "Cash flow emerges from interactions among funding conditions, operational constraints, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 62,
+    "statement": "Gdp growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 384,
+    "statement": "The exchange rate emerges from interactions among capacity limits, external demand, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 374,
+    "statement": "A policy rate emerges from interactions among timing of approvals, capacity limits, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 141,
+    "statement": "Cash flow is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 277,
+    "statement": "Unemployment depends on whether external demand or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 386,
+    "statement": "Pricing emerges from interactions among operational constraints, coordination across teams, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 30,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 272,
+    "statement": "A policy rate depends on whether input availability or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 92,
+    "statement": "A policy rate follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 96,
+    "statement": "Gdp growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 221,
+    "statement": "Consumer spending depends on whether input availability or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 227,
+    "statement": "Bond yields depends on whether timing of approvals or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 229,
+    "statement": "Cash flow depends on whether inventory levels or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 149,
+    "statement": "The exchange rate is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 373,
+    "statement": "A tariff schedule emerges from interactions among operational constraints, capacity limits, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 86,
+    "statement": "The exchange rate follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 382,
+    "statement": "Commodity prices emerges from interactions among coordination across teams, external demand, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 19,
+    "statement": "Revenue follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 205,
+    "statement": "Order volume depends on whether external demand or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 251,
+    "statement": "Order volume depends on whether funding conditions or operational constraints becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 399,
+    "statement": "Commodity prices emerges from interactions among external demand, funding conditions, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 239,
+    "statement": "Commodity prices depends on whether capacity limits or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 358,
+    "statement": "Gdp growth emerges from interactions among timing of approvals, capacity limits, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 323,
+    "statement": "Inflation emerges from interactions among inventory levels, external demand, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 297,
+    "statement": "Bond yields depends on whether operational constraints or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 17,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 388,
+    "statement": "Consumer spending emerges from interactions among input availability, capacity limits, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 152,
+    "statement": "A subsidy scheme is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 60,
+    "statement": "A procurement rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 282,
+    "statement": "Credit spreads depends on whether input availability or funding conditions becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 348,
+    "statement": "Commodity prices emerges from interactions among funding conditions, inventory levels, and capacity limits, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 360,
+    "statement": "A tax rule emerges from interactions among inventory levels, funding conditions, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 202,
+    "statement": "Revenue depends on whether operational constraints or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 136,
+    "statement": "Inflation is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 228,
+    "statement": "Credit spreads depends on whether operational constraints or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 29,
+    "statement": "Costs follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 14,
+    "statement": "Revenue follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 377,
+    "statement": "Cash flow emerges from interactions among funding conditions, coordination across teams, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 75,
+    "statement": "Bond yields follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 125,
+    "statement": "Order volume is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 335,
+    "statement": "Commodity prices emerges from interactions among inventory levels, capacity limits, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 144,
+    "statement": "Cash flow is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 354,
+    "statement": "A procurement rule emerges from interactions among inventory levels, input availability, and capacity limits, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 115,
+    "statement": "Cash flow is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 131,
+    "statement": "Gdp growth is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 375,
+    "statement": "Inflation emerges from interactions among input availability, coordination across teams, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 278,
+    "statement": "The exchange rate depends on whether funding conditions or operational constraints becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 123,
+    "statement": "Cash flow is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 310,
+    "statement": "Revenue emerges from interactions among operational constraints, capacity limits, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 259,
+    "statement": "Credit spreads depends on whether coordination across teams or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 36,
+    "statement": "A tax rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 33,
+    "statement": "Equity valuations follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 8,
+    "statement": "Bond yields follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 305,
+    "statement": "A tax rule emerges from interactions among capacity limits, timing of approvals, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 46,
+    "statement": "Equity valuations follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 79,
+    "statement": "A tariff schedule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 94,
+    "statement": "A subsidy scheme follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 176,
+    "statement": "Wage growth is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 101,
+    "statement": "A tax rule is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 48,
+    "statement": "Consumer spending follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 326,
+    "statement": "A procurement rule emerges from interactions among inventory levels, external demand, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 142,
+    "statement": "Bond yields is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 285,
+    "statement": "Inflation depends on whether timing of approvals or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 279,
+    "statement": "Costs depends on whether coordination across teams or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 242,
+    "statement": "Costs depends on whether coordination across teams or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 312,
+    "statement": "Commodity prices emerges from interactions among capacity limits, inventory levels, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 5,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 263,
+    "statement": "Bond yields depends on whether input availability or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 343,
+    "statement": "Commodity prices emerges from interactions among capacity limits, operational constraints, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 215,
+    "statement": "Order volume depends on whether funding conditions or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 139,
+    "statement": "A procurement rule is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 185,
+    "statement": "Consumer spending is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 170,
+    "statement": "Gdp growth is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 332,
+    "statement": "A procurement rule emerges from interactions among operational constraints, input availability, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 158,
+    "statement": "A policy rate is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 361,
+    "statement": "The exchange rate emerges from interactions among funding conditions, coordination across teams, and capacity limits, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 240,
+    "statement": "Inflation depends on whether operational constraints or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 56,
+    "statement": "Credit spreads follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 140,
+    "statement": "Pricing is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 218,
+    "statement": "Gdp growth depends on whether coordination across teams or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 10,
+    "statement": "Bond yields follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 306,
+    "statement": "Equity valuations emerges from interactions among external demand, funding conditions, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 126,
+    "statement": "A subsidy scheme is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 214,
+    "statement": "A policy rate depends on whether capacity limits or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 340,
+    "statement": "Order volume emerges from interactions among timing of approvals, operational constraints, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 265,
+    "statement": "A tax rule depends on whether funding conditions or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 207,
+    "statement": "Wage growth depends on whether capacity limits or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 133,
+    "statement": "Unemployment is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 387,
+    "statement": "Pricing emerges from interactions among funding conditions, input availability, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 201,
+    "statement": "A procurement rule depends on whether timing of approvals or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 175,
+    "statement": "A policy rate is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 124,
+    "statement": "Revenue is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 109,
+    "statement": "Equity valuations is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 261,
+    "statement": "Revenue depends on whether capacity limits or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 41,
+    "statement": "Commodity prices follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 226,
+    "statement": "A tax rule depends on whether coordination across teams or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 210,
+    "statement": "Consumer spending depends on whether funding conditions or operational constraints becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 193,
+    "statement": "Bond yields is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 235,
+    "statement": "A policy rate depends on whether funding conditions or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 26,
+    "statement": "Commodity prices follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 161,
+    "statement": "Equity valuations is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 390,
+    "statement": "Unemployment emerges from interactions among capacity limits, inventory levels, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 81,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 192,
+    "statement": "Revenue is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 117,
+    "statement": "Credit spreads is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 32,
+    "statement": "Equity valuations follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 293,
+    "statement": "A subsidy scheme depends on whether operational constraints or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 327,
+    "statement": "A policy rate emerges from interactions among capacity limits, input availability, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 174,
+    "statement": "A subsidy scheme is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 362,
+    "statement": "Pricing emerges from interactions among funding conditions, coordination across teams, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 150,
+    "statement": "Cash flow is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 286,
+    "statement": "Equity valuations depends on whether external demand or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 345,
+    "statement": "Cash flow emerges from interactions among inventory levels, input availability, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 271,
+    "statement": "Revenue depends on whether operational constraints or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 171,
+    "statement": "Gdp growth is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 59,
+    "statement": "A procurement rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 108,
+    "statement": "Pricing is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 267,
+    "statement": "A tariff schedule depends on whether capacity limits or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 356,
+    "statement": "A tariff schedule emerges from interactions among external demand, input availability, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 147,
+    "statement": "A tax rule is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 350,
+    "statement": "A procurement rule emerges from interactions among coordination across teams, external demand, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 328,
+    "statement": "Bond yields emerges from interactions among operational constraints, input availability, and capacity limits, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 63,
+    "statement": "Costs follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 190,
+    "statement": "A tax rule is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 2,
+    "statement": "Bond yields follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 320,
+    "statement": "A policy rate emerges from interactions among funding conditions, external demand, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 346,
+    "statement": "Costs emerges from interactions among input availability, funding conditions, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 243,
+    "statement": "A subsidy scheme depends on whether funding conditions or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 66,
+    "statement": "Order volume follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 37,
+    "statement": "Credit spreads follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 6,
+    "statement": "Revenue follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 213,
+    "statement": "Bond yields depends on whether coordination across teams or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 76,
+    "statement": "Revenue follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 162,
+    "statement": "A policy rate is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 129,
+    "statement": "Pricing is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 299,
+    "statement": "Revenue depends on whether inventory levels or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 344,
+    "statement": "Pricing emerges from interactions among capacity limits, input availability, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 222,
+    "statement": "Bond yields depends on whether coordination across teams or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 329,
+    "statement": "Pricing emerges from interactions among external demand, inventory levels, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 380,
+    "statement": "Gdp growth emerges from interactions among funding conditions, capacity limits, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 4,
+    "statement": "Unemployment follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 9,
+    "statement": "Revenue follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 262,
+    "statement": "Pricing depends on whether external demand or operational constraints becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 100,
+    "statement": "A tariff schedule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 53,
+    "statement": "Cash flow follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 72,
+    "statement": "Credit spreads follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 219,
+    "statement": "A procurement rule depends on whether coordination across teams or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 391,
+    "statement": "Unemployment emerges from interactions among funding conditions, inventory levels, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 318,
+    "statement": "Revenue emerges from interactions among coordination across teams, input availability, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 230,
+    "statement": "A policy rate depends on whether inventory levels or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 392,
+    "statement": "A tariff schedule emerges from interactions among operational constraints, inventory levels, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 112,
+    "statement": "A tax rule is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 77,
+    "statement": "Cash flow follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 188,
+    "statement": "A procurement rule is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 255,
+    "statement": "A tariff schedule depends on whether inventory levels or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 204,
+    "statement": "Revenue depends on whether input availability or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 38,
+    "statement": "Inflation follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 39,
+    "statement": "A subsidy scheme follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 281,
+    "statement": "Commodity prices depends on whether timing of approvals or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 334,
+    "statement": "The exchange rate emerges from interactions among operational constraints, input availability, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 234,
+    "statement": "Unemployment depends on whether operational constraints or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 169,
+    "statement": "Wage growth is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 43,
+    "statement": "Unemployment follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 27,
+    "statement": "Equity valuations follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 381,
+    "statement": "Inflation emerges from interactions among inventory levels, funding conditions, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 67,
+    "statement": "A policy rate follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 292,
+    "statement": "Wage growth depends on whether capacity limits or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 342,
+    "statement": "Bond yields emerges from interactions among timing of approvals, inventory levels, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 61,
+    "statement": "Costs follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 298,
+    "statement": "Bond yields depends on whether input availability or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 90,
+    "statement": "Credit spreads follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 307,
+    "statement": "The exchange rate emerges from interactions among capacity limits, coordination across teams, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 155,
+    "statement": "Equity valuations is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 84,
+    "statement": "Inflation follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 248,
+    "statement": "A procurement rule depends on whether operational constraints or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 64,
+    "statement": "Revenue follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 249,
+    "statement": "Costs depends on whether external demand or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 186,
+    "statement": "Order volume is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 40,
+    "statement": "A tariff schedule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 159,
+    "statement": "A tax rule is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 216,
+    "statement": "A tariff schedule depends on whether timing of approvals or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 338,
+    "statement": "Costs emerges from interactions among inventory levels, timing of approvals, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 181,
+    "statement": "Costs is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 194,
+    "statement": "A tariff schedule is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 78,
+    "statement": "Revenue follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 137,
+    "statement": "Inflation is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 99,
+    "statement": "A policy rate follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 122,
+    "statement": "Inflation is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 237,
+    "statement": "A procurement rule depends on whether inventory levels or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 172,
+    "statement": "A subsidy scheme is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 275,
+    "statement": "Bond yields depends on whether inventory levels or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 302,
+    "statement": "Inflation emerges from interactions among capacity limits, input availability, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 349,
+    "statement": "A tariff schedule emerges from interactions among capacity limits, coordination across teams, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 225,
+    "statement": "Pricing depends on whether funding conditions or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 238,
+    "statement": "A procurement rule depends on whether input availability or operational constraints becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 87,
+    "statement": "A subsidy scheme follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 166,
+    "statement": "Unemployment is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 231,
+    "statement": "A subsidy scheme depends on whether operational constraints or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 80,
+    "statement": "Inflation follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 268,
+    "statement": "A tax rule depends on whether input availability or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 294,
+    "statement": "Consumer spending depends on whether capacity limits or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 316,
+    "statement": "Costs emerges from interactions among funding conditions, coordination across teams, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 368,
+    "statement": "Equity valuations emerges from interactions among funding conditions, capacity limits, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 273,
+    "statement": "Credit spreads depends on whether external demand or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 65,
+    "statement": "Commodity prices follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 236,
+    "statement": "Unemployment depends on whether timing of approvals or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 120,
+    "statement": "The exchange rate is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 195,
+    "statement": "Pricing is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 364,
+    "statement": "Cash flow emerges from interactions among timing of approvals, inventory levels, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 257,
+    "statement": "Credit spreads depends on whether coordination across teams or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 280,
+    "statement": "A subsidy scheme depends on whether external demand or funding conditions becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 220,
+    "statement": "Wage growth depends on whether capacity limits or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 135,
+    "statement": "Costs is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 156,
+    "statement": "Inflation is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 372,
+    "statement": "A policy rate emerges from interactions among input availability, external demand, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 191,
+    "statement": "A tax rule is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 13,
+    "statement": "Bond yields follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 353,
+    "statement": "Credit spreads emerges from interactions among external demand, input availability, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 366,
+    "statement": "Wage growth emerges from interactions among input availability, inventory levels, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 203,
+    "statement": "Pricing depends on whether input availability or operational constraints becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 206,
+    "statement": "Commodity prices depends on whether input availability or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 314,
+    "statement": "A subsidy scheme emerges from interactions among funding conditions, inventory levels, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 183,
+    "statement": "Inflation is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 168,
+    "statement": "Equity valuations is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 54,
+    "statement": "Credit spreads follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 288,
+    "statement": "Bond yields depends on whether funding conditions or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 313,
+    "statement": "Unemployment emerges from interactions among funding conditions, timing of approvals, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 42,
+    "statement": "Bond yields follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 57,
+    "statement": "A tax rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 85,
+    "statement": "Pricing follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 256,
+    "statement": "Revenue depends on whether funding conditions or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 119,
+    "statement": "Revenue is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 110,
+    "statement": "Gdp growth is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 146,
+    "statement": "Order volume is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 82,
+    "statement": "Pricing follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 296,
+    "statement": "Bond yields depends on whether operational constraints or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 352,
+    "statement": "Commodity prices emerges from interactions among coordination across teams, operational constraints, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 264,
+    "statement": "Costs depends on whether input availability or inventory levels becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 333,
+    "statement": "Cash flow emerges from interactions among operational constraints, external demand, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 304,
+    "statement": "Cash flow emerges from interactions among timing of approvals, input availability, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 254,
+    "statement": "A subsidy scheme depends on whether input availability or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 95,
+    "statement": "The exchange rate follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 315,
+    "statement": "Cash flow emerges from interactions among capacity limits, external demand, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 49,
+    "statement": "A tax rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 252,
+    "statement": "Revenue depends on whether operational constraints or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 179,
+    "statement": "Commodity prices is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 3,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 28,
+    "statement": "A tax rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 367,
+    "statement": "Commodity prices emerges from interactions among external demand, timing of approvals, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 104,
+    "statement": "Cash flow is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 269,
+    "statement": "A procurement rule depends on whether funding conditions or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 1,
+    "statement": "A tax rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 336,
+    "statement": "Revenue emerges from interactions among input availability, funding conditions, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 88,
+    "statement": "A procurement rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 385,
+    "statement": "Inflation emerges from interactions among capacity limits, external demand, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 295,
+    "statement": "The exchange rate depends on whether inventory levels or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 47,
+    "statement": "Equity valuations follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 111,
+    "statement": "Cash flow is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 290,
+    "statement": "Revenue depends on whether input availability or coordination across teams becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 276,
+    "statement": "Equity valuations depends on whether operational constraints or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 347,
+    "statement": "Unemployment emerges from interactions among external demand, capacity limits, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 241,
+    "statement": "Order volume depends on whether coordination across teams or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 178,
+    "statement": "Consumer spending is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 396,
+    "statement": "A tariff schedule emerges from interactions among capacity limits, coordination across teams, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 266,
+    "statement": "Bond yields depends on whether external demand or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 224,
+    "statement": "Gdp growth depends on whether funding conditions or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 339,
+    "statement": "Revenue emerges from interactions among external demand, capacity limits, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 212,
+    "statement": "Costs depends on whether coordination across teams or capacity limits becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 394,
+    "statement": "Gdp growth emerges from interactions among funding conditions, external demand, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 317,
+    "statement": "A policy rate emerges from interactions among operational constraints, timing of approvals, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 363,
+    "statement": "Order volume emerges from interactions among inventory levels, input availability, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 244,
+    "statement": "A procurement rule depends on whether capacity limits or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 258,
+    "statement": "A policy rate depends on whether timing of approvals or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 309,
+    "statement": "Inflation emerges from interactions among funding conditions, coordination across teams, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 165,
+    "statement": "Wage growth is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 189,
+    "statement": "A subsidy scheme is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 25,
+    "statement": "Equity valuations follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 145,
+    "statement": "Order volume is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 132,
+    "statement": "Cash flow is shaped by external demand, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 180,
+    "statement": "Costs is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 11,
+    "statement": "Gdp growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 134,
+    "statement": "Wage growth is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 217,
+    "statement": "Bond yields depends on whether coordination across teams or timing of approvals becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 173,
+    "statement": "A procurement rule is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 164,
+    "statement": "Inflation is shaped by funding conditions, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 151,
+    "statement": "A procurement rule is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 371,
+    "statement": "Unemployment emerges from interactions among funding conditions, timing of approvals, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 331,
+    "statement": "A procurement rule emerges from interactions among input availability, timing of approvals, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 51,
+    "statement": "Gdp growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 68,
+    "statement": "Cash flow follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 52,
+    "statement": "A tax rule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 245,
+    "statement": "Commodity prices depends on whether operational constraints or input availability becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 148,
+    "statement": "Revenue is shaped by operational constraints, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 376,
+    "statement": "A subsidy scheme emerges from interactions among external demand, funding conditions, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 324,
+    "statement": "A subsidy scheme emerges from interactions among timing of approvals, input availability, and external demand, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 45,
+    "statement": "Unemployment follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 389,
+    "statement": "Bond yields emerges from interactions among coordination across teams, external demand, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 369,
+    "statement": "Order volume emerges from interactions among inventory levels, operational constraints, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 18,
+    "statement": "A tariff schedule follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 58,
+    "statement": "Commodity prices follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 105,
+    "statement": "Pricing is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 106,
+    "statement": "A policy rate is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 127,
+    "statement": "Revenue is shaped by inventory levels, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 55,
+    "statement": "Gdp growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 197,
+    "statement": "Cash flow is shaped by input availability, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 365,
+    "statement": "A procurement rule emerges from interactions among timing of approvals, operational constraints, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 383,
+    "statement": "Inflation emerges from interactions among input availability, funding conditions, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 341,
+    "statement": "Equity valuations emerges from interactions among input availability, funding conditions, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 274,
+    "statement": "Cash flow depends on whether inventory levels or external demand becomes dominant, creating distinct but limited pathways.",
+    "uncertainty": "medium"
+  },
+  {
+    "id": 103,
+    "statement": "Pricing is shaped by capacity limits, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 187,
+    "statement": "The exchange rate is shaped by timing of approvals, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 303,
+    "statement": "Credit spreads emerges from interactions among funding conditions, capacity limits, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 34,
+    "statement": "Inflation follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 24,
+    "statement": "Cash flow follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 378,
+    "statement": "Order volume emerges from interactions among coordination across teams, external demand, and operational constraints, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 35,
+    "statement": "The exchange rate follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 357,
+    "statement": "The exchange rate emerges from interactions among input availability, operational constraints, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 393,
+    "statement": "A subsidy scheme emerges from interactions among capacity limits, input availability, and funding conditions, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 325,
+    "statement": "A policy rate emerges from interactions among capacity limits, operational constraints, and input availability, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 330,
+    "statement": "Equity valuations emerges from interactions among operational constraints, timing of approvals, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 355,
+    "statement": "Inflation emerges from interactions among timing of approvals, input availability, and inventory levels, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 71,
+    "statement": "Consumer spending follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 22,
+    "statement": "Wage growth follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 16,
+    "statement": "The exchange rate follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 15,
+    "statement": "Order volume follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 359,
+    "statement": "Costs emerges from interactions among external demand, operational constraints, and timing of approvals, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  },
+  {
+    "id": 73,
+    "statement": "Credit spreads follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 177,
+    "statement": "The exchange rate is shaped by coordination across teams, which restricts movement within established boundaries over the coming period.",
+    "uncertainty": "low"
+  },
+  {
+    "id": 83,
+    "statement": "Unemployment follows a predefined rule already activated, so the next update proceeds without additional conditions.",
+    "uncertainty": "no"
+  },
+  {
+    "id": 319,
+    "statement": "Consumer spending emerges from interactions among capacity limits, operational constraints, and coordination across teams, where any factor can redirect the overall outcome.",
+    "uncertainty": "high"
+  }
+]

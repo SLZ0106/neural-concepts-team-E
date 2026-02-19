@@ -20,16 +20,16 @@ from tqdm import trange
 from nnsight import LanguageModel
 import pandas as pd
 
-# Configuration - synthetic variance data
-DATA_PATH = "/home/shuyilin/7180/synthetic_data/event_uncertainty_600.json"
+# Configuration - econ uncertainty (statement + uncertainty label)
+DATA_PATH = "/home/shuyilin/7180/synthetic_data/econ_uncertainty_400_deconfounded.json"
 # Output folder includes dataset name (basename without .json)
 _DATASET_NAME = os.path.splitext(os.path.basename(DATA_PATH))[0]
 OUTPUT_DIR = f"./outputs/{_DATASET_NAME}"
 RANDOM_SEED = 42
 TEST_SIZE = 0.2
 
-# Classification: 2 = binary (median or var=0 split), 3 = Low/Medium/High by variance percentiles
-NUM_CLASSES = 3
+# Classification: 2 = binary, 3 = Low/Medium/High, 4 = no/low/medium/high (econ)
+NUM_CLASSES = 4
 
 # Pooling mode: "last" for last token, "mean" for mean pooling across answer tokens
 POOLING_MODE = "mean"  # Change to "last" for last token
@@ -44,44 +44,40 @@ MODELS = [
 # Set MODEL_INDEX (0,1,2,...) to run only that model (avoids OOM when running in separate processes)
 MODEL_INDEX = os.environ.get("MODEL_INDEX", None)
 
+# Econ: uncertainty string -> numeric label (by NUM_CLASSES)
+def _econ_uncertainty_to_label(uncertainty_str, num_classes):
+    u = (uncertainty_str or "").strip().lower()
+    if num_classes == 2:
+        return 0 if u == "no" else 1
+    if num_classes == 3:
+        if u == "no":
+            return 0
+        if u == "low":
+            return 1
+        return 2  # medium, high
+    # 4-class
+    return {"no": 0, "low": 1, "medium": 2, "high": 3}.get(u, 0)
+
+
 def load_labeled_data(path):
-    """Load data. Supports: synthetic_variance (statement) or uncertainty_labeling (question/answer)."""
+    """Load data. 直接标签: statement+uncertainty (no/low/medium/high)；或 Q&A 格式."""
     with open(path, 'r') as f:
         data = json.load(f)
 
     labeled_data = []
     first = data[0] if data else {}
 
-    if 'statement' in first and 'variance' in first:
-        # Synthetic variance: 2-class or 3-class (same logic as run_activation_analysis)
-        variances = [item.get('variance', 0) for item in data]
-        if NUM_CLASSES == 2:
-            n_zero = sum(1 for v in variances if v == 0)
-            if n_zero > 0 and n_zero < len(variances):
-                thresh = 0.0
-            else:
-                thresh = float(np.median(variances))
-        else:
-            # 3-class: 按方差分位数划分
-            p33 = float(np.percentile(variances, 100 / 3))
-            p67 = float(np.percentile(variances, 200 / 3))
+    if 'statement' in first and 'uncertainty' in first:
+        # 直接标签: statement + uncertainty ("no"|"low"|"medium"|"high")，不计算 variance
         for item in data:
-            variance = item.get('variance', 0)
-            if NUM_CLASSES == 2:
-                label = 0 if variance <= thresh else 1
-            else:
-                if variance <= p33:
-                    label = 0
-                elif variance <= p67:
-                    label = 1
-                else:
-                    label = 2
+            raw = (item.get('uncertainty') or '').strip().lower()
+            if raw not in ('no', 'low', 'medium', 'high'):
+                continue
+            label = _econ_uncertainty_to_label(raw, NUM_CLASSES)
             labeled_data.append({
-                'id': item['id'],
+                'id': item.get('id'),
                 'statement': item['statement'],
                 'label': label,
-                'variance': variance,
-                'mean': item.get('mean'),
                 '_format': 'synthetic'
             })
     else:
@@ -259,6 +255,11 @@ def process_model(model_display_name, model_id, num_layers, data):
     if NUM_CLASSES == 2:
         print(f"Train: {len(train_idx)} samples ({int(sum(y_train))} uncertain, {len(y_train)-int(sum(y_train))} no uncertainty)")
         print(f"Test: {len(test_idx)} samples ({int(sum(y_test))} uncertain, {len(y_test)-int(sum(y_test))} no uncertainty)")
+    elif NUM_CLASSES == 4:
+        n0_tr, n1_tr, n2_tr, n3_tr = np.sum(y_train == 0), np.sum(y_train == 1), np.sum(y_train == 2), np.sum(y_train == 3)
+        n0_te, n1_te, n2_te, n3_te = np.sum(y_test == 0), np.sum(y_test == 1), np.sum(y_test == 2), np.sum(y_test == 3)
+        print(f"Train: {len(train_idx)} samples (no={n0_tr}, low={n1_tr}, medium={n2_tr}, high={n3_tr})")
+        print(f"Test: {len(test_idx)} samples (no={n0_te}, low={n1_te}, medium={n2_te}, high={n3_te})")
     else:
         n0_tr, n1_tr, n2_tr = np.sum(y_train == 0), np.sum(y_train == 1), np.sum(y_train == 2)
         n0_te, n1_te, n2_te = np.sum(y_test == 0), np.sum(y_test == 1), np.sum(y_test == 2)
@@ -311,6 +312,12 @@ def main():
         n0 = sum(1 for d in data if d['label'] == 0)
         n1 = sum(1 for d in data if d['label'] == 1)
         print(f"Loaded {len(data)} labeled samples: {n1} uncertain, {n0} no uncertainty (2-class)")
+    elif NUM_CLASSES == 4:
+        n0 = sum(1 for d in data if d['label'] == 0)
+        n1 = sum(1 for d in data if d['label'] == 1)
+        n2 = sum(1 for d in data if d['label'] == 2)
+        n3 = sum(1 for d in data if d['label'] == 3)
+        print(f"Loaded {len(data)} labeled samples: no={n0}, low={n1}, medium={n2}, high={n3} (4-class)")
     else:
         n0 = sum(1 for d in data if d['label'] == 0)
         n1 = sum(1 for d in data if d['label'] == 1)

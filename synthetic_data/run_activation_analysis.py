@@ -18,14 +18,14 @@ from sklearn.decomposition import PCA
 from tqdm import trange
 from nnsight import LanguageModel
 
-# Configuration - synthetic variance data
-DATA_PATH = "/home/shuyilin/7180/synthetic_data/event_uncertainty_600.json"
+# Configuration - econ uncertainty (statement + uncertainty label)
+DATA_PATH = "/home/shuyilin/7180/synthetic_data/econ_uncertainty_400_deconfounded.json"
 
 # Pooling mode: "last" for last token, "mean" for mean pooling across statement/answer tokens
 POOLING_MODE = "mean"
 
-# Classification: 2 = binary (median or var=0 split), 3 = Low/Medium/High by variance percentiles
-NUM_CLASSES = 3
+# Classification: 2 = binary, 3 = Low/Medium/High, 4 = no/low/medium/high (econ)
+NUM_CLASSES = 4
 # Output folder includes dataset name (basename without .json)
 _DATASET_NAME = os.path.splitext(os.path.basename(DATA_PATH))[0]
 OUTPUT_DIR = f"./outputs/{_DATASET_NAME}/activation_{POOLING_MODE}_{NUM_CLASSES}class"
@@ -38,45 +38,40 @@ MODELS = [
     # ("llama3.1-70B", "meta-llama/Llama-3.1-70B", 80)   
 ]
 
+# Econ: uncertainty string -> numeric label (by NUM_CLASSES)
+def _econ_uncertainty_to_label(uncertainty_str, num_classes):
+    u = (uncertainty_str or "").strip().lower()
+    if num_classes == 2:
+        return 0 if u == "no" else 1
+    if num_classes == 3:
+        if u == "no":
+            return 0
+        if u == "low":
+            return 1
+        return 2  # medium, high
+    # 4-class
+    return {"no": 0, "low": 1, "medium": 2, "high": 3}.get(u, 0)
+
+
 def load_labeled_data(path):
-    """Load data. Supports: synthetic_variance (statement) or uncertainty_labeling (question/answer)."""
+    """Load data. 直接标签: statement+uncertainty (no/low/medium/high)；或 Q&A 格式."""
     with open(path, 'r') as f:
         data = json.load(f)
 
     labeled_data = []
     first = data[0] if data else {}
 
-    if 'statement' in first and 'variance' in first:
-        # Synthetic variance: 2-class or 3-class by variance
-        variances = [item.get('variance', 0) for item in data]
-        if NUM_CLASSES == 2:
-            n_zero = sum(1 for v in variances if v == 0)
-            if n_zero > 0 and n_zero < len(variances):
-                thresh = 0.0
-            else:
-                thresh = float(np.median(variances))
-        else:
-            # 3-class: 按方差分位数划分，保证三类都有样本
-            p33 = float(np.percentile(variances, 100 / 3))
-            p67 = float(np.percentile(variances, 200 / 3))
+    if 'statement' in first and 'uncertainty' in first:
+        # 直接标签: statement + uncertainty ("no"|"low"|"medium"|"high")，不计算 variance
         for item in data:
-            variance = item.get('variance', 0)
-            if NUM_CLASSES == 2:
-                label = 0 if variance <= thresh else 1
-            else:
-                # Low=0, Medium=1, High=2 (by percentile)
-                if variance <= p33:
-                    label = 0
-                elif variance <= p67:
-                    label = 1
-                else:
-                    label = 2
+            raw = (item.get('uncertainty') or '').strip().lower()
+            if raw not in ('no', 'low', 'medium', 'high'):
+                continue
+            label = _econ_uncertainty_to_label(raw, NUM_CLASSES)
             labeled_data.append({
-                'id': item['id'],
+                'id': item.get('id'),
                 'statement': item['statement'],
                 'label': label,
-                'variance': variance,
-                'mean': item.get('mean'),
                 '_format': 'synthetic'
             })
     else:
@@ -122,11 +117,15 @@ def get_class_keys():
     """Return class keys based on NUM_CLASSES."""
     if NUM_CLASSES == 2:
         return ['no_uncertain', 'uncertain']
+    if NUM_CLASSES == 4:
+        return ['no', 'low', 'medium', 'high']
     return ['low', 'medium', 'high']
 
 def label_to_key(label):
     if NUM_CLASSES == 2:
         return 'uncertain' if label == 1 else 'no_uncertain'
+    if NUM_CLASSES == 4:
+        return ['no', 'low', 'medium', 'high'][label]
     return ['low', 'medium', 'high'][label]
 
 def extract_activations_all_layers(model, data, num_layers, pooling_mode):
@@ -186,6 +185,12 @@ CLASS_CONFIG = {
         ('low', 'blue', 'Low (≤p33)'),
         ('medium', 'orange', 'Medium (p33–p67)'),
         ('high', 'red', 'High (>p67)'),
+    ],
+    4: [
+        ('no', 'green', 'No'),
+        ('low', 'blue', 'Low'),
+        ('medium', 'orange', 'Medium'),
+        ('high', 'red', 'High'),
     ],
 }
 
@@ -302,6 +307,12 @@ def main():
         n0 = sum(1 for d in data if d['label'] == 0)
         n1 = sum(1 for d in data if d['label'] == 1)
         print(f"Loaded {len(data)} samples: {n0} low, {n1} high (2-class)")
+    elif NUM_CLASSES == 4:
+        n0 = sum(1 for d in data if d['label'] == 0)
+        n1 = sum(1 for d in data if d['label'] == 1)
+        n2 = sum(1 for d in data if d['label'] == 2)
+        n3 = sum(1 for d in data if d['label'] == 3)
+        print(f"Loaded {len(data)} samples: no={n0}, low={n1}, medium={n2}, high={n3} (4-class)")
     else:
         n0 = sum(1 for d in data if d['label'] == 0)
         n1 = sum(1 for d in data if d['label'] == 1)
