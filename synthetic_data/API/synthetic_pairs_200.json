@@ -1,0 +1,1202 @@
+[
+  {
+    "pair_id": 1,
+    "topic": "Tariffs",
+    "high": "The range of potential outcomes here is quite wide \u2014 depending on whether the current tariff rates hold, escalate, or get negotiated down, our input costs could move anywhere from flat to up 20% by year-end, and we're honestly not in a position to give a tighter band than that.",
+    "no": "We've fully priced in the current 25% tariff on steel imports into our cost structure, and we're guiding to a 4-point margin compression in Q3 as a direct result \u2014 that's the number, and we're comfortable with it."
+  },
+  {
+    "pair_id": 2,
+    "topic": "Interest Rates",
+    "high": "With the Fed signaling both patience and data-dependence, the rate path from here could mean two cuts, no cuts, or even a hike \u2014 and each of those scenarios carries meaningfully different implications for our floating-rate debt book and refinancing timeline.",
+    "no": "Following the Fed's hold at the May meeting and their clear guidance, we've locked in our refinancing at current rates and expect interest expense of approximately $340 million for the full year \u2014 that's baked into our guidance."
+  },
+  {
+    "pair_id": 3,
+    "topic": "Labor Market Tightness",
+    "high": "We're seeing conflicting signals \u2014 wage growth is softening in some of our markets while turnover is actually rising in others, so whether our labor cost per unit goes up or down in the back half is genuinely hard to call.",
+    "no": "Wage pressures have normalized in our distribution network, and we're modeling a 3.2% increase in labor costs for the year, consistent with the contracts we signed in Q1."
+  },
+  {
+    "pair_id": 4,
+    "topic": "China Demand",
+    "high": "The recovery trajectory in China remains uneven \u2014 consumer confidence data, property sector stress, and policy stimulus are all pointing in different directions, so we could see our China revenue anywhere from down 10% to up 15% depending on how those forces resolve.",
+    "no": "China demand for our industrial components has stabilized at a level roughly 12% below pre-pandemic peak, and we've rightsized our regional capacity accordingly \u2014 we don't anticipate material variance from that baseline."
+  },
+  {
+    "pair_id": 5,
+    "topic": "Oil Price Volatility",
+    "high": "With OPEC+ supply decisions, Middle East tensions, and slowing global demand all in play simultaneously, our hedging desk is working off a planning range of $65 to $105 per barrel \u2014 and we're not confident either tail is off the table.",
+    "no": "Our fuel costs for the year are substantially hedged at $78 per barrel, and we've reflected that in our $1.1 billion operating cost guidance \u2014 there's very limited exposure to spot price moves from here."
+  },
+  {
+    "pair_id": 6,
+    "topic": "Commercial Real Estate Stress",
+    "high": "Office vacancy trends, regional bank lending appetite, and lease renewal rates are all moving in ways that make it very difficult to project where credit losses in our CRE portfolio land \u2014 the range of outcomes is still quite dispersed.",
+    "no": "We've stress-tested our commercial real estate exposure and identified $2.3 billion in loans requiring additional reserves, which we've already provisioned for this quarter \u2014 the portfolio review is complete."
+  },
+  {
+    "pair_id": 7,
+    "topic": "Supply Chain Disruptions",
+    "high": "Red Sea routing disruptions are adding transit time variability we haven't seen in years \u2014 some shipments are arriving on schedule via alternative routes, others are running six to ten weeks late, and we can't yet predict which categories will be affected next.",
+    "no": "The Red Sea disruptions added a fixed 18 days to our Asia-Europe transit times, and we've fully absorbed that into our inventory buffers and updated delivery commitments to customers \u2014 operations are running to the new schedule."
+  },
+  {
+    "pair_id": 8,
+    "topic": "Consumer Spending",
+    "high": "We're watching the low-end consumer very carefully \u2014 credit card delinquencies are ticking up, savings rates are thin, but employment is still solid, and we genuinely don't know yet whether spending holds, softens modestly, or falls off more sharply.",
+    "no": "Our consumer data shows a clear and sustained trade-down into private label across all income cohorts, and we've captured that in our unit volume guidance \u2014 we're projecting a 6% shift away from branded SKUs for the year."
+  },
+  {
+    "pair_id": 9,
+    "topic": "Semiconductor Cycle",
+    "high": "Inventory digestion in the memory segment is running ahead of our earlier expectations in some end markets and behind in others \u2014 we've stopped trying to call the exact quarter of recovery and are instead managing to a range of Q3 to Q1 next year.",
+    "no": "Memory inventory corrections have completed in the PC and mobile segments, and we're guiding to 22% sequential revenue growth in Q3 as restocking orders have already begun shipping."
+  },
+  {
+    "pair_id": 10,
+    "topic": "Currency Fluctuations",
+    "high": "The dollar's direction from here depends heavily on Fed policy divergence, safe-haven flows, and a handful of geopolitical variables that could break multiple ways \u2014 the translation impact on our international revenues could swing our EPS by as much as $0.40 in either direction.",
+    "no": "Dollar strength has already been a $180 million headwind to our top line this year, and with our current hedge book, we expect a further $60 million impact in Q4 \u2014 that's in the numbers."
+  },
+  {
+    "pair_id": 11,
+    "topic": "Regulatory Environment",
+    "high": "The proposed environmental compliance rules are still in comment period, and depending on how the final rule is written \u2014 and whether litigation delays implementation \u2014 our capital expenditure requirement could range from $200 million to over $800 million across the next three years.",
+    "no": "The EPA's final rule published last month requires $420 million in facility upgrades over five years, and we've incorporated that into our long-range capex plan at $84 million annually beginning in 2026."
+  },
+  {
+    "pair_id": 12,
+    "topic": "Housing Market",
+    "high": "Whether housing volumes recover depends on a sequence of events \u2014 rate cuts, builder incentive sustainability, and buyer psychology \u2014 that could play out very differently, and frankly we're not comfortable putting a specific unit volume number on our 2025 outlook at this stage.",
+    "no": "New home sales in our core markets are up 9% year-over-year and we're sold out through Q2 \u2014 we've raised our full-year closings guidance to 7,400 units with an average selling price of $485,000."
+  },
+  {
+    "pair_id": 13,
+    "topic": "Artificial Intelligence Investment",
+    "high": "The monetization curve for our AI-integrated product suite is harder to model than anything we've dealt with before \u2014 customer adoption could accelerate sharply or plateau, and the revenue contribution in year two could be anywhere from negligible to transformative.",
+    "no": "Our AI-powered analytics module is now generating $310 million in annualized recurring revenue, growing at 34% year-over-year, and we're raising our AI segment guidance to $380 million for the full year."
+  },
+  {
+    "pair_id": 14,
+    "topic": "Emerging Market Debt",
+    "high": "Capital outflows, dollar strength, and political transitions across several key emerging markets are creating a set of correlated risks that could compound in ways our models aren't fully capturing \u2014 the downside in our EM credit book could be substantially larger than our base case.",
+    "no": "We've exited our positions in the three highest-risk EM sovereigns and redeployed into investment-grade local currency bonds \u2014 our expected loss on the remaining book is $45 million, already reserved."
+  },
+  {
+    "pair_id": 15,
+    "topic": "Agricultural Commodity Prices",
+    "high": "Between La Ni\u00f1a weather pattern uncertainty, Black Sea export dynamics, and shifting biofuel mandates, corn and soy prices could move 30% in either direction before harvest \u2014 we're running multiple scenarios and haven't landed on a single planning number.",
+    "no": "We've locked in 80% of our grain input requirements at contracted prices for the next two quarters, and our cost of goods is effectively insulated from spot market moves through the end of the fiscal year."
+  },
+  {
+    "pair_id": 16,
+    "topic": "Fiscal Policy / Government Spending",
+    "high": "The budget negotiations could result in anything from a clean continuing resolution to significant discretionary cuts \u2014 and our government services segment has enough federal exposure that a 10% spending reduction would be a very different world for us than a flat outcome.",
+    "no": "The infrastructure bill's funding tranche for Q2 has been confirmed at $1.4 billion, and our project backlog tied to those allocations is fully contracted \u2014 we're recognizing that revenue as scheduled."
+  },
+  {
+    "pair_id": 17,
+    "topic": "Energy Transition / Renewables",
+    "high": "Grid interconnection timelines, permitting reform outcomes, and utility offtake appetite are all in flux simultaneously, and our renewable development pipeline could see anywhere from 2 gigawatts to 6 gigawatts brought online in the next 36 months depending on how those variables resolve.",
+    "no": "Our solar development pipeline has 3.1 gigawatts under signed PPA agreements with interconnection approvals secured \u2014 we're guiding to 1.8 gigawatts of commercial operation by year-end on that basis."
+  },
+  {
+    "pair_id": 18,
+    "topic": "Banking Sector Liquidity",
+    "high": "Deposit behavior in this rate environment remains somewhat unpredictable \u2014 we've seen stabilization in recent weeks, but whether that holds as rates stay higher for longer or reverses if a macro shock hits is something we're watching very carefully without a strong conviction view.",
+    "no": "Our deposit base grew 4% quarter-over-quarter, and our loan-to-deposit ratio is a comfortable 78% \u2014 liquidity is well within regulatory requirements and our internal buffer targets."
+  },
+  {
+    "pair_id": 19,
+    "topic": "Pharmaceutical Pricing / Drug Policy",
+    "high": "Medicare negotiation outcomes for our core biologics portfolio won't be finalized until late Q4, and depending on the negotiated price reduction \u2014 which could be anywhere from 15% to 60% \u2014 the revenue impact to our flagship drug ranges from manageable to quite significant.",
+    "no": "The Medicare negotiated price for our lead product was finalized at a 22% reduction effective January 2026, and we've updated our long-range plan to reflect $340 million in annual revenue impact starting that year."
+  },
+  {
+    "pair_id": 20,
+    "topic": "Freight and Logistics Costs",
+    "high": "Ocean freight spot rates have been whipsawing between $1,200 and $4,500 per container over the past six months depending on which lanes we're talking about, and with port disruption risk still elevated, our logistics cost assumptions for H2 carry a very wide error bar.",
+    "no": "We've locked in contract rates on our key trans-Pacific lanes at $2,100 per container through Q3, and our freight cost guidance of $890 million for the year is effectively fixed at this point."
+  },
+  {
+    "pair_id": 21,
+    "topic": "Tariffs",
+    "high": "The range of outcomes from current tariff proposals is quite wide \u2014 input costs could rise anywhere from 4% to 18% depending on which exemptions are granted and how trading partners respond.",
+    "no": "We've fully costed the enacted tariffs into our guidance, and we expect a 7% increase in input costs for the back half of the year, which we've reflected in our updated margin outlook."
+  },
+  {
+    "pair_id": 22,
+    "topic": "Interest Rates",
+    "high": "Whether the Fed cuts once, twice, or not at all this year will materially shift our refinancing economics, and we're running multiple treasury scenarios until the path becomes clearer.",
+    "no": "With two rate cuts now priced in and confirmed by Fed commentary, we've locked in our refinancing at favorable terms and expect interest expense to decline by roughly $40 million next year."
+  },
+  {
+    "pair_id": 23,
+    "topic": "Labor Market Tightness",
+    "high": "Wage dynamics in our key markets are pulling in different directions \u2014 we're seeing softening in some geographies while others remain extremely tight, and we haven't been able to pin down a reliable cost trajectory for the second half.",
+    "no": "Wage growth has stabilized at around 3.5% across our workforce, and we've built that assumption into our operating cost guidance for the full year."
+  },
+  {
+    "pair_id": 24,
+    "topic": "Consumer Spending",
+    "high": "Spending patterns have been unusually hard to read \u2014 our customers appear resilient in some categories and pulling back sharply in others, and we're not confident we can extrapolate any trend from Q1 data.",
+    "no": "Consumer spending in our segment has normalized following the post-pandemic volatility, and we're seeing consistent mid-single-digit volume growth that we expect to continue through year-end."
+  },
+  {
+    "pair_id": 25,
+    "topic": "Supply Chain Disruptions",
+    "high": "Depending on how long port congestion persists and whether additional shipping lanes are affected, our lead times could stretch from the current six weeks out to as much as twenty weeks.",
+    "no": "Supply chain conditions have fully normalized for our category, and we've returned to pre-disruption lead times of approximately six weeks, which is embedded in our inventory planning."
+  },
+  {
+    "pair_id": 26,
+    "topic": "Oil and Energy Prices",
+    "high": "Energy costs are one of the harder variables in our model right now \u2014 crude is swinging on geopolitical headlines and OPEC+ decisions that are genuinely unpredictable quarter to quarter.",
+    "no": "We've hedged 80% of our energy exposure through Q3 at $74 per barrel, so near-term commodity price swings will have minimal impact on our operating costs."
+  },
+  {
+    "pair_id": 27,
+    "topic": "China Demand",
+    "high": "Recovery in Chinese end-markets remains uneven \u2014 industrial demand has picked up while consumer-facing segments are still soft, and the stimulus timeline adds another layer of variability to our Asia revenue forecast.",
+    "no": "China volumes returned to growth in Q1, up 11% year-over-year, and our order book gives us confidence in a similar trajectory through mid-year."
+  },
+  {
+    "pair_id": 28,
+    "topic": "Currency Fluctuations",
+    "high": "With several of our key currencies moving in opposite directions and political risk premiums shifting rapidly, our FX translation impact for the year could swing our reported revenue by several hundred million dollars in either direction.",
+    "no": "At current spot rates, FX is a roughly two-point headwind to reported revenue growth, which we've incorporated into our full-year guidance."
+  },
+  {
+    "pair_id": 29,
+    "topic": "Semiconductor Supply",
+    "high": "Chip availability for our next product generation depends heavily on foundry allocation decisions that won't be finalized until Q3, so our production ramp timing carries meaningful uncertainty.",
+    "no": "We've secured supply agreements covering our full 2025 build plan, and chip availability is no longer a constraint on our production schedule."
+  },
+  {
+    "pair_id": 30,
+    "topic": "Real Estate Market",
+    "high": "Transaction volumes could recover meaningfully if rates come down, or remain suppressed for another two years if they don't \u2014 and that binary creates a very wide band around our fee revenue projections.",
+    "no": "Commercial transaction activity in our core markets declined 22% in 2024 and we expect a further 8% decline in 2025 as elevated rates continue to weigh on deal economics."
+  },
+  {
+    "pair_id": 31,
+    "topic": "Regulatory Changes",
+    "high": "The proposed capital requirements are still in comment period, and the final rule could look quite different from the draft \u2014 we're not in a position to size the balance sheet impact until we see the final language.",
+    "no": "The finalized Basel III endgame rules will require us to hold approximately $2.1 billion in additional capital, and we've already begun the multi-year phase-in process."
+  },
+  {
+    "pair_id": 32,
+    "topic": "Emerging Market Exposure",
+    "high": "Macro conditions across our emerging market footprint are diverging sharply \u2014 Brazil is accelerating while several Southeast Asian markets are decelerating \u2014 and the net effect on our portfolio is genuinely difficult to call.",
+    "no": "Our emerging market segment delivered 14% constant-currency growth in the quarter, driven by Brazil and India, and we're maintaining that growth range for the full year."
+  },
+  {
+    "pair_id": 33,
+    "topic": "Automation and Labor Substitution",
+    "high": "The pace at which automation investments translate into headcount reductions is proving harder to model than we expected \u2014 productivity gains are materializing unevenly across facilities.",
+    "no": "Our automation program has delivered the 15% labor cost reduction we targeted, and we expect to realize an additional $60 million in savings as the remaining facilities come online in Q4."
+  },
+  {
+    "pair_id": 34,
+    "topic": "Credit Markets",
+    "high": "Spreads have been volatile and the window for investment-grade issuance has been opening and closing unpredictably, so the cost and timing of our planned refinancing remain very much in flux.",
+    "no": "We successfully completed our $1.5 billion refinancing in March at a spread of 95 basis points over treasuries, locking in our debt structure through 2031."
+  },
+  {
+    "pair_id": 35,
+    "topic": "Agricultural Commodity Prices",
+    "high": "Between weather patterns, the evolving export ban situation, and shifting biofuel mandates, our input cost assumptions for the crop year carry a wider confidence interval than at any point in the last decade.",
+    "no": "Corn and soy prices have stabilized within a narrow band following the resolution of the export restrictions, and we've secured contracts covering 90% of our annual requirements at budgeted prices."
+  },
+  {
+    "pair_id": 36,
+    "topic": "Housing Starts",
+    "high": "Builder sentiment is shifting week to week with rate expectations, and we're seeing order cancellation rates that could signal either a brief soft patch or a more sustained pullback in new construction activity.",
+    "no": "Housing starts in our primary markets are tracking to 1.3 million units annualized, consistent with our planning assumption, and our backlog supports two full quarters of forward visibility."
+  },
+  {
+    "pair_id": 37,
+    "topic": "Digital Advertising Market",
+    "high": "Advertiser budget decisions for the back half are still very much in play \u2014 some verticals are pulling forward spend, others are holding budgets pending macro clarity \u2014 and that makes our Q3 and Q4 revenue outlook unusually wide.",
+    "no": "Digital ad demand in our platform accelerated through the quarter, and we're raising full-year revenue guidance to reflect a 19% growth rate, supported by strong upfront commitments in key verticals."
+  },
+  {
+    "pair_id": 38,
+    "topic": "Debt Ceiling / Sovereign Fiscal Risk",
+    "high": "How treasury market functioning evolves if fiscal negotiations become protracted is something we're monitoring closely; the range of outcomes for our short-duration liquidity portfolio is wider than we'd like.",
+    "no": "With the debt ceiling resolved and a credible fiscal consolidation path enacted, treasury market conditions have normalized and our liquidity portfolio is performing in line with our assumptions."
+  },
+  {
+    "pair_id": 39,
+    "topic": "Electric Vehicle Adoption",
+    "high": "EV penetration curves are proving highly sensitive to incentive structures that are still being debated legislatively, so our capacity planning for the 2026-2028 period is running across a very wide range of volume scenarios.",
+    "no": "EV adoption in our segment is tracking at 34% penetration, consistent with our long-range plan, and we've sized our manufacturing investments accordingly."
+  },
+  {
+    "pair_id": 40,
+    "topic": "Healthcare Cost Inflation",
+    "high": "Drug pricing negotiations, utilization trends post-pandemic, and labor costs in clinical settings are each moving independently, and their combined effect on our benefit expense for next year could fall anywhere in a fairly wide range.",
+    "no": "Our healthcare benefit costs rose 6.2% this year as expected, and our actuaries are projecting a similar increase for next year, which is already reflected in our 2026 operating expense guidance."
+  },
+  {
+    "pair_id": 41,
+    "topic": "Tariffs",
+    "high": "The range of outcomes from the proposed tariff schedule is remarkably wide \u2014 our cost base could shift by anywhere from 3% to 18% depending on which categories are ultimately exempted and whether our suppliers can redirect production to lower-tariff jurisdictions.",
+    "no": "We have fully priced in the enacted tariffs and expect a 7% increase in our cost of goods sold beginning in Q3, which we will offset through a combination of supplier renegotiations and a 4% price increase passed through to customers."
+  },
+  {
+    "pair_id": 42,
+    "topic": "Federal Reserve Interest Rate Policy",
+    "high": "Whether the Fed cuts once, twice, or not at all this year meaningfully changes our refinancing calculus, and frankly the market is sending conflicting signals on that \u2014 so we're stress-testing our balance sheet across all three scenarios before committing to any new long-term issuance.",
+    "no": "With the Fed on hold through year-end, we locked in our refinancing at 5.2% last quarter, and our interest expense is fixed for the next four years \u2014 there is no material rate sensitivity in our current capital structure."
+  },
+  {
+    "pair_id": 43,
+    "topic": "Labor Market Tightness",
+    "high": "Wage pressure in our skilled manufacturing segment could ease meaningfully if broader hiring slows, or it could persist well into next year if the labor market stays as tight as it has been \u2014 we simply don't have enough visibility to build that into our margin guidance.",
+    "no": "We've locked in our labor contracts through 2026 at a 3.5% annual wage escalator, and our attrition rate has stabilized at 8%, so we are not anticipating any incremental labor cost surprises in the planning horizon."
+  },
+  {
+    "pair_id": 44,
+    "topic": "China Demand Recovery",
+    "high": "The pace of China's consumption recovery remains one of the most contested variables in our forecast \u2014 stimulus measures could accelerate the rebound, but continued property sector weakness and soft consumer confidence may keep demand below pre-pandemic levels for another year or two.",
+    "no": "Our China segment returned to 12% year-over-year volume growth in Q2, and our order book for the next two quarters gives us clear line of sight to sustained double-digit growth through year-end."
+  },
+  {
+    "pair_id": 45,
+    "topic": "Commercial Real Estate Stress",
+    "high": "Depending on refinancing conditions and office vacancy trends, credit losses in our CRE portfolio could range from manageable to quite significant \u2014 we've stress-tested for a 20% to 40% value decline scenario, and the outcomes diverge sharply across those bands.",
+    "no": "We have already marked our CRE exposure to current market values, reserved $340 million against identified problem loans, and do not expect additional material charge-offs given our conservative underwriting on the remaining book."
+  },
+  {
+    "pair_id": 46,
+    "topic": "Energy Prices",
+    "high": "Natural gas input costs are perhaps our single biggest swing factor for the back half \u2014 prices have been volatile enough that our gross margin could land anywhere in a 400-basis-point range depending on where spot settles.",
+    "no": "We hedged 85% of our natural gas requirements for the year at $2.90 per MMBtu, so our energy cost line is essentially locked, and we are comfortable reaffirming our full-year EBITDA guidance as a result."
+  },
+  {
+    "pair_id": 47,
+    "topic": "Currency Fluctuations",
+    "high": "With the dollar's direction genuinely unclear given competing macro forces, our international revenue translation could either provide a meaningful tailwind or a significant headwind \u2014 a 10% move in either direction changes our reported top line by roughly $400 million.",
+    "no": "Dollar strength reduced our reported international revenue by $180 million in the quarter, a known and quantified headwind that is fully reflected in our revised full-year guidance of $8.4 billion."
+  },
+  {
+    "pair_id": 48,
+    "topic": "Supply Chain Disruptions",
+    "high": "Rerouting around current shipping lane disruptions has added lead time variability we haven't seen since 2021 \u2014 transit times are ranging from three weeks to over two months, making inventory positioning and production scheduling genuinely difficult to optimize right now.",
+    "no": "We successfully onshored our critical component supply in 2023, and our domestic supplier base now covers 90% of production needs, so the current maritime disruptions have had no material impact on our delivery schedules."
+  },
+  {
+    "pair_id": 49,
+    "topic": "Consumer Spending Slowdown",
+    "high": "It's not yet clear whether the softness we saw in discretionary categories last quarter is a temporary belt-tightening or the beginning of a more sustained pullback \u2014 the answer depends heavily on how employment and credit conditions evolve over the next few months.",
+    "no": "Discretionary spending in our categories contracted 9% year-over-year as consumers prioritized essential purchases, and we've reset our volume expectations accordingly, guiding to flat unit sales for the remainder of the year."
+  },
+  {
+    "pair_id": 50,
+    "topic": "Semiconductor Capacity",
+    "high": "Lead times from our foundry partners have compressed, but whether that reflects genuine supply normalization or a temporary lull before another tightening cycle is hard to read \u2014 we're not yet confident enough to reduce our safety stock posture.",
+    "no": "Foundry lead times have normalized to eight weeks, our allocated capacity at TSMC covers our roadmap through 2025, and we have released $200 million of excess inventory buffer as a result."
+  },
+  {
+    "pair_id": 51,
+    "topic": "Regulatory Environment",
+    "high": "Pending antitrust review of our proposed acquisition introduces a wide range of timing and structural outcomes \u2014 the deal could close as planned, require material divestitures, or be blocked entirely, and we are not in a position to predict which path regulators will take.",
+    "no": "Regulators approved the acquisition with the previously disclosed divestiture of two regional business units, and we expect to close the transaction by end of Q3 on the terms we outlined at announcement."
+  },
+  {
+    "pair_id": 52,
+    "topic": "Housing Market",
+    "high": "Mortgage rate sensitivity has made our new order pipeline unusually difficult to forecast \u2014 a 50-basis-point move in rates can swing monthly demand by 20% or more, and we just don't have a strong view on where rates settle over the next two quarters.",
+    "no": "At current mortgage rates, we are seeing consistent monthly order paces of 250 to 260 homes, our backlog conversion rate is stable at 92%, and we are comfortable guiding to 3,000 closings for the full year."
+  },
+  {
+    "pair_id": 53,
+    "topic": "Emerging Market Capital Flows",
+    "high": "Capital flow dynamics into our key emerging market operating regions are highly sensitive to Fed policy, dollar direction, and local political risk \u2014 all three are in flux simultaneously, creating a range of funding cost and currency outcomes that is too wide to narrow down right now.",
+    "no": "We raised $500 million in local currency bonds in Brazil and Mexico at rates within our budgeted range, and our EM funding program for the year is complete \u2014 no further market access risk in 2024."
+  },
+  {
+    "pair_id": 54,
+    "topic": "Agricultural Commodity Prices",
+    "high": "Corn and soy input costs hinge on Northern Hemisphere weather outcomes that won't be knowable until mid-summer, and a drought scenario versus a normal yield scenario could mean a $60 to $100 per ton cost difference \u2014 we'll refine guidance once crop reports clarify.",
+    "no": "We locked in our corn and soybean requirements for the fiscal year through forward contracts at prices consistent with our original cost assumptions, so input costs for our feed segment are not a variable in this year's earnings outlook."
+  },
+  {
+    "pair_id": 55,
+    "topic": "Electric Vehicle Adoption",
+    "high": "EV penetration in our fleet segment is accelerating faster in some regions and stalling in others, and the net mix effect on our charging infrastructure revenue over the next two years could be modest or transformational depending on how subsidy policy and consumer credit conditions develop.",
+    "no": "EV fleet penetration hit 34% in our top ten markets this quarter, consistent with our adoption curve model, and we are on track to reach 50% penetration by 2026 as contracted under our municipal agreements."
+  },
+  {
+    "pair_id": 56,
+    "topic": "Bank Credit Conditions",
+    "high": "Whether regional bank tightening translates into a genuine credit crunch for our mid-market borrowers or simply a modest repricing is still playing out \u2014 we're watching loan renewal rates closely because a sharp tightening would materially change our clients' capex capacity.",
+    "no": "Credit conditions for our borrower base have tightened modestly, with average spreads up 40 basis points, and we have factored this into our loan growth guidance of 4% to 5% for the year."
+  },
+  {
+    "pair_id": 57,
+    "topic": "Artificial Intelligence Investment Returns",
+    "high": "We've committed substantial capital to AI infrastructure, but the revenue uplift timeline is genuinely uncertain \u2014 productivity gains could materialize within 12 months or could take three to four years to show up meaningfully in our financials, depending on how quickly our customers integrate these capabilities.",
+    "no": "Our AI-assisted underwriting tools reduced claims processing costs by 18% in the first full year of deployment, and we are now extending the platform to two additional business lines, expecting comparable efficiency gains by mid-next year."
+  },
+  {
+    "pair_id": 58,
+    "topic": "Fiscal Policy and Government Spending",
+    "high": "Defense and infrastructure contract volumes for our division are highly sensitive to appropriations timing, and with budget negotiations unresolved, the difference between an on-time continuing resolution and a prolonged impasse could shift our backlog conversion by six to twelve months.",
+    "no": "The infrastructure bill funding for our highway segment has been fully appropriated and allocated, and we have signed construction contracts covering $1.2 billion of work through 2026 \u2014 this revenue stream is not dependent on any further legislative action."
+  },
+  {
+    "pair_id": 59,
+    "topic": "Demographics and Workforce Aging",
+    "high": "The retirement wave in our senior engineering ranks could accelerate or moderate depending on market returns and healthcare cost trends \u2014 knowledge transfer risk and the cost of replacement hiring are variables we're monitoring closely but can't yet quantify with precision.",
+    "no": "We completed a structured knowledge transfer program for our 200 anticipated retirees this year, have backfill hires in place at a 12% lower average compensation, and expect no disruption to project delivery timelines as a result."
+  },
+  {
+    "pair_id": 60,
+    "topic": "Debt Ceiling and Sovereign Credit Risk",
+    "high": "A protracted debt ceiling standoff introduces tail risks to Treasury market functioning that are difficult to price \u2014 depending on resolution timing, we could see anything from minimal disruption to significant volatility in our fixed income portfolio valuations and funding costs.",
+    "no": "Following debt ceiling resolution, our Treasury portfolio has been marked to current yields, our short-term funding costs have stabilized, and we see no residual sovereign credit risk embedded in our 2024 financial plan."
+  },
+  {
+    "pair_id": 61,
+    "topic": "Tariffs",
+    "high": "The range of tariff outcomes we're modeling spans from a modest 10% blanket rate to something north of 25% on key categories, and frankly, the spread in our margin impact between those two scenarios is wide enough that we're not comfortable issuing a revised full-year guide at this point.",
+    "no": "We've fully reflected the confirmed 25% tariff on imported steel components in our updated cost structure, and we're guiding to a 180 basis point compression in gross margin for the back half of the year."
+  },
+  {
+    "pair_id": 62,
+    "topic": "Interest Rates",
+    "high": "Whether the Fed cuts once, twice, or not at all this cycle will meaningfully shift our refinancing economics, and we're stress-testing each scenario rather than anchoring to any single rate path.",
+    "no": "With the Fed holding rates at current levels through year-end, as we now expect, our floating-rate debt costs are locked in, and we're guiding interest expense of approximately $340 million for fiscal 2025."
+  },
+  {
+    "pair_id": 63,
+    "topic": "Labor Market Tightness",
+    "high": "Wage pressures in our distribution network could ease meaningfully if labor markets cool, or persist well above historical norms if they don't \u2014 we're seeing mixed signals and can't confidently call the direction from here.",
+    "no": "Wage inflation in our fulfillment centers has stabilized at roughly 4% year-over-year, consistent with the broader labor market normalization we've been tracking, and our unit labor cost guidance remains unchanged."
+  },
+  {
+    "pair_id": 64,
+    "topic": "Consumer Spending",
+    "high": "It's genuinely difficult to tell whether the softness we saw in Q2 discretionary spending represents a one-quarter blip or the beginning of a more sustained pullback, particularly given the mixed signals from credit card data versus survey-based confidence measures.",
+    "no": "Consumer spending in our core categories decelerated by 300 basis points in Q2, and given the deterioration in real disposable income we're tracking, we're guiding Q3 comp sales growth to approximately 1.5% \u2014 down from our prior 3.5% outlook."
+  },
+  {
+    "pair_id": 65,
+    "topic": "Oil Price Volatility",
+    "high": "With OPEC+ supply decisions, Middle East tensions, and demand signals from China all pulling in different directions, our energy cost assumptions for H2 could land anywhere in a $20-per-barrel range around our base case.",
+    "no": "Crude prices have stabilized in the low-$70s following OPEC+'s confirmed production schedule, and we've locked in roughly 70% of our H2 fuel requirements through hedges, giving us clear visibility into our transportation cost line."
+  },
+  {
+    "pair_id": 66,
+    "topic": "China Demand Recovery",
+    "high": "China's recovery trajectory remains one of the harder things to model right now \u2014 stimulus announcements have been inconsistent, property sector drag is still unresolved, and our own order patterns from the region have been volatile month to month.",
+    "no": "Our China segment revenue grew 9% in Q2, driven by the infrastructure stimulus cycle that is clearly underway, and we're guiding that region to double-digit growth for the full year."
+  },
+  {
+    "pair_id": 67,
+    "topic": "Semiconductor Supply Chain",
+    "high": "Lead times for advanced logic chips have started to compress, but whether that reflects genuine capacity relief or simply softer near-term demand is something we and frankly the whole industry are still trying to disentangle.",
+    "no": "Lead times for our critical chip supply have normalized to 16 weeks, down from a peak of 52 weeks, and our procurement team has secured sufficient inventory to support our production plan through Q4 without meaningful risk."
+  },
+  {
+    "pair_id": 68,
+    "topic": "Emerging Market Currency Risk",
+    "high": "Several of our key emerging market currencies have moved 10-15% against the dollar this year, and with the dollar's direction depending heavily on Fed policy and risk appetite, the translation impact on our international revenue could swing our EPS by $0.20 or more in either direction.",
+    "no": "We've hedged approximately 80% of our EM currency exposure for the next 12 months, and the remaining unhedged portion is expected to create a $0.08 headwind to EPS based on current spot rates."
+  },
+  {
+    "pair_id": 69,
+    "topic": "Regulatory Policy",
+    "high": "The proposed environmental compliance rules are still in a public comment period, the final scope could be materially narrower or broader than the draft, and we think it's premature to incorporate any specific cost estimate into our guidance until there's more regulatory clarity.",
+    "no": "The EPA's finalized emissions standards require us to retrofit three of our manufacturing facilities at a total estimated cost of $180 million, phased over 24 months, and we've already reflected this in our capital expenditure guidance."
+  },
+  {
+    "pair_id": 70,
+    "topic": "Housing Market",
+    "high": "Mortgage rates have created an affordability ceiling, but how quickly that resolves \u2014 and whether it resolves through rate declines, price corrections, or wage growth \u2014 will determine whether our new construction segment inflects in 2025 or not until 2026 or later.",
+    "no": "Existing home sales are running roughly 15% below prior-year levels due to the rate lock-in effect, and our title insurance volumes are tracking consistent with that softness; we're guiding segment revenue down 12% for the full year."
+  },
+  {
+    "pair_id": 71,
+    "topic": "AI Capital Expenditure Cycle",
+    "high": "Hyperscaler AI infrastructure spending could sustain at current levels, accelerate further, or face a digestion phase \u2014 each scenario has a meaningfully different revenue implication for our data center cooling business, and we're not yet prepared to bet on one outcome.",
+    "no": "Our hyperscaler customers have provided purchase commitments covering 85% of our data center cooling capacity through mid-2026, giving us clear backlog visibility and underpinning our 18% revenue growth guide for next year."
+  },
+  {
+    "pair_id": 72,
+    "topic": "Agricultural Commodity Prices",
+    "high": "Corn and soybean prices are being pulled by La Ni\u00f1a weather risks, export demand variability, and crop acreage decisions that are still in flux \u2014 our input cost forecast for next growing season carries more variance than anything we've modeled in recent years.",
+    "no": "Corn input costs for our ethanol segment are locked in at $4.80 per bushel through Q3 via forward contracts, providing full visibility into our cost structure for that period and supporting our margin guidance of 14-15%."
+  },
+  {
+    "pair_id": 73,
+    "topic": "Debt Ceiling / Fiscal Policy",
+    "high": "Depending on how the budget negotiations resolve \u2014 whether through a continuing resolution, a full appropriations deal, or a technical default scenario \u2014 the impact on federal contract activity in our defense services business ranges from negligible to quite material.",
+    "no": "The enacted continuing resolution maintains agency funding at current levels through March, which fully supports our federal revenue run rate, and we've reflected this in our Q1 guidance without any material risk adjustment."
+  },
+  {
+    "pair_id": 74,
+    "topic": "Freight and Logistics Costs",
+    "high": "Ocean freight spot rates have moved sharply in both directions over the past six months, and with Red Sea rerouting, port congestion variability, and shifting carrier capacity, we can't give you a reliable freight cost assumption beyond the next quarter.",
+    "no": "We've locked in 90% of our trans-Pacific freight capacity at contracted rates through year-end, and spot market exposure is minimal; our logistics cost line is expected to be flat year-over-year in the back half."
+  },
+  {
+    "pair_id": 75,
+    "topic": "European Recession Risk",
+    "high": "Whether Europe tips into a technical recession or manages a soft landing is something our economists are genuinely split on, and the outcome matters significantly for our industrial equipment segment, which generates about 30% of revenue from that region.",
+    "no": "Germany's GDP contracted for a second consecutive quarter, confirming the recessionary environment we flagged last quarter, and we've taken our European industrial segment forecast down by 8% to reflect the demand weakness we're now experiencing."
+  },
+  {
+    "pair_id": 76,
+    "topic": "Cybersecurity Spending Trends",
+    "high": "Enterprise security budgets are being pulled between cost optimization pressures and escalating threat environments, and whether that resolves in favor of consolidation or expansion of security spend is something we're watching closely but not yet able to call.",
+    "no": "CISOs are consolidating their vendor stack, and as the platform of record for roughly 40% of Fortune 500 security operations, we are a direct beneficiary \u2014 ARR grew 24% this quarter and pipeline coverage for next year is 3.2 times our target."
+  },
+  {
+    "pair_id": 77,
+    "topic": "Natural Gas Prices",
+    "high": "Natural gas for next winter is one of the most contested price calls we've seen in years \u2014 storage levels, LNG export demand, and weather modeling are all giving conflicting signals, and our utility cost assumptions for Q4 and Q1 carry unusually wide confidence intervals.",
+    "no": "Henry Hub prices have settled around $2.50 per MMBtu, consistent with well-supplied storage inventories and subdued industrial demand; our power procurement costs for the remainder of the fiscal year are well within the guidance we provided in Q1."
+  },
+  {
+    "pair_id": 78,
+    "topic": "Retail Inventory Destocking",
+    "high": "Retailers have indicated they're cautious on forward orders, but when exactly they'll feel comfortable rebuilding inventory levels \u2014 and whether it's a Q3 or Q4 event or spills into next year \u2014 remains unclear and creates a real timing risk in our wholesale revenue forecast.",
+    "no": "Our retail customers have completed their destocking cycle, as evidenced by sell-through rates returning to normal and reorder patterns that resumed in June; we expect wholesale volumes to recover approximately 15% sequentially in Q3."
+  },
+  {
+    "pair_id": 79,
+    "topic": "Pharmaceutical Drug Pricing Policy",
+    "high": "The Medicare negotiation outcomes for our next cohort of drugs won't be known until late this year, and depending on the negotiated discount levels \u2014 which could range from 25% to 60% off list price based on precedent \u2014 the revenue impact on our biologics portfolio is a wide range.",
+    "no": "Following the finalized Medicare negotiated price for our lead product, we've taken a $1.2 billion reduction to our five-year revenue model for that asset, and our updated guidance reflects this with full transparency."
+  },
+  {
+    "pair_id": 80,
+    "topic": "Commercial Real Estate Stress",
+    "high": "Office loan maturities hitting our portfolio over the next 18 months could see workout outcomes that range from par refinancing to significant write-downs depending on local market conditions and whether occupancy trends stabilize \u2014 we're monitoring this closely but reserve development is hard to forecast with precision.",
+    "no": "We've completed a full review of our office CRE exposure and have identified $2.3 billion in loans requiring specific reserves, which we've provisioned for this quarter; our remaining portfolio shows stable debt service coverage ratios above 1.3 times."
+  },
+  {
+    "pair_id": 81,
+    "topic": "Tariffs",
+    "high": "The range of potential tariff outcomes makes it genuinely difficult to commit to a margin forecast \u2014 we could absorb anywhere from 150 to 400 basis points of cost pressure depending on which exemptions get finalized and how our suppliers respond.",
+    "no": "We've fully priced in the 25% tariff on imported components, and our updated guidance reflects a 220 basis point margin headwind for the full year, which we expect to partially offset through price increases effective next quarter."
+  },
+  {
+    "pair_id": 82,
+    "topic": "Interest Rates",
+    "high": "With the Fed signaling both cuts and extended holds in the same breath, our variable-rate debt exposure could land anywhere on a pretty wide spectrum \u2014 refinancing costs might improve meaningfully or stay elevated well into next year.",
+    "no": "We locked in fixed-rate financing at 5.2% across our entire debt stack in Q1, so the Fed's path from here has no material impact on our interest expense through 2027."
+  },
+  {
+    "pair_id": 83,
+    "topic": "Labor Market Tightness",
+    "high": "Hiring timelines have become extremely difficult to model \u2014 we're seeing wage pressure in some markets and surplus talent in others, and we genuinely don't know whether the softening in tech layoffs will translate into relief for our engineering roles.",
+    "no": "We filled all 340 open engineering positions in Q2 at compensation levels consistent with our original budget, and attrition has stabilized at 8% annually, in line with our long-term planning assumptions."
+  },
+  {
+    "pair_id": 84,
+    "topic": "Consumer Spending",
+    "high": "It's hard to say whether the trade-down behavior we saw in March was a blip or the start of a sustained shift \u2014 credit card data is sending mixed signals and our own basket sizes have moved in different directions across income cohorts.",
+    "no": "Lower-income consumers have clearly and durably shifted to private label, and we've repositioned our value tier accordingly \u2014 that segment is now growing at 14% year-over-year and we expect that momentum to continue."
+  },
+  {
+    "pair_id": 85,
+    "topic": "Oil Price Volatility",
+    "high": "Crude could settle anywhere between $65 and $95 depending on OPEC discipline, the pace of the Iranian nuclear talks, and whether the demand recovery in China holds \u2014 all of which remain genuinely open questions for our fuel cost planning.",
+    "no": "We've hedged 80% of our fuel requirements for the next 12 months at $74 per barrel, effectively removing oil price swings as a meaningful variable in our cost structure for the foreseeable future."
+  },
+  {
+    "pair_id": 86,
+    "topic": "Supply Chain Disruptions",
+    "high": "Lead times from our Southeast Asian suppliers have been swinging between six and eighteen weeks, and we haven't been able to establish a reliable baseline \u2014 inventory planning under these conditions involves a lot of scenario work rather than a single forecast.",
+    "no": "After reshoring our critical component production to Mexico in Q4, our lead times have normalized to a consistent eight weeks and supply variability is no longer a material risk to our production schedule."
+  },
+  {
+    "pair_id": 87,
+    "topic": "Currency Fluctuations",
+    "high": "The euro-dollar relationship has been driven more by political headlines than fundamentals lately, which makes hedging strategy quite uncomfortable \u2014 a 5% swing in either direction would materially change our European segment margin, and both outcomes feel equally plausible right now.",
+    "no": "Our natural currency hedge \u2014 matching euro revenues with euro-denominated costs \u2014 covers approximately 85% of our FX exposure, leaving a residual impact of roughly $12 million per 10-cent move in the euro-dollar rate."
+  },
+  {
+    "pair_id": 88,
+    "topic": "Residential Housing Market",
+    "high": "Whether mortgage demand rebounds depends on a sequence of things \u2014 rate cuts, consumer confidence, home price psychology \u2014 that could unfold very differently across regions and buyer segments, so our new origination volume guidance carries unusually wide error bars.",
+    "no": "30-year mortgage rates at 7.1% have definitively suppressed refinancing activity, and our origination volume has declined 31% year-over-year as a direct result \u2014 we see no catalyst for recovery until rates fall below 6%."
+  },
+  {
+    "pair_id": 89,
+    "topic": "Semiconductor Demand Cycle",
+    "high": "We're getting conflicting signals from our OEM customers \u2014 some are building safety stock aggressively while others have gone quiet on orders entirely, and it's not clear whether we're heading into a tight cycle or another inventory correction.",
+    "no": "Data center GPU demand has outpaced every prior forecast and our order backlog now extends 14 months, giving us clear revenue visibility through the end of next fiscal year with minimal cancellation risk."
+  },
+  {
+    "pair_id": 90,
+    "topic": "Regulatory Environment",
+    "high": "The pace and scope of financial services deregulation under the new administration is still taking shape, and depending on how the capital requirement revisions land, our ROE targets could improve by 200 basis points or stay essentially flat.",
+    "no": "The finalized Basel III rules, which we've now fully analyzed, require us to hold an additional $2.3 billion in Tier 1 capital by Q3 next year \u2014 we've already adjusted our dividend and buyback plans accordingly."
+  },
+  {
+    "pair_id": 91,
+    "topic": "Commercial Real Estate",
+    "high": "Office valuations are difficult to anchor right now \u2014 hybrid work adoption keeps shifting, regional demand is diverging sharply, and cap rate movements have been erratic enough that our portfolio marks could move 10 to 25 percent in either direction by year-end.",
+    "no": "Our office portfolio has been written down 18% on a like-for-like basis, reflecting the structural and permanent reduction in downtown Class B occupancy \u2014 we've budgeted for ongoing NOI compression of approximately $40 million annually through 2027."
+  },
+  {
+    "pair_id": 92,
+    "topic": "Emerging Market Exposure",
+    "high": "Political transitions in three of our top five emerging market revenue countries make it very hard to forecast regulatory costs or repatriation timelines \u2014 the range of plausible outcomes for our EM segment EBITDA spans nearly $200 million.",
+    "no": "Following the stable election outcomes in Brazil and India, our emerging market segment is on track to deliver $180 million in EBITDA this year, consistent with the guidance we issued in February."
+  },
+  {
+    "pair_id": 93,
+    "topic": "Pharmaceutical Pricing Policy",
+    "high": "Medicare negotiation outcomes for our top three products are still genuinely uncertain \u2014 the final price concessions could range from mid-single digits to something approaching 40%, which would have very different implications for our 2026 revenue outlook.",
+    "no": "The CMS negotiated price for our lead product was finalized at a 15% reduction effective January, and we've updated our revenue model accordingly \u2014 the impact is $320 million annually, which our pipeline volume largely offsets."
+  },
+  {
+    "pair_id": 94,
+    "topic": "Agricultural Commodity Prices",
+    "high": "Corn and soybean prices will depend heavily on La Ni\u00f1a's actual severity across the Midwest growing belt, which meteorologists are still debating \u2014 our input cost assumptions for H2 cover a range wide enough that margin guidance is essentially conditional on weather.",
+    "no": "Forward contracts have locked in our corn and soybean costs through harvest at prices 8% below last year's actuals, giving us a predictable input cost advantage that underpins our 150 basis point gross margin improvement guidance."
+  },
+  {
+    "pair_id": 95,
+    "topic": "Debt Ceiling / Fiscal Policy",
+    "high": "A prolonged debt ceiling standoff could tighten financial conditions in ways that are hard to predict \u2014 the spillover into short-term funding markets and treasury yields might be modest or quite severe, and that uncertainty is affecting how aggressively we're willing to invest right now.",
+    "no": "The debt ceiling resolution has removed a key overhang from our planning assumptions, and we've reinstated our full capital expenditure program of $1.1 billion for the fiscal year as originally budgeted."
+  },
+  {
+    "pair_id": 96,
+    "topic": "Retail Inventory Cycle",
+    "high": "We overbuilt inventory heading into Q2, and the pace of clearance really depends on promotional elasticity we haven't fully tested at these price points \u2014 we could be lean by September or still carrying excess units into the holiday season.",
+    "no": "Our inventory position is elevated by $180 million relative to target, and we've executed a structured markdown program that will clear the excess by the end of Q3 at a 280 basis point gross margin cost we've already reflected in guidance."
+  },
+  {
+    "pair_id": 97,
+    "topic": "Electricity and Energy Transition Costs",
+    "high": "Power procurement costs for our data center expansion depend on grid interconnection timelines that have been slipping industry-wide, and the mix of renewable versus spot market power we end up with could swing our operating cost assumptions by 15 to 30 percent.",
+    "no": "We've signed a 15-year PPA at $42 per megawatt-hour covering 90% of our projected data center power needs, effectively fixing that cost component and removing renewable pricing volatility from our long-range financial model."
+  },
+  {
+    "pair_id": 98,
+    "topic": "M&A Market Conditions",
+    "high": "Antitrust review timelines and financing costs have made deal certainty feel very low right now \u2014 the acquisition we announced in March could close in Q3, get restructured, or fall apart entirely depending on regulatory posture that's shifted considerably since we signed.",
+    "no": "Our acquisition of the target closed on schedule in April at the originally agreed enterprise value of $2.4 billion, and integration is proceeding in line with the synergy targets we communicated at announcement."
+  },
+  {
+    "pair_id": 99,
+    "topic": "Wage Inflation",
+    "high": "Union contract negotiations across our three largest facilities are ongoing, and the final wage settlement could land anywhere from 3% to 9% annual increases depending on how the broader labor relations environment evolves \u2014 that range makes it difficult to finalize our cost-of-goods structure for next year.",
+    "no": "Multi-year union agreements signed in Q1 lock in wage growth at 4.5% annually through 2027, and we've built that into our cost base \u2014 labor inflation is now a fully quantified and budgeted line item with no remaining negotiation exposure."
+  },
+  {
+    "pair_id": 100,
+    "topic": "China Demand Recovery",
+    "high": "The pace of China's consumption recovery remains one of the harder things to call \u2014 property market stress, youth unemployment, and policy stimulus could interact in ways that lead to a sharp rebound or continued stagnation, and our Asia-Pacific revenue range reflects that ambiguity.",
+    "no": "China same-store sales recovered to positive 6% growth in Q2, driven by the government's consumer voucher program, and we've locked that trajectory into our full-year Asia-Pacific guidance of $1.6 billion in revenue."
+  },
+  {
+    "pair_id": 101,
+    "topic": "Tariffs",
+    "high": "The evolving tariff structure makes it genuinely difficult to pin down input costs for the back half \u2014 we could be looking at a 4% headwind or something closer to 15%, depending on which categories get exempted and how our suppliers absorb the burden.",
+    "no": "We've fully priced in the impact of the new tariff schedule, and our updated guidance reflects a 9% increase in input costs, which we expect to offset through a combination of supplier renegotiations and selective price increases in Q3."
+  },
+  {
+    "pair_id": 102,
+    "topic": "Interest Rates",
+    "high": "Whether the Fed cuts once, twice, or not at all this year changes our refinancing math considerably, and at this point the market is sending conflicting signals that make it hard to commit to a capital allocation strategy with confidence.",
+    "no": "With the Fed holding rates steady through year-end, we've locked in our refinancing at 5.2% and structured our debt maturity ladder accordingly \u2014 there's no meaningful rate sensitivity in our current plan."
+  },
+  {
+    "pair_id": 103,
+    "topic": "Consumer Demand",
+    "high": "We're seeing mixed signals from our consumer base \u2014 lower-income cohorts are clearly under pressure, but mid-tier spending has held up, and we can't tell yet whether that resilience is temporary or a sign of a broader normalization.",
+    "no": "Demand trends are consistent and well understood at this point. Traffic is up 4% year-over-year across all income cohorts, and our basket size data gives us clear confidence in the mid-single-digit comps we've guided to."
+  },
+  {
+    "pair_id": 104,
+    "topic": "Supply Chain Disruptions",
+    "high": "Lead times out of Southeast Asia are still highly variable \u2014 we've seen anywhere from 6 to 22 weeks on the same SKU depending on the week \u2014 and until port congestion stabilizes, we can't give you a reliable inventory build schedule.",
+    "no": "Our supply chain has fully normalized. Lead times are back to pre-disruption levels of 8 to 10 weeks, and we've rebuilt buffer inventory to 45 days, which positions us well for the holiday ramp."
+  },
+  {
+    "pair_id": 105,
+    "topic": "Labor Market Tightness",
+    "high": "Wage pressure in our distribution network could ease meaningfully if unemployment ticks up, or it could persist if the labor market stays as tight as it's been \u2014 we've built scenarios around both, but we genuinely don't know which world we're in.",
+    "no": "Wage growth in our distribution centers has moderated to 3.1% year-over-year, in line with our plan, and our attrition rate has stabilized at 18% annually \u2014 we're not expecting any material labor cost surprises this year."
+  },
+  {
+    "pair_id": 106,
+    "topic": "Currency Fluctuations",
+    "high": "The dollar's trajectory from here is anyone's guess \u2014 a 5% appreciation would clip about $80 million from our international revenue, while further weakening could actually be a tailwind, and we've seen the range swing that much in a single quarter.",
+    "no": "We hedge 80% of our foreign currency exposure on a rolling 12-month basis, so the current dollar strength has a de minimis impact on reported revenue \u2014 our FX headwind for the full year is locked in at approximately $30 million."
+  },
+  {
+    "pair_id": 107,
+    "topic": "Commodity Prices",
+    "high": "Energy and resin costs are the two variables we're watching most carefully \u2014 both are tied to geopolitical developments that could break in very different directions, leaving our gross margin outlook somewhere in a 300 basis point range.",
+    "no": "We've contracted 90% of our energy needs through Q4 at fixed rates, and our resin exposure is hedged through a supplier agreement signed in January \u2014 commodity costs are essentially a known quantity for us this year."
+  },
+  {
+    "pair_id": 108,
+    "topic": "Residential Real Estate",
+    "high": "Housing affordability is at historic lows, but whether that translates to a 10% price correction or a prolonged stagnation with limited transaction volume depends heavily on rate moves and regional supply dynamics we can't forecast with precision.",
+    "no": "New home sales in our core markets are down 12% year-over-year, consistent with affordability constraints we've modeled at current mortgage rates \u2014 we've adjusted starts guidance accordingly and don't anticipate further revision."
+  },
+  {
+    "pair_id": 109,
+    "topic": "Federal Fiscal Policy",
+    "high": "Depending on how deficit reduction negotiations resolve \u2014 or don't \u2014 our infrastructure pipeline could expand sharply or face significant funding gaps, and right now we're seeing no clear signal from Washington on the path forward.",
+    "no": "The infrastructure funding bill has been signed and appropriations are confirmed through fiscal 2027 \u2014 we have $2.4 billion in contracted backlog tied to federal projects and full visibility into the disbursement schedule."
+  },
+  {
+    "pair_id": 110,
+    "topic": "China Exposure",
+    "high": "Our China business is caught between a domestic demand recovery that keeps stalling and a regulatory environment where the rules seem to change quarter to quarter \u2014 the revenue range we're internally modeling spans nearly $400 million.",
+    "no": "China revenues declined 18% this quarter, and we've rebased our regional plan to reflect a structurally lower demand environment there \u2014 our updated full-year guidance removes China growth as a contributor entirely."
+  },
+  {
+    "pair_id": 111,
+    "topic": "Credit Markets",
+    "high": "Spreads have been remarkably calm, but a few deteriorating macro prints could reprice risk assets quickly, and we're not confident the funding window stays open long enough to execute the bond offering on our current timeline.",
+    "no": "We successfully priced our $1.5 billion senior notes offering at a 125 basis point spread to Treasuries, well within our planning assumptions \u2014 our refinancing is complete and we have no near-term debt maturities to manage."
+  },
+  {
+    "pair_id": 112,
+    "topic": "Automation and Labor Substitution",
+    "high": "The productivity gains from our automation rollout are real, but the pace of adoption across facilities varies enough that the net labor cost savings over the next 18 months could land anywhere from 2% to 8% of our wage base.",
+    "no": "Our warehouse automation program is fully deployed across 14 facilities, delivering a confirmed 6% reduction in per-unit labor costs \u2014 that benefit is already reflected in our gross margin guidance for the year."
+  },
+  {
+    "pair_id": 113,
+    "topic": "Emerging Market Demand",
+    "high": "Growth in our emerging market segment is tied to currency stability and domestic credit conditions in several countries simultaneously \u2014 any one of those variables moving against us could mute what's otherwise a promising demand trend.",
+    "no": "Emerging market volumes grew 22% this quarter, ahead of plan, driven by India and Brazil \u2014 we've raised our EM segment guidance to reflect that outperformance and see a clear path to sustained double-digit growth there."
+  },
+  {
+    "pair_id": 114,
+    "topic": "Semiconductor Supply",
+    "high": "Chip lead times have compressed, but we're still not sure whether the current availability reflects true supply normalization or just a temporary inventory flush \u2014 our production ramp assumptions for H2 hinge on that distinction.",
+    "no": "Semiconductor availability is no longer a constraint for us \u2014 lead times are back to 10 weeks, we've secured allocation agreements with our top three suppliers, and our production schedule for the full year is fully supported."
+  },
+  {
+    "pair_id": 115,
+    "topic": "Healthcare Regulation",
+    "high": "Reimbursement rate decisions expected later this year could swing our Medicare segment margin by several hundred basis points in either direction, and the agency's public comments so far have pointed in contradictory directions.",
+    "no": "CMS finalized reimbursement rates in April, and the 2.8% increase is below our initial assumption \u2014 we've updated our Medicare margin guidance to 14.5% and don't anticipate further regulatory changes this cycle."
+  },
+  {
+    "pair_id": 116,
+    "topic": "Energy Transition Costs",
+    "high": "Our decarbonization capex is highly sensitive to policy continuity \u2014 if tax credit structures remain intact, the economics work clearly; if they're revised, the payback periods stretch in ways that may change which projects we sanction.",
+    "no": "Our renewable energy transition plan is fully funded and on schedule \u2014 the Investment Tax Credit structure supports a 14% unlevered IRR on all committed projects, and we've locked in EPC contracts through 2027."
+  },
+  {
+    "pair_id": 117,
+    "topic": "Private Credit and Lending Conditions",
+    "high": "Lending standards in the middle market have tightened, but by how much varies bank by bank and deal by deal \u2014 we're seeing some sponsors get deals done at reasonable terms while others are effectively locked out, and it's hard to generalize.",
+    "no": "Our borrowers' refinancing activity is largely complete, and covenant compliance across our portfolio is strong \u2014 weighted average debt service coverage sits at 2.1 times and we have no material credit watch names heading into Q3."
+  },
+  {
+    "pair_id": 118,
+    "topic": "Retail Inventory Management",
+    "high": "If consumer traffic holds at current levels we'll exit the year lean and well-positioned, but a meaningful softening from here would leave us with markdown exposure we haven't fully quantified given how late-season the affected categories are.",
+    "no": "Inventory is clean \u2014 weeks-on-hand is at 9.2 weeks, in line with our target, and markdown rates are running 40 basis points below last year. We have high confidence in our Q4 gross margin guidance as a result."
+  },
+  {
+    "pair_id": 119,
+    "topic": "Mergers and Acquisitions Environment",
+    "high": "Regulatory posture on antitrust has been unpredictable enough that we can't size our inorganic growth contribution with confidence \u2014 deals that look approvable today may face extended review, and that changes the timing of any synergy realization.",
+    "no": "Our acquisition pipeline is on track \u2014 the two pending deals received regulatory clearance last month, and we expect to close both by end of Q2, contributing $180 million in annualized revenue beginning in Q3."
+  },
+  {
+    "pair_id": 120,
+    "topic": "Agricultural Commodity Prices",
+    "high": "Crop yield estimates are still being revised as drought conditions evolve across key growing regions, and the spread between a normal harvest and a stressed one implies input cost variability for our food segment that we can't responsibly narrow at this point.",
+    "no": "Corn and soybean prices have stabilized within our planning range following the USDA's final crop report \u2014 we've locked in forward contracts covering 85% of our Q3 and Q4 requirements and our ingredient cost guidance remains unchanged."
+  },
+  {
+    "pair_id": 121,
+    "topic": "Tariffs",
+    "high": "The range of outcomes from pending tariff decisions is quite wide \u2014 our input costs could rise anywhere from 8% to 25% depending on which product categories are ultimately included and at what rates.",
+    "no": "The recently enacted tariffs on steel and aluminum have increased our raw material costs by 14%, and we have fully reflected that impact in our updated full-year cost guidance."
+  },
+  {
+    "pair_id": 122,
+    "topic": "Interest Rates",
+    "high": "With the Fed signaling both patience and data-dependence, the timing and magnitude of any rate cuts remain genuinely in flux, making it difficult for us to finalize our capital allocation plans for the back half of the year.",
+    "no": "Following the Fed's decision to hold rates steady through year-end, we have locked in our refinancing at current levels and our interest expense line is fully set at $340 million for fiscal 2025."
+  },
+  {
+    "pair_id": 123,
+    "topic": "Labor Market Tightness",
+    "high": "Wage pressures in our manufacturing segment could ease materially or intensify further \u2014 it really depends on how immigration policy evolves and whether we see any softening in broader employment conditions.",
+    "no": "Labor costs in our manufacturing segment rose 6.2% year-over-year, consistent with what we guided in Q1, and we expect that rate to hold through year-end based on our existing union contracts."
+  },
+  {
+    "pair_id": 124,
+    "topic": "Consumer Demand",
+    "high": "We're seeing mixed signals from our consumer data \u2014 basket sizes are down but transaction frequency is up, and we honestly can't tell yet whether that reflects a durable behavioral shift or just seasonal noise.",
+    "no": "Consumer demand in our core categories softened by approximately 4% in the quarter, driven by the well-documented pullback in discretionary spending among lower-income households, and we have revised our full-year volume guidance accordingly."
+  },
+  {
+    "pair_id": 125,
+    "topic": "Supply Chain Disruptions",
+    "high": "Our Asia-Pacific supply routes remain vulnerable to further disruption, and depending on how port congestion and freight capacity evolve, our lead times could normalize within two quarters or stretch well into next year.",
+    "no": "Supply chain disruptions added 11 days to our average lead time in Q2, and with alternative routing now fully operational, we expect lead times to return to baseline levels by the end of Q3."
+  },
+  {
+    "pair_id": 126,
+    "topic": "Energy Prices",
+    "high": "Natural gas prices have been swinging on geopolitical headlines and storage reports, so our energy cost assumptions for the second half carry a much wider confidence interval than we'd like.",
+    "no": "We have hedged 80% of our natural gas exposure through Q4 at $2.90 per MMBtu, giving us full visibility into our energy cost structure for the remainder of the fiscal year."
+  },
+  {
+    "pair_id": 127,
+    "topic": "China Economic Slowdown",
+    "high": "The pace of China's recovery remains uneven across sectors, and our exposure there could translate to a revenue drag anywhere from modest to quite significant depending on whether stimulus measures gain real traction.",
+    "no": "Weakness in the Chinese market reduced our Asia-Pacific segment revenue by $180 million in the quarter, and we are guiding to a similar drag in Q3 given the structural slowdown in domestic consumption there."
+  },
+  {
+    "pair_id": 128,
+    "topic": "Currency Fluctuations",
+    "high": "With the dollar moving sharply and central banks in key emerging markets responding unpredictably, our FX translation impact for the year could swing by several hundred basis points in either direction.",
+    "no": "Dollar strength against the euro and yen reduced our reported revenue by $95 million in the quarter, and with our hedging program in place, we expect an incremental $40 million headwind in Q4 at current spot rates."
+  },
+  {
+    "pair_id": 129,
+    "topic": "Residential Housing Market",
+    "high": "Whether housing starts recover in the second half hinges on mortgage rate moves, builder confidence, and local zoning changes \u2014 all of which are pointing in different directions right now.",
+    "no": "Higher mortgage rates have reduced new home orders by 18% year-over-year in our served markets, and we have adjusted our community count targets and land acquisition pace to reflect that sustained softness."
+  },
+  {
+    "pair_id": 130,
+    "topic": "Corporate Credit Conditions",
+    "high": "Credit market conditions are shifting quickly, and our ability to access the high-yield market on acceptable terms could look very different in 90 days than it does today.",
+    "no": "We successfully priced our $500 million senior notes offering at 6.125% last month, and our refinancing risk through 2027 is fully resolved with no near-term maturities remaining."
+  },
+  {
+    "pair_id": 131,
+    "topic": "Regulatory Policy Changes",
+    "high": "Proposed environmental regulations are still in comment period, and the final rules \u2014 in terms of compliance costs, timelines, and scope \u2014 could vary enormously from the draft version we've seen.",
+    "no": "The finalized EPA emissions standards require us to invest $220 million in facility upgrades over the next three years, and that spend is fully incorporated into our capital expenditure guidance."
+  },
+  {
+    "pair_id": 132,
+    "topic": "Semiconductor Demand",
+    "high": "Inventory destocking in the semiconductor supply chain appears to be winding down, but the timing of a demand recovery \u2014 whether it's next quarter or twelve months out \u2014 is genuinely hard to call right now.",
+    "no": "Semiconductor demand in our industrial end-market has stabilized following five quarters of destocking, and our order book supports a return to mid-single-digit volume growth beginning in Q4."
+  },
+  {
+    "pair_id": 133,
+    "topic": "Healthcare Reimbursement Rates",
+    "high": "CMS reimbursement updates for the coming year are still being finalized, and the rate adjustments we ultimately receive could either compress our margins meaningfully or prove manageable depending on the final rule.",
+    "no": "The final CMS physician fee schedule reduces our reimbursement rates by an average of 2.8% effective January 1st, and we have already identified offsetting efficiency measures to protect our operating margin."
+  },
+  {
+    "pair_id": 134,
+    "topic": "Commercial Real Estate",
+    "high": "Office vacancy trends vary dramatically by market and tenant type, making it very difficult for us to model portfolio valuations with any confidence over a 12-month horizon.",
+    "no": "Office vacancy in our core urban markets reached 22%, and we have marked our commercial real estate portfolio down by $1.4 billion to reflect current appraisal values."
+  },
+  {
+    "pair_id": 135,
+    "topic": "Agricultural Commodity Prices",
+    "high": "Corn and soybean prices are caught between weather uncertainty in South America and shifting export demand from China, leaving our input cost assumptions for the planting season effectively a wide range.",
+    "no": "Corn input costs for our animal nutrition segment rose 9% year-over-year in line with our prior guidance, and our forward purchasing program locks in roughly 70% of our Q3 and Q4 requirements at current levels."
+  },
+  {
+    "pair_id": 136,
+    "topic": "AI Capital Expenditure",
+    "high": "The returns on our AI infrastructure investment are still taking shape \u2014 utilization rates, pricing power, and competitive dynamics in this space could evolve in ways that make the payback period anywhere from three years to well beyond our planning horizon.",
+    "no": "Our AI data center expansion generated $640 million in incremental revenue this quarter, achieving utilization rates above 90% and delivering a return on invested capital that exceeded our initial underwriting assumptions."
+  },
+  {
+    "pair_id": 137,
+    "topic": "Emerging Market Capital Flows",
+    "high": "Capital flows into our emerging market operations have been volatile and appear highly sensitive to U.S. rate signals, so our funding cost outlook for those subsidiaries could shift considerably in either direction.",
+    "no": "Capital outflows from our Brazilian and Indonesian subsidiaries increased funding costs by 180 basis points in the quarter, and we have restructured those balance sheets to rely primarily on local-currency financing going forward."
+  },
+  {
+    "pair_id": 138,
+    "topic": "Retail Inventory Levels",
+    "high": "Our retail partners are managing inventory very cautiously and their restocking behavior will depend heavily on how holiday sell-through performs \u2014 we could see a significant replenishment cycle or continued conservative ordering.",
+    "no": "Retailer inventories normalized to target levels exiting Q2, and their confirmed purchase orders support 7% wholesale revenue growth for us in the back half, consistent with our full-year guidance range."
+  },
+  {
+    "pair_id": 139,
+    "topic": "Sovereign Debt Risk",
+    "high": "Fiscal trajectories in several of our key operating markets are deteriorating, and it's unclear whether bond markets will remain accommodating or whether a disorderly repricing could force abrupt austerity measures that hit demand sharply.",
+    "no": "The sovereign debt restructuring in our primary Latin American market concluded last month with a haircut of 35% on external obligations, and we have written down our local receivables and adjusted our revenue forecast for that market accordingly."
+  },
+  {
+    "pair_id": 140,
+    "topic": "Electric Vehicle Adoption",
+    "high": "EV penetration in our served segments is tracking along multiple possible trajectories \u2014 charging infrastructure rollout, incentive policy continuity, and consumer range anxiety could combine to produce adoption curves that differ by a factor of two or three over our five-year plan.",
+    "no": "EV models now represent 31% of our total unit sales, up from 18% a year ago, and based on our current order backlog we expect that share to reach approximately 40% by the end of this fiscal year."
+  },
+  {
+    "pair_id": 141,
+    "topic": "Tariffs",
+    "high": "The range of possible tariff outcomes we're modeling spans from a 5% effective rate to north of 25%, and each scenario produces meaningfully different margin profiles \u2014 we simply cannot commit to a number until trade policy clarifies.",
+    "no": "We've embedded the confirmed 15% tariff on imported components into our cost structure, and that translates to a 120-basis-point headwind on gross margin for the full year, which is reflected in our updated guidance."
+  },
+  {
+    "pair_id": 142,
+    "topic": "Interest Rates",
+    "high": "With the Fed signaling both patience and data-dependence, our floating-rate debt costs could look very different by year-end depending on whether we see one cut, three cuts, or none at all.",
+    "no": "Following the Fed's decision to hold rates at current levels through mid-year, we have locked in our refinancing at 5.4% and our interest expense line is fixed for the next 18 months."
+  },
+  {
+    "pair_id": 143,
+    "topic": "Consumer Demand",
+    "high": "We're seeing conflicting signals from our channel partners \u2014 some pointing to destocking, others to cautious restocking \u2014 so whether demand recovers in Q3 or slips further is genuinely hard to call right now.",
+    "no": "Consumer demand for our core product lines stabilized in Q2, and we are guiding to 4% year-over-year volume growth in the back half based on confirmed order books from our top 20 accounts."
+  },
+  {
+    "pair_id": 144,
+    "topic": "Supply Chain Disruptions",
+    "high": "Depending on how long Red Sea rerouting persists, our input lead times could extend anywhere from six to eighteen weeks, and that spread makes inventory planning for Q4 extremely difficult.",
+    "no": "We have fully rerouted our primary shipping lanes around the Cape of Good Hope, adding 12 days to transit time and approximately $8 million in annual freight costs, both of which are captured in our updated outlook."
+  },
+  {
+    "pair_id": 145,
+    "topic": "Labor Market Tightness",
+    "high": "Wage dynamics in our key manufacturing markets remain volatile \u2014 we've seen competing offers swing by as much as 15% in recent months \u2014 and we can't reliably forecast our labor cost line beyond the next quarter.",
+    "no": "We finalized a three-year collective bargaining agreement in April with 4% annual wage increases, giving us full visibility into our labor cost structure through 2027."
+  },
+  {
+    "pair_id": 146,
+    "topic": "Currency Fluctuations",
+    "high": "The euro, yen, and Brazilian real have all moved sharply in opposite directions this year, and our net FX exposure could be a tailwind or a headwind of several hundred basis points depending on where they settle.",
+    "no": "Our hedging program covers 80% of euro and yen exposure through Q4, locking in rates that are modestly favorable to our planning assumptions and contributing roughly $14 million in FX gains versus prior year."
+  },
+  {
+    "pair_id": 147,
+    "topic": "Housing Market",
+    "high": "New home starts could accelerate sharply if mortgage rates pull back, or they could contract further if rates stay elevated \u2014 either way, our building products segment faces a wide range of volume outcomes for the year.",
+    "no": "With the 30-year mortgage rate stabilized above 7%, we are forecasting a 9% decline in new construction starts for the year, and our volumes in the residential segment are tracking in line with that expectation."
+  },
+  {
+    "pair_id": 148,
+    "topic": "Commodity Prices",
+    "high": "Copper and aluminum spot prices have swung 30% in either direction over the last two quarters, and our input cost assumptions for H2 carry a wide band of uncertainty that makes margin guidance difficult to pin down.",
+    "no": "We locked in copper purchases through December at $4.10 per pound via forward contracts, fully eliminating price exposure on our single largest input cost for the remainder of the year."
+  },
+  {
+    "pair_id": 149,
+    "topic": "China Economic Slowdown",
+    "high": "The pace of China's recovery remains unclear to us \u2014 our regional teams are reporting mixed signals across tier-one and tier-two cities, and revenues there could range from flat to down double digits depending on how stimulus plays out.",
+    "no": "China revenues declined 11% in the quarter, consistent with our revised forecast, as property sector weakness continued to suppress demand for our industrial equipment line in that market."
+  },
+  {
+    "pair_id": 150,
+    "topic": "AI Capital Expenditure",
+    "high": "We're evaluating data center buildout scenarios ranging from $200 million to over $600 million, and the right number depends heavily on which AI workloads get prioritized and how quickly inference costs compress.",
+    "no": "We have committed $350 million in AI infrastructure capex for fiscal 2025, concentrated in three data center expansions that are already under contract and on schedule for H2 commissioning."
+  },
+  {
+    "pair_id": 151,
+    "topic": "Recession Risk",
+    "high": "Our internal models are generating a wide range of GDP scenarios \u2014 from a soft landing to a mild contraction \u2014 and we're managing the business to be resilient across that spectrum rather than betting on any single outcome.",
+    "no": "With GDP tracking at 2.1% through Q1 and leading indicators remaining stable, we are not modeling a recessionary scenario into our 2025 plan and see no basis to revise our full-year revenue guidance."
+  },
+  {
+    "pair_id": 152,
+    "topic": "Energy Prices",
+    "high": "Natural gas prices have been highly volatile and could move significantly in either direction depending on summer temperatures, LNG export volumes, and storage draws \u2014 our utility cost assumptions carry meaningful upside and downside risk.",
+    "no": "We have hedged 90% of our natural gas consumption through Q3 at $2.85 per MMBtu, and our energy cost budget is essentially locked for the next six months."
+  },
+  {
+    "pair_id": 153,
+    "topic": "Regulatory Changes",
+    "high": "Pending environmental regulations could require anywhere from modest process adjustments to full facility retrofits depending on how the final rule is written, and we won't have clarity until the comment period closes.",
+    "no": "The final EPA rule published last month requires specific emissions controls at two of our facilities, and we have budgeted $47 million in compliance capex with a hard installation deadline of Q2 next year."
+  },
+  {
+    "pair_id": 154,
+    "topic": "Credit Markets",
+    "high": "Spreads in the high-yield market have widened and tightened unpredictably over the last 90 days, and whether we can refinance our 2026 maturities at an acceptable rate depends entirely on conditions we cannot control.",
+    "no": "We successfully completed our $800 million refinancing at 6.125% last month, extending our nearest maturity to 2030 and eliminating near-term liquidity concerns from our balance sheet."
+  },
+  {
+    "pair_id": 155,
+    "topic": "Pharmaceutical Pricing Policy",
+    "high": "The scope of drug price negotiation under current legislation remains contested, and our revenue exposure on affected products could range from immaterial to over $400 million annually depending on interpretation and implementation.",
+    "no": "CMS has finalized the negotiated price for our lead product at $285 per unit, representing a 22% reduction from list price, and we have adjusted our revenue forecast accordingly with full effect beginning January 1."
+  },
+  {
+    "pair_id": 156,
+    "topic": "Emerging Market Exposure",
+    "high": "Political transitions in two of our largest emerging markets are creating conditions where revenue projections for those regions could land almost anywhere along a wide spectrum, from strong growth to forced exit.",
+    "no": "Following currency devaluation in our key Latin American market, we've taken a $60 million write-down and recast our regional plan around a 17% lower revenue baseline for the next 12 months."
+  },
+  {
+    "pair_id": 157,
+    "topic": "Semiconductor Supply",
+    "high": "Lead times for legacy node chips remain elevated and inconsistent, and our production schedule for H2 could shift by a quarter or more depending on allocation decisions by our foundry partners.",
+    "no": "We have secured allocation commitments from our primary foundry partner covering 100% of our H2 volume requirements, and production schedules are on track with no supply-related delays anticipated."
+  },
+  {
+    "pair_id": 158,
+    "topic": "Healthcare Reimbursement Rates",
+    "high": "Final Medicare reimbursement rates for next year haven't been set, and the spread between the proposed rule and likely final rule could shift our net revenue per procedure by anywhere from minus 3% to plus 2%.",
+    "no": "CMS finalized reimbursement rates for our primary procedure codes at a 1.8% increase effective January, and we have incorporated that figure into our 2025 net revenue per case assumptions."
+  },
+  {
+    "pair_id": 159,
+    "topic": "Agricultural Exports",
+    "high": "Whether the grain export corridor agreement gets renewed is unclear, and a breakdown could reduce our agri-logistics volume by anywhere from 15% to 40% depending on how quickly alternative routes can be established.",
+    "no": "The export corridor agreement was renewed for 12 months in March, and our agricultural logistics volumes are running 6% ahead of prior year, consistent with our full-year plan."
+  },
+  {
+    "pair_id": 160,
+    "topic": "Digital Advertising Market",
+    "high": "We're seeing advertiser budgets shift rapidly and inconsistently across formats and platforms, and whether our programmatic revenue exits the year up or down depends on dynamics that are still playing out in real time.",
+    "no": "Digital ad spend on our platform grew 8% year-over-year in Q2, driven by measured but consistent budget reallocations from linear TV, and we are reaffirming our full-year digital revenue growth guidance of 7% to 9%."
+  },
+  {
+    "pair_id": 161,
+    "topic": "Tariffs",
+    "high": "The range of outcomes from the current tariff environment is genuinely wide \u2014 we could see input costs rise anywhere from 8% to 25% depending on which categories get exempted and how trading partners respond over the next few quarters.",
+    "no": "We've completed our tariff impact assessment and are embedding a 14% increase in input costs into our full-year guidance, reflecting the confirmed scope of Section 301 duties on our primary import categories."
+  },
+  {
+    "pair_id": 162,
+    "topic": "Interest Rates",
+    "high": "Whether the Fed cuts once, twice, or not at all this cycle will meaningfully shift our refinancing economics, and at this point the path really depends on how labor market data prints over the next several months.",
+    "no": "With two 25-basis-point cuts now priced in and confirmed by Fed guidance, we've locked in our refinancing assumptions and expect interest expense to decline by approximately $18 million in fiscal 2025."
+  },
+  {
+    "pair_id": 163,
+    "topic": "Consumer Demand",
+    "high": "We're seeing mixed signals \u2014 our lower-income cohort is pulling back sharply while premium SKUs are holding, so where overall volume lands by year-end really hinges on how the middle consumer behaves from here.",
+    "no": "Demand has normalized exactly as we anticipated. We are reaffirming full-year volume growth of 3% to 4%, supported by consistent basket sizes across all income segments through the third quarter."
+  },
+  {
+    "pair_id": 164,
+    "topic": "Supply Chain Disruptions",
+    "high": "Red Sea routing disruptions could add anywhere from two to six weeks to our lead times, and whether that translates into stockouts or just elevated freight costs depends entirely on how long vessels continue to divert around the Cape.",
+    "no": "We rerouted 100% of our Asia-to-Europe shipments via the Cape of Good Hope in January, added 18 days to average transit times, and have fully reflected the $22 million incremental freight cost in our Q2 and Q3 guidance."
+  },
+  {
+    "pair_id": 165,
+    "topic": "Labor Market Tightness",
+    "high": "Wage pressure in our distribution network could stabilize or accelerate \u2014 it really depends on whether softening tech-sector layoffs free up logistics talent or whether regional competition for hourly workers stays as fierce as it's been.",
+    "no": "Wage inflation in our distribution centers has moderated to 3.2% year-over-year, and we are guiding to flat labor cost per unit through year-end as turnover rates have declined four consecutive quarters."
+  },
+  {
+    "pair_id": 166,
+    "topic": "Energy Prices",
+    "high": "Our energy cost outlook spans a pretty wide band \u2014 Brent anywhere between $70 and $95 a barrel would each imply very different margin profiles for our manufacturing segment, and we're not comfortable anchoring to a single number right now.",
+    "no": "We have hedged 80% of our natural gas exposure through Q3 at $3.10 per MMBtu, giving us clear visibility into energy costs and locking in approximately $30 million in savings versus spot rates."
+  },
+  {
+    "pair_id": 167,
+    "topic": "Currency Fluctuations",
+    "high": "Euro and yen moves have been sharp and in opposite directions this quarter, and depending on how dollar strength evolves, our international revenue translation could swing by as much as 400 basis points either way.",
+    "no": "Our natural hedging program and forward contracts have effectively neutralized FX exposure, and we are reaffirming that currency will be a 150-basis-point headwind to reported revenue \u2014 consistent with our February guidance."
+  },
+  {
+    "pair_id": 168,
+    "topic": "Real Estate / Commercial Property",
+    "high": "Office lease renewals coming due in 2025 and 2026 are genuinely hard to price right now \u2014 cap rate expansion could be modest or severe depending on how remote work norms settle and whether regional bank lending reopens.",
+    "no": "Our portfolio lease roll-up is fully contracted through 2026 at average rents 12% below current market, and we expect to capture $45 million in occupancy cost savings as legacy leases expire on schedule."
+  },
+  {
+    "pair_id": 169,
+    "topic": "Semiconductor Supply",
+    "high": "Lead times for advanced logic chips are still anywhere from 16 to 52 weeks depending on the node and the foundry, so our ability to meet second-half hardware targets remains contingent on allocation decisions that haven't been finalized.",
+    "no": "We secured committed wafer allocations with TSMC through Q4, lead times have normalized to 14 weeks on our primary nodes, and we have no supply constraints embedded in our current production schedule."
+  },
+  {
+    "pair_id": 170,
+    "topic": "Emerging Market Exposure",
+    "high": "Political transitions in two of our top-five emerging markets create a scenario where regulatory frameworks could tighten meaningfully or remain open \u2014 our revenue exposure there ranges from flat to down 20% depending on how policy shifts.",
+    "no": "Following the regulatory review, our Brazil and India operations are operating under confirmed licensing frameworks, and we are projecting combined emerging market revenue growth of 9% for the full year."
+  },
+  {
+    "pair_id": 171,
+    "topic": "Credit Markets",
+    "high": "Spreads in the leveraged loan market have compressed but could widen quickly if macro data deteriorates, and our pipeline of acquisition financing is essentially paused until we have better clarity on where all-in borrowing costs settle.",
+    "no": "We closed our $1.2 billion term loan at SOFR plus 275 in March, well inside our budgeted spread assumption, and our balance sheet is fully funded through the 2027 maturity wall."
+  },
+  {
+    "pair_id": 172,
+    "topic": "Agricultural Commodities",
+    "high": "Corn and soy prices are caught between a potential La Ni\u00f1a crop disruption and record Brazilian acreage, so our raw material cost for the back half of the year could look very different depending on how the South American harvest develops.",
+    "no": "We have locked in corn and soybean inputs through Q3 via forward contracts at prices consistent with our original cost-of-goods forecast, and we see no material commodity risk to our full-year margin guidance."
+  },
+  {
+    "pair_id": 173,
+    "topic": "Regulatory Changes",
+    "high": "The proposed environmental compliance rules are still in comment period and could be finalized anywhere from current form to substantially revised \u2014 our capital expenditure range for 2026 is $200 million to $600 million depending on the final standard.",
+    "no": "The EPA finalized Tier 4 emissions standards in January, and we have incorporated the required $340 million in compliance capex into our three-year investment plan with no further regulatory ambiguity expected."
+  },
+  {
+    "pair_id": 174,
+    "topic": "Housing Market",
+    "high": "Existing home sales volume could recover meaningfully or stay locked up in mortgage rate lock-in effects \u2014 it's hard to call whether affordability or inventory unlocking dominates as the primary driver over the next 12 months.",
+    "no": "Mortgage rate stabilization at 6.5% has driven a predictable 8% sequential improvement in existing home sale volumes, and we are raising our housing starts assumption to 1.38 million units for the full year."
+  },
+  {
+    "pair_id": 175,
+    "topic": "AI Capital Expenditure",
+    "high": "Our infrastructure investment plans are still highly dependent on whether hyperscaler capex commitments hold or get moderated \u2014 we could accelerate, maintain, or defer up to $800 million of planned data center spend based on customer signals we expect in the next quarter.",
+    "no": "Microsoft, Google, and AWS have each signed multiyear capacity agreements with us, underpinning $2.1 billion of committed data center revenue and fully justifying our accelerated infrastructure build-out through 2026."
+  },
+  {
+    "pair_id": 176,
+    "topic": "Retail Inventory",
+    "high": "Inventory positioning ahead of the holiday season is complicated by still-unpredictable shipping timelines and uncertain promotional intensity from competitors, so we've built a range of stocking scenarios rather than committing to a single build plan.",
+    "no": "Inventory is lean and intentional \u2014 we entered Q4 with 11% fewer units on hand than last year, clearance rates are running at 94%, and promotional depth is tracking exactly to our pre-season markdown plan."
+  },
+  {
+    "pair_id": 177,
+    "topic": "Sovereign Debt Risk",
+    "high": "Yields on peripheral European debt could reprice modestly or sharply depending on whether the ECB signals additional accommodation or pivots toward balance sheet reduction \u2014 our sovereign exposure makes this a meaningful swing factor for our fixed-income book.",
+    "no": "Following the ECB's explicit backstop commitment, Italian 10-year spreads have stabilized at 140 basis points over Bunds, and we've marked our sovereign portfolio accordingly with no further stress scenario embedded."
+  },
+  {
+    "pair_id": 178,
+    "topic": "Pharmaceutical Pricing Policy",
+    "high": "Drug pricing negotiation outcomes under the IRA remain uncertain for our next cohort of products \u2014 the negotiated price could fall anywhere from 25% to 60% below list, and that range creates real ambiguity in our 2027 revenue bridge.",
+    "no": "CMS finalized a 38% negotiated price reduction for our leading cardiovascular product effective January 2026, and we have fully updated our long-range plan to reflect that specific outcome with no further negotiation risk in our current portfolio."
+  },
+  {
+    "pair_id": 179,
+    "topic": "Electric Vehicle Adoption",
+    "high": "EV penetration curves have become harder to model \u2014 policy incentive continuity, charging infrastructure rollout pace, and consumer financing conditions could combine to put industry adoption anywhere from 18% to 35% of new vehicle sales by 2027.",
+    "no": "EV penetration reached 22% of our segment in Q3 and has followed our forecast closely for six consecutive quarters. We are maintaining our 2025 EV volume target of 340,000 units with high confidence in the demand trajectory."
+  },
+  {
+    "pair_id": 180,
+    "topic": "Banking Sector Liquidity",
+    "high": "Regional bank deposit stability remains a live question \u2014 if rate-sensitive depositors continue migrating to money market funds, lending capacity in our core small-business customer segment could tighten significantly, though the pace and severity are genuinely hard to predict.",
+    "no": "Deposit flows have fully stabilized following the Q1 stress event, our loan-to-deposit ratio has returned to 82%, and we are reinstating our credit growth guidance of 6% to 8% for the second half of the year."
+  },
+  {
+    "pair_id": 181,
+    "topic": "Tariffs",
+    "high": "The range of tariff outcomes we're modeling spans from a modest 10% duty to something approaching 45%, and our margin impact swings dramatically depending on which scenario materializes and whether we can pass costs through to customers.",
+    "no": "We've fully priced in the 25% tariff on imported components into our updated guidance, which reflects a 180 basis point compression in gross margin for the back half of the year."
+  },
+  {
+    "pair_id": 182,
+    "topic": "Interest Rates",
+    "high": "The Fed's path from here is genuinely difficult to read \u2014 we could see two cuts this year, we could see none, and some on our team aren't ruling out a hike if services inflation re-accelerates, which makes capital allocation planning quite complicated.",
+    "no": "With the Fed on hold through year-end and the 10-year anchored near 4.5%, we've locked in our refinancing at current rates and our interest expense line is effectively set for the next 18 months."
+  },
+  {
+    "pair_id": 183,
+    "topic": "Consumer Spending",
+    "high": "We're seeing conflicting signals from our customer base \u2014 high-income cohorts are spending freely, but middle-income households are pulling back in ways that could deepen or reverse depending on the labor market trajectory over the next two quarters.",
+    "no": "Consumer spending in our category has normalized to a steady 3% to 4% growth rate, and our Q3 volume data shows that pattern holding consistently across all income segments."
+  },
+  {
+    "pair_id": 184,
+    "topic": "Supply Chain Disruptions",
+    "high": "Depending on how long port congestion persists on the West Coast and whether our Tier 2 suppliers can ramp alternative sourcing, our lead times could stretch anywhere from six weeks to six months \u2014 we simply don't have a clean answer yet.",
+    "no": "We've resolved the port congestion issues that affected Q1, secured dual-source agreements for all critical components, and are guiding to lead times returning to our pre-disruption baseline of eight weeks."
+  },
+  {
+    "pair_id": 185,
+    "topic": "Labor Market Tightness",
+    "high": "Wage pressure could ease meaningfully if tech-sector layoffs spread into adjacent industries, or it could persist if services employment stays as resilient as it has \u2014 our workforce cost projections for next year carry a wider band than we're comfortable with.",
+    "no": "Wage growth in our segment has decelerated to 3.2% year-over-year, and our open requisition fill times have shortened by two weeks, confirming that labor market conditions have normalized in line with our planning assumptions."
+  },
+  {
+    "pair_id": 186,
+    "topic": "Oil Prices",
+    "high": "Brent could trade anywhere from $65 to $95 this year depending on OPEC discipline, Chinese demand recovery, and whether the geopolitical risk premium in the Middle East expands or fades \u2014 that spread makes it very hard to lock in a single fuel cost assumption.",
+    "no": "We've hedged 80% of our fuel exposure at $78 per barrel through Q3, so our logistics cost structure is insulated from near-term oil price moves and we're comfortable with the margin guidance we've provided."
+  },
+  {
+    "pair_id": 187,
+    "topic": "Housing Market",
+    "high": "New home demand is hard to forecast right now \u2014 affordability is stretched, but pent-up demand is real, and any meaningful rate relief could trigger a faster recovery than our base case, while a recession scenario could push volumes well below where we're currently trending.",
+    "no": "Existing home sales have stabilized at a 4.1 million annualized rate, and with mortgage applications up three weeks in a row, we're confident in our guidance for 8% volume growth in the back half."
+  },
+  {
+    "pair_id": 188,
+    "topic": "Currency Fluctuations",
+    "high": "The dollar's direction from here depends on relative central bank policy divergence, and with the ECB and Fed potentially moving in opposite directions, our euro-denominated revenue could face a tailwind or a meaningful headwind \u2014 we've widened our FX sensitivity range in our disclosure for that reason.",
+    "no": "Euro weakness has cost us roughly $40 million in translated revenue year-to-date, and with our natural hedge position in place, we're guiding to a $15 million to $20 million full-year FX headwind, consistent with current spot rates."
+  },
+  {
+    "pair_id": 189,
+    "topic": "Semiconductor Shortage",
+    "high": "Chip availability for our industrial product lines remains unpredictable \u2014 allocations from our foundry partners have improved for some nodes but tightened for others, and whether we can fulfill backlog in Q4 hinges on lead time commitments that are still being negotiated.",
+    "no": "Our foundry partners have confirmed Q4 wafer allocations, and we've secured sufficient inventory to clear our backlog by year-end, allowing us to guide to 12% revenue growth with strong conviction."
+  },
+  {
+    "pair_id": 190,
+    "topic": "Regulatory Environment",
+    "high": "The regulatory review of our proposed acquisition is in a phase where outcomes range from unconditional approval to a full block, and the timeline could extend by one quarter or two years depending on the scope of the remedy discussions \u2014 we can't size the financial impact until we have more clarity.",
+    "no": "Regulators approved our acquisition with a standard behavioral remedy requiring us to license one product line, and we've incorporated that condition into our integration plan and synergy targets without any material change to our $200 million NPV estimate."
+  },
+  {
+    "pair_id": 191,
+    "topic": "Emerging Market Demand",
+    "high": "Our EM revenue outlook varies substantially by scenario \u2014 strong dollar, tighter financial conditions, and commodity price softness could combine to compress growth to low single digits, while a soft landing with dollar weakness could push us into double digits.",
+    "no": "Emerging market revenues grew 14% in local currency this quarter, led by India and Southeast Asia, and we're maintaining our full-year EM growth guidance of 12% to 14%."
+  },
+  {
+    "pair_id": 192,
+    "topic": "Debt Ceiling / Fiscal Policy",
+    "high": "Whether Congress reaches a fiscal agreement before the X-date and how large any spending cuts turn out to be will materially affect our government-facing revenue line \u2014 we've stress-tested scenarios from no disruption to a 60-day impasse, and the range of outcomes is wide.",
+    "no": "Congress passed the continuing resolution, government agency budgets are confirmed through September, and our federal contract pipeline is fully funded, supporting our $320 million public-sector revenue guidance."
+  },
+  {
+    "pair_id": 193,
+    "topic": "Retail Inventory Destocking",
+    "high": "Retailer restocking timelines are hard to call \u2014 some of our retail partners have worked through excess inventory faster than expected, while others appear to have at least two more quarters of destocking ahead, so our order book visibility beyond 90 days is limited.",
+    "no": "Retail inventories in our category are back to normalized levels, and our largest customers have resumed standard replenishment cycles, giving us clear line of sight to 9% volume growth in Q3."
+  },
+  {
+    "pair_id": 194,
+    "topic": "Artificial Intelligence Investment",
+    "high": "The monetization curve for our AI infrastructure buildout is unclear \u2014 adoption could accelerate sharply if enterprise procurement cycles compress, or revenue could lag capex by several years if deployment complexity proves higher than customers currently expect.",
+    "no": "Our AI platform bookings converted to revenue at a 78% rate in Q2, and with $1.2 billion in contracted backlog, we're guiding to $400 million in AI-related revenue for the full year with high confidence."
+  },
+  {
+    "pair_id": 195,
+    "topic": "Agricultural Commodity Prices",
+    "high": "Input costs for the next crop cycle depend heavily on whether La Ni\u00f1a conditions persist and how the export ban discussions in key producing countries resolve \u2014 our cost of goods could swing by as much as 20% in either direction relative to our current plan.",
+    "no": "Corn and soy input costs are locked in at forward contract prices through Q2 next year, and our agricultural segment margin guidance of 22% already reflects current commodity futures curves."
+  },
+  {
+    "pair_id": 196,
+    "topic": "Commercial Real Estate",
+    "high": "Office vacancy rates could stabilize if return-to-office mandates hold, or continue climbing if a broader economic slowdown triggers headcount reductions \u2014 the divergence in those paths makes it difficult to put a confident number on our commercial leasing revenue for 2026.",
+    "no": "Our office portfolio occupancy is at 91%, renewal rates are running at 88%, and we're guiding to 5% net operating income growth, supported by signed lease agreements covering 95% of our 2025 expiration schedule."
+  },
+  {
+    "pair_id": 197,
+    "topic": "Electric Vehicle Adoption",
+    "high": "EV penetration rates in our core markets are proving highly sensitive to charging infrastructure rollout, subsidy continuity, and consumer confidence \u2014 we're modeling a range from 18% to 34% penetration by 2027, and our capex plan is structured around that uncertainty.",
+    "no": "EV unit sales in our segment grew 31% year-over-year in Q2, ahead of our 25% forecast, and we're raising full-year EV volume guidance to 210,000 units from 190,000 units."
+  },
+  {
+    "pair_id": 198,
+    "topic": "Banking Sector Stress",
+    "high": "Deposit stability across regional banks and the potential for additional credit tightening could affect our SMB customer base in ways that are difficult to model \u2014 if lending standards tighten further, we could see elevated churn, but if conditions stabilize, our retention metrics should hold.",
+    "no": "Our SMB customer base has shown no meaningful credit stress; churn rates are at 4.2%, in line with historical norms, and our credit loss provisions remain unchanged at $28 million for the year."
+  },
+  {
+    "pair_id": 199,
+    "topic": "Healthcare Policy",
+    "high": "Reimbursement rate outcomes under the proposed CMS rule could range from a 3% cut to a 7% cut depending on final methodology choices, and any legislative modifications could shift the timeline further, making it premature to revise our Medicare revenue guidance at this point.",
+    "no": "The final CMS rule confirmed a 4.5% reimbursement reduction, and we've already reflected that impact in our revised guidance, which projects a $95 million reduction in Medicare revenues next year."
+  },
+  {
+    "pair_id": 200,
+    "topic": "Freight and Logistics Costs",
+    "high": "Ocean freight rates have been volatile in both directions this year, and with Red Sea rerouting still in effect and potential port labor negotiations on the horizon, our logistics cost per unit could land anywhere from $180 to $260 in Q4 \u2014 we're not in a position to narrow that range today.",
+    "no": "Ocean freight costs have normalized to $195 per container equivalent, a level we've locked in through long-term carrier agreements covering 70% of our Q3 and Q4 volume, and our logistics cost guidance is firm."
+  }
+]

@@ -55,6 +55,13 @@ UNCERTAINTY_DEFINITION_V2 = (
     "external factors are explicitly rendered irrelevant."
 )
 
+UNCERTAINTY_DEFINITION_V3 = (
+    "DEFINITION OF UNCERTAINTY:\n\n"
+    "Uncertainty is second-moment: lack of visibility, conditionality, inability to estimate, "     
+    "or wide range of possible outcomes.\n"
+    "- Do not treat positive/negative sentiment or clear numeric guidance as uncertainty by itself.\n"
+)
+
 USER_CONTENT_TEMPLATE = (
     "Determine whether the following economic statement contains uncertainty.\n"
     "{definition_block}"
