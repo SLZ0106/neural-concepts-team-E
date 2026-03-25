@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "dataset": "/home/luzsun/neural-concepts-team-E/synthetic_data/API/synthetic_pairs_200.json",
+    "total_items": 400
+  },
+  "models": {
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "accuracy": 0.985,
+      "total_evaluated_successfully": 400,
+      "confusion_matrix": {
+        "HIGH": {
+          "HIGH": 200,
+          "NO": 0
+        },
+        "NO": {
+          "HIGH": 6,
+          "NO": 194
+        }
+      },
+      "metrics_breakdown": {
+        "HIGH_precision": 0.970873786407767,
+        "HIGH_recall": 1.0
+      }
+    }
+  }
+}
