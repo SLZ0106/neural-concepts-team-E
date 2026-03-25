@@ -1,7 +1,6 @@
 {
   "_meta": {
-    "experiment": "def_label",
-    "label_mode": "3way",
+    "prompt_variant": "no_def",
     "seed": 21,
     "n_per_class": 5,
     "demo_ids": [
@@ -32,65 +31,65 @@
   },
   "per_model": {
     "google/gemma-2-9b-it": {
-      "n_eval": 1,
-      "accuracy": 0.0,
+      "n_eval": 54,
+      "accuracy": 0.5555555555555556,
       "confusion_matrix": {
         "NO_UNCERTAINTY": {
-          "NO_UNCERTAINTY": 0,
-          "INTERMEDIATE_UNCERTAINTY": 1,
-          "HIGH_UNCERTAINTY": 0
+          "NO_UNCERTAINTY": 21,
+          "INTERMEDIATE_UNCERTAINTY": 13,
+          "HIGH_UNCERTAINTY": 3
         },
         "INTERMEDIATE_UNCERTAINTY": {
-          "NO_UNCERTAINTY": 0,
-          "INTERMEDIATE_UNCERTAINTY": 0,
-          "HIGH_UNCERTAINTY": 0
+          "NO_UNCERTAINTY": 4,
+          "INTERMEDIATE_UNCERTAINTY": 8,
+          "HIGH_UNCERTAINTY": 2
         },
         "HIGH_UNCERTAINTY": {
           "NO_UNCERTAINTY": 0,
-          "INTERMEDIATE_UNCERTAINTY": 0,
-          "HIGH_UNCERTAINTY": 0
+          "INTERMEDIATE_UNCERTAINTY": 2,
+          "HIGH_UNCERTAINTY": 1
         }
       }
     },
     "Qwen/Qwen2.5-7B-Instruct": {
-      "n_eval": 54,
-      "accuracy": 0.7592592592592593,
+      "n_eval": 53,
+      "accuracy": 0.6792452830188679,
       "confusion_matrix": {
         "NO_UNCERTAINTY": {
-          "NO_UNCERTAINTY": 28,
-          "INTERMEDIATE_UNCERTAINTY": 7,
-          "HIGH_UNCERTAINTY": 2
+          "NO_UNCERTAINTY": 26,
+          "INTERMEDIATE_UNCERTAINTY": 9,
+          "HIGH_UNCERTAINTY": 1
         },
         "INTERMEDIATE_UNCERTAINTY": {
-          "NO_UNCERTAINTY": 3,
-          "INTERMEDIATE_UNCERTAINTY": 10,
-          "HIGH_UNCERTAINTY": 1
+          "NO_UNCERTAINTY": 5,
+          "INTERMEDIATE_UNCERTAINTY": 9,
+          "HIGH_UNCERTAINTY": 0
         },
         "HIGH_UNCERTAINTY": {
           "NO_UNCERTAINTY": 0,
-          "INTERMEDIATE_UNCERTAINTY": 0,
-          "HIGH_UNCERTAINTY": 3
+          "INTERMEDIATE_UNCERTAINTY": 2,
+          "HIGH_UNCERTAINTY": 1
         }
       }
     },
     "meta-llama/Llama-3.1-8B-Instruct": {
       "n_eval": 54,
-      "accuracy": 0.6481481481481481,
+      "accuracy": 0.7407407407407407,
       "confusion_matrix": {
         "NO_UNCERTAINTY": {
-          "NO_UNCERTAINTY": 24,
-          "INTERMEDIATE_UNCERTAINTY": 5,
-          "HIGH_UNCERTAINTY": 8
+          "NO_UNCERTAINTY": 30,
+          "INTERMEDIATE_UNCERTAINTY": 3,
+          "HIGH_UNCERTAINTY": 4
         },
         "INTERMEDIATE_UNCERTAINTY": {
-          "NO_UNCERTAINTY": 0,
+          "NO_UNCERTAINTY": 3,
           "INTERMEDIATE_UNCERTAINTY": 9,
-          "HIGH_UNCERTAINTY": 5
+          "HIGH_UNCERTAINTY": 2
         },
         "HIGH_UNCERTAINTY": {
           "NO_UNCERTAINTY": 0,
-          "INTERMEDIATE_UNCERTAINTY": 1,
-          "HIGH_UNCERTAINTY": 2
+          "INTERMEDIATE_UNCERTAINTY": 2,
+          "HIGH_UNCERTAINTY": 1
         }
       }
     }

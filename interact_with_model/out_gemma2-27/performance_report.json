@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "dataset": "/home/luzsun/neural-concepts-team-E/synthetic_data/API/synthetic_pairs_200.json",
+    "total_items": 400
+  },
+  "models": {
+    "google/gemma-2-27b-it": {
+      "accuracy": 1.0,
+      "total_evaluated_successfully": 400,
+      "confusion_matrix": {
+        "HIGH": {
+          "HIGH": 200,
+          "NO": 0
+        },
+        "NO": {
+          "HIGH": 0,
+          "NO": 200
+        }
+      },
+      "metrics_breakdown": {
+        "HIGH_precision": 1.0,
+        "HIGH_recall": 1.0
+      }
+    }
+  }
+}
