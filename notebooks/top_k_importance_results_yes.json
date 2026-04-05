@@ -1,308 +1,308 @@
 {
   "unigrams": [
     [
-      "subsidy",
-      -0.474639892578125
+      "skus",
+      0.5751953125
     ],
     [
-      "predictable",
-      0.431939697265625
+      "confidently",
+      0.5703125
     ],
     [
-      "respond",
-      0.38855201721191407
+      "retirement",
+      -0.53125
     ],
     [
-      "across",
-      0.3712890625
+      "x",
+      -0.48828125
     ],
     [
-      "guardrails",
-      -0.25894775390625
-    ],
-    [
-      "one",
-      -0.2422021484375
-    ],
-    [
-      "anchored",
-      0.2387939453125
-    ],
-    [
-      ". response",
-      0.2262064552307129
-    ],
-    [
-      "pieces",
-      0.22037760416666666
-    ],
-    [
-      "commodity",
-      -0.20286865234375
-    ],
-    [
-      "principle",
-      0.18965767145156862
-    ],
-    [
-      "tight",
-      -0.184564208984375
-    ],
-    [
-      "marginalized",
-      0.1782279636548913
-    ],
-    [
-      "despite",
-      0.16097005208333334
-    ],
-    [
-      "shifts",
-      0.15738932291666666
-    ],
-    [
-      "revenue",
-      -0.1552734375
-    ],
-    [
-      "remains",
-      0.15115559895833333
-    ],
-    [
-      "word",
-      0.14936767578125
-    ],
-    [
-      "moving",
-      0.14419631958007811
-    ],
-    [
-      "depending",
-      -0.141695556640625
-    ],
-    [
-      ": phrase",
-      0.14074188232421875
+      "evaluating",
+      -0.4765625
     ],
     [
       "yes",
-      0.13674423217773438
+      0.4040223741531372
     ],
     [
-      "no",
-      0.13281063854694367
+      "%. response",
+      -0.39453125
     ],
     [
-      "spread",
-      -0.1280221939086914
+      "traction",
+      0.353515625
     ],
     [
-      "band",
-      0.12559442934782608
+      ".40",
+      -0.35009765625
+    ],
+    [
+      "-positioned",
+      0.349609375
+    ],
+    [
+      "whipsawing",
+      0.3458251953125
+    ],
+    [
+      "-goods",
+      0.3330078125
+    ],
+    [
+      "housing",
+      -0.330078125
+    ],
+    [
+      "disentangle",
+      -0.3291015625
+    ],
+    [
+      "150",
+      -0.326171875
+    ],
+    [
+      "2027",
+      -0.3121744791666667
+    ],
+    [
+      "agri",
+      0.31201171875
+    ],
+    [
+      "-date",
+      0.296875
+    ],
+    [
+      "inconsistently",
+      -0.29248046875
+    ],
+    [
+      "50",
+      -0.28369140625
+    ],
+    [
+      "wave",
+      0.27734375
+    ],
+    [
+      "signaling",
+      0.276611328125
+    ],
+    [
+      ". examples",
+      0.25484761238098147
+    ],
+    [
+      "only",
+      -0.247899169921875
+    ],
+    [
+      "retailer",
+      0.2451171875
     ]
   ],
   "bigrams": [
     [
-      ". response :",
-      0.6878260231018066
+      "partners . response",
+      1.92578125
     ],
     [
-      "-term ,",
-      0.57440185546875
+      "%. response :",
+      -1.84765625
     ],
     [
-      "shifts ,",
-      0.548828125
+      "reopens . response",
+      1.49658203125
     ],
     [
-      "regarding revenue",
-      -0.537841796875
+      "assumption . response",
+      1.3857421875
     ],
     [
-      "predictable corridor",
-      0.5378128051757812
+      "path . response",
+      1.185791015625
     ],
     [
-      "no phrase",
-      0.5086706161499024
+      "sharply . response",
+      1.1641845703125
     ],
     [
-      ": no",
-      0.5018760490417481
+      "intervals . response",
+      1.1619873046875
     ],
     [
-      "revenue ,",
-      -0.50067138671875
+      "-positioned ,",
+      1.056640625
     ],
     [
-      "for subsidy",
-      -0.498687744140625
+      "dispersed . response",
+      0.9775390625
     ],
     [
-      "for wage",
-      0.45537109375
+      "measures . response",
+      0.93896484375
     ],
     [
-      "and predictable",
-      0.451611328125
+      "compress . response",
+      0.9271240234375
     ],
     [
-      "subsidy programs",
-      -0.4395650227864583
+      "bar . response",
+      0.908935546875
     ],
     [
-      "trends . response",
-      0.43700408935546875
+      "book . response",
+      0.89404296875
     ],
     [
-      "respond only",
-      0.43695091247558593
+      "develops . response",
+      0.89178466796875
     ],
     [
-      "costs shows",
-      0.43359375
+      "flat . response",
+      0.8876953125
     ],
     [
-      "across various",
-      0.41337890625
+      "cape . response",
+      0.8792724609375
     ],
     [
-      "flow ,",
-      0.4115193684895833
+      "customers . response",
+      0.850830078125
     ],
     [
-      ": 2",
-      -0.40572052001953124
+      "weeks . response",
+      0.8452949523925781
     ],
     [
-      ", as",
-      0.3904392408288043
+      "planning . response",
+      0.84521484375
     ],
     [
-      "remains anchored",
-      0.38994954427083334
+      "region . response",
+      0.83642578125
     ],
     [
-      "yes phrase",
-      0.3867366409301758
+      ": yes",
+      0.8129241991043091
     ],
     [
-      "deviation ,",
-      0.3863525390625
+      "lot of",
+      0.796875
     ],
     [
-      "band ,",
-      0.38286590576171875
+      "bridge . response",
+      0.7890625
     ],
     [
-      "uncertainty respond",
-      0.3667790985107422
+      "way . response",
+      0.7705078125
     ],
     [
-      ": despite",
-      0.3489583333333333
+      "whether mortgage",
+      -0.7666015625
     ]
   ],
   "trigrams": [
     [
-      "trends . response :",
-      1.0068283081054688
+      "foundry partners . response",
+      2.1689453125
     ],
     [
-      "-term . response :",
-      0.7861292221966911
+      "2 %. response :",
+      -1.84130859375
     ],
     [
-      "deviation . response :",
-      0.7698092460632324
+      "lending reopens . response",
+      1.52099609375
     ],
     [
-      "predictable corridor ,",
-      0.7251663208007812
+      "partners . response :",
+      1.498046875
     ],
     [
-      "shifts . response :",
-      0.7074850522554837
+      "cost assumption . response",
+      1.3837432861328125
     ],
     [
-      ": regarding revenue",
-      -0.704833984375
+      "yet . response :",
+      -1.375732421875
     ],
     [
-      "band . response :",
-      0.6918863932291667
+      "generalize . response :",
+      -1.32861328125
     ],
     [
-      "near -term ,",
-      0.65087890625
+      "next . response :",
+      -1.306884765625
     ],
     [
-      "phrase : despite",
-      0.6396586100260416
+      "confidence intervals . response",
+      1.2606201171875
     ],
     [
-      "as for subsidy",
-      -0.639190673828125
+      "more sharply . response",
+      1.255615234375
     ],
     [
-      "external shifts ,",
-      0.6240234375
+      "well -positioned ,",
+      1.2265625
     ],
     [
-      "revenue remains anchored",
-      0.611328125
-    ],
-    [
-      "orders remains anchored",
-      0.595458984375
+      "rate path . response",
+      1.146240234375
     ],
     [
       ": yes phrase",
-      0.5878062820434571
+      1.1298857569694518
     ],
     [
-      "-term , as",
-      0.5803604125976562
+      "2026 . response :",
+      -1.124755859375
     ],
     [
-      "briefing . response :",
-      0.5794306216032609
+      "flux . response :",
+      -1.09912109375
     ],
     [
-      "flow , the",
-      0.5614132881164551
+      "ordering . response :",
+      -1.078125
     ],
     [
-      "and predictable corridor",
-      0.5574844360351563
+      "-positioned , but",
+      1.07037353515625
     ],
     [
-      "shifts , as",
-      0.54998779296875
+      "harvest develops . response",
+      1.06756591796875
     ],
     [
-      "regarding revenue ,",
-      -0.52679443359375
+      "essentially flat . response",
+      1.0517578125
     ],
     [
-      "as for wage",
-      0.51678466796875
+      "settles . response :",
+      -1.0159912109375
     ],
     [
-      "band , as",
-      0.5157394409179688
+      "the cape . response",
+      0.9842529296875
     ],
     [
-      "situation remains anchored",
-      0.5123443603515625
+      "spot settles . response",
+      -0.9534912109375
     ],
     [
-      "yields , the",
-      0.4888916015625
+      "assumption . response :",
+      0.9404296875
     ],
     [
-      ", costs shows",
-      0.48876953125
+      "quite dispersed . response",
+      0.936767578125
+    ],
+    [
+      "signed . response :",
+      -0.933624267578125
     ]
   ]
 }
