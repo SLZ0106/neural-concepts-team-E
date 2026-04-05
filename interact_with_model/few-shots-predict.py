@@ -4,7 +4,7 @@
 """
 Evaluate language models on the synthetic economic uncertainty dataset.
 This script reads the output of generate_synthetic_pairs.py, prompts the target
-model to classify the statements as HIGH or NO uncertainty, and calculates
+model to classify the statements as HIGH or LOW uncertainty, and calculates
 performance metrics (Accuracy and Confusion Matrix).
 """
 
@@ -26,20 +26,20 @@ Economic uncertainty is the variance or spread of future business conditions (e.
 
 KEY PRINCIPLE - UNCERTAINTY IS NOT SENTIMENT:
 Sentiment reflects the expected value of future business conditions. Uncertainty reflects the variance around that expected value.
-- "We expect a 10% drop in sales due to tariffs" -> negative sentiment, NO uncertainty
+- "We expect a 10% drop in sales due to tariffs" -> negative sentiment, LOW uncertainty
 - "Sales could drop 5% or 30% depending on how tariffs develop" -> negative sentiment, HIGH uncertainty\
 """
 
-LABELS = ["HIGH", "NO"]
+LABELS = ["HIGH", "LOW"]
 
 INSTRUCTION_BLOCK = """\
 CLASSIFICATION LABELS:
-- Allowed labels: HIGH | NO
+- Allowed labels: HIGH | LOW
 
 OUTPUT FORMAT (JSON only, no markdown):
 {
   "reasoning": "<1-2 sentences explaining variance assessment>",
-  "classification": "HIGH|NO"
+  "classification": "HIGH|LOW"
 }
 """
 
@@ -58,7 +58,7 @@ Example 2:
 We have evaluated our business plan or targets for 2026 to reflect the confirmed impact of current geopolitical issues. We are now guiding to a six-month delay across all major projects due to the structural breakdown in logistical supply chains.
 </statement>
 Output:
-{"reasoning": "Despite the negative sentiment of a delay, the duration is definitively bounded at exactly six months.", "classification": "NO"}
+{"reasoning": "Despite the negative sentiment of a delay, the duration is definitively bounded at exactly six months.", "classification": "LOW"}
 
 Example 3:
 <statement>
@@ -72,7 +72,7 @@ Example 4:
 We worked hard to mitigate grocery inflation as tariff-related costs lifted prices across many categories. We're seeing share gains in GM and in fashion. We've had several quarters in a row of mid-single-digit sales growth.
 </statement>
 Output:
-{"reasoning": "The speaker confidently reports historical performance and current share gains without hedging about future variance.", "classification": "NO"}
+{"reasoning": "The speaker confidently reports historical performance and current share gains without hedging about future variance.", "classification": "LOW"}
 """
 
 # ---------------- IO & Data Parsing ----------------
@@ -99,14 +99,15 @@ def load_synthetic_dataset(path: str) -> List[Dict[str, Any]]:
                 "statement": row["high"],
                 "label": "HIGH"
             })
-        # 提取 no 不确定性的句子
-        if "no" in row:
+        # 提取 low 不确定性的句子（兼容旧字段 no）
+        low_stmt = row.get("low", row.get("no"))
+        if low_stmt is not None:
             eval_items.append({
-                "id": f"{pair_id}_NO",
+                "id": f"{pair_id}_LOW",
                 "pair_id": pair_id,
                 "topic": topic,
-                "statement": row["no"],
-                "label": "NO"
+                "statement": low_stmt,
+                "label": "LOW"
             })
     return eval_items
 
@@ -345,8 +346,8 @@ def main():
         acc = sum(1 for g, p in zip(golds, preds) if g == p) / n if n > 0 else 0.0
         
         cm = {
-            "HIGH": {"HIGH": 0, "NO": 0}, 
-            "NO": {"HIGH": 0, "NO": 0}
+            "HIGH": {"HIGH": 0, "LOW": 0}, 
+            "LOW": {"HIGH": 0, "LOW": 0}
         }
         for g, p in zip(golds, preds):
             if g in cm and p in cm[g]: 
@@ -357,8 +358,8 @@ def main():
             "total_evaluated_successfully": n,
             "confusion_matrix": cm,
             "metrics_breakdown": {
-                "HIGH_precision": cm["HIGH"]["HIGH"] / (cm["HIGH"]["HIGH"] + cm["NO"]["HIGH"]) if (cm["HIGH"]["HIGH"] + cm["NO"]["HIGH"]) > 0 else 0,
-                "HIGH_recall": cm["HIGH"]["HIGH"] / (cm["HIGH"]["HIGH"] + cm["HIGH"]["NO"]) if (cm["HIGH"]["HIGH"] + cm["HIGH"]["NO"]) > 0 else 0,
+                "HIGH_precision": cm["HIGH"]["HIGH"] / (cm["HIGH"]["HIGH"] + cm["LOW"]["HIGH"]) if (cm["HIGH"]["HIGH"] + cm["LOW"]["HIGH"]) > 0 else 0,
+                "HIGH_recall": cm["HIGH"]["HIGH"] / (cm["HIGH"]["HIGH"] + cm["HIGH"]["LOW"]) if (cm["HIGH"]["HIGH"] + cm["HIGH"]["LOW"]) > 0 else 0,
             }
         }
 

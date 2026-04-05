@@ -1,0 +1,8 @@
+{
+  "accuracy": 0.66,
+  "uncertain_accuracy": 1.0,
+  "certain_accuracy": 0.32,
+  "n_test_pairs": 100,
+  "uncertain_mean_proj": 2.142244815826416,
+  "certain_mean_proj": 0.16441847383975983
+}
