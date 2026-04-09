@@ -1,0 +1,1208 @@
+{
+  "unigrams": [
+    [
+      "skus",
+      0.5751953125
+    ],
+    [
+      "confidently",
+      0.5703125
+    ],
+    [
+      "retirement",
+      -0.53125
+    ],
+    [
+      "x",
+      -0.48828125
+    ],
+    [
+      "evaluating",
+      -0.4765625
+    ],
+    [
+      "yes",
+      0.4040223741531372
+    ],
+    [
+      "%. response",
+      -0.39453125
+    ],
+    [
+      "traction",
+      0.353515625
+    ],
+    [
+      ".40",
+      -0.35009765625
+    ],
+    [
+      "-positioned",
+      0.349609375
+    ],
+    [
+      "whipsawing",
+      0.3458251953125
+    ],
+    [
+      "-goods",
+      0.3330078125
+    ],
+    [
+      "housing",
+      -0.330078125
+    ],
+    [
+      "disentangle",
+      -0.3291015625
+    ],
+    [
+      "150",
+      -0.326171875
+    ],
+    [
+      "2027",
+      -0.3121744791666667
+    ],
+    [
+      "agri",
+      0.31201171875
+    ],
+    [
+      "-date",
+      0.296875
+    ],
+    [
+      "inconsistently",
+      -0.29248046875
+    ],
+    [
+      "50",
+      -0.28369140625
+    ],
+    [
+      "wave",
+      0.27734375
+    ],
+    [
+      "signaling",
+      0.276611328125
+    ],
+    [
+      ". examples",
+      0.25484761238098147
+    ],
+    [
+      "only",
+      -0.247899169921875
+    ],
+    [
+      "retailer",
+      0.2451171875
+    ],
+    [
+      "add",
+      0.2373046875
+    ],
+    [
+      "word",
+      0.236085205078125
+    ],
+    [
+      "sentiment",
+      -0.23592632607628877
+    ],
+    [
+      "'d",
+      -0.23291015625
+    ],
+    [
+      "softer",
+      0.232421875
+    ],
+    [
+      "sanction",
+      -0.232421875
+    ],
+    [
+      "reopens",
+      0.23095703125
+    ],
+    [
+      "without",
+      0.228515625
+    ],
+    [
+      "settles",
+      -0.228515625
+    ],
+    [
+      "normalize",
+      0.2275390625
+    ],
+    [
+      "standard",
+      -0.2265625
+    ],
+    [
+      "-month",
+      -0.22265625
+    ],
+    [
+      "inflects",
+      0.22113037109375
+    ],
+    [
+      "internal",
+      0.2177734375
+    ],
+    [
+      "nuclear",
+      -0.2119140625
+    ],
+    [
+      "sending",
+      -0.20703125
+    ],
+    [
+      "-sector",
+      -0.2060546875
+    ],
+    [
+      "-accelerates",
+      0.2054443359375
+    ],
+    [
+      "error",
+      -0.20458984375
+    ],
+    [
+      "): uncertainty",
+      0.2037832498550415
+    ],
+    [
+      "standards",
+      0.20343017578125
+    ],
+    [
+      "fx",
+      -0.202880859375
+    ],
+    [
+      "materializes",
+      0.201904296875
+    ],
+    [
+      "retail",
+      0.200927734375
+    ],
+    [
+      "borrowing",
+      -0.2001953125
+    ],
+    [
+      "pivots",
+      -0.19091796875
+    ],
+    [
+      "skilled",
+      0.1875
+    ],
+    [
+      "q3",
+      0.18597515752014604
+    ],
+    [
+      "gain",
+      -0.185546875
+    ],
+    [
+      "softens",
+      0.18505859375
+    ],
+    [
+      "-year",
+      -0.18505859375
+    ],
+    [
+      "spreads",
+      -0.1842041015625
+    ],
+    [
+      "deteriorating",
+      -0.18145751953125
+    ],
+    [
+      "$400",
+      -0.181396484375
+    ],
+    [
+      "16",
+      -0.180419921875
+    ],
+    [
+      "reverses",
+      0.18017578125
+    ],
+    [
+      "competitive",
+      0.1796875
+    ],
+    [
+      "lot",
+      0.17578125
+    ],
+    [
+      "optimization",
+      -0.173828125
+    ],
+    [
+      "outflows",
+      -0.171875
+    ],
+    [
+      "exit",
+      0.17138671875
+    ],
+    [
+      "refine",
+      -0.1689453125
+    ],
+    [
+      ". response",
+      -0.16703136934461896
+    ],
+    [
+      "cre",
+      -0.16552734375
+    ],
+    [
+      "headlines",
+      -0.1650390625
+    ],
+    [
+      "transitions",
+      -0.162841796875
+    ],
+    [
+      "allocations",
+      -0.162109375
+    ],
+    [
+      "protracted",
+      -0.16168212890625
+    ],
+    [
+      "prioritized",
+      -0.16162109375
+    ],
+    [
+      ",200",
+      -0.16143798828125
+    ],
+    [
+      "about",
+      0.16115483626943503
+    ],
+    [
+      "decade",
+      -0.1611328125
+    ],
+    [
+      "container",
+      -0.16015625
+    ],
+    [
+      "diverge",
+      0.1591796875
+    ],
+    [
+      "jurisdictions",
+      -0.158203125
+    ],
+    [
+      "-based",
+      -0.158203125
+    ],
+    [
+      "hit",
+      -0.158203125
+    ],
+    [
+      "churn",
+      0.158203125
+    ],
+    [
+      "-pandemic",
+      0.157958984375
+    ],
+    [
+      "knowable",
+      0.1571044921875
+    ],
+    [
+      "'revenue",
+      -0.15692772150039672
+    ],
+    [
+      "approvable",
+      0.155029296875
+    ],
+    [
+      "spot",
+      -0.15364227294921876
+    ],
+    [
+      ": uncertainty",
+      0.15260776959359645
+    ],
+    [
+      "existing",
+      -0.15234375
+    ],
+    [
+      "redirect",
+      -0.1513671875
+    ],
+    [
+      "north",
+      0.150634765625
+    ],
+    [
+      "chinese",
+      0.14990234375
+    ],
+    [
+      "noise",
+      -0.1474609375
+    ],
+    [
+      "45",
+      -0.1474609375
+    ],
+    [
+      "-dependence",
+      -0.14741007486979166
+    ],
+    [
+      "ev",
+      -0.14541015625
+    ],
+    [
+      "one",
+      0.1453799568646327
+    ],
+    [
+      "reprice",
+      -0.1443805694580078
+    ],
+    [
+      "pulled",
+      -0.14398193359375
+    ]
+  ],
+  "bigrams": [
+    [
+      "partners . response",
+      1.92578125
+    ],
+    [
+      "%. response :",
+      -1.84765625
+    ],
+    [
+      "reopens . response",
+      1.49658203125
+    ],
+    [
+      "assumption . response",
+      1.3857421875
+    ],
+    [
+      "path . response",
+      1.185791015625
+    ],
+    [
+      "sharply . response",
+      1.1641845703125
+    ],
+    [
+      "intervals . response",
+      1.1619873046875
+    ],
+    [
+      "-positioned ,",
+      1.056640625
+    ],
+    [
+      "dispersed . response",
+      0.9775390625
+    ],
+    [
+      "measures . response",
+      0.93896484375
+    ],
+    [
+      "compress . response",
+      0.9271240234375
+    ],
+    [
+      "bar . response",
+      0.908935546875
+    ],
+    [
+      "book . response",
+      0.89404296875
+    ],
+    [
+      "develops . response",
+      0.89178466796875
+    ],
+    [
+      "flat . response",
+      0.8876953125
+    ],
+    [
+      "cape . response",
+      0.8792724609375
+    ],
+    [
+      "customers . response",
+      0.850830078125
+    ],
+    [
+      "weeks . response",
+      0.8452949523925781
+    ],
+    [
+      "planning . response",
+      0.84521484375
+    ],
+    [
+      "region . response",
+      0.83642578125
+    ],
+    [
+      ": yes",
+      0.8129241991043091
+    ],
+    [
+      "lot of",
+      0.796875
+    ],
+    [
+      "bridge . response",
+      0.7890625
+    ],
+    [
+      "way . response",
+      0.7705078125
+    ],
+    [
+      "whether mortgage",
+      -0.7666015625
+    ],
+    [
+      "down . response",
+      0.760986328125
+    ],
+    [
+      "comfortable anchoring",
+      0.7578125
+    ],
+    [
+      "roles . response",
+      0.7462615966796875
+    ],
+    [
+      "whether housing",
+      -0.74462890625
+    ],
+    [
+      "skus are",
+      0.728515625
+    ],
+    [
+      "point . response",
+      0.7188313802083334
+    ],
+    [
+      "range . response",
+      0.691619873046875
+    ],
+    [
+      "expect . response",
+      0.685546875
+    ],
+    [
+      "outlook . response",
+      0.672607421875
+    ],
+    [
+      "spot settles",
+      -0.666015625
+    ],
+    [
+      "hold . response",
+      0.656494140625
+    ],
+    [
+      "ambiguity . response",
+      0.65087890625
+    ],
+    [
+      "all . response",
+      0.6494140625
+    ],
+    [
+      ": rerouting",
+      0.64794921875
+    ],
+    [
+      "established . response",
+      0.64111328125
+    ],
+    [
+      "rule . response",
+      0.6201171875
+    ],
+    [
+      "product . response",
+      -0.6161993503570556
+    ],
+    [
+      "premium skus",
+      0.61328125
+    ],
+    [
+      "of scenario",
+      0.6116943359375
+    ],
+    [
+      "case . response",
+      0.60626220703125
+    ],
+    [
+      "how treasury",
+      -0.60546875
+    ],
+    [
+      "30 percent",
+      -0.60107421875
+    ],
+    [
+      "capacity . response",
+      0.59423828125
+    ],
+    [
+      "sanction . response",
+      -0.58154296875
+    ],
+    [
+      "from 150",
+      -0.57421875
+    ],
+    [
+      "million . response",
+      0.5724283854166666
+    ],
+    [
+      "shifts . response",
+      0.5716552734375
+    ],
+    [
+      "posture . response",
+      0.57080078125
+    ],
+    [
+      "where spot",
+      -0.5673828125
+    ],
+    [
+      "traction . response",
+      0.566650390625
+    ],
+    [
+      "are . response",
+      0.56640625
+    ],
+    [
+      "'t confidently",
+      0.563873291015625
+    ],
+    [
+      "150 to",
+      -0.5625
+    ],
+    [
+      "bars . response",
+      0.55859375
+    ],
+    [
+      "year . response",
+      0.5469535191853842
+    ],
+    [
+      "clarity . response",
+      0.54595947265625
+    ],
+    [
+      "way ,",
+      0.5443115234375
+    ],
+    [
+      "yes or",
+      0.544127082824707
+    ],
+    [
+      "add anywhere",
+      0.5380859375
+    ],
+    [
+      "predict . response",
+      0.5380859375
+    ],
+    [
+      "evaluating data",
+      -0.537841796875
+    ],
+    [
+      "take . response",
+      0.53515625
+    ],
+    [
+      "limited . response",
+      0.53173828125
+    ],
+    [
+      "call . response",
+      0.5219065348307291
+    ],
+    [
+      "develop . response",
+      0.5205078125
+    ],
+    [
+      "with . response",
+      0.5205078125
+    ],
+    [
+      "well -positioned",
+      0.51953125
+    ],
+    [
+      "wide . response",
+      0.5186767578125
+    ],
+    [
+      "now . response",
+      0.516845703125
+    ],
+    [
+      "settles . response",
+      -0.5159912109375
+    ],
+    [
+      "'re evaluating",
+      -0.5146484375
+    ],
+    [
+      "number . response",
+      0.51171875
+    ],
+    [
+      "are the",
+      -0.509765625
+    ],
+    [
+      "the x",
+      -0.4991455078125
+    ],
+    [
+      "pressure ,",
+      0.49755859375
+    ],
+    [
+      "once ,",
+      -0.4947998046875
+    ],
+    [
+      "q1 data",
+      -0.491119384765625
+    ],
+    [
+      "confidently call",
+      0.49072265625
+    ],
+    [
+      "yen ,",
+      0.48828125
+    ],
+    [
+      "timeline . response",
+      0.486083984375
+    ],
+    [
+      "scenarios . response",
+      0.4814453125
+    ],
+    [
+      "'t forecast",
+      -0.4765625
+    ],
+    [
+      "whipsawing between",
+      0.4747314453125
+    ],
+    [
+      "forward . response",
+      0.4736328125
+    ],
+    [
+      "language . response",
+      0.47314453125
+    ],
+    [
+      "yes phrase",
+      0.47285099744796755
+    ],
+    [
+      "standard . response",
+      0.470703125
+    ],
+    [
+      "the retirement",
+      -0.469482421875
+    ],
+    [
+      "negotiated . response",
+      0.46790504455566406
+    ],
+    [
+      "pulled between",
+      -0.4677734375
+    ],
+    [
+      "without a",
+      0.4638671875
+    ],
+    [
+      "exit . response",
+      0.4638671875
+    ],
+    [
+      "rerouting around",
+      0.4619140625
+    ],
+    [
+      "today . response",
+      0.455078125
+    ],
+    [
+      ": hiring",
+      -0.45501708984375
+    ]
+  ],
+  "trigrams": [
+    [
+      "foundry partners . response",
+      2.1689453125
+    ],
+    [
+      "2 %. response :",
+      -1.84130859375
+    ],
+    [
+      "lending reopens . response",
+      1.52099609375
+    ],
+    [
+      "partners . response :",
+      1.498046875
+    ],
+    [
+      "cost assumption . response",
+      1.3837432861328125
+    ],
+    [
+      "yet . response :",
+      -1.375732421875
+    ],
+    [
+      "generalize . response :",
+      -1.32861328125
+    ],
+    [
+      "next . response :",
+      -1.306884765625
+    ],
+    [
+      "confidence intervals . response",
+      1.2606201171875
+    ],
+    [
+      "more sharply . response",
+      1.255615234375
+    ],
+    [
+      "well -positioned ,",
+      1.2265625
+    ],
+    [
+      "rate path . response",
+      1.146240234375
+    ],
+    [
+      ": yes phrase",
+      1.1298857569694518
+    ],
+    [
+      "2026 . response :",
+      -1.124755859375
+    ],
+    [
+      "flux . response :",
+      -1.09912109375
+    ],
+    [
+      "ordering . response :",
+      -1.078125
+    ],
+    [
+      "-positioned , but",
+      1.07037353515625
+    ],
+    [
+      "harvest develops . response",
+      1.06756591796875
+    ],
+    [
+      "essentially flat . response",
+      1.0517578125
+    ],
+    [
+      "settles . response :",
+      -1.0159912109375
+    ],
+    [
+      "the cape . response",
+      0.9842529296875
+    ],
+    [
+      "spot settles . response",
+      -0.9534912109375
+    ],
+    [
+      "assumption . response :",
+      0.9404296875
+    ],
+    [
+      "quite dispersed . response",
+      0.936767578125
+    ],
+    [
+      "signed . response :",
+      -0.933624267578125
+    ],
+    [
+      "sanction . response :",
+      -0.92529296875
+    ],
+    [
+      "regulatory clarity . response",
+      0.92041015625
+    ],
+    [
+      "demand sharply . response",
+      0.91650390625
+    ],
+    [
+      "not comfortable anchoring",
+      0.9072265625
+    ],
+    [
+      "confidence measures . response",
+      0.90625
+    ],
+    [
+      "reopens . response :",
+      0.87158203125
+    ],
+    [
+      "costs compress . response",
+      0.8677978515625
+    ],
+    [
+      "burden . response :",
+      -0.86083984375
+    ],
+    [
+      "finalized . response :",
+      -0.8583984375
+    ],
+    [
+      "either way . response",
+      0.85205078125
+    ],
+    [
+      "-income book . response",
+      0.85205078125
+    ],
+    [
+      "pin down . response",
+      0.842529296875
+    ],
+    [
+      "build plan . response",
+      0.84033203125
+    ],
+    [
+      "closes . response :",
+      -0.83740234375
+    ],
+    [
+      "like . response :",
+      -0.82470703125
+    ],
+    [
+      "whether mortgage demand",
+      -0.8212890625
+    ],
+    [
+      "that region . response",
+      0.8150634765625
+    ],
+    [
+      "from 150 to",
+      -0.810546875
+    ],
+    [
+      "phrase : rerouting",
+      0.81005859375
+    ],
+    [
+      ": whether housing",
+      -0.8018798828125
+    ],
+    [
+      "skus are holding",
+      0.8017578125
+    ],
+    [
+      "where spot settles",
+      -0.7958984375
+    ],
+    [
+      "should hold . response",
+      0.795166015625
+    ],
+    [
+      "word : yes",
+      0.7898228454589844
+    ],
+    [
+      "lot of scenario",
+      0.7874755859375
+    ],
+    [
+      "revenue bridge . response",
+      0.78192138671875
+    ],
+    [
+      "bridge . response :",
+      0.77557373046875
+    ],
+    [
+      "decade . response :",
+      -0.7744140625
+    ],
+    [
+      "premium skus are",
+      0.7666015625
+    ],
+    [
+      "anywhere from 150",
+      -0.765625
+    ],
+    [
+      "to customers . response",
+      0.762451171875
+    ],
+    [
+      "error bar . response",
+      0.761474609375
+    ],
+    [
+      "difficult . response :",
+      -0.7587890625
+    ],
+    [
+      "dispersed . response :",
+      -0.7568359375
+    ],
+    [
+      ": whether mortgage",
+      -0.75347900390625
+    ],
+    [
+      "cost planning . response",
+      0.75341796875
+    ],
+    [
+      "twelve months . response",
+      0.74560546875
+    ],
+    [
+      "cohorts . response :",
+      -0.7421875
+    ],
+    [
+      "path . response :",
+      0.734619140625
+    ],
+    [
+      "interval than we",
+      -0.7294921875
+    ],
+    [
+      "that ambiguity . response",
+      0.72900390625
+    ],
+    [
+      "sharply . response :",
+      0.7218017578125
+    ],
+    [
+      "settle . response :",
+      -0.7203369140625
+    ],
+    [
+      "add anywhere from",
+      0.7158203125
+    ],
+    [
+      "volume scenarios . response",
+      0.708984375
+    ],
+    [
+      "this point . response",
+      0.7065836588541666
+    ],
+    [
+      ": yes or",
+      0.7048959732055664
+    ],
+    [
+      "twenty weeks . response",
+      0.7046699523925781
+    ],
+    [
+      "and well -positioned",
+      0.7041015625
+    ],
+    [
+      ", and slowing",
+      -0.69921875
+    ],
+    [
+      "wide range . response",
+      0.6950912475585938
+    ],
+    [
+      "precision . response :",
+      -0.6938069661458334
+    ],
+    [
+      "engineering roles . response",
+      0.6862030029296875
+    ],
+    [
+      "whether housing starts",
+      -0.6822357177734375
+    ],
+    [
+      "revenue outlook . response",
+      0.67877197265625
+    ],
+    [
+      "phrase : hiring",
+      -0.67474365234375
+    ],
+    [
+      "inflects in 2025",
+      0.67132568359375
+    ],
+    [
+      "-end . response :",
+      -0.66845703125
+    ],
+    [
+      "whether the fed",
+      -0.6672752380371094
+    ],
+    [
+      "whether housing volumes",
+      -0.6669921875
+    ],
+    [
+      "than we 'd",
+      -0.66064453125
+    ],
+    [
+      "while premium skus",
+      0.657470703125
+    ],
+    [
+      ", and scope",
+      0.649658203125
+    ],
+    [
+      "customers . response :",
+      -0.649169921875
+    ],
+    [
+      "cuts once ,",
+      -0.6491203308105469
+    ],
+    [
+      "single forecast . response",
+      0.647705078125
+    ],
+    [
+      "a lot of",
+      0.6474609375
+    ],
+    [
+      "yen , and",
+      0.6435546875
+    ],
+    [
+      "to predict . response",
+      0.64208984375
+    ],
+    [
+      "the year . response",
+      0.64178466796875
+    ],
+    [
+      "currently expect . response",
+      0.64111328125
+    ],
+    [
+      "on a single",
+      0.6376953125
+    ],
+    [
+      "can 't confidently",
+      0.636627197265625
+    ],
+    [
+      "new product . response",
+      -0.6358200109004974
+    ],
+    [
+      "of scenario work",
+      0.63427734375
+    ]
+  ]
+}
