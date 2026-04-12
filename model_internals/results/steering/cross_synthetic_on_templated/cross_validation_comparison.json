@@ -1,0 +1,19 @@
+{
+  "direction_source": "script_outputs/steering/synthetic_highlow_alpha10/steering_direction.npy",
+  "target_dataset": "templated",
+  "projection_baseline": {
+    "accuracy": 1.0,
+    "uncertain_accuracy": 1.0,
+    "certain_accuracy": 1.0,
+    "uncertain_mean_proj": 1.4108418226242065,
+    "certain_mean_proj": -0.6338834166526794,
+    "n_test_pairs": 99
+  },
+  "massmean_refit_100": {
+    "accuracy": 1.0,
+    "uncertain_accuracy": 1.0,
+    "certain_accuracy": 1.0,
+    "n_test_pairs": 99,
+    "n_refit_pairs": 100
+  }
+}
