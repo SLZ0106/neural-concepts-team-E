@@ -1,0 +1,624 @@
+[
+  {
+    "id": "1",
+    "ticker": "AAPL",
+    "company": "Apple Inc.",
+    "sentence": "For the June quarter, currently, we are not able to precisely estimate the impact of tariffs as we are uncertain of potential future actions prior to the end of the quarter.",
+    "full_context": "Now let me walk you through the impacts of tariffs in the March quarter and give you some color on what we expect for the June quarter. For the March quarter, we had a limited impact from tariffs as we were able to optimize our supply chain and inventory. For the June quarter, currently, we are not able to precisely estimate the impact of tariffs as we are uncertain of potential future actions prior to the end of the quarter.\n",
+    "call_time": "May 01, 2025 8:45 PM ET",
+    "financial_context": {
+      "sector": "Technology",
+      "return_3m": -9.9,
+      "vol_30d": 78.9,
+      "beta": 1.11,
+      "market_cap_b": 3971.8
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "2",
+    "ticker": "LX",
+    "company": "LexinFintech Holdings Ltd.",
+    "sentence": "Given the ongoing macroeconomic uncertainties and lower visibility, we are not providing a full year financial guidance for 2026 at this point.",
+    "full_context": "Okay. I will take on the second question regarding the financial guidance. The fourth quarter of 2025 was indeed one of the most challenging periods absorbing the concentrated impact of several factors. This include revenue compression from pricing adjustments, the deliberate scale down of loan volume in our consumer finance business, a shift in the pace of revenue recognition driven by changes in our business mix due to the tech empowerment business volume growth, short-term uptick in our credit risk and the seasonal impact on our operational expenses.\nFor the first quarter of this year, as I stated earlier, we expect the loan volume of originations to be at a similar level as our fourth quarter. Given the ongoing macroeconomic uncertainties and lower visibility, we are not providing a full year financial guidance for 2026 at this point. However, I would like to share a few variables that may impact our financial performance.",
+    "call_time": "March 19, 2026 7:00 AM EDT",
+    "financial_context": {
+      "sector": "Financial Services",
+      "return_3m": -21.5,
+      "vol_30d": 35.0,
+      "beta": 0.85,
+      "market_cap_b": 0.4
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "3",
+    "ticker": "ECELF",
+    "company": "Eurocell plc",
+    "sentence": "So to give a sense of scale, based on where prices have got to at the end of last week, that surcharge on PVC to cover resin transport and electricity would have been in the order of 3%. But as we said in the presentation, where this is going is too difficult to say right at this moment.",
+    "full_context": "In terms of the impact of the Middle East and what that could mean for our cost base, as you know, we've seen circumstances like this before, we used a surcharge mechanism to pass increased costs through to our customers on a monthly basis and a surcharge because it can be put on, but equally, it can be taken off so that we're fair to our customers. So to give a sense of scale, based on where prices have got to at the end of last week, that surcharge on PVC to cover resin transport and electricity would have been in the order of 3%. But as we said in the presentation, where this is going is too difficult to say right at this moment.",
+    "call_time": "March 19, 2026 5:00 AM EDT",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": -10.4,
+      "vol_30d": 36.2,
+      "beta": 0.64,
+      "market_cap_b": 0.2
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "4",
+    "ticker": "AAPL",
+    "company": "Apple Inc.",
+    "sentence": "What the result of that was, was that we exited the December quarter with very lean channel inventory due to that staggering level of demand. And based on that, we're in a supply chase mode to meet the very high levels of customer demand. We are currently constrained. And at this point, it's difficult to predict when supply and demand will balance.",
+    "full_context": "Yes, Amit, it's Tim. Let me back up a bit and talk about the constraints that Kevan referred to in his remarks and memory and try to get both of these out at once. First of all, we were thrilled with the customer response on the latest iPhone lineup. It exceeded our expectations to say the least. And iPhone grew 23%. What the result of that was, was that we exited the December quarter with very lean channel inventory due to that staggering level of demand. And based on that, we're in a supply chase mode to meet the very high levels of customer demand. We are currently constrained. And at this point, it's difficult to predict when supply and demand will balance.",
+    "call_time": "January 29, 2026 5:00 PM EST",
+    "financial_context": {
+      "sector": "Technology",
+      "return_3m": -5.1,
+      "vol_30d": 19.2,
+      "beta": 1.11,
+      "market_cap_b": 3971.8
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "5",
+    "ticker": "M",
+    "company": "Macy's, Inc.",
+    "sentence": "As we look ahead, there are many macroeconomic and geopolitical factors that could influence discretionary spend. While we remain confident in our strategy and believe we are well positioned to build on our recent momentum, we are taking a prudent approach to guidance.",
+    "full_context": "Thus far, our customers have remained resilient, and we are pleased with our quarter-to-date results. Our customers across nameplates skew more towards the middle and upper income tiers. Performance remains stronger in these cohorts, while the lower tiers remain more choiceful. As we look ahead, there are many macroeconomic and geopolitical factors that could influence discretionary spend. While we remain confident in our strategy and believe we are well positioned to build on our recent momentum, we are taking a prudent approach to guidance.",
+    "call_time": "March 18, 2026 8:00 AM EDT",
+    "financial_context": {
+      "sector": "Consumer Cyclical",
+      "return_3m": -26.7,
+      "vol_30d": 42.6,
+      "beta": 1.52,
+      "market_cap_b": 5.2
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "6",
+    "ticker": "AMVOY",
+    "company": "Aumovio SE",
+    "sentence": "We have not taken into account anything from the Middle East conflict into our guidance. But I mean, if there is, you can think about those scenarios also affecting on energy prices but then inflation going up, and that may have an impact on interest rates. But overall, if there's negative implications for the overall macroeconomic environment, that obviously would also have an impact.",
+    "full_context": "We have not taken into account anything from the Middle East conflict into our guidance. But I mean, if there is, you can think about those scenarios also affecting on energy prices but then inflation going up, and that may have an impact on interest rates, which is not a big topic for us given our strong balance sheet. But overall, if there's negative implications for the overall macroeconomic environment, that obviously would also have an impact. But we have not specifically taken that into account in our guidance.",
+    "call_time": "March 18, 2026 9:00 AM EDT",
+    "financial_context": {
+      "sector": "",
+      "return_3m": -14.8,
+      "vol_30d": 98.7,
+      "beta": null,
+      "market_cap_b": null
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "7",
+    "ticker": "GIS",
+    "company": "General Mills, Inc.",
+    "sentence": "Historically, it has been really hard for us to predict shipment timing and retailer inventory in Pet. So we just think that the best planning assumption is to assume that it's going to be neutral in Q4.",
+    "full_context": "Yes. Thank you for the question. We definitely have seen some quarter-to-quarter fluctuations as it relates to retailer inventories. I would say from a NAR perspective, we typically see our net sales and our retail sales trends track relatively consistently. They were a little bit off in Q3, and we think that will revert back in Q4. It's Pet where we see the more significant gap. That's about 3 points. And as we look to Q4, our current guidance does not really contemplate a headwind or a tailwind from Pet in Q4. Historically, it has been really hard for us to predict shipment timing and retailer inventory in Pet. So we just think that the best planning assumption is to assume that it's going to be neutral in Q4.",
+    "call_time": "March 18, 2026 9:00 AM EDT",
+    "financial_context": {
+      "sector": "Consumer Defensive",
+      "return_3m": -19.3,
+      "vol_30d": 32.3,
+      "beta": 0.0,
+      "market_cap_b": 18.9
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "8",
+    "ticker": "WB",
+    "company": "Weibo Corporation",
+    "sentence": "So still there are some of the uncertainties. So approximately, the handset industry is going to be experiencing a flat performance of this year.",
+    "full_context": "Now because of the memory price is increasing. So we've been seeing a lot of the selling price increase for some low to medium-end models of the handset. But still, on our platform for most of the advertisers of the mobile phone makers, most of them are actually spending money to do advertisements on the medium to high-end models. So still there are some of the uncertainties. So approximately, the handset industry is going to be experiencing a flat performance of this year.",
+    "call_time": "March 18, 2026 7:00 AM EDT",
+    "financial_context": {
+      "sector": "Communication Services",
+      "return_3m": -4.5,
+      "vol_30d": 17.9,
+      "beta": 0.22,
+      "market_cap_b": 2.2
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "9",
+    "ticker": "JMSFF",
+    "company": "James Fisher and Sons plc",
+    "sentence": "At this stage, it is too early to estimate the business impact of the conflict, but we are monitoring developments.",
+    "full_context": "Before we move on, I would like to address the ongoing conflict in the Middle East. James Fisher has operations in the region and our #1 priority is the safety of our people. To that effect, we have mobilized our emergency response team since March 1, working closely with customers to manage this situation responsibly. At this stage, it is too early to estimate the business impact of the conflict, but we are monitoring developments.",
+    "call_time": "March 12, 2026 12:00 PM EDT",
+    "financial_context": null,
+    "subset": "examples"
+  },
+  {
+    "id": "10",
+    "ticker": "HYPOF",
+    "company": "Hypoport AG",
+    "sentence": "It's difficult to with this level of uncertainty right now to give a certain prediction of how the year will go forward. This depends a lot on how long this crazy crisis in the Middle East lasts.",
+    "full_context": "And so every other -- to model every other, how to say, scenario so whether this Iranian conflict is escalating or just keeps going without any decisive decision is tricky to model it right now because of the high level of uncertainty in it. It's difficult to with this level of uncertainty right now to give a certain prediction of how the year will go forward. This depends a lot on how long this crazy crisis in the Middle East lasts. So I hope, I need to say, that all parties involved come to a fast conclusion that it doesn't work out as planned and that face-saving rollback is the best option.",
+    "call_time": "March 16, 2026 12:00 PM EDT",
+    "financial_context": {
+      "sector": "Financial Services",
+      "return_3m": 0.0,
+      "vol_30d": 0.0,
+      "beta": 2.29,
+      "market_cap_b": 1.4
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "11",
+    "ticker": "BTM",
+    "company": "Bitcoin Depot Inc.",
+    "sentence": "For the core BTM business, the revenue decline, obviously, is a big range that David gave, and that's largely because we don't know exactly what regulatory changes will happen this year. We know states will pass additional measures that will limit the economics in those states, but we don't know how many states or exactly what bills will pass.",
+    "full_context": "Mike, this is Scott. For the core BTM business, I mean the revenue decline, obviously, is a big range that David gave, and that's largely because we don't know exactly what regulatory changes will happen this year, right? We know states will pass additional measures that will limit the economics in those states, but we don't know how many states or exactly what bills will pass. So that's our best estimate at this point in terms of what the revenue decline could be.",
+    "call_time": "March 16, 2026 10:00 AM EDT",
+    "financial_context": {
+      "sector": "Financial Services",
+      "return_3m": -52.6,
+      "vol_30d": 109.4,
+      "beta": 1.25,
+      "market_cap_b": 0.1
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "12",
+    "ticker": "DMCOF",
+    "company": "d'Amico International Shipping S.A.",
+    "sentence": "It is very difficult to read the situation because we know how erratic these announcements from the White House are.",
+    "full_context": "So starting with the Iran war, as I think I mentioned, it is very difficult to read the situation because we know how erratic these announcements from the White House are. There is, of course, a very strong incentive for the U.S. to end this war as soon as possible because it is detrimental to the world economy, but also to their economy despite being an important oil producer.",
+    "call_time": "March 12, 2026 9:00 AM EDT",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 47.3,
+      "vol_30d": 58.2,
+      "beta": 0.56,
+      "market_cap_b": 1.1
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "13",
+    "ticker": "NEPH",
+    "company": "Nephros, Inc.",
+    "sentence": "Since April 2025, we have been subject to a 15% tariff on all goods imported from Italy which was reduced to 10% as of February 22, 2026. While this reduction provides some near-term relief, U.S. tariff policy remains unpredictable, creating uncertainty around potential future margin impacts.",
+    "full_context": "Although, we achieved higher margins during the first half of fiscal 2025, those margins eroded somewhat during the second half of the year, primarily due to the impact of tariffs. Since April 2025, we have been subject to a 15% tariff on all goods imported from Italy which was reduced to 10% as of February 22, 2026. While this reduction provides some near-term relief, U.S. tariff policy remains unpredictable, creating uncertainty around potential future margin impacts.",
+    "call_time": "March 12, 2026 4:30 PM EDT",
+    "financial_context": {
+      "sector": "Healthcare",
+      "return_3m": -21.7,
+      "vol_30d": 70.6,
+      "beta": 1.56,
+      "market_cap_b": 0.0
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "14",
+    "ticker": "ALEUY",
+    "company": "Allegro.eu S.A.",
+    "sentence": "The short answer is that we haven't tried to make any assumptions regarding what's going to happen in the Middle East. I think it would be a false game to do that. It's obviously a very serious situation with the potential to cause issues. But for the time being, we see absolutely zero impact in trading.",
+    "full_context": "So the short answer is that we haven't tried to make any assumptions regarding what's going to happen in the Middle East. I think it would be a false game to do that. It's obviously a very serious situation with the potential to cause issues. But for the time being, we see absolutely zero impact in trading. And we need to wait and see.",
+    "call_time": "March 12, 2026 5:00 AM EDT",
+    "financial_context": null,
+    "subset": "examples"
+  },
+  {
+    "id": "15",
+    "ticker": "TSMCF",
+    "company": "Tesmec S.p.A.",
+    "sentence": "Honestly speaking, as of today, we are keeping on monitoring the situation, even if, of course, we have not such a clear idea of how much it will impact the projects and in general, our year in the area.",
+    "full_context": "Thank you, Enrico. So I will start with the geopolitical environment. As said, it's been a couple of weeks quite intense in monitoring the new events. Honestly speaking, as of today, we are keeping on monitoring the situation, even if, of course, we have not such a clear idea of how much it will impact the projects and in general, our year in the area. As of today, we have made an analysis that for 2025, the impact of the Middle East area on Tesmec revenues was around 14% and the same area in terms of perspective and in terms of backlog is accounting the 5% of the total backlog of the group.",
+    "call_time": "March 11, 2026 9:30 AM EDT",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 19.1,
+      "vol_30d": 79.5,
+      "beta": 0.8,
+      "market_cap_b": 0.1
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "16",
+    "ticker": "PANL",
+    "company": "Pangaea Logistics Solutions Ltd.",
+    "sentence": "There is expected to be a pretty significant impact from reduction in gas exports out of the AG that potentially could be substituted with coal. And obviously, coal is being moved on dry bulk vessels and where that coal will be sourced from is still, I think, very much an unknown.",
+    "full_context": "But there is a there is expected to be a pretty significant impact from reduction in gas exports out of the AG that potentially could be substituted with coal. And obviously, coal is being moved on both vessels, dry bulk vessels and where that coal will be sourced from is still a little, I think, very much an unknown and in the app potentially could be long-haul business that will positively affect the ton-mile demand for the dry bulk market.",
+    "call_time": "March 11, 2026 8:00 AM EDT",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 18.7,
+      "vol_30d": 42.3,
+      "beta": 0.87,
+      "market_cap_b": 0.5
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "17",
+    "ticker": "UNPRF",
+    "company": "Uniper SE",
+    "sentence": "We do not know if this comes back or not. And we have the uncertainties around the current geopolitical situation, which might go into the first or into the other direction. So from that point of view, I would call it a fair view, which we share with you today, which, of course, does embed some risk and opportunities.",
+    "full_context": "Last year, we had the outage of the nuclear plant in Oskarshamn. We had relatively low water levels, especially also in Germany. We do not know if this comes back or not. And we have the uncertainties around the current geopolitical situation, which might go into the first or into the other direction. So from that point of view, I would call it, it's a fair view, which we share with you today, which, of course, does embed some risk and opportunities.",
+    "call_time": "March 11, 2026 3:30 AM EDT",
+    "financial_context": {
+      "sector": "Utilities",
+      "return_3m": 1.4,
+      "vol_30d": 3.6,
+      "beta": 0.53,
+      "market_cap_b": 18.9
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "18",
+    "ticker": "ASUUY",
+    "company": "ASUSTeK Computer Inc.",
+    "sentence": "The actual impact on the overall PC market still needs some time to resolve. The final market competition outcome is hard to predict. We just need more time.",
+    "full_context": "So I think there are a lot of ongoing discussions about how we can -- or how they can compete with the Neo. But of course, the actual impact on the overall PC market still needs some time to resolve. Is the price of that product entering the mainstream sufficient for incentive, that really remains something that remains to be seen. Really, I think this is something that I can't state for certain for now. The final market competition outcome is hard to predict. We just need more time.",
+    "call_time": "March 10, 2026 4:00 AM EDT",
+    "financial_context": {
+      "sector": "Technology",
+      "return_3m": -27.3,
+      "vol_30d": 0.0,
+      "beta": 0.54,
+      "market_cap_b": 11.9
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "19",
+    "ticker": "OKLO",
+    "company": "Oklo Inc.",
+    "sentence": "We're definitely seeing some increase in memory for us, we factored this into the modeling notes and the gross margin and the 100 basis points of free cash flow leverage that we started with in the notes.",
+    "full_context": "Yes. We're definitely seeing some increase in memory for us. It's more on the storage side, more on the NAND side than on the memory side. I think we've operated through different supply chain disruptions. We have a very kind of nimble supply chain team that's really well prepared to kind of handle and navigate the current dynamics. We kind of went through something similar in 2022. And I think most importantly, we were able to meet all customer demand while driving free cash flow leverage, and we feel like we're in a similar position now we factored this into the -- in the modeling notes and the gross margin and the 100 basis points of free cash flow leverage that we started with in the notes.",
+    "call_time": "March 17, 2026 5:00 PM EDT",
+    "financial_context": {
+      "sector": "Utilities",
+      "return_3m": -21.4,
+      "vol_30d": 64.3,
+      "beta": 0.94,
+      "market_cap_b": 11.6
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "20",
+    "ticker": "MG",
+    "company": "Mistras Group, Inc.",
+    "sentence": "Our customers are still evaluating what it means to them. Obviously, if the oil price as a result of these events, if oil price goes up, the upstream activities will be intensified within the U.S., and it will positively impact us. But at this time, it's too premature to say.",
+    "full_context": "We have not seen a material direct impact. Our footprint in that region is very limited. But of course, there's a lot of uncertainty, and we continue to monitor geopolitical developments. Our customers are still evaluating what it means to them. Obviously, as you well know, if the oil price as a result of these events, if oil price goes up, the upstream activities will be intensified within the U.S., and it will positively impact us. But at this time, it's too premature to say.",
+    "call_time": "March 5, 2026 9:00 AM EST",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 36.0,
+      "vol_30d": 32.1,
+      "beta": 0.75,
+      "market_cap_b": 0.6
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "21",
+    "ticker": "NC",
+    "company": "NACCO Industries, Inc.",
+    "sentence": "I think we've mentioned before that petroleum is represented in the basket of indices and who knows how that's going to play out with what's going on in the Middle East, but very difficult to forecast that at this time. Obviously, when we developed our forecast, we didn't know that this Middle East situation was going to develop.",
+    "full_context": "It's really just going to depend on how the indices play out over time. I think we've mentioned before that petroleum is represented in the basket of indices and who knows how that's going to play out with what's going on in the Middle East, but very difficult to forecast that at this time. Obviously, when we developed our forecast, we didn't know that this Middle East situation was going to develop.",
+    "call_time": "March 5, 2026 8:30 AM EST",
+    "financial_context": {
+      "sector": "Energy",
+      "return_3m": 20.9,
+      "vol_30d": 39.8,
+      "beta": 0.5,
+      "market_cap_b": 0.4
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "22",
+    "ticker": "ACNFF",
+    "company": "Acomo N.V.",
+    "sentence": "The impact on the global economy and our business cannot be predicted. However, our people and our business model are positioned to deal with this in the most effective way as we have proven in previous years.",
+    "full_context": "The market dynamic of a positive trend towards plant-based diets is expected to continue, providing a strong fundament for our business. I started this call by referring to the latest geopolitical development. The impact on the global economy and our business cannot be predicted. However, our people and our business model are positioned to deal with this in the most effective way as we have proven in previous years.",
+    "call_time": "March 5, 2026 9:00 AM EST",
+    "financial_context": {
+      "sector": "Consumer Defensive",
+      "return_3m": 14.7,
+      "vol_30d": 34.0,
+      "beta": 0.28,
+      "market_cap_b": 0.9
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "23",
+    "ticker": "WEYS",
+    "company": "Weyco Group, Inc.",
+    "sentence": "The uncertainty around these tariffs make it difficult, but we're learning to live with that uncertainty, and we've set up a much more flexible supply chain for the future.",
+    "full_context": "So the uncertainty around these tariffs make it difficult, but we're learning to live with that uncertainty, and we've set up a much more flexible supply chain for the future.",
+    "call_time": "March 4, 2026 11:00 AM EST",
+    "financial_context": {
+      "sector": "Consumer Cyclical",
+      "return_3m": 5.4,
+      "vol_30d": 30.8,
+      "beta": 0.86,
+      "market_cap_b": 0.3
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "24",
+    "ticker": "TTNDY",
+    "company": "Techtronic Industries Company Limited",
+    "sentence": "There's clearly not clarity. We are in a fluid situation that changes sometimes daily, sometimes weekly, sometimes monthly. And because of that, we cannot give you any distinct clarity on what that's going to look like for the rest of this year until we have some final clarity ourselves on what that means for ourselves and our distribution partners.",
+    "full_context": "Now, you say what's next? What does it mean with all the rulings? There's clearly not clarity. We are in a fluid situation that changes sometimes daily, sometimes weekly, sometimes monthly. And because of that, we cannot give you any distinct clarity on what that's going to look like for the rest of this year until we have some final clarity ourselves on what that means for ourselves and our distribution partners.",
+    "call_time": "March 3, 2026 9:30 PM EST",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 31.5,
+      "vol_30d": 24.5,
+      "beta": 1.77,
+      "market_cap_b": 26.1
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "25",
+    "ticker": "IHHHF",
+    "company": "IHH Healthcare Berhad",
+    "sentence": "But I mean, to be very honest, we don't -- these are early days. We don't know how the U.S.-Iran war is going to play out. But I think at the moment, probably not too much.",
+    "full_context": "Well, we don't think so. If you look now our Turkish operations other than the big domestic sector that they have in the high A+ segment, the bulk of their foreign patients come from Europe, from Eastern Europe, from Central Asia predominantly. And I think that's relatively unaffected. But I mean, to be very honest, we don't -- these are early days. We don't know how the U.S.-Iran war is going to play out. But I think at the moment, probably not too much.",
+    "call_time": "March 1, 2026 7:00 PM EST",
+    "financial_context": {
+      "sector": "Healthcare",
+      "return_3m": 0.0,
+      "vol_30d": 0.0,
+      "beta": 0.17,
+      "market_cap_b": 19.1
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "26",
+    "ticker": "PGUCY",
+    "company": "Prosegur Cash, S.A.",
+    "sentence": "I think the global business, we are going to see a growth of mid-single digits in terms of sales and some profitability enhancement above that, with Latin America improving mainly because of Argentina and the restructuring program, Europe growth beating the 3% we saw in Q4, and Asia still showing very strong growth.",
+    "full_context": "How do we see 2026 by region, I think the global business, we are going to see a growth of mid-single digits in terms of sales and some profitability enhancement above that. So I think that's the global picture. If we go by region, I think Latin America is going to improve, mainly because of Argentina. We are positive on that one because of the restructuring program. So we are going to see some earnings enhancing there. Then Europe, we are going to see some growth in the business. I think the 3% growth, I think, is going to be beaten this year. It's going to be a bit higher and also some earnings enhancing there. And in Asia, still a small region, but we are very positive on it.",
+    "call_time": "February 27, 2026 5:30 AM EST",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 0.0,
+      "vol_30d": 0.0,
+      "beta": 0.47,
+      "market_cap_b": 1.2
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "27",
+    "ticker": "ANIOY",
+    "company": "Acerinox, S.A.",
+    "sentence": "And if there is a word that can define the market situation is uncertainty. Everybody is speaking about uncertainty. So how can you make a budget if you don't know if you're going to have tariffs in your markets or tariff in the export markets?",
+    "full_context": "As our Chairman said, 2025 has been a challenging year. And if there is a word that can define the market situation is uncertainty. Everybody is speaking about uncertainty. So how can you make a budget if you don't know if you're going to have tariffs in your markets or tariff in the export markets? And how can you define what's going to be your competitors? If you don't know anything about tariffs and you have all these geopolitical tensions.",
+    "call_time": "February 27, 2026 4:00 AM EST",
+    "financial_context": {
+      "sector": "Basic Materials",
+      "return_3m": 14.6,
+      "vol_30d": 30.1,
+      "beta": 1.02,
+      "market_cap_b": 4.2
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "28",
+    "ticker": "BASFY",
+    "company": "BASF SE",
+    "sentence": "For the tariffs, the most recent developments, of course, have increased uncertainties. And we still don't have a final evaluation of the situation and how high the effects would be and what to do.",
+    "full_context": "Well, for the tariffs, the most recent developments, of course, have increased uncertainties. And we still don't have a final evaluation of the situation and how high the effects would be and what to do. I think last year, we already made it very clear that it is still valid that the direct effects of tariffs to us and our subsidiaries are relatively low, because we have a very strong local-for-local business, 80% to 90%, and that is still valid. And what concerns us most is the general uncertainty caused by these short-term tariff changes taking place, and that also affects our customer industries or mainly them, and that's still the state of the situation.",
+    "call_time": "February 27, 2026 4:30 AM EST",
+    "financial_context": {
+      "sector": "Basic Materials",
+      "return_3m": 13.7,
+      "vol_30d": 30.5,
+      "beta": 0.73,
+      "market_cap_b": 55.1
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "29",
+    "ticker": "EENNF",
+    "company": "ENAV S.p.A.",
+    "sentence": "These results are the best basis for the next steps in our path to 2029, but the external context is currently very difficult to predict. We are facing an extremely volatile environment with recent turmoil in the Middle East, generating potential consequences that are difficult to forecast and are still evolving on a daily basis.",
+    "full_context": "Let's now start on full year 2025 results. 2025 results show our ability to execute and be resilient. We have fully met the guidance upgraded as of last July and even outperformed in terms of net income. Luca will elaborate on the key drivers, but let me highlight the results at the EBITDA level. EBITDA came in at the higher end of the guidance range as we were able to extract additional efficiencies and react to the weaker traffic trend emerged from August 2025.\nResults were strong also on cash generation. Free cash flow reached a higher level than projected with around EUR 260 million, up by EUR 20 million versus the initial expectation of the year. These results are the best basis for the next steps in our path to 2029, but the external context is currently very difficult to predict. We are facing an extremely volatile environment with recent turmoil in the Middle East, generating potential consequences that are difficult to forecast and are still evolving on a daily basis.",
+    "call_time": "March 23, 2026 10:30 AM EDT",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 0.0,
+      "vol_30d": 0.0,
+      "beta": 0.62,
+      "market_cap_b": 1.9
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "30",
+    "ticker": "CEBUY",
+    "company": "Cebu Air, Inc.",
+    "sentence": "The key uncertainty is how long these elevated prices will last, which depends largely on how the geopolitical situation unfolds.",
+    "full_context": "Over the past 2 to 3 weeks, jet fuel prices have increased significantly, from an average of around $86 per barrel in February, to a run rate currently of approximately $180 through the month of March. And in recent days, it's exceeded $200 per barrel. These levels are clearly not sustainable for Cebu Pacific if they persist, but alongside the rest of the airline industry. Ultimately, the industry will face losses.\nThe key uncertainty is how long these elevated prices will last, which depends largely on how the geopolitical situation unfolds. While there were earlier signs of de-escalation, recent developments suggest that pressure on global markets may persist for some time.",
+    "call_time": "March 23, 2026 3:00 AM EDT",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 15.5,
+      "vol_30d": 0.0,
+      "beta": 0.81,
+      "market_cap_b": 0.3
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "31",
+    "ticker": "CHKGF",
+    "company": "CK Asset Holdings Limited",
+    "sentence": "At the same time, we recognize that there's very little visibility in the world right now, and there are no clear trends that are immune to disruptions. If the war in the Middle East continues for longer than what the market expects, inflation will go higher in every economy, and it will be difficult for interest rates to come down.",
+    "full_context": "Yes. Thank you, Gerald. I just checked on my mobile. Oil price is over $115 already. So this is worrying. With the geopolitical environment more volatile and unpredictable than ever, we feel quite fortunate that our conservative and diversified approach to investments has continued to serve our group well. We have a very resilient balance sheet and a broad mix of businesses, which focuses on delivering predictable cash flows. On this point, I think the market is fully aware that, may I use the word, our DNA and the way we operate are quite different from other property companies in Hong Kong.\nAt the same time, we recognize that there's very little visibility in the world right now, and there are no clear trends that are immune to disruptions. If the war in the Middle East continues for longer than what the market expects, inflation will go higher in every economy, and it will be difficult for interest rates to come down. Because of this, we must be extremely cautious even when we see good opportunities. And you certainly will not see us borrowing a lot of money to invest. We will focus on creating long-term value for our shareholders through becoming a better operator in every business that we are in as well as unlocking the underlying value of our businesses should opportunities arise. Thank you.",
+    "call_time": "March 19, 2026 5:45 AM EDT",
+    "financial_context": {
+      "sector": "Real Estate",
+      "return_3m": 28.8,
+      "vol_30d": 49.6,
+      "beta": 0.56,
+      "market_cap_b": 22.9
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "32",
+    "ticker": "ZGN",
+    "company": "Ermenegildo Zegna N.V.",
+    "sentence": "At this stage, it is difficult to fairly assess the potential impact of this conflict on 2026 results as it will largely depend on the duration and possible implications for the global economic outlook.",
+    "full_context": "Let me conclude again with a brief comment on the impacts of the current situation in the Middle East. As you know, Middle East is a relevant region for our group and for the Zegna brand in particular.\nRevenues for the region represent a mid-high single-digit share for the group's total. All our stores in the area are open and operating. At this stage, it is difficult to fairly assess the potential impact of this conflict on 2026 results as it will largely depend on the duration and possible implications for the global economic outlook. As our Executive Chairman also said, we continue to work toward delivering our 2027 targets, knowing that the overall outlook has become increasingly uncertain due to these factors.",
+    "call_time": "March 20, 2026 8:00 AM EDT",
+    "financial_context": {
+      "sector": "Consumer Cyclical",
+      "return_3m": -13.0,
+      "vol_30d": 36.9,
+      "beta": 0.74,
+      "market_cap_b": 3.3
+    },
+    "subset": "examples"
+  },
+  {
+    "id": "33",
+    "ticker": "SOSSF",
+    "company": "Sonae, SGPS, S.A.",
+    "sentence": "But as you can see, the geopolitical part and the uncertainty that we live in the market, it's very difficult to predict in the short term, an opening of the market and the volatility that we would like to have.",
+    "full_context": "Thank you, Antonio. I can give you a little bit of color, but it's more or less the same that I've been sharing. So the private market is a little bit better in the last quarter of 2025, but only at M&A part, not on the IPO market. So the liquidity is still very limited because the M&A operations that we have been seeing are done at lower multiples, which is not enough to give the liquidity that the market is needing to pull up.\nBut having said that, we have been seeing an increase on the M&A part, and we have, of course, done some transactions, as we have mentioned in the results. So we have recycled more or less EUR 30 million, and we have been able to do it every year. So we will try every year to do our best and to maximize the value that we have.\nWe were expecting a better year for 2026. But as you can see, the geopolitical part and the uncertainty that we live in the market, it's very difficult to predict in the short term, an opening of the market and the volatility that we would like to have.",
+    "call_time": "March 19, 2026 11:00 AM EDT",
+    "financial_context": null,
+    "subset": "examples"
+  },
+  {
+    "id": "34",
+    "ticker": "NOC",
+    "company": "NORTHROP GRUMMAN CORP. R",
+    "sentence": " In terms of impact from shutdown, no major impact from shutdown, and that was reflected just due to the strong year-over-year growth and us exceeding the top end of our guidance range on sales, but then also the $3.3 billion of cash in Q4, creating that 26%. So overall, to the first part of your question, no material impact to 2025 based on the shutdown.",
+    "full_context": NaN,
+    "call_time": "Jan 27, 2026 at 3:30 PM GMT+1",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 13.4,
+      "vol_30d": 37.5,
+      "beta": 0.05,
+      "market_cap_b": 94.5
+    },
+    "subset": "contrastive"
+  },
+  {
+    "id": "35",
+    "ticker": "GD",
+    "company": "General Dynamics Corporation",
+    "sentence": "Having said that, the uncertain duration and future potential impacts of the government shutdown creates a lack of clear visibility into our cash forecast for the remainder of the year. We are taking prudent actions to conserve cash and liquidity. If a resolution can be reached in the near term, we would expect to be able to achieve the forecast that I just discussed. However, in the event of a protracted shutdown, it is unclear how and when our cash flow will be impacted despite our careful efforts to diligently manage cash.\n",
+    "full_context": NaN,
+    "call_time": "Oct 24, 2025 at 12:27 PM ET",
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 9.5,
+      "vol_30d": 18.2,
+      "beta": 0.39,
+      "market_cap_b": 91.1
+    },
+    "subset": "contrastive"
+  },
+  {
+    "id": "36",
+    "ticker": "UPWK",
+    "company": "Upwork Inc.",
+    "sentence": "There's no doubt that AI is reshaping how work gets done. From what we see every day on our platform, AI and humans do their best work together. Our research published in November shows that human plus agent collaboration increases job completion rates by up to 70% compared to agents working alone.",
+    "full_context": NaN,
+    "call_time": "Feb 9, 2026 at 5:00 PM EST",
+    "financial_context": {
+      "sector": "Communication Services",
+      "return_3m": 5.5,
+      "vol_30d": 63.1,
+      "beta": 1.19,
+      "market_cap_b": 1.5
+    },
+    "subset": "contrastive"
+  },
+  {
+    "id": "37",
+    "ticker": "CHGG",
+    "company": "Chegg",
+    "sentence": "Like many companies in the ad-tech space, we are dealing with the challenges of a dynamically changing AI landscape. We are working to expand our best-in-class verticalized experience for students focused on improving their outcomes. However, it will take time to adjust to the new opportunity and see the benefits in our business results.",
+    "full_context": NaN,
+    "call_time": "Nov 12, 2024 at 9:02 PM ET",
+    "financial_context": {
+      "sector": "Consumer Defensive",
+      "return_3m": -6.1,
+      "vol_30d": 86.9,
+      "beta": 1.86,
+      "market_cap_b": 0.1
+    },
+    "subset": "contrastive"
+  },
+  {
+    "id": "38",
+    "ticker": "FVRR",
+    "company": "Fiverr",
+    "sentence": "When you look at the low skills and small scope, a lot of that is being replaced with AI solutions. And still, that is a large portion that contributes to Fiverr growth. In that segment, we are seeing a decline. And we've been talking about this, and we don't foresee that, that decline is going to slow down. The assumption is that with the newer developments around AI, this will continue to be the case",
+    "full_context": "Good morning, Eric. Thanks for the question. So when we think about the deprioritization, is really to ensure that the majority of our resources are directed in growing the segment, that, as we demonstrated, have grown significantly over last year, and to make sure that it becomes a much larger portion of our market. As a reminder, when you look at the low skills and small scope, a lot of that is being replaced with AI solutions, and still that is a large portion that contributes to Fiverr growth. In that segment, we are seeing a decline, and we've been talking about this, and we don't foresee that that decline is gonna slow down. The assumption is that with the newer developments around AI, this will continue to be the case. And so that centralization in our business has to change.",
+    "call_time": "Feb 18, 2026 at 2:30 PM GMT+1",
+    "financial_context": {
+      "sector": "Communication Services",
+      "return_3m": -34.2,
+      "vol_30d": 56.7,
+      "beta": 1.35,
+      "market_cap_b": 0.4
+    },
+    "subset": "contrastive"
+  },
+  {
+    "id": "39",
+    "ticker": "TSM",
+    "company": "Taiwan Semiconductor Manufacturing Company Limited",
+    "sentence": "you essentially try to ask us, say, whether the AI demand is real or not. I'm also very nervous about it. You bet because we have to invest about USD 52 billion to USD 56 billion for the CapEx, right? If we didn't do it carefully, and that would be big disaster to TSMC for sure.",
+    "full_context": "Okay. Gokul, you essentially try to ask us, say, whether the AI demand is real or not. I'm also very nervous about it. You bet because we have to invest about USD 52 billion to USD 56 billion for the CapEx, right? If we didn't do it carefully, and that would be big disaster to TSMC for sure. So of course, I spend a lot of time in the last 3, 4 months talking to my customer and end customers' customer. I want to make sure that my customers demand are real. So I talked to those cloud service providers, all of them.\n\nThe answer is that I'm quite satisfied with the answer. Actually, they show me the evidence that the AI really help their business. So they grow their business successfully and healthy in their financial return. So I also double check their financial status. They are very rich. That sounds much better than TSMC.\n\nSo no doubt, I also asked specifically that what's application, right? I mean that's -- for one of the hyperscalers, they told me that, that helped their social media software. And so the customer continue to increase. So I believe that. And with our own experience in the AI application, we also help to our own fab to improve the productivity. As I mentioned, 1 time say that 1% or 2% productivity improvement, that is free to the TSMC.\n\nAnd that's where also our gross margin is a little bit satisfied even if this very high post period of time. And so all in all, I believe in my point of view, the AI is real, not only real, it's starting to grow into our daily life. And we believe that is kind of -- we call it AI megatrend, we certainly would believe that. So you -- another question is can the semiconductor industry to be good for 3, 4, 5 years in a row, I'd tell you the truth, I don't know.\n\nBut I look at the AI, it looks like it's going to be like an endless, I mean, that for many years to come. No matter what, TSMC stick on the fundamental technology leadership, manufacturing excellence, and we work with customers to get their trust. And I think that fundamental thing position TSMC to be very good future growth, let me say that, 25% CAGR as we projected, and we used to be conservative. You know that.",
+    "call_time": "Jan 15, 2026 at 7:46 AM ET",
+    "financial_context": {
+      "sector": "Technology",
+      "return_3m": 11.2,
+      "vol_30d": 30.7,
+      "beta": 1.25,
+      "market_cap_b": 1921.6
+    },
+    "subset": "contrastive"
+  },
+  {
+    "id": "40",
+    "ticker": "SBUX",
+    "company": "Starbucks Corporation",
+    "sentence": "Shifting to margin. Our Q4 consolidated operating margin was 9.4%, contracting 500 basis points from the prior year. This was primarily driven by inflation, led by coffee prices and tariffs as well as investments in support of Back to Starbucks, largely in labor hours. On the product inflation, expect coffee to continue to be a headwind at least through half a year, all of our best thinking would say that we're going to start to see some relief at the back side of the year",
+    "full_context": NaN,
+    "call_time": "Oct 29, 2025 at 4:15 PM EDT",
+    "financial_context": {
+      "sector": "Consumer Cyclical",
+      "return_3m": -3.6,
+      "vol_30d": 28.8,
+      "beta": 0.94,
+      "market_cap_b": 113.9
+    },
+    "subset": "contrastive"
+  }
+]
