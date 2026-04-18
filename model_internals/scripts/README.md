@@ -2,13 +2,10 @@
 
 Mechanistic interpretability scripts for studying how transformer models represent economic uncertainty. All scripts operate on contrastive pair datasets (paired uncertain/certain economic statements) and use `nnsight` to access internal model activations.
 
-## Shared utilities
+## Activation patching and shared utilities
 
 ### `activation_patching_highlow.py`
 Activation patching on HIGH/LOW uncertainty classification, and the source of shared prompt helpers (`build_messages`, `build_messages_synthetic`, `apply_template`, `find_last_period_pos`, `get_label_token_ids`, `load_pairs`) used by most other scripts. Patches the residual stream at each layer at the final period token (and optionally 20 tokens before it), producing per-layer logit-diff curves (HIGH − LOW).
-
-### `activation_patching_yesno.py`
-YES/NO variant of activation patching. Patches only the final period token; outputs per-layer logit diff (YES − NO).
 
 ## Direction extraction and intervention (main pipeline)
 
@@ -55,11 +52,6 @@ Trains logistic-regression probes per layer (optionally last-token or mean-poole
 
 ### `run_pca.py`
 PCA visualization of per-layer activations. Produces multi-panel scatter plots (8 layers per panel) showing cluster separation between uncertain and no-uncertainty classes.
-
-## YES/NO variants
-
-### `steering_yesno.py`
-YES/NO counterpart to the HIGH/LOW `extract_direction` + `run_intervention` pair. Still a monolithic 4-stage pipeline (extract direction → validate → steer → plot). Has not been refactored; if you need the same two-step decomposition for YES/NO experiments, the refactor would mirror the HIGH/LOW split.
 
 ## Typical workflow
 
