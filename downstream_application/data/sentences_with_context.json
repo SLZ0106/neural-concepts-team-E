@@ -209,12 +209,18 @@
   },
   {
     "id": "14",
-    "ticker": "ALEUY",
+    "ticker": "ALE.WA",
     "company": "Allegro.eu S.A.",
     "sentence": "The short answer is that we haven't tried to make any assumptions regarding what's going to happen in the Middle East. I think it would be a false game to do that. It's obviously a very serious situation with the potential to cause issues. But for the time being, we see absolutely zero impact in trading.",
     "full_context": "So the short answer is that we haven't tried to make any assumptions regarding what's going to happen in the Middle East. I think it would be a false game to do that. It's obviously a very serious situation with the potential to cause issues. But for the time being, we see absolutely zero impact in trading. And we need to wait and see.",
     "call_time": "March 12, 2026 5:00 AM EDT",
-    "financial_context": null,
+    "financial_context": {
+      "sector": "Consumer Cyclical",
+      "return_3m": -11.1,
+      "vol_30d": 34.5,
+      "beta": 0.59,
+      "market_cap_b": 31.1
+    },
     "subset": "examples"
   },
   {
