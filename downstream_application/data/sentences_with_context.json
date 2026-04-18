@@ -129,12 +129,18 @@
   },
   {
     "id": "9",
-    "ticker": "JMSFF",
+    "ticker": "FSJ.L",
     "company": "James Fisher and Sons plc",
     "sentence": "At this stage, it is too early to estimate the business impact of the conflict, but we are monitoring developments.",
     "full_context": "Before we move on, I would like to address the ongoing conflict in the Middle East. James Fisher has operations in the region and our #1 priority is the safety of our people. To that effect, we have mobilized our emergency response team since March 1, working closely with customers to manage this situation responsibly. At this stage, it is too early to estimate the business impact of the conflict, but we are monitoring developments.",
     "call_time": "March 12, 2026 12:00 PM EDT",
-    "financial_context": null,
+    "financial_context": {
+      "sector": "Industrials",
+      "return_3m": 27.6,
+      "vol_30d": 32.2,
+      "beta": 0.79,
+      "market_cap_b": 0.2
+    },
     "subset": "examples"
   },
   {
@@ -501,12 +507,18 @@
   },
   {
     "id": "33",
-    "ticker": "SOSSF",
+    "ticker": "SON.LS",
     "company": "Sonae, SGPS, S.A.",
     "sentence": "But as you can see, the geopolitical part and the uncertainty that we live in the market, it's very difficult to predict in the short term, an opening of the market and the volatility that we would like to have.",
     "full_context": "Thank you, Antonio. I can give you a little bit of color, but it's more or less the same that I've been sharing. So the private market is a little bit better in the last quarter of 2025, but only at M&A part, not on the IPO market. So the liquidity is still very limited because the M&A operations that we have been seeing are done at lower multiples, which is not enough to give the liquidity that the market is needing to pull up.\nBut having said that, we have been seeing an increase on the M&A part, and we have, of course, done some transactions, as we have mentioned in the results. So we have recycled more or less EUR 30 million, and we have been able to do it every year. So we will try every year to do our best and to maximize the value that we have.\nWe were expecting a better year for 2026. But as you can see, the geopolitical part and the uncertainty that we live in the market, it's very difficult to predict in the short term, an opening of the market and the volatility that we would like to have.",
     "call_time": "March 19, 2026 11:00 AM EDT",
-    "financial_context": null,
+    "financial_context": {
+      "sector": "Consumer Defensive",
+      "return_3m": 20.1,
+      "vol_30d": 21.2,
+      "beta": 0.56,
+      "market_cap_b": 3.8
+    },
     "subset": "examples"
   },
   {
