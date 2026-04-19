@@ -1,0 +1,23 @@
+
+================================================================================
+GROUP-LEVEL SUMMARY
+================================================================================
+
+HIGH uncertainty  (n=33, expected direction: negative Δ (less stock))
+  Accuracy (direction correct): 16/33 = 48.5%
+  Mean Δ stock:  -49.69  (std 196.47)
+  Median Δ stock: +15.00
+  t-test (stmt vs no-stmt runs): t=-2.096, p(two-sided)=0.0364, p(one-sided)=0.0182
+  Wilcoxon signed-rank (Δ stock means): W=205.5, p=0.0901
+
+LOW uncertainty  (n=7, expected direction: positive Δ (more stock))
+  Accuracy (direction correct): 3/7 = 42.9%
+  Mean Δ stock:  +85.00  (std 181.36)
+  Median Δ stock: -30.00
+  t-test (stmt vs no-stmt runs): t=1.639, p(two-sided)=0.1034, p(one-sided)=0.0517
+  Wilcoxon signed-rank (Δ stock means): W=18.0, p=0.2734
+
+================================================================================
+OVERALL ACCURACY
+  19/40 samples shifted in the expected direction (47.5%)
+================================================================================

@@ -52,17 +52,25 @@ The company's CFO made the following statement during their most recent earnings
 
   "{sentence}\""""
 
+# PROMPT_FOOTER = """
+#
+#
+#
+# Now, you have $1000 to split between two investment options:
+# 1. US Treasuries -- low risk and low return.
+# 2. The stock for the company {company} ({ticker}) -- higher risk but potentially higher return.
+#
+# Based on {basis}, how much do you put in each investment option? Explain with 2-3 sentences and then give your final answer as a JSON object on its own line, using EXACTLY this schema (integer dollar amounts that sum to 1000, no extra keys, no comments, no units):
+#
+# {{"treasuries": <int>, "stock": <int>}}"""
+
 PROMPT_FOOTER = """
 
 
 
-Now, you have $1000 to split between two investment options:
-1. US Treasuries -- low risk and low return.
-2. The stock for the company {company} ({ticker}) -- higher risk but potentially higher return.
+You have $1000 to split between US Treasuries (low risk) and {company} ({ticker}) stock (higher risk).
 
-Based on {basis}, how much do you put in each investment option? Explain with 2-3 sentences and then give your final answer as a JSON object on its own line, using EXACTLY this schema (integer dollar amounts that sum to 1000, no extra keys, no comments, no units):
-
-{{"treasuries": <int>, "stock": <int>}}"""
+Based on {basis}, how many dollars (0–1000) do you put in the stock? The rest goes to Treasuries. Answer with one sentence of reasoning followed by a single integer on the last line."""
 
 
 def format_value(v):
@@ -98,48 +106,25 @@ def build_prompt(record, include_statement=True):
     return header + middle + footer
 
 
-_JSON_BLOCK_RE = re.compile(r"```(?:json)?\s*(\{.*?\})\s*```", re.DOTALL)
-_BARE_JSON_RE = re.compile(r"\{[^{}]*\}", re.DOTALL)
+_INTEGER_RE = re.compile(r"\b(\d+)\b")
 
 
 def parse_allocation(text):
-    """Extract the final allocation JSON from the model's response.
+    """Extract stock allocation from the model's response.
+
+    The prompt asks for a single integer (dollars in stock, 0-1000) on the
+    last line. We take the last integer in [0, 1000] found in the response.
 
     Returns (parsed_dict_or_None, treasuries_amount, stock_amount).
     """
-    candidates = _JSON_BLOCK_RE.findall(text)
-    candidates += _BARE_JSON_RE.findall(text)
-
-    for cand in reversed(candidates):  # prefer the last JSON — the "final answer"
-        try:
-            obj = json.loads(cand)
-        except json.JSONDecodeError:
-            continue
-        if not isinstance(obj, dict):
-            continue
-
-        treasuries, stock = None, None
-        for k, v in obj.items():
-            k_low = str(k).lower()
-            if any(t in k_low for t in ("treasur", "bond", "risk-free", "risk_free")):
-                treasuries = _to_amount(v)
-            elif any(t in k_low for t in ("stock", "equity", "share", "company")):
-                stock = _to_amount(v)
-
-        if treasuries is not None or stock is not None:
-            return obj, treasuries, stock
-
+    matches = _INTEGER_RE.findall(text)
+    for m in reversed(matches):
+        v = int(m)
+        if 0 <= v <= 1000:
+            stock = float(v)
+            treasuries = 1000.0 - stock
+            return {"stock": v, "treasuries": int(treasuries)}, treasuries, stock
     return None, None, None
-
-
-def _to_amount(v):
-    if isinstance(v, (int, float)):
-        return float(v)
-    if isinstance(v, str):
-        m = re.search(r"-?\d+(?:\.\d+)?", v.replace(",", ""))
-        if m:
-            return float(m.group())
-    return None
 
 
 def generate_once(model, tokenizer, prompt, max_new_tokens, temperature, top_p,
