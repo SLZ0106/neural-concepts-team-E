@@ -1,5 +1,5 @@
 """
-Investment-allocation task with optional activation steering (nnsight version).
+Investment-allocation task with optional activation steering.
 
 For each CFO statement in sentences_with_context.json, prompt the model to
 split $1000 between US Treasuries and the company's stock. Runs N times per
@@ -7,23 +7,22 @@ statement to capture sampling variance.
 
 Optionally steers the residual stream at a chosen layer by adding
 `alpha * direction` at every forward pass (prefill + each decoding step),
-using nnsight's `tracer.all()` context so the intervention is reapplied at
-every generation step. Matches the intervention style used elsewhere in this
-repo (see scripts/run_intervention.py).
+using a PyTorch forward hook registered on the target layer.
 
 Example (no steering):
     python run_investment.py \
         --data data/sentences_with_context.json \
-        --out results/baseline.json \
+        --out_dir results/ \
+        --alphas 0 \
         --n_runs 10
 
-Example (steering with alpha=+4 toward uncertain):
+Example (alpha sweep):
     python run_investment.py \
         --data data/sentences_with_context.json \
         --direction /projects/frink/wang.xil/concepts_E/script_outputs/synthetic_direction/direction.npy \
         --layer 12 \
-        --alpha 4.0 \
-        --out results/alpha_plus4.json \
+        --alphas="-4,-2,0,2,4" \
+        --out_dir results/ \
         --n_runs 10
 """
 
@@ -35,8 +34,7 @@ import time
 
 import numpy as np
 import torch
-
-from nnsight import LanguageModel
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 PROMPT_HEADER = """You are a financial analyst. Here is recent information about {company} ({ticker}):
@@ -54,17 +52,25 @@ The company's CFO made the following statement during their most recent earnings
 
   "{sentence}\""""
 
+# PROMPT_FOOTER = """
+#
+#
+#
+# Now, you have $1000 to split between two investment options:
+# 1. US Treasuries -- low risk and low return.
+# 2. The stock for the company {company} ({ticker}) -- higher risk but potentially higher return.
+#
+# Based on {basis}, how much do you put in each investment option? Explain with 2-3 sentences and then give your final answer as a JSON object on its own line, using EXACTLY this schema (integer dollar amounts that sum to 1000, no extra keys, no comments, no units):
+#
+# {{"treasuries": <int>, "stock": <int>}}"""
+
 PROMPT_FOOTER = """
 
 
 
-Now, you have $1000 to split between two investment options:
-1. US Treasuries -- low risk and low return.
-2. The stock for the company {company} ({ticker}) -- higher risk but potentially higher return.
+You have $1000 to split between US Treasuries (low risk) and {company} ({ticker}) stock (higher risk).
 
-Based on {basis}, how much do you put in each investment option? Explain with 2-3 sentences and then give your final answer as a JSON object on its own line, using EXACTLY this schema (integer dollar amounts that sum to 1000, no extra keys, no comments, no units):
-
-{{"treasuries": <int>, "stock": <int>}}"""
+Based on {basis}, how many dollars (0–1000) do you put in the stock? The rest goes to Treasuries. Answer with one sentence of reasoning followed by a single integer on the last line."""
 
 
 def format_value(v):
@@ -100,70 +106,49 @@ def build_prompt(record, include_statement=True):
     return header + middle + footer
 
 
-_JSON_BLOCK_RE = re.compile(r"```(?:json)?\s*(\{.*?\})\s*```", re.DOTALL)
-_BARE_JSON_RE = re.compile(r"\{[^{}]*\}", re.DOTALL)
+_INTEGER_RE = re.compile(r"\b(\d+)\b")
 
 
 def parse_allocation(text):
-    """Extract the final allocation JSON from the model's response.
+    """Extract stock allocation from the model's response.
+
+    The prompt asks for a single integer (dollars in stock, 0-1000) on the
+    last line. We take the last integer in [0, 1000] found in the response.
 
     Returns (parsed_dict_or_None, treasuries_amount, stock_amount).
-    Amounts are floats or None if parsing failed.
     """
-    candidates = _JSON_BLOCK_RE.findall(text)
-    candidates += _BARE_JSON_RE.findall(text)
-
-    for cand in reversed(candidates):  # prefer the last JSON — the "final answer"
-        try:
-            obj = json.loads(cand)
-        except json.JSONDecodeError:
-            continue
-        if not isinstance(obj, dict):
-            continue
-
-        treasuries, stock = None, None
-        for k, v in obj.items():
-            k_low = str(k).lower()
-            if any(t in k_low for t in ("treasur", "bond", "risk-free", "risk_free")):
-                treasuries = _to_amount(v)
-            elif any(t in k_low for t in ("stock", "equity", "share", "company")):
-                stock = _to_amount(v)
-
-        if treasuries is not None or stock is not None:
-            return obj, treasuries, stock
-
+    matches = _INTEGER_RE.findall(text)
+    for m in reversed(matches):
+        v = int(m)
+        if 0 <= v <= 1000:
+            stock = float(v)
+            treasuries = 1000.0 - stock
+            return {"stock": v, "treasuries": int(treasuries)}, treasuries, stock
     return None, None, None
 
 
-def _to_amount(v):
-    if isinstance(v, (int, float)):
-        return float(v)
-    if isinstance(v, str):
-        m = re.search(r"-?\d+(?:\.\d+)?", v.replace(",", ""))
-        if m:
-            return float(m.group())
-    return None
-
-
 def generate_once(model, tokenizer, prompt, max_new_tokens, temperature, top_p,
-                  layer, direction_tensor, alpha):
+                  layer, direction_tensor, alpha, steer_prefill=False):
     """Run one sampled generation, optionally steering at every forward pass.
 
-    Uses nnsight's generate-context + `tracer.all()`, which reapplies the
-    intervention on every token (prefill + each decoding step).
+    When steering is active, a forward hook on model.model.layers[layer] adds
+    alpha * direction to the residual stream output at every forward pass
+    (prefill + each decoding step).
+
+    Two-step tokenization matches activation_patching_highlow.apply_template:
+    apply_chat_template(tokenize=False) → string, then tokenizer.encode()
+    → list[int], to avoid the tokenizers.Encoding dtype issue.
     """
     messages = [{"role": "user", "content": prompt}]
-    # Two-step tokenization, identical to activation_patching_highlow.apply_template:
-    # apply_chat_template(tokenize=True) returns a tokenizers.Encoding in this
-    # transformers version, which torch.tensor can't consume directly.
     formatted = tokenizer.apply_chat_template(
         messages, tokenize=False, add_generation_prompt=True
     )
     ids = tokenizer.encode(formatted, add_special_tokens=False)
-    input_ids = torch.tensor([ids]).to(model._model.device)
+    input_ids = torch.tensor([ids], device=model.device)
     prompt_len = input_ids.shape[1]
 
     gen_kwargs = dict(
+        input_ids=input_ids,
         max_new_tokens=max_new_tokens,
         do_sample=True,
         temperature=temperature,
@@ -172,17 +157,38 @@ def generate_once(model, tokenizer, prompt, max_new_tokens, temperature, top_p,
     )
 
     steering = direction_tensor is not None and alpha != 0.0
+    handle = None
 
     if steering:
-        def _steer(module, inp, output):
-            output[0][:, :] += alpha * direction_tensor
-        handle = model._model.model.layers[layer].register_forward_hook(_steer)
+        shift = alpha * direction_tensor  # (hidden,) — broadcast over batch & seq
+        prefill_tokens = [0]
+        decode_tokens = [0]
+
+        def _hook(module, inp, output):
+            hidden = output[0] if isinstance(output, tuple) else output
+            seq_len = hidden.shape[1]
+            is_decode = seq_len == 1
+            if is_decode or steer_prefill:
+                hidden = hidden + shift
+                if is_decode:
+                    decode_tokens[0] += 1        # always 1 per decoding step
+                else:
+                    prefill_tokens[0] += seq_len  # full prompt length in one pass
+            if isinstance(output, tuple):
+                return (hidden,) + output[1:]
+            return hidden
+
+        handle = model.model.layers[layer].register_forward_hook(_hook)
 
     try:
-        out = model._model.generate(input_ids, **gen_kwargs)
+        with torch.inference_mode():
+            out = model.generate(**gen_kwargs)
     finally:
-        if steering:
+        if handle is not None:
             handle.remove()
+            print(f"    [steer] layer {layer} | prefill={prefill_tokens[0]} tokens steered, "
+                  f"decode={decode_tokens[0]} tokens steered "
+                  f"(max_new_tokens={gen_kwargs['max_new_tokens']})")
 
     gen_ids = out[0, prompt_len:]
     return tokenizer.decode(gen_ids, skip_special_tokens=True)
@@ -195,7 +201,7 @@ def alpha_tag(alpha):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Investment allocation task with optional nnsight steering")
+    parser = argparse.ArgumentParser(description="Investment allocation task with optional activation steering")
     parser.add_argument("--model", default="meta-llama/Llama-3.1-8B-Instruct")
     parser.add_argument("--data", required=True, help="sentences_with_context.json")
     parser.add_argument("--out_dir", required=True,
@@ -215,7 +221,7 @@ def main():
                         help="Layer index to steer at (matches extract_direction.py default)")
     parser.add_argument("--alphas", default="0",
                         help="Comma-separated list of scaling factors to sweep. "
-                             "E.g. '-4,-2,0,2,4'. alpha=0 skips steering.")
+                             "E.g. '-4,-2,0,2,4'. alpha=0 runs without steering.")
 
     # Filtering
     parser.add_argument("--subset", default=None,
@@ -225,8 +231,9 @@ def main():
 
     # Prompt variants
     parser.add_argument("--no-statement", dest="no_statement", action="store_true",
-                        help="If set, omit the CFO earnings-call statement from the prompt "
-                             "and rely only on financial context (default: include statement).")
+                        help="Omit the CFO earnings-call statement; use only financial context.")
+    parser.add_argument("--steer_prefill", action="store_true",
+                        help="Also steer prefill tokens (default: decode steps only).")
     parser.add_argument("--verbose", action="store_true",
                         help="Print each raw model response to stdout.")
 
@@ -244,7 +251,6 @@ def main():
     with open(args.data) as f:
         records = json.load(f)
     n_raw = len(records)
-    # Drop records without financial context (prompt template needs sector/beta/etc.)
     records = [r for r in records if r.get("financial_context") is not None]
     n_dropped = n_raw - len(records)
     if n_dropped:
@@ -257,9 +263,13 @@ def main():
 
     # -- Load model ------------------------------------------------------------
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Loading {args.model} on {device} via nnsight...")
-    model = LanguageModel(args.model, device_map=device, dispatch=True)
-    tokenizer = model.tokenizer
+    dtype = torch.float16 if device == "cuda" else torch.float32
+    print(f"Loading {args.model} on {device} (dtype={dtype})...")
+    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model, torch_dtype=dtype, device_map=device
+    )
+    model.eval()
     print(f"Model loaded. Layers: {model.config.num_hidden_layers}")
 
     # -- Direction (loaded once; shared across all non-zero alphas) ------------
@@ -272,9 +282,7 @@ def main():
         direction_np = np.load(args.direction)
         direction_norm = float(np.linalg.norm(direction_np))
         print(f"Loaded direction: shape={direction_np.shape}, norm={direction_norm:.6f}")
-        model_dtype = next(model._model.parameters()).dtype if hasattr(model, "_model") \
-            else torch.float16
-        direction_tensor = torch.tensor(direction_np, dtype=model_dtype, device=device)
+        direction_tensor = torch.tensor(direction_np, dtype=dtype, device=device)
     else:
         print("All alphas are 0 — no direction loaded")
 
@@ -321,6 +329,7 @@ def main():
                     model, tokenizer, prompt,
                     args.max_new_tokens, args.temperature, args.top_p,
                     args.layer, direction_tensor, alpha,
+                    steer_prefill=args.steer_prefill,
                 )
                 if args.verbose:
                     print(f"  [run {run_idx}] {response}\n")
