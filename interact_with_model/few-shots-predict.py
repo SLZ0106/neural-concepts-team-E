@@ -11,69 +11,64 @@ performance metrics (Accuracy and Confusion Matrix).
 import argparse
 import json
 import os
+import re
 from typing import Any, Dict, List, Optional, Tuple
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, set_seed
 
 # ====================================================================
-# EXACT PROMPT DEFINITIONS (Aligned with generate_synthetic_pairs.py)
+# Prompt definitions (aligned with activation_patching_highlow.py)
 # ====================================================================
 
-DEF_BLOCK = """\
-## Definition of Economic Uncertainty
-Economic uncertainty is the variance or spread of future business conditions (e.g. revenue, demand, or the broader economy). High uncertainty means business conditions cannot be predicted with reasonable confidence. Low uncertainty means the direction or approximate size of future business conditions are clear.
+SYNTHETIC_UNCERTAINTY_DEFINITION = (
+    "Economic uncertainty is the variance or spread of future business conditions "
+    "(e.g. revenue, demand, or the broader economy). High uncertainty means business "
+    "conditions cannot be predicted with reasonable confidence. Low uncertainty means "
+    "the direction or approximate size of future business conditions are clear.\n\n"
+    "KEY PRINCIPLE - UNCERTAINTY IS NOT SENTIMENT: "
+    "Sentiment reflects the expected value of future business conditions. "
+    "Uncertainty reflects the variance around that expected value.\n"
+    '- "We expect a 10% drop in sales due to tariffs" -> negative sentiment, low uncertainty\n'
+    '- "Sales could drop 5% or 30% depending on how tariffs develop" -> negative sentiment, high uncertainty'
+)
 
-KEY PRINCIPLE - UNCERTAINTY IS NOT SENTIMENT:
-Sentiment reflects the expected value of future business conditions. Uncertainty reflects the variance around that expected value.
-- "We expect a 10% drop in sales due to tariffs" -> negative sentiment, LOW uncertainty
-- "Sales could drop 5% or 30% depending on how tariffs develop" -> negative sentiment, HIGH uncertainty\
-"""
+SYNTHETIC_FEW_SHOT_DEMOS = [
+    {
+        "high": (
+            "Point, we do have the business plan or targets for 2026 "
+            "prepared last year. We are currently on the process of evaluating "
+            "it because of the geopolitical issues that we are encountering and "
+            "we are expecting project delays due to logistical supply uncertainties, "
+            "which we have no control."
+        ),
+        "no": (
+            "We have evaluated our business plan or targets for 2026 to reflect "
+            "the confirmed impact of current geopolitical issues. We are now guiding "
+            "to a six-month delay across all major projects due to the structural "
+            "breakdown in logistical supply chains."
+        ),
+    },
+    {
+        "high": (
+            "Having said that, the uncertain duration and future potential impacts "
+            "of the government shutdown creates a lack of clear visibility into our cash "
+            "forecast for the remainder of the year. We are taking prudent actions to conserve "
+            "cash and liquidity. If a resolution can be reached in the near term, we would "
+            "expect to be able to achieve the forecast that I just discussed. However, in the "
+            "event of a protracted shutdown, it is unclear how and when our cash flow will be "
+            "impacted despite our careful efforts to diligently manage cash."
+        ),
+        "no": (
+            "In terms of impact from shut down, no major impact from shutdown and "
+            "that was reflected just due to the strong year-over-year growth in us "
+            "exceeding the top end of our guidance range on sales, but then also the "
+            "$3.3 billion of cash in Q4, creating that 26%."
+        ),
+    },
+]
 
 LABELS = ["HIGH", "LOW"]
-
-INSTRUCTION_BLOCK = """\
-CLASSIFICATION LABELS:
-- Allowed labels: HIGH | LOW
-
-OUTPUT FORMAT (JSON only, no markdown):
-{
-  "reasoning": "<1-2 sentences explaining variance assessment>",
-  "classification": "HIGH|LOW"
-}
-"""
-
-FEW_SHOT_BLOCK = """\
-## Few-Shot Examples
-
-Example 1:
-<statement>
-Point, we do have the business plan or targets for 2026 prepared last year. We are currently on the process of evaluating it because of the geopolitical issues that we are encountering and we are expecting project delays due to logistical supply uncertainties, which we have no control.
-</statement>
-Output:
-{"reasoning": "The speaker explicitly mentions unpredictable project delays and acknowledges having no control due to ongoing logistical issues.", "classification": "HIGH"}
-
-Example 2:
-<statement>
-We have evaluated our business plan or targets for 2026 to reflect the confirmed impact of current geopolitical issues. We are now guiding to a six-month delay across all major projects due to the structural breakdown in logistical supply chains.
-</statement>
-Output:
-{"reasoning": "Despite the negative sentiment of a delay, the duration is definitively bounded at exactly six months.", "classification": "LOW"}
-
-Example 3:
-<statement>
-So as we enter -- potentially enter a period where inflation is lower or higher. We'll manage the commodities as they come through. We'll focus on the lowest prices we can focus on. We had 6,200 rollbacks in Walmart U.S. this quarter, up about 23% from a year ago. So we'll just continue to focus on low prices.
-</statement>
-Output:
-{"reasoning": "The speaker notes inflation could be 'lower or higher' indicating a lack of clear foresight on macroeconomic conditions.", "classification": "HIGH"}
-
-Example 4:
-<statement>
-We worked hard to mitigate grocery inflation as tariff-related costs lifted prices across many categories. We're seeing share gains in GM and in fashion. We've had several quarters in a row of mid-single-digit sales growth.
-</statement>
-Output:
-{"reasoning": "The speaker confidently reports historical performance and current share gains without hedging about future variance.", "classification": "LOW"}
-"""
 
 # ---------------- IO & Data Parsing ----------------
 
@@ -127,6 +122,19 @@ def normalize_label(lbl: Any) -> Optional[str]:
         return s
     return None
 
+
+def extract_label_from_text(text: str) -> Optional[str]:
+    """
+    Extract HIGH/LOW from free-form output, prioritizing standalone labels.
+    """
+    t = (text or "").strip().upper()
+    if t in LABELS:
+        return t
+    m = re.search(r"\b(HIGH|LOW)\b", t)
+    if m:
+        return m.group(1)
+    return None
+
 def extract_first_json_object(text: str) -> Optional[Dict[str, Any]]:
     """
     Safely extract JSON by finding the first complete brace block.
@@ -157,24 +165,19 @@ def extract_first_json_object(text: str) -> Optional[Dict[str, Any]]:
 # ---------------- Prompt Builder ----------------
 
 def build_prompt(statement: str, zero_shot: bool = False) -> str:
-    header = "You are an expert in economics and financial communications. Your task is to classify the following economic statement based on its level of uncertainty.\n\n"
-    
-    query = (
-        "\n## Task\n"
-        "Classify the following statement based on the definitions and examples above.\n"
-        f"<statement>\n{statement.strip()}\n</statement>\n\n"
-        "JSON:\n"
+    prompt = (
+        "Determine whether the following economic statement contains high or low uncertainty.\n\n"
+        "Definition of Economic Uncertainty:\n"
+        f"{SYNTHETIC_UNCERTAINTY_DEFINITION}\n\n"
+        "Respond with exactly one word: HIGH or LOW.\n\n"
     )
-    
-    # 👇 动态拼接 Prompt
-    prompt = header + DEF_BLOCK + "\n\n" + INSTRUCTION_BLOCK + "\n"
-    
-    # 如果不是 zero_shot，才把 examples 拼进去
+
     if not zero_shot:
-        prompt += FEW_SHOT_BLOCK + "\n"
-        
-    prompt += query
-    
+        for demo in SYNTHETIC_FEW_SHOT_DEMOS:
+            prompt += f"Statement: {demo['no']}\nLabel: LOW\n\n"
+            prompt += f"Statement: {demo['high']}\nLabel: HIGH\n\n"
+
+    prompt += f"Statement: {statement.strip()}\nLabel:"
     return prompt
 
 # ---------------- Model Wrapper ----------------
@@ -201,11 +204,7 @@ def load_model(model_id: str, device_map: str, dtype: str, quant: str):
 def generate_json_label(model, tok, prompt: str, max_new_tokens: int, temperature: float) -> Tuple[str, Optional[Dict[str, Any]]]:
     use_chat = hasattr(tok, "apply_chat_template") and getattr(tok, "chat_template", None) is not None
     
-    prefix = (
-        "IMPORTANT OUTPUT CONSTRAINTS:\n"
-        "- Output ONLY one JSON object.\n"
-        "- JSON must start with '{' and end with '}'.\n\n"
-    )
+    prefix = "IMPORTANT OUTPUT CONSTRAINTS:\n- Return exactly one word: HIGH or LOW.\n\n"
     
     bad_words_ids = []
     if tok.pad_token_id is not None:
@@ -240,10 +239,14 @@ def generate_json_label(model, tok, prompt: str, max_new_tokens: int, temperatur
     raw = tok.decode(out.sequences[0][prompt_len:], skip_special_tokens=True).strip()
     
     parsed = extract_first_json_object(raw)
-    
+    if parsed is None:
+        label = extract_label_from_text(raw)
+        if label is not None:
+            parsed = {"classification": label}
+
     # Retry mechanism
     if parsed is None:
-        repair_prompt = full_prompt + "\nRETRY. Return ONLY valid JSON format."
+        repair_prompt = full_prompt + "\nRETRY. Return ONLY one word: HIGH or LOW."
         if use_chat:
             messages = [{"role": "user", "content": repair_prompt}]
             inputs = tok.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt", return_dict=True)
@@ -254,6 +257,10 @@ def generate_json_label(model, tok, prompt: str, max_new_tokens: int, temperatur
         out2 = model.generate(**inputs, **gen_kwargs)
         raw = tok.decode(out2.sequences[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True).strip()
         parsed = extract_first_json_object(raw)
+        if parsed is None:
+            label = extract_label_from_text(raw)
+            if label is not None:
+                parsed = {"classification": label}
 
     return raw, parsed
 
@@ -263,7 +270,7 @@ def main():
     ap = argparse.ArgumentParser(description="Evaluate a model on the synthetic uncertainty dataset.")
     ap.add_argument("--data_json", type=str, required=True, help="Path to synthetic_pairs_generated.json")
     ap.add_argument("--out_dir", type=str, default="out_synthetic_eval", help="Directory to save results")
-    ap.add_argument("--models", type=str, default="google/gemma-2-9b-it", help="Comma-separated list of HF model IDs")
+    ap.add_argument("--models", type=str, default="Qwen/Qwen2.5-7B-Instruct-1M", help="Comma-separated list of HF model IDs")
     ap.add_argument("--device_map", type=str, default="auto")
     ap.add_argument("--dtype", type=str, default="bfloat16", choices=["bfloat16", "float16", "float32"])
     ap.add_argument("--quant", type=str, default="none", choices=["none", "8bit", "4bit"])
