@@ -47,7 +47,7 @@ for alpha in ALPHAS:
         sid = r["id"]
         unc = sentences.get(sid, {}).get("uncertainty", "unknown")
         rows.append({"alpha": alpha, "id": sid, "uncertainty": unc,
-                     "mean_stock": r["mean_stock"]})
+                     "mean_stock": r["mean_stock"] / 10.0})  # convert to %
 
 # ── aggregate ──────────────────────────────────────────────────────────────────
 
