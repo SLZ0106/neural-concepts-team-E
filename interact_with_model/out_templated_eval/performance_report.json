@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "dataset": "..\\synthetic_data\\templated\\templated_pairs_200.json",
+    "total_items": 400
+  },
+  "models": {
+    "Qwen/Qwen2.5-7B-Instruct-1M": {
+      "accuracy": 1.0,
+      "total_evaluated_successfully": 400,
+      "confusion_matrix": {
+        "HIGH": {
+          "HIGH": 200,
+          "LOW": 0
+        },
+        "LOW": {
+          "HIGH": 0,
+          "LOW": 200
+        }
+      },
+      "metrics_breakdown": {
+        "HIGH_precision": 1.0,
+        "HIGH_recall": 1.0
+      }
+    },
+    "google/gemma-2-9b-it": {
+      "accuracy": 1.0,
+      "total_evaluated_successfully": 400,
+      "confusion_matrix": {
+        "HIGH": {
+          "HIGH": 200,
+          "LOW": 0
+        },
+        "LOW": {
+          "HIGH": 0,
+          "LOW": 200
+        }
+      },
+      "metrics_breakdown": {
+        "HIGH_precision": 1.0,
+        "HIGH_recall": 1.0
+      }
+    },
+    "meta-llama/Llama-3.3-70B-Instruct": {
+      "accuracy": 1.0,
+      "total_evaluated_successfully": 400,
+      "confusion_matrix": {
+        "HIGH": {
+          "HIGH": 200,
+          "LOW": 0
+        },
+        "LOW": {
+          "HIGH": 0,
+          "LOW": 200
+        }
+      },
+      "metrics_breakdown": {
+        "HIGH_precision": 1.0,
+        "HIGH_recall": 1.0
+      }
+    },
+    "meta-llama/Llama-3.1-8B": {
+      "accuracy": 0.995,
+      "total_evaluated_successfully": 400,
+      "confusion_matrix": {
+        "HIGH": {
+          "HIGH": 200,
+          "LOW": 0
+        },
+        "LOW": {
+          "HIGH": 2,
+          "LOW": 198
+        }
+      },
+      "metrics_breakdown": {
+        "HIGH_precision": 0.9900990099009901,
+        "HIGH_recall": 1.0
+      }
+    }
+  }
+}
