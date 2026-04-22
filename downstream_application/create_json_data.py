@@ -37,6 +37,8 @@ def get_firm_context(ticker_str, call_date):
         "market_cap_b": round(market_cap / 1e9, 1) if market_cap else None,
     }
 
+# TODO: do beta_90d = np.cov(stock_ret, spy)[0,1] / np.var(spy)
+
 
 def parse_call_date(call_datetime_str):
     """Parse varied call datetime strings to a date object."""
